@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko" #"en-US"
-title                    : "LOSSkatsu's Statistics & Machine Learning"
+title                    : "로스카츠의 AI 머신러닝"
 title_separator          : "-"
 name                     : "Cheolwon Jang"
 description              : "Machine Learning Scientist"
