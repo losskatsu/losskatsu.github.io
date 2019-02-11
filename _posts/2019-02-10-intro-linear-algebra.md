@@ -1,7 +1,7 @@
 ---
 title: "선형대수학 소개"
 categories:
-  - 
+  - LinearAlgebra
 tags:
   - LinearAlgebra
 ---
