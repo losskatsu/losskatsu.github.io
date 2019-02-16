@@ -47,3 +47,15 @@ title: "About"
     2016.09-2016.12
 * Geophysical Fluid Dynamics Institute  
     2016.05-2016.08
+
+### Talk
+* Estimating Hackers in Battle Ground by using Machine Learning
+    Bluehole Developer Conference, Sep 2017, Korea
+* Default Probability of Government Employee Pension System and Pay-Peak System
+    The Korean Statistical Society Autumn Conference 2014, Oct 2014, Korea
+    
+### Publication
+* Jang C, Song S, (2015), "Default Probability of Government Employee Pension System and Wage-peak", 
+Journal of the Korean Data Analysis Society, Vol.17, No.2, pp687-695.
+
+ 
