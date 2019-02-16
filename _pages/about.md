@@ -53,9 +53,13 @@ title: "About"
     Bluehole Developer Conference, Sep 2017, Korea
 * Default Probability of Government Employee Pension System and Pay-Peak System
     The Korean Statistical Society Autumn Conference 2014, Oct 2014, Korea
-    
+           
 ### Publication
 * Jang C, Song S, (2015), "Default Probability of Government Employee Pension System and Wage-peak", 
 Journal of the Korean Data Analysis Society, Vol.17, No.2, pp687-695.
 
- 
+### Teaching Experience
+* Department of Statistics, Korea University, 
+    Teaching Assistant(STAT 232: Mathematical Statistics), Fall 2012, Fall 2013
+* Department of Statistics, Korea University,
+    Teaching Assistant(STAT 221: Probability Theory), Spring 2013
