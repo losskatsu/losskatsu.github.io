@@ -3,7 +3,7 @@ permalink: /about/
 title: "About"
 ---
 
-## Cheolwon Jang
+## Cheolwon Jang(장철원)
 
 * email    : stoicheolwon at gmail dot com
 * git-page : losskatsu.github.io
