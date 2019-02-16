@@ -49,9 +49,9 @@ title: "About"
     2016.05-2016.08
 
 ### Talk
-* Estimating Hackers in Battle Ground by using Machine Learning
+* Estimating Hackers in Battle Ground by using Machine Learning, 
     Bluehole Developer Conference, Sep 2017, Korea
-* Default Probability of Government Employee Pension System and Pay-Peak System
+* Default Probability of Government Employee Pension System and Pay-Peak System, 
     The Korean Statistical Society Autumn Conference 2014, Oct 2014, Korea
            
 ### Publication
