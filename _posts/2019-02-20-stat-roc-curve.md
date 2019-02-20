@@ -48,8 +48,8 @@ $$ \texttt{민감도(Sensitivity)} = \frac{(2)}{(2)+(4)} $$
 
 # 3. ROC 커브
 
-![figure1](/assets/images/roc/roc01.png)
+![figure1](/assets/images/roc/roc01.png){: width="500" height="500"}
 
-![figure2](/assets/images/roc/roc02.jpg)
+![figure2](/assets/images/roc/roc02.jpg){: width="500" height="500"}
 
-![figure3](/assets/images/roc/roc03.png)
+![figure3](/assets/images/roc/roc03.png){: width="500" height="500"}
