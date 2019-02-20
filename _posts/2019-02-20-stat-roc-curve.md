@@ -31,10 +31,15 @@ ROC 커브를 이야기 하기전에 민감도(Sensitivity)와 특이도(Specifi
 검사결과 양성 | 병에 걸린 사람을 양성이라고 판단했으니 정답(1) | 정상인에게 병에 걸렸다는 양성 판정을 내렸으니 오답(2)
 검사결과 음성 | 병에 걸린 사람을 정상인이라 판단했으니 오답(3) | 정상인에게 병에 걸리지 않았다는 음성 판정을 내렸으니 정답(4)
 
+위의 표를 좀 더 간략히 표현하면
+
+목록 | 
+
 * **민감도(Sensitivity)**: 실제 병에 걸린 사람이 양성 판정을 받는 비율입니다. 
 * **특이도(Specificity)**: 정상인이 음성 판정을 받는 비율입니다. 
 
 각각 식으로 나타내면 
+<br />
 
 $$ \texttt{민감도(Sensitivity)} = \frac{(1)}{(1)+(3)} $$
 <br />
@@ -43,3 +48,8 @@ $$ \texttt{민감도(Sensitivity)} = \frac{(2)}{(2)+(4)} $$
 
 # 3. ROC 커브
 
+![figure1](/assets/images/roc/roc01.png)
+
+![figure2](/assets/images/roc/roc02.jpg)
+
+![figure3](/assets/images/roc/roc03.png)
