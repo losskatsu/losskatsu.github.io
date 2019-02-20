@@ -33,7 +33,7 @@ ROC 커브를 이야기 하기전에 민감도(Sensitivity)와 특이도(Specifi
 
 위의 표를 좀 더 간략히 표현하면
 
-![figure0](/assets/images/roc/roc0.JPG)
+![figure0](/assets/images/roc/roc00.JPG)
 
 
 * **민감도(Sensitivity, True positive rate(TPR), Recall)**: 실제 병에 걸린 사람이 양성 판정을 받는 비율입니다. 
@@ -43,8 +43,7 @@ ROC 커브를 이야기 하기전에 민감도(Sensitivity)와 특이도(Specifi
 각각 식으로 나타내면 
 <br />
 
-$$ \texttt{민감도(Sensitivity)} = \frac{(1)}{(1)+(3)} $$
-<br />
+$$ \texttt{민감도(Sensitivity)} = \frac{(1)}{(1)+(3)} $$ <br />
 
 $$ \texttt{특이도(Specificity)} = \frac{(2)}{(2)+(4)} $$
 
