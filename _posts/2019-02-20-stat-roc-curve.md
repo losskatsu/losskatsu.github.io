@@ -40,14 +40,28 @@ ROC 커브를 이야기 하기전에 민감도(Sensitivity)와 특이도(Specifi
 * **특이도(Specificity, True negative rate(TNR) )**: 정상인이 음성 판정을 받는 비율입니다. 
 * **False positive rate(FPR)** = 1-specificity
 
-각각 식으로 나타내면 
-<br />
 
-$$ \texttt{민감도(Sensitivity)} = \frac{(1)}{(1)+(3)} $$ <br />
+$$ \texttt{민감도(Sensitivity)} = \frac{(1)}{(1)+(3)} $$ 
 
 $$ \texttt{특이도(Specificity)} = \frac{(2)}{(2)+(4)} $$
 
+
 # 3. ROC 커브
+
+결국 모형이 좋다는 말의 뜻을 생각해보면,
+모든 환자에게 양성 판정을 내리고, 모든 정상인에게 음성 판정을 내리면 완벽하다. 
+만약 모든 진단에 대해 양성 판정을 내리면 어떻게 될까?
+이 경우 병에 걸린 모든 환자를 찾을 수 있다. 왜냐면 모든 사람이 양성 판정을 받기 때문이다. 
+하지만 정상인도 환자로 판정 받는 다는 단점이 있다. 
+그럼 모든 진단에 대해 음성 판정을 내리면 어떻게 될까?
+이 경우에는 모든 정상인에 대해 올바른 판정이 내려진다. 
+하지만 병에 걸린 환자 또한 정상인이라고 판정 받으므로 병을 치료할 수 없다.
+
+![figure1](/assets/images/roc/roc01.png){: width="500" height="500"}
+
+ROC 커브는 이러한 다양한 부분을 한눈에 볼 수 있는 판정법이다. 
+Figure1에서 보면, 병에 걸린 사람을 양성 판정하고, 정상인을 정상인이라 판정하는 가장 이상적인 판정, 
+즉, TPR = 1 이고, FPR = 0 인 경우가 가장 이상적이다.(Perfect Classification)
 
 ![figure2](/assets/images/roc/roc02.jpg){: width="400" height="400"}
 
