@@ -1,5 +1,5 @@
 ---
-title: "ROC Curve(ROC 커브)에 대해 알아보자" 
+title: "ROC Curve(ROC 커브)란? ROC 커브 해석" 
 categories:
   - MachineLearning
 tags:
@@ -49,8 +49,8 @@ $$ \texttt{특이도(Specificity)} = \frac{(2)}{(2)+(4)} $$
 
 # 3. ROC 커브
 
-![figure1](/assets/images/roc/roc01.png){: width="500" height="500"}
+![figure2](/assets/images/roc/roc02.jpg){: width="400" height="400"}
 
-![figure2](/assets/images/roc/roc02.jpg){: width="500" height="500"}
+ROC 커브에서 모델의 평가가 좋다는 것은 커브의 밑면적 즉 AUC의 넓이가 넓을 수록 그 모델의 성능이 좋다는 것이다.
 
 ![figure3](/assets/images/roc/roc03.png){: width="500" height="500"}
