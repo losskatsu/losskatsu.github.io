@@ -37,6 +37,8 @@ ROC 커브를 이야기 하기전에 민감도(Sensitivity)와 특이도(Specifi
 각각 식으로 나타내면 
 
 $$ \texttt{민감도(Sensitivity)} = \frac{(1)}{(1)+(3)} $$
+<br />
+
 $$ \texttt{민감도(Sensitivity)} = \frac{(2)}{(2)+(4)} $$
 
 # 3. ROC 커브
