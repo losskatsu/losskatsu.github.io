@@ -5,6 +5,9 @@ categories:
 tags:
   - Book
   - ITinfra
+sidebar:
+  title: "AI Machine Learning"
+  nav: sidebar-contents
 ---
 
 그림으로 공부하는 IT 인프라구조 by 야마자키 야스시 등등
