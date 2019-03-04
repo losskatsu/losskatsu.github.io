@@ -10,42 +10,29 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
 sidebar:
-  title: "Sample Title"
-  nav: sidebar-sample
+  title: "AI Machine Learning"
+  nav: sidebar-contents
   
-sidebar-sample:
-  - title: "Parent Page A"
+sidebar-contents:
+  - title: "Machine Learning"
     children:
-      - title: "Child Page A1"
-        url: /
-      - title: "Child Page A2"
-        url: /
-      - title: "Child Page A3"
-        url: /
-      - title: "Child Page A4"
-        url: /
-  - title: "Parent Page B"
+      - title: "Reinforcement Learning"
+        url: /categories/#ReinforcementLearning
+      - title: "PaperTranslation"
+        url: /categories/#PaperTranslation
+  - title: "Statistics"
     children:
-      - title: "Child Page B1"
+      - title: "Linear Algebra"
+        url: /categories/#LinearAlgebra
+      - title: "Statistics"
         url: /
-      - title: "Child Page B2"
-        url: /
-      - title: "Child Page B3"
-        url: /
-      - title: "Child Page B4"
-        url: /
-      - title: "Child Page B5"
-        url: /
-  - title: "Parent Page C"
+  - title: "IT"
     children:
-      - title: "Child Page C1"
-        url: /
-      - title: "Child Page C2"
-        url: /
-      - title: "Child Page C3"
-        url: /
-      - title: "Child Page C4"
-        url: /
-      - title: "Child Page C5"
-        url: /
+      - title: "IT Infra"
+        url: /categories/#ITinfra
+      - title: "programming"
+        url: /categories/#programming
+      - title: "BookReview"
+        url: /categories/#BookReview
