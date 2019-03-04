@@ -27,7 +27,7 @@ sidebar-contents:
       - title: "Linear Algebra"
         url: /categories/#LinearAlgebra
       - title: "Statistics"
-        url: /
+        url: /categories/#Statistics
   - title: "IT"
     children:
       - title: "IT Infra"
