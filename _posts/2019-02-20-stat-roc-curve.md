@@ -10,6 +10,9 @@ use_math: true
 toc: true
 toc_label: "My Table of Contents"
 toc_icon: "cog"
+sidebar:
+  title: "AI Machine Learning"
+  nav: sidebar-contents
 ---
 
 # 1. ROC 커브란 무엇일까요? 
