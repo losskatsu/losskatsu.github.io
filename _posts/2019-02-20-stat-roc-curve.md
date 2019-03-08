@@ -30,7 +30,7 @@ ROC 커브를 이야기 하기전에 민감도(Sensitivity)와 특이도(Specifi
 이때 발생할 수 있는 경우는 
 
 모수 | 실제론 병에 걸림 | 실제론 정상인
------|-----------|----- 
+-----|-----------------|------------- 
 검사결과 양성 | 양성판정을 내렸는데 실제로 병에 걸린 경우(TP)(1) | 양성판정을 내렸는데 실제로는 정상인(FP)(2)
 검사결과 음성 | 음성판정을 내렸는데 실제로 병에 걸린 경우(FN)(3) | 음성판정을 내렸는데 실제로는 정상인(TN)(4)
 
@@ -46,18 +46,19 @@ ROC 커브를 이야기 하기전에 민감도(Sensitivity)와 특이도(Specifi
 * **에러율(Error Rate)**: 전체 데이터 중 제대로 분류되지 않은 데이터 비율
 * **정밀도(Precision)**: Positive로 예측했을 때, 실제로 Positive인 비율
 
+<br />
 
-$$ \texttt{민감도(Sensitivity, Recal, True Positive Rate)} = \frac{(1)}{(1)+(3)} $$ 
+$$ \texttt{민감도(Sensitivity, Recal, True Positive Rate)} = \frac{(1)}{(1)+(3)} = \frac{TP}{TP + FN} $$ 
 
-$$ \texttt{특이도(Specificity, True Negative rate)} = \frac{(4)}{(2)+(4)} $$
+$$ \texttt{특이도(Specificity, True Negative rate)} = \frac{(4)}{(2)+(4)} = \frac{TN}{FP + TN}$$
 
-$$ \texttt{False positive rate(FPR)} = \frac{(2)}{(2)+(4)} $$
+$$ \texttt{False positive rate(FPR)} = \frac{(2)}{(2)+(4)} = \frac{FP}{FP + TN}$$
 
-$$ \texttt{정확도(Accuracy)} = \frac{(1)+(4)}{(1)+(2)+(3)+(4)} $$
+$$ \texttt{정확도(Accuracy)} = \frac{(1)+(4)}{(1)+(2)+(3)+(4)} = \frac{TP + TN}{TP + FP + FN + TN}$$
 
-$$ \texttt{에러율(Error Rate)} = \frac{(2)+(3)}{(1)+(2)+(3)+(4)} $$
+$$ \texttt{에러율(Error Rate)} = \frac{(2)+(3)}{(1)+(2)+(3)+(4)} = \frac{FP + FN}{TP + FP + FN + TN} $$
 
-$$ \texttt{정밀도(Precision)} = \frac{(1)}{(1)+(2)} $$
+$$ \texttt{정밀도(Precision)} = \frac{(1)}{(1)+(2)} = \frac{TP}{TP + FP}$$
 
 
 
