@@ -29,26 +29,36 @@ ROC 커브를 이야기 하기전에 민감도(Sensitivity)와 특이도(Specifi
 의사는 환자를 진단해 병에 걸렸느냐 안 걸렸느냐를 판단합니다. 
 이때 발생할 수 있는 경우는 
 
-모수 | 병에 걸림 | 정상인
+모수 | 실제론 병에 걸림 | 실제론 정상인
 -----|-----------|----- 
-검사결과 양성 | 병에 걸린 사람을 양성이라고 판단했으니 정답(1) | 정상인에게 병에 걸렸다는 양성 판정을 내렸으니 오답(2)
-검사결과 음성 | 병에 걸린 사람을 정상인이라 판단했으니 오답(3) | 정상인에게 병에 걸리지 않았다는 음성 판정을 내렸으니 정답(4)
+검사결과 양성 | 양성판정을 내렸는데 실제로 병에 걸린 경우(TP)(1) | 양성판정을 내렸는데 실제로는 정상인(NP)(2)
+검사결과 음성 | 음성판정을 내렸는데 실제로 병에 걸린 경우(FP)(3) | 음성판정을 내렸는데 실제로는 정상인(TN)(4)
 
 위의 표를 좀 더 간략히 표현하면
 
 ![figure0](/assets/images/roc/roc00.JPG)
 
 
-* **민감도(Sensitivity, True positive rate(TPR), Recall)**: 실제 병에 걸린 사람이 양성 판정을 받는 비율입니다. 
-* **특이도(Specificity, True negative rate(TNR) )**: 정상인이 음성 판정을 받는 비율입니다. 
+* **민감도(Sensitivity, True positive rate(TPR), Recall)**: 실제 병에 걸린 사람이 양성(Positive) 판정을 받는 비율입니다. 
+* **특이도(Specificity, True Negative rate(TNR) )**: 정상인이 음성(Negative) 판정을 받는 비율입니다. 
 * **False positive rate(FPR)** = 1-specificity
+* **정확도(Accuracy)**: 전체 데이터 중 제대로 분류된 데이터 비율
+* **에러율(Error Rate)**: 전체 데이터 중 제대로 분류되지 않은 데이터 비율
+* **정밀도(Precision)**: Positive로 예측했을 때, 실제로 Positive인 비율
 
 
-$$ \texttt{민감도(Sensitivity)} = \frac{(1)}{(1)+(3)} $$ 
+$$ \texttt{민감도(Sensitivity, Recal, True Positive Rate)} = \frac{(1)}{(1)+(3)} $$ 
 
-$$ \texttt{특이도(Specificity)} = \frac{(4)}{(2)+(4)} $$
+$$ \texttt{특이도(Specificity, True Negative rate)} = \frac{(4)}{(2)+(4)} $$
 
 $$ \texttt{False positive rate(FPR)} = \frac{(2)}{(2)+(4)} $$
+
+$$ \texttt{정확도(Accuracy)} = \frac{(1)+(4)}{(1)+(2)+(3)+(4)} $$
+
+$$ \texttt{에러율(Error Rate)} = \frac{(2)+(3)}{(1)+(2)+(3)+(4)} $$
+
+$$ \texttt{정밀도(Precision)} = \frac{(1)}{(1)+(2)} $$
+
 
 
 # 3. ROC 커브
