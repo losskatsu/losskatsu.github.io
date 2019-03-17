@@ -52,7 +52,6 @@ $$
 예를 하나만 더 들어볼께요. (2, 1), (1, 2) 두 벡터로 구성된 행렬을 봅시다. 
 이번엔 이 벡터로 구성된 도형은 이번엔 평행사변형이네요. 
 마찬가지로 행렬식은 이 도형의 면적을 의미합니다. 
-<br />
 
 $$
 \begin{bmatrix}
@@ -60,6 +59,7 @@ $$
 1 & 2
 \end{bmatrix}
 $$
+
 <br />
 
 ![Figure2](/assets/images/determinant/determinant02.JPG)
