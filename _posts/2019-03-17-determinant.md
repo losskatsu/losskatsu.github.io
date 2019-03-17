@@ -40,8 +40,19 @@ $$
 0 & 1
 \end{bmatrix}
 $$
-![Figure1](/assets/images/determinant/determinant01.JPG)
 
+첫 행렬로 (1, 0), (0, 1) 두 벡터로 구성된 행렬을 봅시다. 
+이 행렬을 좌표공간에 표현하면 아래 그림의 좌측과 같은 형태로 그릴 수 있습니다. 
+그리고 이 두 벡터를 이용해 만들 수 있는 도형의 면적이 해당 행렬의 행렬식 입니다. 
+<br />
+
+![Figure1](/assets/images/determinant/determinant01.JPG)
+<br />
+
+예를 하나만 더 들어보면, (2, 1), (1, 2) 두 벡터로 구성된 행렬을 봅시다. 
+이번엔 이 벡터로 구성된 도형은 이번엔 평행사변형이네요. 
+마찬가지로 행렬식은 이 도형의 면적을 의미합니다. 
+<br />
 
 $$
 \begin{bmatrix}
@@ -49,6 +60,7 @@ $$
 1 & 2
 \end{bmatrix}
 $$
+<br />
 
 ![Figure2](/assets/images/determinant/determinant02.JPG)
 
