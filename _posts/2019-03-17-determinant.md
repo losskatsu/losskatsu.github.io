@@ -16,7 +16,7 @@ sidebar:
 
 ## 행렬식(determinant)의 의미
 
-행렬식의 의미를 알기 위해 위키백과를 검색하면 아래와 같은 결과가 나옵니다.
+위키백과를 행렬식을 검색하면 아래와 같은 결과가 나옵니다.
 <br />
 
 선형대수학에서, 행렬식(determinant)은 정사각행렬에 수를 대응시키는 함수의 하나이다. 
@@ -28,12 +28,27 @@ sidebar:
 행렬식은 영어로 determinant라고 합니다. 
 영어사전에서 determinant를 찾아보면, '결정요인' 이라는 뜻이 나옵니다. 
 잘은 모르겠지만 뭔가 '결정적인 역할을 하는' 느낌이 듭니다. 
+행렬식은 과연 무엇을 결정할까요? 
 
 ### 2. 2 by 2 행렬
 
 먼저 간단하게 $2 \times 2$ 행렬을 살펴봅시다. 
 
+$$
+\begin{bmatrix}
+1 & 0 \\
+0 & 1
+\end{bmatrix}
+$$
 ![Figure1](/assets/images/determinant/determinant01.JPG)
+
+
+$$
+\begin{bmatrix}
+2 & 1 \\
+1 & 2
+\end{bmatrix}
+$$
 
 ![Figure2](/assets/images/determinant/determinant02.JPG)
 
