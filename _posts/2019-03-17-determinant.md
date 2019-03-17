@@ -33,6 +33,10 @@ sidebar:
 
 먼저 간단하게 $2 \times 2$ 행렬을 살펴봅시다. 
 
+![Figure1](/assets/images/determinant/determinant01.JPG)
+
+![Figure2](/assets/images/determinant/determinant02.JPG)
+
 ### 3. 3 by 3 행렬
 위 섹션의 개념을 한 차원 확장시키면 바로 $3 \times 3$ 행렬식의 의미를 파악하실 수 있습니다. 
 네, $3 \times 3$ 행렬식의 의미는 3차원 공간에서 해당 행렬 속 벡터들로 구성된 3차원 도형의 부피를 의미합니다. 
