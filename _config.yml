@@ -15,11 +15,11 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "ko" #"en-US"
+locale                   : "ko-KR" #"en-US"
 title                    : "로스카츠의 AI 머신러닝"
 title_separator          : "-"
 name                     : "Cheolwon Jang"
-description              : "Machine Learning Scientist"
+description              : "Machine Learning Scientist, record everything whatever I study"
 url                      : "https://losskatsu.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "LOSSkatsu/losskatsu.github.io"
