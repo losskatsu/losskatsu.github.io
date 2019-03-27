@@ -61,7 +61,7 @@ $$ \texttt{에러율(Error Rate)} = \frac{(2)+(3)}{(1)+(2)+(3)+(4)} = \frac{FP +
 $$ \texttt{정밀도(Precision)} = \frac{(1)}{(1)+(2)} = \frac{TP}{TP + FP}$$
 
 
-## 2-1. Precision vs Recall
+## 2-1. 정밀도(Precision)와 민감도(Recall)
 
 $$ \texttt{정밀도(Precision)} = \frac{TP}{TP + FP}$$
 
