@@ -48,7 +48,7 @@ ROC 커브를 이야기 하기전에 민감도(Sensitivity)와 특이도(Specifi
 
 <br />
 
-$$ \texttt{민감도(Sensitivity, Recal, True Positive Rate)} = \frac{(1)}{(1)+(3)} = \frac{TP}{TP + FN} $$ 
+$$ \texttt{민감도(Sensitivity, Recall, True Positive Rate)} = \frac{(1)}{(1)+(3)} = \frac{TP}{TP + FN} $$ 
 
 $$ \texttt{특이도(Specificity, True Negative rate)} = \frac{(4)}{(2)+(4)} = \frac{TN}{FP + TN}$$
 
@@ -61,6 +61,19 @@ $$ \texttt{에러율(Error Rate)} = \frac{(2)+(3)}{(1)+(2)+(3)+(4)} = \frac{FP +
 $$ \texttt{정밀도(Precision)} = \frac{(1)}{(1)+(2)} = \frac{TP}{TP + FP}$$
 
 
+## 2-1. Precision vs Recall
+
+$$ \texttt{정밀도(Precision)} = \frac{TP}{TP + FP}$$
+
+$$ \texttt{민감도(Recall)} = \frac{TP}{TP + FN} $$ 
+
+Precision과 Recall의 차이는 무엇일까요? 
+위 식을 보시면 분모는 같습니다. 
+True Positive가 분모의 일부라는 것도 같네요.
+Precision을 보시면 분모가 TP + FP이므로 Positive 라는 판정을 내렸다는 뜻입니다. 
+즉, 자신의 '양성판정'이 기준이라는 것입니다. 
+반면 Recall을 보면 분모가 TP + FN 이므로 '옳은판정'이 기준입니다. 
+즉, Precision과 recall은 기준이 다르다는 차이가 있습니다.
 
 # 3. ROC 커브
 
