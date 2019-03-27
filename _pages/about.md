@@ -18,7 +18,7 @@ title: "About"
 
 ### Work
 
-* **NHN Entertainment**, 2018.03 ~ present
+* **NHN**, 2018.03 ~ present
 * **Bluehole Studio**, 2017.04 ~ 2018.02
 
 ### Education
