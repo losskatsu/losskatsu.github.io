@@ -29,3 +29,4 @@ a WHERE that uses a KEY column To disable safe mode. toggle the option in Prefer
 위 에러 메시지 처럼 Edit -> Preferences 로 이동하여 
 아래 그림에서 노란 체크박스를 해제하는 것이 첫번째 방법이다. 
 
+![Figure1](/assets/images/sqldeleterow/sqldeleteoption.PNG)
