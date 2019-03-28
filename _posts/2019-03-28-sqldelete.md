@@ -26,3 +26,6 @@ delete from tableA where dt between '2019-03-07' and '2019-03-20'
 > Error Code: 1175. You are using safe update mode and you tried to update a table without 
 a WHERE that uses a KEY column To disable safe mode. toggle the option in Preferences -> SQL Editor and reconnect
 
+위 에러 메시지 처럼 Edit -> Preferences 로 이동하여 
+아래 그림에서 노란 체크박스를 해제하는 것이 첫번째 방법이다. 
+
