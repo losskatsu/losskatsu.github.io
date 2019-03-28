@@ -42,7 +42,7 @@ a WHERE that uses a KEY column To disable safe mode. toggle the option in Prefer
 두번째 방법으로 임시적으로만 옵션해제 하는 방법을 사용하자. 
 사용법은 쿼리를 날리기 전에 아래와 같은 한 문장을 삽입하는 것이다.
 
-```
+```sql
 set sql_safe_updates=0;
 delete from tableA where dt between '2019-03-07' and '2019-03-20'
 ```
