@@ -21,7 +21,7 @@ C++에서 알고리즘 문제를 풀때, 벡터와 문자열을 자주 사용하
 
 ### 1. 라이브러리
 
-```
+```cpp
 #include <vector>
 #include <string>
 ```
