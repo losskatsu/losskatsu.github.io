@@ -35,10 +35,12 @@ $$ \langle \mathbf{u}, \mathbf{v} \rangle = \mathbf{u} \cdot \mathbf{v} =  u_{1}
 
 벡터 $\mathbf{v}$의 norm 
 <br />
+
 $$ \parallel \mathbf{v} \parallel = \sqrt{\langle \mathbf{v}, \mathbf{v} \rangle}  $$
 
 벡터 $\mathbf{u}$, $\mathbf{v}$ 사이의 거리 
 <br />
+
 $$ d(\mathbf{u}, \mathbf{v}) = \parallel \mathbf{\mathbf{u} - \mathbf{v}} \parallel = \sqrt{\langle \mathbf{u} - \mathbf{v}, \mathbf{u} - \mathbf{v} \rangle}  $$
 
 
