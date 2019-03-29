@@ -81,6 +81,15 @@ $$ d(\mathbf{u}, \mathbf{v}) = \parallel \mathbf{\mathbf{u} - \mathbf{v}} \paral
 
 $$ \mathbf{u} \cdot \mathbf{v} = \parallel \mathbf{u} \parallel \parallel \mathbf{v} \parallel cos\theta  $$
 
+위 식을 이용하면 내적과 각도 $\theta$와의 관계를 알 수 있습니다. 
+
+* 내적 > 0 이면, $ \theta < 90 $
+* 내적 < 0 이면, $ \theta > 90 $
+* 내적 = 0 이면, $ \theta = 90 $
+
+특히 마지막 세번째관계에 주목할 필요가 있습니다. 
+내적은 두 벡터간의 수직 여부를 판단하는데 유용하게 쓰일 수 있습니다. 
+
 ### 수직
 
 ### 정사영
