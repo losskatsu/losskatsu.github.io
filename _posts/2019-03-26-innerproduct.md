@@ -25,7 +25,19 @@ sidebar:
 
 ### 내적의 정의 
 
+앞서 내적은 연산이라고 말씀드렸습니다.
+그럼 간단히 내적이 어떤 연산인지 확인해 봅시다.
+
 $$ <\mathbf{u}, \mathbf{v}> = \mathbf{u} \cdot \mathbf{v} =  u_{1}v_{1} + u_{2}v_{2} + \dots + u_{n}v_{n} $$
+
+이 내적이라는 연산을 사용하면, 
+우리가 흔히 알고있는 한 벡터의 norm을 구한다던가, 두 벡터 사이의 거리를 측정하는데 이용할 수 있습니다.  
+
+벡터 $\mathbf{v}$의 norm 
+$$ \parallel \mathbf{v} \parallel = \sqrt{<\mathbf{v}, \mathbf{v}>}  $$
+
+벡터 $\mathbf{u}$, $\mathbf{v}$ 사이의 거리 
+$$ d(\mathbf{u}, \mathbf{v}) = \parallel \mathbf{\mathbf{u} - \mathbf{v}} \parallel = \sqrt{<\mathbf{u} - \mathbf{v}, \mathbf{u} - \mathbf{v}>}  $$
 
 
 물리 법칙에서의 내적
