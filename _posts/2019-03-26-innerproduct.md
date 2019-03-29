@@ -34,6 +34,20 @@ $$ \langle \mathbf{u}, \mathbf{v} \rangle = \mathbf{u} \cdot \mathbf{v} =  u_{1}
 벡터곱으로 생각할 수 있습니다. 
 예를 들어, 
 
+$$ \mathbf{u} = 
+\begin{pmatrix}
+u_{1} \\
+u_{2} \\
+\vdots \\
+u_{n}
+\end{pmatrix}
+, \mathbf{v} =
+\begin{pmatrix}
+v_{1} \\
+v_{2} \\
+\vdots \\
+v_{n}
+\end{pmatrix} $$
 
 
 
