@@ -77,6 +77,9 @@ $$ d(\mathbf{u}, \mathbf{v}) = \parallel \mathbf{\mathbf{u} - \mathbf{v}} \paral
 
 ![figure01](/assets/images/innerproduct/innerproduct01.JPG)
 
+그리고 위에서 정의했던 내적을 아래와 같은 식으로 표현할 수 있습니다. 
+
+$$ \mathbf{u} \cdot \mathbf{v} = \parallel \mathbf{u} \parallel \parallel \mathbf{v} \parallel cos\theta  $$
 
 ### 수직
 
