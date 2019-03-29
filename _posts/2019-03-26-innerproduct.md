@@ -66,8 +66,17 @@ $$ \parallel \mathbf{v} \parallel = \sqrt{\langle \mathbf{v}, \mathbf{v} \rangle
 
 $$ d(\mathbf{u}, \mathbf{v}) = \parallel \mathbf{\mathbf{u} - \mathbf{v}} \parallel = \sqrt{\langle \mathbf{u} - \mathbf{v}, \mathbf{u} - \mathbf{v} \rangle}  $$
 
+### 내적의 성질
+
+![figure02](/assets/images/innerproduct/innerproduct02.JPG)
+
 
 ### 물리학 관점으로 보는 내적
+
+원점으로부터 시작되는 두 벡터를 표현하면 두 벡터 사이에는 반드시 각도 $\theta$ 가 존재 할 것입니다. 
+
+![figure01](/assets/images/innerproduct/innerproduct01.JPG)
+
 
 ### 수직
 
