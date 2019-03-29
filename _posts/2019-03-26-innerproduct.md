@@ -32,7 +32,6 @@ $$ \langle \mathbf{u}, \mathbf{v} \rangle = \mathbf{u} \cdot \mathbf{v} =  u_{1}
 
 위와 같은 연산을 벡터의 element들끼리 연산한다라고 생각할 수도 있지만, 
 벡터곱으로 생각할 수 있습니다. 
-예를 들어, 
 
 $$ \mathbf{u} = 
 \begin{pmatrix}
@@ -49,8 +48,10 @@ v_{2} \\
 v_{n}
 \end{pmatrix} $$
 
+예를 들어, 위와 같이 두 개의 열벡터가 존재한다고 했을 때, 
+두 열벡터의 내적은 아래와 같이 표현할 수 있습니다. 
 
-
+$$ \mathbf{u} \cdot \mathbf{v} = \mathbf{u}^{T}\mathbf{v} $$
 
 이 내적이라는 연산을 사용하면, 
 우리가 흔히 알고있는 한 벡터의 norm을 구한다던가, 두 벡터 사이의 거리를 측정하는데 이용할 수 있습니다.  
