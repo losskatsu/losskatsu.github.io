@@ -56,7 +56,7 @@ $$ \mathbf{u} \cdot \mathbf{v} = \mathbf{u}^{T}\mathbf{v} $$
 이 내적이라는 연산을 사용하면, 
 우리가 흔히 알고있는 한 벡터의 norm을 구한다던가, 두 벡터 사이의 거리를 측정하는데 이용할 수 있습니다.  
 
-벡터 $\mathbf{v}$의 norm 
+벡터 $\mathbf{v}$의 norm, norm은 벡터의 길이(length)라고도 표현합니다. 그리고 norm이 1인 벡터는 unit vector라고 부릅니다.  
 <br />
 
 $$ \parallel \mathbf{v} \parallel = \sqrt{\langle \mathbf{v}, \mathbf{v} \rangle}  $$
@@ -67,8 +67,8 @@ $$ \parallel \mathbf{v} \parallel = \sqrt{\langle \mathbf{v}, \mathbf{v} \rangle
 $$ d(\mathbf{u}, \mathbf{v}) = \parallel \mathbf{\mathbf{u} - \mathbf{v}} \parallel = \sqrt{\langle \mathbf{u} - \mathbf{v}, \mathbf{u} - \mathbf{v} \rangle}  $$
 
 
-물리 법칙에서의 내적
+### 물리학 관점으로 보는 내적
 
-수직
+### 수직
 
-정사영
+### 정사영
