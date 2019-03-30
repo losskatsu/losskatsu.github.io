@@ -67,11 +67,15 @@ $$ d(\mathbf{u}, \mathbf{v}) = \parallel \mathbf{\mathbf{u} - \mathbf{v}} \paral
 
 ## 내적의 성질
 
-![figure02](/assets/images/innerproduct/innerproduct02.JPG)
-
-위와 같은 성질을 이용하면 아래와 같은 성질을 생각할 수 있습니다. 
+위와 같은 내적의 정의를 이용하면 아래와 같은 성질을 생각할 수 있습니다.
 
 $$ \parallel \mathbf{u} + \mathbf{v} \parallel \leq \parallel \mathbf{v} \parallel + \parallel \mathbf{v} \parallel $$
+
+아래와 같이 그림으로 생각하면 좀 더 이해하기 편합니다.
+
+![figure02](/assets/images/innerproduct/innerproduct02.JPG)
+
+ 
 
 
 ## 물리학 관점으로 보는 내적
