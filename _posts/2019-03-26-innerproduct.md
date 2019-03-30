@@ -109,7 +109,7 @@ $$ \mathbf{u} \cdot \mathbf{v} = \parallel \mathbf{u} \parallel \parallel \mathb
 
 ![figure03](/assets/images/innerproduct/innerproduct03.JPG)
 
-이를 물리학에서 말하는 힘(Force)의 관점에서 
+이를 물리학에서 말하는 일(Work), 힘(Force)의 관점에서 
 어떤 물체를 각도 $\theta$인 상태의 줄을 잡아당긴다고 하면, 
 위 관계가 조금 더 쉽게 이해 될 수 있습니다. 
 각도 $\theta$가 작을 수록 낭비되는 힘이 적으므로, 
@@ -124,7 +124,7 @@ Cauchy-Schwarz Inequality
 
 $$ | \mathbf{u} \cdot \mathbf{v} | \leq \parallel \mathbf{u} \parallel \parallel \mathbf{v} \parallel $$
 
-## 정사영
+## 정사영으로 
 
 위 개념은 정사영과 연관지을 수도 있습니다. 
 다시 한번 내적을 구하는 식을 보시죠. 
