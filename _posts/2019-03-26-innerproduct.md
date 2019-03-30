@@ -24,7 +24,7 @@ sidebar:
 그럼 내적은 어떤 연산이고 어떤 의미가 있을까요? 
 <br />
 
-## 내적의 정의 
+## 1.내적의 정의 
 
 앞서 내적은 연산이라고 말씀드렸습니다.
 그럼 간단히 내적이 어떤 연산인지 확인해 봅시다.
@@ -71,7 +71,7 @@ $$ d(\mathbf{u}, \mathbf{v}) = \parallel \mathbf{\mathbf{u} - \mathbf{v}} \paral
 
 즉, 우리가 알고 있는 norm, distance 의 개념은 내적을 이용해서 표현 가능합니다.
 
-## 내적의 성질
+## 2.내적의 성질
 
 위와 같은 내적의 정의를 이용하면 아래와 같은 성질을 생각할 수 있습니다.
 
@@ -83,7 +83,7 @@ $$ \parallel \mathbf{u} + \mathbf{v} \parallel \leq \parallel \mathbf{v} \parall
 
  
 
-## 물리학 관점으로 보는 내적
+## 3.물리학 관점으로 보는 내적
 
 내적은 기하학 관점 뿐 만 아니라, 물리학 관점으로도 볼 수 있습니다. 
 먼저 원점으로부터 시작되는 두 벡터가 존재한다고 하면 두 벡터 사이에는 반드시 각도 $\theta$ 가 존재 할 것입니다. 
@@ -124,7 +124,7 @@ Cauchy-Schwarz Inequality
 
 $$ | \mathbf{u} \cdot \mathbf{v} | \leq \parallel \mathbf{u} \parallel \parallel \mathbf{v} \parallel $$
 
-## 정사영 관점으로 보는 내적 
+## 4.정사영 관점으로 보는 내적 
 
 위 개념은 정사영과 연관지을 수도 있습니다. 
 다시 한번 내적을 구하는 식을 보시죠. 
