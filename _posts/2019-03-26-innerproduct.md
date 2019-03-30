@@ -66,9 +66,14 @@ $$ \parallel \mathbf{v} \parallel = \sqrt{\langle \mathbf{v}, \mathbf{v} \rangle
 
 $$ d(\mathbf{u}, \mathbf{v}) = \parallel \mathbf{\mathbf{u} - \mathbf{v}} \parallel = \sqrt{\langle \mathbf{u} - \mathbf{v}, \mathbf{u} - \mathbf{v} \rangle}  $$
 
+
 ### 내적의 성질
 
 ![figure02](/assets/images/innerproduct/innerproduct02.JPG)
+
+위와 같은 성질을 이용하면 아래와 같은 성질을 생각할 수 있습니다. 
+
+$$ \parallel \mathbf{u} + \mathbf{v} \parallel \leq \parallel \mathbf{v} \parallel + \parallel \mathbf{v} \parallel $$
 
 
 ### 물리학 관점으로 보는 내적
@@ -98,6 +103,12 @@ $$ \mathbf{u} \cdot \mathbf{v} = \parallel \mathbf{u} \parallel \parallel \mathb
 더 쉽게 물체를 움직일 수 있고, 
 각도가 90도 보다 크다면 원래 움직이고자 하는 방향과 반대방향으로 움직이므로 내적은 음수가 됩니다. 
 그리고 90도 방향으로 줄을 잡아 당긴다면 물체는 움직이지 않겠죠. 
+
+이로 부터 우리는 아래와 같은 성질을 추가적으로 알 수 있습니다. 
+
+Cauchy-Schwarz Inequality
+$$ | \mathbf{u} \cdot \mathbf{v} | \leq \parallel \mathbf{u} \parallel \parallel \mathbf{v} \parallel $$
+
 
 
 ### 정사영
