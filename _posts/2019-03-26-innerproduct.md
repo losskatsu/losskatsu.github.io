@@ -76,7 +76,7 @@ $$ d(\mathbf{u}, \mathbf{v}) = \parallel \mathbf{\mathbf{u} - \mathbf{v}} \paral
 
 위와 같은 내적의 정의를 이용하면 아래와 같은 성질을 생각할 수 있습니다.
 
-$$ \parallel \mathbf{u} + \mathbf{v} \parallel \leq \parallel \mathbf{v} \parallel + \parallel \mathbf{v} \parallel $$
+$$ \parallel \mathbf{u} + \mathbf{v} \parallel \leq \parallel \mathbf{u} \parallel + \parallel \mathbf{v} \parallel $$
 
 즉 어떤 두 벡터의 합의 길이는 각각의 길이의 곱보다 작거나 같다는 뜻이며, 아래와 같이 그림으로 생각하면 좀 더 이해하기 편합니다.
 
