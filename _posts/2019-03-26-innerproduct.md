@@ -124,7 +124,7 @@ Cauchy-Schwarz Inequality
 
 $$ | \mathbf{u} \cdot \mathbf{v} | \leq \parallel \mathbf{u} \parallel \parallel \mathbf{v} \parallel $$
 
-## 정사영 
+## 정사영 관점으로 보는 내적 
 
 위 개념은 정사영과 연관지을 수도 있습니다. 
 다시 한번 내적을 구하는 식을 보시죠. 
