@@ -1,5 +1,5 @@
 ---
-title: "내적(inner product), 정사영(projection)의 의미" 
+title: "내적(inner product) 의미" 
 categories:
   - LinearAlgebra
 tags:
@@ -107,8 +107,10 @@ $$ \mathbf{u} \cdot \mathbf{v} = \parallel \mathbf{u} \parallel \parallel \mathb
 이로 부터 우리는 아래와 같은 성질을 추가적으로 알 수 있습니다. 
 
 Cauchy-Schwarz Inequality
+<br />
+
 $$ | \mathbf{u} \cdot \mathbf{v} | \leq \parallel \mathbf{u} \parallel \parallel \mathbf{v} \parallel $$
 
 
 
-### 정사영
+
