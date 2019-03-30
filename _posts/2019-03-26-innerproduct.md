@@ -128,7 +128,7 @@ $$ \parallel \mathbf{u} \parallel \parallel \mathbf{v} \parallel cos\theta =
 $$ \parallel \mathbf{u} \parallel \parallel \mathbf{v} \parallel cos\theta = 
 ( \parallel \mathbf{u} \parallel cos\theta ) \parallel \mathbf{v} \parallel   $$
 
-
+위 식의 의미를 생각해보면 내적은 한 벡터를 다른 벡터에 정사영 시킨 후 각 벡터의 크기(길이)를 곱한다라고 생각할 수 있습니다. 
 
 
 
