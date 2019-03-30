@@ -111,6 +111,24 @@ Cauchy-Schwarz Inequality
 
 $$ | \mathbf{u} \cdot \mathbf{v} | \leq \parallel \mathbf{u} \parallel \parallel \mathbf{v} \parallel $$
 
+### 정사영
+
+위 개념은 정사영과 연관지을 수도 있습니다. 
+다시 한번 내적을 구하는 식을 보시죠. 
+
+$$ \mathbf{u} \cdot \mathbf{v} = \parallel \mathbf{u} \parallel \parallel \mathbf{v} \parallel cos\theta  $$
+
+위 식을 조금 변형하면 
+
+$$ \parallel \mathbf{u} \parallel \parallel \mathbf{v} \parallel cos\theta = 
+\parallel \mathbf{u} \parallel ( \parallel \mathbf{v} \parallel cos\theta ) $$
+
+혹은
+
+$$ \parallel \mathbf{u} \parallel \parallel \mathbf{v} \parallel cos\theta = 
+( \parallel \mathbf{u} \parallel cos\theta ) \parallel \mathbf{v} \parallel   $$
+
+
 
 
 
