@@ -14,14 +14,14 @@ sidebar:
   nav: sidebar-contents
 ---
 
-## 내적(inner product)의 의미
+# 내적(inner product)의 의미
 
 내적은 기본적으로 연산이라고 생각하시면 쉽습니다. 
 흔히 생각할 수 있는 연산이라고 하면 더하기, 빼기, 곱하기, 나누기 정도가 있는데, 
 내적도 이러한 연산 중 하나라고 생각하시면 편합니다. 
 특이한 점은 내적은 벡터와 벡터의 연산인데 결과가 스칼라라는 점입니다. 
 
-### 내적의 정의 
+## 내적의 정의 
 
 앞서 내적은 연산이라고 말씀드렸습니다.
 그럼 간단히 내적이 어떤 연산인지 확인해 봅시다.
@@ -65,7 +65,7 @@ $$ \parallel \mathbf{v} \parallel = \sqrt{\langle \mathbf{v}, \mathbf{v} \rangle
 $$ d(\mathbf{u}, \mathbf{v}) = \parallel \mathbf{\mathbf{u} - \mathbf{v}} \parallel = \sqrt{\langle \mathbf{u} - \mathbf{v}, \mathbf{u} - \mathbf{v} \rangle}  $$
 
 
-### 내적의 성질
+## 내적의 성질
 
 ![figure02](/assets/images/innerproduct/innerproduct02.JPG)
 
@@ -74,7 +74,7 @@ $$ d(\mathbf{u}, \mathbf{v}) = \parallel \mathbf{\mathbf{u} - \mathbf{v}} \paral
 $$ \parallel \mathbf{u} + \mathbf{v} \parallel \leq \parallel \mathbf{v} \parallel + \parallel \mathbf{v} \parallel $$
 
 
-### 물리학 관점으로 보는 내적
+## 물리학 관점으로 보는 내적
 
 원점으로부터 시작되는 두 벡터를 표현하면 두 벡터 사이에는 반드시 각도 $\theta$ 가 존재 할 것입니다. 
 
@@ -109,7 +109,7 @@ Cauchy-Schwarz Inequality
 
 $$ | \mathbf{u} \cdot \mathbf{v} | \leq \parallel \mathbf{u} \parallel \parallel \mathbf{v} \parallel $$
 
-### 정사영
+## 정사영
 
 위 개념은 정사영과 연관지을 수도 있습니다. 
 다시 한번 내적을 구하는 식을 보시죠. 
