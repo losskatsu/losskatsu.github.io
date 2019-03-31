@@ -78,7 +78,7 @@ $$ d(\mathbf{u}, \mathbf{v}) = \parallel \mathbf{\mathbf{u} - \mathbf{v}} \paral
 
 $$ \parallel \mathbf{u} + \mathbf{v} \parallel \leq \parallel \mathbf{u} \parallel + \parallel \mathbf{v} \parallel $$
 
-즉 어떤 두 벡터의 합의 길이는 각각의 길이의 곱보다 작거나 같다는 뜻이며, 아래와 같이 그림으로 생각하면 좀 더 이해하기 편합니다.
+즉 어떤 두 벡터의 합의 길이는 각각의 길이의 합보다 작거나 같다는 뜻이며, 아래와 같이 그림으로 생각하면 좀 더 이해하기 편합니다.
 
 ![figure02](/assets/images/innerproduct/innerproduct02.JPG)
 
