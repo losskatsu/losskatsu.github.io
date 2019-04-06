@@ -45,3 +45,39 @@ MVC 아키텍처는 보통 프론트 컨트롤ㄹ러(front Controller) 패턴과
 
 서버가 HTTP요청을 받기 시작해서 다시 HTTP로 결과를 응답해주기까지의 과정을 살펴보자.
 
+(1) DispatcherServlet의 HTTP 요청 접수
+자바 서버의 서블릿 컨테이너는 HTTP 프로토콜을 통해 들어오는 요청이 스프링의 DispatcherServelt에 할당된 것이라면 
+HTTP 요청정보를 DispatcherServlet에 전달해준다. web.xml에는 보통 아래와 같이 
+DispatcherServlet이 전달받을 URL의 패턴이 정의 되어 있다. 
+
+```java
+<servelt-mapping>
+  <servelt-name>Spring MVC Dispatcher Servlet</servelt-name>
+  <url-pattern>/app/*</url-pattern>
+</servelt-mapping>
+```
+이 서블릿-매핑은 URL이 /app로 시작하는 모든 요청을 스프링의 프론트 컨트롤러인 
+DispatcherServlet에게 할당해주는 것이다. 
+
+(2) DispatcherServlet에서 컨트롤러로 HTTP 요청 위임
+DispatcherServlet은 URL이나 마라미터 정보, HTTP 명령 등을 참고로 해서 
+어떤 컨트롤러에게 작업을 위임할지 결정한다. 
+어떤 컨트롤러/핸들러가 요청을 처리할지 결정했다면, 다음은 해당 컨트롤러 오브젝트의 
+메소드 호출 후 실제로 웹 요청 처리 작업을 위임할 차례다. 
+DispatcherServlet은 컨트롤러가 어떤 메소드를 가졌고 어떤 인터페이스를 구현했는지 전혀 알지 못한다. 
+대신 컨트롤러의 종류에 따라 적절한 어댑터를 사용한다. 
+각 어댑터는 자신이 담당하는 컨트롤러에 맞는 호출 방법을 이용해서컨트롤러에 작업 요청을 보내고 
+결과를 돌려받아서 DispatcherServlet에게 다시 돌려주는 기능을 갖고 있다. 
+이렇게 하면 DispatcherServlet이 동시에 여러 가지 타입의 컨트롤러를 사용할 수 있다. 
+스프링 서블릿/MVC 확장 구조의 기본은 바로 어댑터를 통한 컨트롤러 호출 방식이다. 
+어떤 어댑터를 사용할지는 DispatcherServlet 
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+(7)
