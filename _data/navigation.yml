@@ -1,11 +1,13 @@
 # main links
 main:
    - title: "About"
-     url: /about/
+     url: "/about/"
    - title: "Tag"
-     url: /tags/
+     url: "/tags/"
    - title: "Category"
-     url: /categories/list
+     url: "/categories/"
+  # - title: "Category"
+  #   url: /categories/list
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
@@ -19,20 +21,20 @@ sidebar-contents:
   - title: "Machine Learning"
     children:
       - title: "Reinforcement Learning"
-        url: /categories/#ReinforcementLearning
+        url: "/categories/#ReinforcementLearning"
       - title: "PaperTranslation"
-        url: /categories/#PaperTranslation
+        url: "/categories/#PaperTranslation"
   - title: "Statistics"
     children:
       - title: "Linear Algebra"
-        url: /categories/#LinearAlgebra
+        url: "/categories/#LinearAlgebra"
       - title: "Statistics"
-        url: /categories/#Statistics
+        url: "/categories/#Statistics"
   - title: "IT"
     children:
       - title: "IT Infra"
-        url: /categories/#ITinfra
+        url: "/categories/#ITinfra"
       - title: "Programming"
-        url: /categories/#Programming
+        url: "/categories/#Programming"
       - title: "BookReview"
-        url: /categories/#BookReview
+        url: "/categories/#BookReview"
