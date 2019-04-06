@@ -5,9 +5,9 @@ main:
    - title: "Tag"
      url: "/tags/"
    - title: "Category"
-     url: "/categories/"
+      url: "/categories/list"
   # - title: "Category"
-  #   url: /categories/list
+  #   url: "/categories/"
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
