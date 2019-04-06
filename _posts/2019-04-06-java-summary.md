@@ -1,5 +1,5 @@
 ---
-title: "[Java] 자바 간단 정리" 
+title: "[Java] 자바 기초 간단 정리" 
 categories:
   - Programming
 tags:
