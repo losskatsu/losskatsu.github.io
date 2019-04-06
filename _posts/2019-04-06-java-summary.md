@@ -14,7 +14,7 @@ sidebar:
   nav: sidebar-contents
 ---
 
-# 자바(Java) 간단 정리
+# 자바(Java) 기간단 정리
 
 참고자료 : 윤성우의 열혈 자바 프로그래밍
 
