@@ -1,5 +1,5 @@
 ---
-title: "[Java]자바 간단 정리" 
+title: "[Java] 자바 간단 정리" 
 categories:
   - Programming
 tags:
@@ -47,7 +47,7 @@ public | O | O | O | O
 따라서 이 둘 중 하나의 형태가 다른 메소드를 정의하는 것이 가능하다. 
 즉, 메소드 이름은 동일하지만 매개변수 정보가 다른 메소드 정의 가능.
 
-```Java
+```java
 class MyHome{
   void mySimpleRoom(int n){...}
   void mySimpleRoom(int n1, int n2){...}
@@ -56,7 +56,8 @@ class MyHome{
 ```
 
 * this를 이용한 인스턴스 변수 접근
-```Java
+
+```java
 class SimpleBox{
   private int data;
   SimpleBox(int data){
