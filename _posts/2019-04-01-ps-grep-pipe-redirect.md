@@ -1,9 +1,9 @@
 ---
 title: "[리눅스] 프로세스 확인(ps), 파이프, 그렙(grep), 리다이렉션(>)" 
 categories:
-  - ITinfra
+  - it-infra
 tags:
-  - ITinfra
+  - it-infra
 use_math: true
 toc: true
 toc_label: "My Table of Contents"
