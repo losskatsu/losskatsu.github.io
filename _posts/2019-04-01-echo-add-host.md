@@ -1,9 +1,9 @@
 ---
 title: "[윈도우] echo 호스트 추가 " 
 categories:
-  - ITinfra
+  - it-infra
 tags:
-  - ITinfra
+  - it-infra
 use_math: true
 toc: true
 toc_label: "My Table of Contents"
