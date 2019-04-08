@@ -1,10 +1,10 @@
 ---
 title: "자료구조, 알고리즘 간단 요약" 
 categories:
-  - Programming
+  - programming
 tags:
-  - Programming
-  - Algorithm
+  - programming
+  - algorithm
 use_math: true
 toc: true
 toc_label: "My Table of Contents"
