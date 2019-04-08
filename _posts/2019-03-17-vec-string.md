@@ -1,10 +1,10 @@
 ---
 title: "[C++]벡터(vector), 문자열(string) 정리" 
 categories:
-  - Programming
+  - programming
 tags:
-  - Programming
-  - Algorithm
+  - programming
+  - algorithm
 use_math: true
 toc: true
 toc_label: "My Table of Contents"
