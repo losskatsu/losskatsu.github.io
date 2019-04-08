@@ -1,10 +1,10 @@
 ---
-title: "행렬식(determinant)의 의미" 
+title: "[선형대수] 행렬식(determinant)의 의미" 
 categories:
-  - LinearAlgebra
+  - linear-algebra
 tags:
-  - Statistics
-  - MachineLearning
+  - statistics
+  - machine-learning
 use_math: true
 toc: true
 toc_label: "My Table of Contents"
