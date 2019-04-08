@@ -1,10 +1,10 @@
 ---
 title: "[Java] 자바 기초 간단 정리" 
 categories:
-  - Programming
+  - programming
 tags:
-  - Programming
-  - Java
+  - programming
+  - java
 use_math: true
 toc: true
 toc_label: "My Table of Contents"
