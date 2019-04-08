@@ -1,10 +1,10 @@
 ---
-title: "내적(inner product) 의미" 
+title: "[선형대수] 내적(inner product) 의미" 
 categories:
-  - LinearAlgebra
+  - linear-algebra
 tags:
-  - Statistics
-  - MachineLearning
+  - statistics
+  - machine-learning
 use_math: true
 toc: true
 toc_label: "My Table of Contents"
