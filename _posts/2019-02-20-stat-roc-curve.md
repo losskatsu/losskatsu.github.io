@@ -1,11 +1,11 @@
 ---
 title: "ROC Curve(ROC 커브)란? ROC 커브 해석" 
 categories:
-  - MachineLearning
+  - machine-learning
 tags:
-  - Statistics
-  - MachineLearning
-  - Evaluation
+  - statistics
+  - machine-learning
+  - evaluation
 use_math: true
 toc: true
 toc_label: "My Table of Contents"
