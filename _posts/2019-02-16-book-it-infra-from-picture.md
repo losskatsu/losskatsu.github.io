@@ -1,10 +1,10 @@
 ---
 title: "[서평]그림으로 공부하는 IT 인프라 구조"
 categories:
-  - BookReview
+  - book-review
 tags:
-  - Book
-  - ITinfra
+  - book
+  - it-infra
 sidebar:
   title: "AI Machine Learning"
   nav: sidebar-contents
