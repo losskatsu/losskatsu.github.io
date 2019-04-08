@@ -1,10 +1,10 @@
 ---
 title: "[Java] 자바 스프링(spring) MVC 정리(1)" 
 categories:
-  - Programming
+  - programming
 tags:
-  - Programming
-  - Java
+  - programming
+  - java
 use_math: true
 toc: true
 toc_label: "My Table of Contents"
