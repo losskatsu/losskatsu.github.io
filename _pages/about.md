@@ -19,7 +19,7 @@ title: "About"
 ### Work
 
 * **NHN**, 2018.03 ~ present
-* **Bluehole Studio**, 2017.04 ~ 2018.02
+* **Krafton**, 2017.04 ~ 2018.02
 
 ### Education
 * **Florida State University**  
@@ -49,6 +49,8 @@ title: "About"
     2016.05-2016.08
 
 ### Talk
+* Special Lecture "Data Scientist" Job introduction,
+    Hanmin High School, Apr 2019, Korea
 * Estimating Hackers in Battle Ground by using Machine Learning, 
     Bluehole Developer Conference, Sep 2017, Korea
 * Default Probability of Government Employee Pension System and Pay-Peak System, 
