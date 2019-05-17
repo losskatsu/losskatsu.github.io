@@ -1,5 +1,5 @@
 ---
-title: "[운영체제] 프로세스(process)란 " 
+title: "[운영체제] 프로세스(process)란(1)" 
 categories:
   - os-kernel
 tags:
@@ -48,3 +48,34 @@ job이라는 용어와 process라는 용어는 함께 사용될 수 있다. 개�
 두가지 프로세스는 하나의 같은 프로그램과 연관되있을수 있지만, 그럼에도 불구하고 그 두 프로세느는 분리된 실행순서로 고려된다. 
 예를들어 한 유저가 똑같은 크롬 브라우저를 여러개 실행할 수 있다. 
 각각의 프로세스는 각자의 데이터, 힙, 스택 부분을 따로 가진다. 
+
+### 프로세스 상태(Process State)
+
+* New: 프로세스 생성
+* Running: 명령문(Instruction) 실행됨
+* Waiting: 프로세스는 이벤트(I/O이나 시그널) 발생을 기다리는 중...
+* Ready: 프로세스는 프로세서에 할당되기를 기다림
+* Terminated: 프로세스 실행됨.
+
+### 프로세스 컨트롤 블락(Process Control Block)
+
+각 프로세스는 운영체제에 의해 PCB(process control block)로 표현된다. 
+PCB는 각 프로세스에 관해 아래와 같은 정보를 포함한다. 
+쉽게말해 PCB는 프로세스마다 다양한 정보를 저장하는 저장소라고 할 수 있다. 
+
+* Process state: new, readyk, running, waiting 중 어떤 상태인지 나타냄
+* Program counter: 해당 프로세스에 대해 다음 실행 예정인 명령문 주소를 담고 있는 레지스터
+* CPU registers: 우리가 잘 알고 있는 그 레지스터.
+* CPU-scheduling information: 프로세스 우선순위, 스케쥴링 큐, 파라미터에 대한 포인터
+* 메모리 관리 정보: 페이지테이블, 세그먼터 테이블 과 같은 정보
+* Accounting information: CPU 사용량, 시간 제한, account number, job 또는 프로세스 넘버.
+* I/O status information: 해당 프로세스와 관련된 I/O 디바이스 정보
+
+### 쓰레드(Threads)
+
+프로세스는 싱글 쓰레드를 실행하는 프로그램이다. thread of execution을 줄여서 쓰레드(thread)라고 부른다.
+예를들어, 프로세스가 워드프로그램을 실행할때, 명령문의 싱글쓰레드가 실행된다. 
+컨트롤의 싱글 쓰레드는 프로세스가 한번에 하나의 테스크를 수행하게 한다. 
+현대에는 프로세스의 개념을 확장시켜, 
+하나의 프로세스가 다중 쓰레드(multiple threads)를 가져, 한가지 이상의 테스크를 동시에 수행하게 도와준다. 
+
