@@ -32,6 +32,8 @@ sidebar-contents:
         url: "/categories/#statistics"
   - title: "IT"
     children:
+      - title: "OS kernel"
+        url: "/categories/#os-kernel"
       - title: "IT Infra"
         url: "/categories/#itinfra"
       - title: "Programming"
