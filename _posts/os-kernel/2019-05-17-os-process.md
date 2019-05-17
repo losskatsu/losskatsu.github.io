@@ -1,9 +1,9 @@
 ---
 title: "[OS] 프로세스(process)란 " 
 categories:
-  - it-infra
+  - os-kernel
 tags:
-  - it-infra
+  - os
 use_math: true
 toc: true
 toc_label: "My Table of Contents"
