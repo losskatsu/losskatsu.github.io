@@ -20,3 +20,5 @@ import smtplib
 from email import utils
 from email.mime.text import MIMEText
 ```
+
+* SMTP : Simple Mail Transfer Protocal 
