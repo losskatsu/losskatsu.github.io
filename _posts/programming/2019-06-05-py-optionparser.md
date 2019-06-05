@@ -43,6 +43,8 @@ parsing한 옵션값을 변수로 불러오기 위해 options에 넣어줌.
 ### Example
 
 ```python
+from optparse import OptionParser
+
 if __name__ == '__main__':
   parser = OptionParser()
   parser.add_option("-c", "--targetdate", dest="targetdate", action="store")
