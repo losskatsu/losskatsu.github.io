@@ -1,5 +1,5 @@
 ---
-title: "[Python] 명령행 옵션 추가(OptionParser), add_option " 
+title: "[Python] 파이썬 명령행 옵션 추가(OptionParser), add_option " 
 categories:
   - programming
 tags:
