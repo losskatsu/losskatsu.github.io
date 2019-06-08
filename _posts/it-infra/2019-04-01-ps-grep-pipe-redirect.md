@@ -30,6 +30,9 @@ ps 옵션 | 설명
 ```bash
 $ ps -eo pid,comm,time,etime
 ```
+* vsz 필드: 가상 메모리 양
+* rss 필드: 확보된 물리 메모리 양
+* maj_flt + min_flt 필드: 프로세스 생성시부터의 페이지 폴트 횟수
 
 
 
