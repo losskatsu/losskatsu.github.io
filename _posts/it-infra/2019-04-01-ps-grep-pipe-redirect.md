@@ -25,6 +25,13 @@ ps 옵션 | 설명
 --------|------
 -e | 모든 프로세스 출력
 -f | Full 포맷  
+-eo | etime, time 필드는 프로세스의 시작부터 현재까지의 경과시간과 사용시간 표시
+
+```bash
+$ ps -eo pid,comm,time,etime
+```
+
+
 
 ## 파이프(|) - 출력 결과를 필터링
 
@@ -78,3 +85,72 @@ $ ls -al > abc.txt
 0  | 표준입력
 1 | 표준출력
 2  | 표준에러 
+
+
+## strace
+
+strace : 프로세스가 어떠한 시스템 콜을 호출했는지 확인
+
+```bash
+$ strace -o hello.log ./hello
+$ cat hello.log
+```
+
+* -T 옵션을 붙이면 시스템 콜 처리에 걸린 시간을 마이크로 초 단위로 측정 가능
+```bash
+$ strace -T -o hello.log ./hello
+$ cat hello.log
+```
+
+
+## sar
+
+sar : 프로세스가 사용자 모드와 커널 모드 중 어느쪽에서 실행되고 있는지 비율 확인
+
+```bash
+$ sar -P ALL 1 1
+```
+
+* 세번째 파라미터 : 측정 시간 단위(1초마다 측정)
+* 네번째 파라미터 : 측정 횟수 단위(1회 측정)
+
+## getppid()
+
+getppid() : 부모 프로세스의 프로세스 ID 획득
+
+## ldd
+
+ldd : 프로그램이 어떤 라이브러리에 링크하고 있는지 확인
+
+```bash
+$ ldd /bin/echo
+```
+## OS가 제공하는 프로그램
+
+* 시스템 초기화: init
+* OS 동작 바꿈: sysctl, nice, sync
+* 파일 관련: touch, mkdir
+* 텍스트 데이터 가공: grep, sort, uniq
+* 성능 측정: sar, iostat
+* 컴파일러: gcc
+* 스크립트 언어 실행환경: perl, python, ruby
+* 셸: bash
+* 윈도우 시스템: X
+
+## taskset
+
+```bash
+$ taskset -c 0 ./hello 1 100 1
+```
+
+* -c : 논리 cpu지정. 예제에서는 cpu 0번을 지정하였다.
+* 첫번째 파라미터: 동시에 동작하는 프로세스 수
+* 두번째 파라미터: 프로그램 동작 총 시간
+* 세번째 파라미터: 데이터 수집 간격
+
+## 시스템에 탑재된 논리 cpu 갯수 확인
+
+```bash
+$ grep -c processor /proc/cpuinfo
+```
+
