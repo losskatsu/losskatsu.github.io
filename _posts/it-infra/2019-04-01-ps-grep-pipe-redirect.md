@@ -154,3 +154,6 @@ $ taskset -c 0 ./hello 1 100 1
 $ grep -c processor /proc/cpuinfo
 ```
 
+## free
+
+free: 시스템의 총 메모리왕과 사용 중인 메모리 양 확인
