@@ -74,3 +74,13 @@ class SimpleBox{
 ## 인터페이스
 * 메소드의 몸체를 가지지 않는다.
 
+## 로거(logger)
+* 메세지 발생시간 추가, 로그 레벨 지정
+* 심각한 순서: SEVERE, WARNING, INFO, CONFIG, FINE, FINER, FINEST
+
+```java
+import org.apache.log4j.Logger;
+import java.util.logging.*;
+
+Logger logger = Logger.getLogger( ~~ );
+```
