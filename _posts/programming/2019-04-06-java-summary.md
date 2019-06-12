@@ -84,3 +84,11 @@ import java.util.logging.*;
 
 Logger logger = Logger.getLogger( ~~ );
 ```
+
+### Sqlsession
+* 마이바티스를 사용하기 위한 자바 인터페이스
+* 이 인터페이스를 통해 명령어를 실행하고 매퍼를 얻으며 트랜잭션 관리 
+
+```java
+private SqlSession sqlSession;
+```
