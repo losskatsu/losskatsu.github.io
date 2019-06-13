@@ -34,16 +34,11 @@ jdbc:cubrid:<host>:<port>:<db-name>:[user-id]:[password]:[?<property> [& <proper
 * user_id: 데이터베이스에 접속할 사용자 ID
 * passwordP: 데이터베이스에 접속할 사용자 암호
 * <property>
-  
-    * altHosts: HA환경에서 장애 시 fail-over할 하나 이상의 standby 브로커의 호스트IP와 접속 포트
-  
-    * rcTime: 첫 번째로 접속했던 브로커에 장애가 발생한 이후 altHosts 에 명시한 브로커로 접속한다(failover). 이후, rcTime만큼 시간이 경과할 때마다 원래의 브로커에 재접속 시도(기본값 600초)
-  
-    * connectTimeout: 데이터베이스 접속에 대한 타임아웃 시간을 초 단위로 설정한다. 기본값은 30초. 이 값이 0인 경우 무한대기.
-  
-    * queryTimeout: 질의 수행에 대한 타임아웃 시간을 초 단위로 설정한다(기본값: 0, 무제한). 최대값은 2,000,000이다.
-  
-    * charSet: 접속하고자 하는 DB의 문자셋(charSet).
+  * altHosts: HA환경에서 장애 시 fail-over할 하나 이상의 standby 브로커의 호스트IP와 접속 포트
+  * rcTime: 첫 번째로 접속했던 브로커에 장애가 발생한 이후 altHosts 에 명시한 브로커로 접속한다(failover). 이후, rcTime만큼 시간이 경과할 때마다 원래의 브로커에 재접속 시도(기본값 600초)
+  * connectTimeout: 데이터베이스 접속에 대한 타임아웃 시간을 초 단위로 설정한다. 기본값은 30초. 이 값이 0인 경우 무한대기.
+  * queryTimeout: 질의 수행에 대한 타임아웃 시간을 초 단위로 설정한다(기본값: 0, 무제한). 최대값은 2,000,000이다.
+  * charSet: 접속하고자 하는 DB의 문자셋(charSet).
 
 -------------------------------------------------------------
 
