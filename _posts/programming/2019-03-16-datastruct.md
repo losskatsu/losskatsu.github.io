@@ -38,6 +38,7 @@ sidebar:
 
 * 스택에 데이터를 추가하면(push) 가장 위에 추가됨.
 * 스택에서 데이터를 꺼내면(pop) 가장 위(가장 최근 추가된) 데이터부터 꺼냄.
+* 
 * Last In First Out(LIFO)
 
 ### 4. 큐(queue)
