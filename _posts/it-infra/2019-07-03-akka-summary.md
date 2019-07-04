@@ -26,6 +26,16 @@ Akka는 동시성을 위한 여러 프로그래밍 모델을 지원하지만, Er
 * ActorSystem: 액터 모델을 구현하기 위한 클래스 중 하나. 스프링의 applicationContext와 같은 역할.
 * ActorRef: Actor를 감싸고 있는 Wrapper라고 생각하면 편함. 실제로 여러 Actor들은 ActorRef 안에서 상호 메시지 교환. 
 
+## receive 메소드
+
+* Actor 클래스 내부에 receive 메소드가 존재함. 
+* Actor는 receive를 통해 받은 메세지를 처리함.
+
+## Props 객체
+
+* Props는 actor 인스턴스를 만드는데 필요한 정보를 캡슐화 해놓음.
+
+
 ## akka.actor.ActorSystem
 
 An actor system is a hierarchical group of actors which share common configuration, 
