@@ -66,4 +66,4 @@ Actors are objects which encapsulate state and behavior,
 they communicate exclusively by exchanging messages which are placed into the recipient’s mailbox. 
 
 참고: https://doc.akka.io/docs/akka/current/general/actor-systems.html
-
+참고: Akka 코딩 공작소
