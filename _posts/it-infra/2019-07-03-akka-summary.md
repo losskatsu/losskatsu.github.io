@@ -80,4 +80,5 @@ ActgorRef에 보내진 메시지는 일단 우편함에 저장되어 처리를 �
 
 
 참고: https://doc.akka.io/docs/akka/current/general/actor-systems.html
+
 참고: Akka 코딩 공작소
