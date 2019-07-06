@@ -35,14 +35,33 @@ Akka의 주목적은 클라우드에 배포하거나 다중 코어 장치에서 
 액터가 다른 액터에게 메시지를 보낼 수도 있다. 
 액터가 수행하는 모든 것은  비동기적으로(asynchronously) 실행된다. 
 
+액터는 생성(create), 송신(send), 상태 변화(become), 감독(supervise)이라는 네 가지 핵심 연산만을 제공하는 
+경량 프로세스(lightweight process)다. 이런 모든 연산은 비동기적이다.
 
-### ActorSystem
+액터가 다른 액터와 의사소통하는 방법은 오직 메시지를 보내는 방법 밖에 없다. 
+메시지 송신은 항상 비동기적이며, 발사 후 망각(fire and forget) 스타일로 이뤄진다. 
+다른 액터가 메시지를 받았는지 꼭 알아야 한다면 메시지를 받은 액터가 수신 통지 메시지를 다시 보내주면 된다. 
 
-액터 모델을 구현하기 위한 클래스 중 하나. 스프링의 applicationContext와 같은 역할.
 
-### ActorRef
-Actor를 감싸고 있는 Wrapper라고 생각하면 편함. 실제로 여러 Actor들은 ActorRef 안에서 상호 메시지 교환. 
+### ActorSystem, ActorRef
 
+ActorSystem은 만들어진 액터 자체를 반환하지 않고 액터에 대한 주소를 반환한다. 
+이 주소를 ActorRef라고 부른다. 액터에게 메시지를 보내려면 ActorRef를 사용해야 한다. 
+액터가 다른 서버에서 실행될 수도 있으므로 이렇게 하는 것이 타당하다. 
+때로 액터 시스템에서 액터를 찾아야 할 필요가 있을 것이다. 그럴때 ActorPath를 사용한다. 
+메시지는 액터의 ActorRef로 보내진다. 모든 액터에는 우편함(mailbox)이 있다. 
+우편함은 큐와 아주 비슷하다. 
+ActgorRef에 보내진 메시지는 일단 우편함에 저장되어 처리를 기다린다. 
+액터는 한번에 하나씩 우편함에 도착한 순서대로 메시지를 처리한다. 
+
+여러분이 메시지를 액터로 보내는 것은 실제로는 메시지를 우편함의 뒤에 넣는 것이다. 
+나중에 어느 시점에 디스패처가 그 메시지를 액터에게 푸시할 것이다. 
+디스패처 위에서 실행되므로 액터는 경량이다. 
+액터의 수가 스레드의 수와 정비례할 필요는 없다. 
+아카 액터는 스레드보다 공간을 훨씬 덜 차지한다. 
+1기가 메모리에 약 2,700,000개의 액터를 넣을 수 있다. 
+1기가에 4,096개밖에 못들어가는 스레드와 비교하면 차이가 매우 크다. 
+따라서 스레드를 직접 사용할 때와 다르게 액터를 사용할 때는 훨씬 자유롭게 원하는 유형의 액터를 생성해도 된다. 
 
 
 ## receive 메소드
@@ -54,17 +73,11 @@ Actor를 감싸고 있는 Wrapper라고 생각하면 편함. 실제로 여러 Ac
 
 * Props는 actor 인스턴스를 만드는데 필요한 정보를 캡슐화 해놓음.
 
+## 분산 프로그래밍 모델
 
-## akka.actor.ActorSystem
+로컬 프로그래밍 과 분산 프로그래밍이 달라지는 무시할 수 없는 중요한 부분이 네 영역, 
+즉, 지연시간(latency), 메모리 접근, 부분실패, 동시성이다. 
 
-An actor system is a hierarchical group of actors which share common configuration, 
-e.g. dispatchers, deployments, remote capabilities and addresses. 
-It is also the entry point for creating or looking up actors.
-
-## Actor System
-
-Actors are objects which encapsulate state and behavior, 
-they communicate exclusively by exchanging messages which are placed into the recipient’s mailbox. 
 
 참고: https://doc.akka.io/docs/akka/current/general/actor-systems.html
 참고: Akka 코딩 공작소
