@@ -12,7 +12,7 @@ sidebar:
 
 # 케라스 창시자에게 배우는 딥러닝
 
-![Figure1](/assets/images/book_review/keras_dl_01.jpeg)
+![Figure1](/assets/images/book_review/keras_dl_01.jpeg){: width="400" height="533"}
 
 오늘 리뷰할 책은 '케라스 창시자에게 배우는 딥러닝'입니다. 
 제목 그대로 딥러닝을 위한 라이브러리 중 케라스라는 라이브러리를 창시한 프랑소와 숄래 님이쓰시고 박해선 님이 번역하신 책입니다.  
