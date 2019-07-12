@@ -12,7 +12,7 @@ sidebar:
 
 # 케라스 창시자에게 배우는 딥러닝
 
-<img src="/assets/images/book_review/keras_dl_01.jpeg" width="400" height="533">
+<center><img src="/assets/images/book_review/keras_dl_01.jpeg" width="400" height="533"></center>
 
 오늘 리뷰할 책은 '케라스 창시자에게 배우는 딥러닝'입니다. 
 제목 그대로 딥러닝을 위한 라이브러리 중 케라스라는 라이브러리를 창시한 프랑소와 숄래 님이쓰시고 박해선 님이 번역하신 책입니다.  
@@ -42,7 +42,7 @@ sidebar:
 딥러닝에서 사용하는 기본적인 용어 정의나, 딥러닝 작동원리, 역사를 설명합니다. 
 저는 기술서적이라도 해당 기술이 어떻게 탄생했고 어떤 역사를 가지고 있는지 아는 것이 중요하다고 생각해서 좋았습니다. 
 
-![Figure2](/assets/images/book_review/keras_dl_02.jpeg)
+<img src="/assets/images/book_review/keras_dl_02.jpeg" width="400" height="533">
 
 또한 수학적인 부분도 설명하는데, 수식만 있다면 이해하기 어려울수 있는데 그림이 첨부되어 이해하는데 도움을 줍니다. 
 그러나 내용이 내용인 만큼 배경지식에 따라 이해하기 어려우실 수 있습니다. 
@@ -50,7 +50,7 @@ sidebar:
 
 전체적으로 코드가 컬러링이 잘 되어있어 코드 가독성이 좋고, 코드 설명도 꼼꼼하게 되어있습니다. 
 
-![Figure3](/assets/images/book_review/keras_dl_03.jpeg)
+<img src="/assets/images/book_review/keras_dl_03.jpeg" width="400" height="533">
 
 2부 초반에는 합성곱 신경망(CNN)에 대해 다룹니다. 
 딥러닝에서 유명한 고양이를 직접 판별해 봅니다. 이해를 돕는 그림이 자세한 부분이 좋았습니다. 
