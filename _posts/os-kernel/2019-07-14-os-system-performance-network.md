@@ -36,6 +36,10 @@ sidebar:
 
 ## netstat 
 
+* enp2s0 : 이더넷
+* lo : loopback
+* wlp1s0 : wireless
+
 옵션 | 설명
 ----|------
 기본 | 연결한 소켓 목록을 보여줌
