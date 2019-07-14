@@ -57,5 +57,15 @@ ERR | 패킷 오류 수
 DRP | 드롭한 패킷 수
 OVR | 패킷 오버런(overrun) 수
 
+<br />
+
+좀 더 세부적인 내용은 아래 디렉토리 참조
+
+```bash
+$ cd /proc/net/snmp
+$ cd /proc/net/netstat
+
+$ grep ^Tcp /proc/net/snmp
+```
 
 
