@@ -75,3 +75,9 @@ $ grep ^Tcp /proc/net/snmp
 옵션 | 설명
 -----|-----
 \-n DEV | 네트워크 인터페이스 통계
+\-n EDEV | 네트워크 인터페이스 오류
+\-n IP | IP 데이터그램 통계
+\-n EIP | IP 오류 통계
+\-n TCP | TCP 통계
+\-n ETCP | TCP 오류 통계
+\-n SOCK | 
