@@ -81,3 +81,26 @@ $ grep ^Tcp /proc/net/snmp
 \-n TCP | TCP 통계
 \-n ETCP | TCP 오류 통계
 \-n SOCK | 
+
+
+## ping
+
+ping 명령은 ICMP 메아리 요청 패킷을 보내서 네트워크 연결성을 테스트한다. 
+
+```bash
+$ ping www.naver.com
+```
+
+## tcpdump
+
+tcpdump를 이용하면 네트워크 패킷을 캡처해 분석할 수 있다. 
+이 도구는 패킷 요약을 STDOUT에 출력하거나 패킷 데이터를 나중에 분석할 수 있게 파일에 저장할 수 있다. 
+보통 후자 쪽이 더 실용적이다. 
+왜냐면 패킷 도착 속도가 너무 빨라서 실시간으로 요약 정보를 쫓아갈 수 없기 때문이다. 
+
+```bash
+$ tcpdump -i eth4 -w /tmp/out.tcpdump
+$ tcpdump -n /tmp/out.tcpdump
+$ tcpdump -enr /tmp/out.tcpdump -vvv -X
+```
+
