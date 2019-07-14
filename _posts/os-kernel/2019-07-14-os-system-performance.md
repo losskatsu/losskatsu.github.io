@@ -99,8 +99,13 @@ tcpdump를 이용하면 네트워크 패킷을 캡처해 분석할 수 있다.
 왜냐면 패킷 도착 속도가 너무 빨라서 실시간으로 요약 정보를 쫓아갈 수 없기 때문이다. 
 
 ```bash
+// eth4 인터페이스의 패킷을 /tmp에 있는 파일에 덤프하기 
 $ tcpdump -i eth4 -w /tmp/out.tcpdump
+
+// 덤프 파일에서 패킷 살펴보기
 $ tcpdump -n /tmp/out.tcpdump
+
+// 자세한 정보 표시(-v), 링크 계층 헤더 표시(-e), 16진 주소 덤프(-x or -X)
 $ tcpdump -enr /tmp/out.tcpdump -vvv -X
 ```
 
