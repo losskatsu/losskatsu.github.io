@@ -68,4 +68,10 @@ $ cd /proc/net/netstat
 $ grep ^Tcp /proc/net/snmp
 ```
 
+## sar
 
+시스템 활동 보고(system activity reporter)를 의미. 
+
+옵션 | 설명
+-----|-----
+\-n DEV | 네트워크 인터페이스 통계
