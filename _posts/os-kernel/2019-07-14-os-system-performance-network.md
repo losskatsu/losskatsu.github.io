@@ -118,10 +118,6 @@ $ tcpdump -enr /tmp/out.tcpdump -vvv -X
 DTrace를 이용하면 네트워크 이벤트를 커널과 애플리케이션 내부에서 살펴볼 수 있다. 
 소켓 연결, 소켓 I/O, TCP이벤트, 패킷 전송, 백로그 드롭, TCP 재전송 등 여러 자세한 부분을 살펴볼 수 있다. 
 
-아래 예에서 dtrace는 기본으로 설치되지 않을 수 있음. 
-우분투 기준 sudo apt install systemtap-sdt-dev 으로 설치. 
-설치했는데 왜 -n 옵션
-
 
 ```bash
 // connect()를 통한 외부 연결 횟수 세기
