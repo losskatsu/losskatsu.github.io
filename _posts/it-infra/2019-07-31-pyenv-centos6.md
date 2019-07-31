@@ -36,7 +36,16 @@ curl 버전을 확인해 보았다.
 
 ```bash
 $ curl --version
+
 curl 7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.19.7 NSS/3.27.1 zlib/1.2.3 libidn/1.18 libssh2/1.4.2
 Protocols: tftp ftp telnet dict ldap ldaps http file https ftps scp sftp
 Features: GSS-Negotiate IDN IPv6 Largefile NTLM SSL libz
 ```
+
+curl도 7.19.7 버전이므로 예전 버전이다. curl 최신 버전은 아래 링크에서 확인 가능하다.
+
+링크: [http://curl.haxx.se/download](http://curl.haxx.se/download)
+
+curl을 최신버전으로 업데이트 해봤지만 소용없었다. 
+
+내 목적은 pyenv 설치인데, curl 을 사용할수 없으므로 다른 방법을 사용해야했다. 
