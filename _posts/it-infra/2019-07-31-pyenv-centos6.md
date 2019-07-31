@@ -134,7 +134,48 @@ $ pyenv versions
 
 ## 가상환경 실행, 해제, 삭제
 
+가상환경 사용하기(접속하기)
+
+```bash
+$ pyenv activate py3_6_5
+```
+
+가상환경 해제하기 (빠져나오기)
+```bash
+$ source deactivate
+```
+
+가상환경이나 파이썬 삭제하기
+```bash
+$ pyenv uninstall py3_6_5
+$ pyenv uninstall 3.6.5
+```
+
+## 8. 가상환경 실행 후 라이브러리 설치하기
 
 
+현재 설치된 라이브러리 리스트
 
+```bash
+$ pyenv activate py3_6_5
+(py3_6_5)$ pip list
+```
+
+
+numpy를 설치해봅시다.
+
+```bash
+$ pyenv activate py3_6_5
+(py3_6_5)$ pip install numpy
+```
+
+pandas 설치
+```bash
+(py3_6_5)$ pip install pandas
+```
+
+matplotlib 설치
+```bash
+(py3_6_5)$ pip install matplotlib
+```
 
