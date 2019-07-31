@@ -1,5 +1,5 @@
 ---
-title: "[Infra] 최신버전 curl 설치 " 
+title: "[Infra] 최신버전 curl 설치하기 " 
 categories:
   - it-infra
 tags:
@@ -13,7 +13,7 @@ sidebar:
   nav: sidebar-contents
 ---
 
-# 최신버전 curl 설치
+# 최신버전 curl 설치하기 
 
 아래 링크에서 가장 최신 버전 curl 확인
 
