@@ -49,7 +49,11 @@ curl도 7.19.7 버전이므로 예전 버전이다. curl 최신 버전은 아래
 
 링크: [http://curl.haxx.se/download](http://curl.haxx.se/download)
 
-curl을 최신버전으로 업데이트 해봤지만 소용없었다. 
+그리고 아래 링크를 참고해 최신 curl을 설치하였다. 
+
+링크: [curl 최신버전 설치하기](https://losskatsu.github.io/it-infra/curl-latest/)
+
+하지만, curl을 최신버전으로 업데이트 해봤지만 소용없었다. 
 
 내 목적은 pyenv 설치인데, curl 을 사용할수 없으므로 다른 방법을 사용해야했다. 
 
@@ -110,19 +114,41 @@ pyenv를 이용해 설치할수 있는 파이썬 버전을 확인해봅시다.
 ```bash
 $ pyenv install --list
 ```
+저는 출력목록에서 가장 최신 버전인 3.7.4를 설치하려 했습니다.
 
-저는 출력목록에서 가장 최신 버전인 3.7.4를 설치하려 했거든요. 하지만 설치되지 않았습니다. 
-왜냐면 RHEL 6계열에서는 파이썬 3.7이 설치되지 않는다는 것...
+```bash
+$ pyenv install 3.7.4
+
+ERROR: The Python ssl extension was not compiled. Missing the OpenSSL lib?
+```
+
+하지만 위와 같이 설치되지 않았습니다. 
+아직 curl의 악몽이 끝나지 않은 것인가라고 생각하며 이리저리 삽질끝에 아래 링크를 발견하게 됬습니다.
+
+링크: [pyenv ssl error](https://github.com/pyenv/pyenv/wiki/Common-build-problems)
+
+위 링크에는 설치실패 메시지 별로 대응 방안이 써있는데요, 페이지 하단 쯤에 있는
+ERROR: The Python ssl extension was not compiled. Missing the OpenSSL lib?
+을 참고해 아래와 같은 명영어를 입력했습니다.
+
+```bash
+$ CFLAGS=-I/usr/include/openssl LDFLAGS=-L/usr/lib64 pyenv install -v 3.7.4
+
+ERROR ~~bla bla ~~~~
+```
+하지만 그래도 설치되지 않았습니다..........
+이번에도 삽질끝에 답을 찾았는데요. 
+답은 바로 RHEL 6계열에서는 파이썬 3.7이 설치되지 않는다는 것이었습니다. 
 아래 링크 중간쯤 보시면 아래와 같은 메시지가 있습니다.
 
-> Note: Python 3.7.0 will not compile on RHEL6 because it requires OpenSSL 1.0.2 or 1.1 and RHEL6 provides 1.0.1e
-
 링크: [파이썬7이 설치 안되는 이유](https://github.com/pyenv/pyenv/wiki/Common-build-problems)
+
+> Note: Python 3.7.0 will not compile on RHEL6 because it requires OpenSSL 1.0.2 or 1.1 and RHEL6 provides 1.0.1e
 
 어쩔수없이 저는 아쉬움을 뒤로하고 3.6.5를 설치했습니다.
 
 ```bash
-$ pyenv install 3.6.5
+$ CFLAGS=-I/usr/include/openssl LDFLAGS=-L/usr/lib64 pyenv install -v 3.6.5
 ```
 
 다행히 설치를 성공했습니다. 아래 코드를 사용하면 
@@ -134,6 +160,27 @@ $ pyenv versions
 * system
 3.6.5
 ```
+
+## 파이썬 가상환경 생성
+
+파이썬 3.6.5버전을 설치했으므로 py3_6_5라는 이름의 가상환경을 만들겠습니다. 
+예전에는 잘 됬는데 이번엔 아래와 같은 에러가 뜨네요.
+
+```bash
+$ pyenv virtualenv 3.6.5 py3_6_5
+
+-bash: virtualenv: command not found
+```
+
+virtualenv 커맨드를 찾을 수가 없다라...제 느낌에는 설치가 되지 않은 것 같았습니다.
+그래서 삽질끝에 virtualenv를 설치할수 있는 방법을 찾았습니다. 아래와 같은 명령어를 입력합시다.
+
+```bash
+git clone https://github.com/pyenv/pyenv-virtualenv.git ~/.pyenv/plugins/pyenv-virtualenv
+```
+위 명령어를 실행하기 전에 ~/.pyenv/plugins 폴더에 가봤는데요.
+pyenv-vituralenv라는 폴더가 없더라구요. 그래서 설치해야겠다는 생각이 들었습니다. 
+
 
 ## 가상환경 실행, 해제, 삭제
 
