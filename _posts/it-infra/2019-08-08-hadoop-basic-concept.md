@@ -51,7 +51,7 @@ MapReduce 프레임워크의 경우 처리할 입력 데이터를 HDFS에서 읽
 ## 하둡 명령어 정리
 
 명령어 | 뜻
-------|------
+-------------------------|------
 hdfs dfs -cat FILE | 파일 내용 나타내기
 hdfs dfs -chgrp GROUP PATH | 파일과 디렉터리에 대한 그룹 변경
 hdfs dfs -chmod MODE PATH | 파일과 디렉터리 권한 변경 
