@@ -21,7 +21,7 @@ sidebar:
 메세징 기반으로 구성된 Kafka를 사용하기도 함. 
 
 * 하둡의 구성
-    : HDFS(Hadoop Distributed File System)이라는 분산 파일 시스템
-    : MapReduce 라고 부르는 분산 처리 시스템
+    1. HDFS(Hadoop Distributed File System)이라는 분산 파일 시스템
+    2. MapReduce 라고 부르는 분산 처리 시스템
 
 
