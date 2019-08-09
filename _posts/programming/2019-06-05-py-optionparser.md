@@ -51,7 +51,7 @@ metavar | dest의 default 값 표현
 action | default는 store <br /> store : argument 저장 <br /> store_true : option 설정되면 true로 저장 <br /> store_false : option 설정되면 false로 저장
 type | int, float, string, complex, choice
 
-## 2-2. parse_args()
+### 2-2. parse_args()
 
 ```python
 (options, args) = parser.parse_args()
@@ -59,7 +59,7 @@ type | int, float, string, complex, choice
 
 parsing한 옵션값을 변수로 불러오기 위해 options에 넣어줌.
 
-## 2-3. Example
+### 2-3. Example
 
 ```python
 from optparse import OptionParser
