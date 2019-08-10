@@ -363,7 +363,8 @@ pagination:
   sort_reverse: true
 
   # Optional, the default category to use, omit or just leave this as 'posts' to get a backwards-compatible behavior (all posts)
-  category: 'posts'
+  category: tags
+  #category: 'posts'
 
   # Optional, the default tag to use, omit to disable
   tag: ''
