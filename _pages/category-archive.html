@@ -3,6 +3,8 @@ layout: archive
 permalink: /categories/
 title: "Posts by Category"
 author_profile: true
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
 ---
 
 {% include group-by-array collection=site.posts field="categories" %}
