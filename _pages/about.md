@@ -31,13 +31,16 @@ title: "About"
 
 ### Skills
 * **language**  
-    Python, Scala, R, Matlab, C/C++, Fortran, Java, SAS, SPSS
+    Python, Scala, R, Java, Matlab, C/C++, Fortran, SAS, SPSS
 * **library**  
     numpy, matplotlib, pandas, scikit-learn, keras
 * **framework**  
     Spark, tensorflow
 * **os**  
-    CentOS, ubuntu, windows
+    CentOS, ubuntu, Windows
+
+### Patents
+* 기계학습 기반의 유니티로 제작된 모바일 게임의 애뮬레이터 매크로 자동 탐지 시스템, 10-2019-0102038, 2019.08.21
 
 ### Domain Knowledge
 * IT security, Game Industry
