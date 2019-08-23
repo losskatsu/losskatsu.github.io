@@ -16,6 +16,12 @@ sidebar:
 
 # 내적(inner product)의 의미
 
+* [고유값, 고유벡터 복습하기](https://losskatsu.github.io/linear-algebra/eigen/)
+* [행렬식 복습하기](https://losskatsu.github.io/linear-algebra/determinant/)
+* [내적 복습하기](https://losskatsu.github.io/linear-algebra/innerproduct/)
+* [기저 복습하기](https://losskatsu.github.io/linear-algebra/basis/)
+* [랭크, 차원 복습하기](https://losskatsu.github.io/linear-algebra/rank-dim/)
+
 내적은 연산입니다. 
 우리가 흔히 생각할 수 있는 연산이라고 하면 더하기, 빼기, 곱하기, 나누기 정도가 있는데, 
 내적도 이러한 연산 중 하나라고 생각하시면 편합니다. 
