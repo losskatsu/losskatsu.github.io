@@ -16,6 +16,12 @@ sidebar:
 
 ## 행렬식(determinant)의 의미
 
+* [고유값, 고유벡터 복습하기](https://losskatsu.github.io/linear-algebra/eigen/)
+* [행렬식 복습하기](https://losskatsu.github.io/linear-algebra/determinant/)
+* [내적 복습하기](https://losskatsu.github.io/linear-algebra/innerproduct/)
+* [기저 복습하기](https://losskatsu.github.io/linear-algebra/basis/)
+* [랭크, 차원 복습하기](https://losskatsu.github.io/linear-algebra/rank-dim/)
+
 위키백과에서 행렬식을 검색하면 아래와 같은 결과가 나옵니다.
 <br />
 
