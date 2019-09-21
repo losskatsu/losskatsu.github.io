@@ -16,7 +16,12 @@ sidebar:
 
 # 하둡(hadoop) 기본개념
 
-하둡은 자바로 작성된 프레임워크이다. 
+**참고사항** <br />
+[스쿱(sqoop)에 대해 알아보자](https://losskatsu.github.io/it-infra/sqoop/) <br />
+[엘라스틱서치에 대해 알아보자](https://losskatsu.github.io/it-infra/es-basic/)
+
+
+하둡(hadoop)은 자바로 작성된 프레임워크이다. 
 빅데이터 시스템에서 가장 중요한 부분은 데이터 수집. 
 수집 용도로 많이 쓰이는 오픈소스는 Flume, Chukwa 등. 
 메세징 기반으로 구성된 Kafka를 사용하기도 함. 
