@@ -31,6 +31,9 @@ sidebar:
 
 처리된 데이터를 기존 관계형 데이터베이스(MySQL, 오라클 등)에 넣어주길 원한다면 [Sqoop](https://losskatsu.github.io/it-infra/sqoop/)을 이용.
 
+* 데이터 = 레코드의 집합
+* 각 레코드는 키, 값(value)를 가짐.
+
 HDFS, MapReduce 모두 마스터/슬레이브 구조. 
 
 구분 | HDFS | MapReduce
