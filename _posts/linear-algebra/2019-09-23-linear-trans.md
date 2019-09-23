@@ -69,7 +69,9 @@ sidebar:
 서울에서 부산으로 이동시키는 함수가 선형변환이라고 생각하시면 됩니다. 
 서울과 부산을 각기 서로다른 벡터 공간이라고 생각하시면 편할 것 같아요.
 
-끝으로 선형변환의 수학적 정의를 보고 마치겠습니다.
+끝으로 선형변환의 위키백과 정의와 수학적 정의를 보고 마치겠습니다.
+
+> 선형변환은 선형 결합을 보존하는, 두 벡터 공간 사이의 함수이다.
 
 Definition 1. If T: V -> W is a mapping from a vector space V to a vector space W, 
 then T is called a linear transformation from V  to W if the following two properties hold for all vectors u and v in V 
