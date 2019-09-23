@@ -21,6 +21,7 @@ sidebar:
 * [내적 복습하기](https://losskatsu.github.io/linear-algebra/innerproduct/)
 * [기저 복습하기](https://losskatsu.github.io/linear-algebra/basis/)
 * [랭크, 차원 복습하기](https://losskatsu.github.io/linear-algebra/rank-dim/)
+* [선형변환 복습하기](https://losskatsu.github.io/linear-algebra/linear-trans/)
 
 위키백과에서 행렬식을 검색하면 아래와 같은 결과가 나옵니다.
 <br />
