@@ -21,6 +21,7 @@ sidebar:
 * [내적 복습하기](https://losskatsu.github.io/linear-algebra/innerproduct/)
 * [기저 복습하기](https://losskatsu.github.io/linear-algebra/basis/)
 * [랭크, 차원 복습하기](https://losskatsu.github.io/linear-algebra/rank-dim/)
+* [선형변환 복습하기](https://losskatsu.github.io/linear-algebra/linear-trans/)
 
 내적은 연산입니다. 
 우리가 흔히 생각할 수 있는 연산이라고 하면 더하기, 빼기, 곱하기, 나누기 정도가 있는데, 
