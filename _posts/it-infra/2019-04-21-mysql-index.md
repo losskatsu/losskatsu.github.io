@@ -15,6 +15,11 @@ sidebar:
 
 # mysql 정리
 
+## jdbc url
+
+> jdbc:mysql://IP주소:포트/DB명
+
+
 ## mysql MMM 구조
 
 MMM이란 Multi-Master replication Manager for MySQL의 줄임말로, 
