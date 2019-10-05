@@ -50,10 +50,13 @@ sidebar:
 예를 들면 (2,1)이라는 좌표는 무의식적으로 (1,0), (0,1)을 기저로 생성된 좌표라는 것이지요. 
 즉, (2,1)은 아래와 같은 표현식으로 이해할 수 있습니다.
 
+![figure01](/assets/images/lineartrans/01.JPG)
+
+
 즉, 단순히 (2,1)이라는 벡터도 기저들의 선형결합이라는 뜻입니다. 
 그럼 기저가 달라지면 좌표도 달라질까요? 
 
-![figure01](/assets/images/lineartrans/01.JPG)
+![figure03](/assets/images/lineartrans/linear03.JPG)
 
 위 그림을 봅시다. 
 위 두개의 건물은 (1,0), (0,1)을 기저로 삼았을땐 꼭대기 층의 좌표가 다를 수 있습니다. 
