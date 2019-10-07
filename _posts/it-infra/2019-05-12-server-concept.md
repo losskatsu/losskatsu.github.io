@@ -1,5 +1,5 @@
 ---
-title: "[Infra] 웹서버란 - 웹서버의 정의 및 역할 " 
+title: "[Infra] 서버란 무엇일까, 초간단 서버 개념 " 
 categories:
   - it-infra
 tags:
@@ -13,7 +13,11 @@ sidebar:
   nav: sidebar-contents
 ---
 
-# 웹서버란 - 웹서버의 정의 및 역할
+# 서버란 무엇일까, 초간단 서버 개념
+
+
+
+
 
 ## 웹서버란 무엇인가
 
