@@ -15,8 +15,13 @@ sidebar:
 
 # 서버란 무엇일까, 초간단 서버 개념
 
+우리는 하루에도 몇 번씩 인터넷 뉴스를 확인하고, 유튜브 동영상을 봅니다. 
+우리는 어떻게 원하는 홈페이지, 동영상을 볼 수 있는 걸까요?
+
+![figure01](/assets/images/server-concept/server01.JPG)
 
 
+![figure02](/assets/images/server-concept/server02.JPG)
 
 
 ## 웹서버란 무엇인가
