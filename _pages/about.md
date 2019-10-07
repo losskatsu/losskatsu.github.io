@@ -53,7 +53,7 @@ title: "About"
 
 ### Talk
 * Special Lecture "Data Scientist" Job introduction,
-    Hanmin High School, Apr 2019, Korea
+    Hanmin High School, Apr 2019, Sep 2019, Korea
 * Estimating Hackers in Battle Ground by using Machine Learning, 
     Bluehole Developer Conference, Sep 2017, Korea
 * Default Probability of Government Employee Pension System and Pay-Peak System, 
