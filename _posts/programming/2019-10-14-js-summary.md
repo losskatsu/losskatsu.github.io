@@ -37,6 +37,7 @@ sidebar:
 ```bash
 // node 설치 확인
 > node -v
+v10.16.3
 ```
 ## 3. 표준 내장 객체
 
