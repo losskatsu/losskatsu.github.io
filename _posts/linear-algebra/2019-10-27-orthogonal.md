@@ -26,7 +26,7 @@ sidebar:
 
 ## 1.직교행렬(Orthogonal Matrix)의 정의
 
-안녕하세요, 오늘 알아볼 내용은 직교행렬(Orthogonal Matrix)입니다. 먼저 위키백과 정의 보고 가시겠습니다. 
+안녕하세요, 오늘 알아볼 내용은 직교행렬(Orthogonal Matrix)입니다. 먼저 위키백과 정의 보시겠습니다. 
 
 > 선형대수학에서 직교행렬(Orthogonal Matrix)은 행벡터와 열벡터가 유클리드 공간의 정규 직교 기저를 이루는 실수 행렬이다.
 
