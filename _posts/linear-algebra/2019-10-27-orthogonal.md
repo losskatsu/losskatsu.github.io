@@ -94,7 +94,7 @@ sidebar:
 (1) 직교 행렬의 전치 행렬은 직교 행렬입니다.
 (2) 직교 행렬의 역행렬은 직교 행렬입니다.
 (3) 직교 행렬의 곱은 직교 행렬입니다.
-(4) 만약 A가 직교 행렬이라면 A의 행렬식은 1 또는 -1입니다.([링크: 행렬식 참고](https://losskatsu.github.io/linear-algebra/determinant/)
+(4) 만약 A가 직교 행렬이라면 A의 행렬식은 1 또는 -1입니다.([링크: 행렬식 참고](https://losskatsu.github.io/linear-algebra/determinant/))
 
 
 마지막으로 직교 행렬(Orthogonal Matrix)의 정의를 다시 한번 보면서 포스팅을 마치겠습니다. 감사합니다.
