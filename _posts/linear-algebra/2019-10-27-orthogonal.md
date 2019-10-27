@@ -21,6 +21,7 @@ sidebar:
 * [기저 복습하기](https://losskatsu.github.io/linear-algebra/basis/)
 * [랭크, 차원 복습하기](https://losskatsu.github.io/linear-algebra/rank-dim/)
 * [선형변환 복습하기](https://losskatsu.github.io/linear-algebra/linear-trans/)
+* [직교행렬 복습하기](https://losskatsu.github.io/linear-algebra/orthogonal/)
 
 
 ## 직교행렬(Orthogonal Matrix)의 정의
