@@ -21,6 +21,8 @@ sidebar:
 * [기저 복습하기](https://losskatsu.github.io/linear-algebra/basis/)
 * [랭크, 차원 복습하기](https://losskatsu.github.io/linear-algebra/rank-dim/)
 * [선형변환 복습하기](https://losskatsu.github.io/linear-algebra/linear-trans/)
+* [직교행렬 복습하기](https://losskatsu.github.io/linear-algebra/orthogonal/)
+
 
 같은 사물도 어느 각도에서 보느냐에 따라 다르게 보일 수 있습니다. 
 마찬가지로 행렬이 주어졌을 때 어떤 각도로 보느냐에 따라 다르게 보일 수 있는데요. 
