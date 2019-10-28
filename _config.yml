@@ -303,7 +303,15 @@ defaults:
       comments: true
       share: true
       related: true
-      
+defaults:
+  # sidebar-contents
+  - scope:
+      path: ""
+      type: sidebar-contents
+    values:
+      sidebar:
+        nav: "sidebar-contents"      
+
 #defaults:
 #  # _posts
 #  - scope:
