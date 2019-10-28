@@ -44,10 +44,10 @@ A는 '직교 대각화 가능(orthogonally diagonalizable)'하다고 말합니�
 그리고 A가 만약 직교 대각화 가능하다면 A는 대칭행렬이어야합니다. 
 행렬 A가 대칭행렬이어야하는 이유는 아래와 같습니다.
 
-$$A^{T} = (PDP^{T})^{T} = (P^{T}^{T}D^{T}P^{T} = PDP^{T} = A$$
+$ A^{T} = (PDP^{T})^{T} = (P^{T}^{T}D^{T}P^{T} = PDP^{T} = A $
 
 우리가 아는 대칭행렬 중 아주 유명한 대칭행렬이 있습니다. 
 그건 바로 공분산 행렬인데요, 
 따라서 대칭행렬에 관해 적용할 수 있는 여러가지 방법들은 공분산 행렬을 다룰 때 유용한 도움이 됩니다. 
 
-![figure01](/assets/images/eigen_decomposition/covariance_matrix.jpg)
+![figure01](/assets/images/eigen_decomposition/covariance_matrix.jpg){: width="500"}
