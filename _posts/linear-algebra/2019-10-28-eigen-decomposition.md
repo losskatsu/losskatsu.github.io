@@ -50,4 +50,4 @@ $$A^{T} = (PDP^{T})^{T} = (P^{T}^{T}D^{T}P^{T} = PDP^{T} = A$$
 그건 바로 공분산 행렬인데요, 
 따라서 대칭행렬에 관해 적용할 수 있는 여러가지 방법들은 공분산 행렬을 다룰 때 유용한 도움이 됩니다. 
 
-
+![figure01](/assets/images/eigen_decomposition/covariance_matrix.jpg)
