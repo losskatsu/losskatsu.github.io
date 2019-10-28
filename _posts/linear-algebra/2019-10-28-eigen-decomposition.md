@@ -16,6 +16,16 @@ sidebar:
 
 # 대각화(Diagonalization)와 고유값분해(eigen decomposition)의 의미
 
+* [고유값, 고유벡터 복습하기](https://losskatsu.github.io/linear-algebra/eigen/)
+* [행렬식 복습하기](https://losskatsu.github.io/linear-algebra/determinant/)
+* [내적 복습하기](https://losskatsu.github.io/linear-algebra/innerproduct/)
+* [기저 복습하기](https://losskatsu.github.io/linear-algebra/basis/)
+* [랭크, 차원 복습하기](https://losskatsu.github.io/linear-algebra/rank-dim/)
+* [선형변환 복습하기](https://losskatsu.github.io/linear-algebra/linear-trans/)
+* [직교행렬 복습하기](https://losskatsu.github.io/linear-algebra/orthogonal/)
+* [대각화, 고유값분해 복습하기](https://losskatsu.github.io/linear-algebra/eigen-decomposition/)
+
+
 안녕하세요, 오늘은 고유값분해에 대해 알아보겠습니다. 언제나 그랬듯 위키백과 정의부터 보시겠습니다.
 
 > 선형대수학에서, 고유값 분해 또는 스펙트럼 분해는 행렬을 정형화된 형태로 분해함으로써 행렬이 고유값 및 고유벡터로 표현된다. 
