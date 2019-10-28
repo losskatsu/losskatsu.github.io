@@ -25,6 +25,7 @@ sidebar:
 * [직교행렬 복습하기](https://losskatsu.github.io/linear-algebra/orthogonal/)
 * [대각화, 고유값분해 복습하기](https://losskatsu.github.io/linear-algebra/eigen-decomposition/)
 
+## 1.고유값 분해의 정의
 
 안녕하세요, 오늘은 고유값분해에 대해 알아보겠습니다. 언제나 그랬듯 위키백과 정의부터 보시겠습니다.
 
@@ -36,7 +37,7 @@ sidebar:
 고유값과 고유벡터에 대해선 이전시간에 다루었으므로 해당 포스팅을 참고해주시구요[링크: 고유값, 고유벡터](https://losskatsu.github.io/linear-algebra/eigen/), 
 오늘은 '대각화가능'이라는 말부터 살펴보겠습니다.
 
-## 1.닮음(Similar)
+## 2.닮음(Similar)
 
 대각화를 이야기하기전에 '닮음'이라는 성질에 대해 먼저 알아야하는데요, 
 행렬에서 닮음(similar)라고 함은, $$P^{-1}AP = B$$를 만족하는 가역행렬 P가 존재할 때, 
@@ -45,7 +46,7 @@ sidebar:
 그리고 한걸음 더 나아가서 $$ B = P^{T}AP$$를 만족하면 직교행렬 P가 존재할때, 
 B는 A에 직교닮음(orthogonally similar)라고 합니다.
 
-## 2.직교 대각화(Orthogonal Diagonalization)
+## 3.직교 대각화(Orthogonal Diagonalization)
 
 방금 다루었던, 직교 닮음에서 정사각행렬 B가 대각행렬 D라면 어떨까요? 
 즉, $$P^{T}AP = D$$를 만족하는 직교행렬 P가 존재하는 경우죠. 
@@ -62,7 +63,7 @@ $ A^{T} = (PDP^{T})^{T} = (P^{T})^{T}D^{T}P^{T} = PDP^{T} = A $
 
 ![figure01](/assets/images/eigen_decomposition/covariance_matrix.jpg){: width="500"}
 
-## 3.고유값분해(eigen decomposition) 또는 스펙트럴 분해(spectral decomposition)
+## 4.고유값분해(eigen decomposition) 또는 스펙트럴 분해(spectral decomposition)
 
 자, 이제 오늘의 주인공인 고유값 분해(또는 스펙트럴 분해)까지 왔습니다. 
 고유값 분해는 직교대각화의 한 종류라고 생각하시면 됩니다. 
