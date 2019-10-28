@@ -52,7 +52,7 @@ $ A^{T} = (PDP^{T})^{T} = (P^{T})^{T}D^{T}P^{T} = PDP^{T} = A $
 
 ![figure01](/assets/images/eigen_decomposition/covariance_matrix.jpg){: width="500"}
 
-## 고유값분해(eigen decomposition) 또는 스펙트럴 분해(spectral decomposition)
+## 3.고유값분해(eigen decomposition) 또는 스펙트럴 분해(spectral decomposition)
 
 자, 이제 오늘의 주인공인 고유값 분해(또는 스펙트럴 분해)까지 왔습니다. 
 고유값 분해는 직교대각화의 한 종류라고 생각하시면 됩니다. 
