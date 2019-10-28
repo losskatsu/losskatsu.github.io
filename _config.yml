@@ -302,15 +302,7 @@ defaults:
       read_time: true
       comments: true
       share: true
-      related: true
-defaults:
-  # sidebar-contents
-  - scope:
-      path: ""
-      type: sidebar-contents
-    values:
-      sidebar:
-        nav: "sidebar-contents"      
+      related: true    
 
 #defaults:
 #  # _posts
