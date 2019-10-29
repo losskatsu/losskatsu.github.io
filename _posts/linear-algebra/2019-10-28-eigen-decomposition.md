@@ -1,5 +1,5 @@
 ---
-title: "[선형대수] 대각화(Diagonalization)와 고유값분해(eigen decomposition)의 의미" 
+title: "[선형대수] 대각화(Diagonalization)와 고유값분해(eigenvalue decomposition)의 의미" 
 categories:
   - linear-algebra
 tags:
