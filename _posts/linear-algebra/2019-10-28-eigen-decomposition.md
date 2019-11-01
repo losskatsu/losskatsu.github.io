@@ -84,7 +84,7 @@ $ A^{T} = (PDP^{T})^{T} = (P^{T})^{T}D^{T}P^{T} = PDP^{T} = A $
 
 위 그림을 설명하자면 고유값분해의 정의대로 어떤 대칭행렬 A를 고유값과 고유분해를 이용해 분해한 것이네요.
 
-![figure00](/assets/images/eigen_decomposition/covariance_matrix0.jpg){: width="500"}
+![figure03](/assets/images/eigen_decomposition/covariance_matrix3.jpg){: width="500"}
 
 마지막으로 고유값 분해의 위키백과 정의를 보시면서 오늘 포스팅을 마치겠습니다.
 
