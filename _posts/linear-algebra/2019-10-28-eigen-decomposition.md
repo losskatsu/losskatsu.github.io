@@ -33,6 +33,9 @@ sidebar:
 대각화 가능 행렬만이 인수분해 될 수 있다. 
 
 위 정의를 읽어보면 고유값 분해는 어떤 행렬을 고유값과 고유벡터를 이용해 다른 형태로 표현하는 것이네요. 
+
+![figure00](/assets/images/eigen_decomposition/covariance_matrix0.jpg){: width="500"}
+
 그리고 그렇게 분해되기 위한 조건은 분해 이전 행렬이 대각화 가능해야한다는 것을 알 수 있습니다. 
 고유값과 고유벡터에 대해선 이전시간에 다루었으므로 해당 포스팅을 참고해주시구요[링크: 고유값, 고유벡터](https://losskatsu.github.io/linear-algebra/eigen/), 
 오늘은 '대각화가능'이라는 말부터 살펴보겠습니다.
