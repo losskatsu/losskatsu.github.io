@@ -17,7 +17,6 @@
     <!-- mathjax -->
     {% include head.html %}
     {% include head/custom.html %}
-    <!--{% include advertisements.html %}--> <!-- Google adsense --> 
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
@@ -29,18 +28,6 @@
       {{ content }}
     </div>
     
-    <!-- google adsense -->
-<!--     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <ins class="adsbygoogle"
-         style="display:block; text-align:center;"
-         data-ad-layout="in-article"
-         data-ad-format="fluid"
-         data-ad-client="ca-pub-8239319668711744"
-         data-ad-slot="6302909428"></ins>
-    <script>
-         (adsbygoogle = window.adsbygoogle || []).push({});
-    </script> -->
-
     {% if site.search == true %}
       <div class="search-content">
         {% include_cached search/search_form.html %}
