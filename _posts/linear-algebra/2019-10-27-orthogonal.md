@@ -23,6 +23,8 @@ sidebar:
 * [선형변환 복습하기](https://losskatsu.github.io/linear-algebra/linear-trans/)
 * [직교행렬 복습하기](https://losskatsu.github.io/linear-algebra/orthogonal/)
 * [대각화, 고유값분해 복습하기](https://losskatsu.github.io/linear-algebra/eigen-decomposition/)
+* [특이값 분해 복습하기](https://losskatsu.github.io/linear-algebra/svd/)
+
 
 
 ## 1.직교행렬(Orthogonal Matrix)의 정의
