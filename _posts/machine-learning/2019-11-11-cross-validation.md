@@ -28,23 +28,24 @@ test set은 모델의 성능을 평가하기 위해 사용합니다.
 
 ![figure03](/assets/images/ml/validation/validation03.jpg){: width="500"}
 
-자, 모형을 만들어야하므로 데이터 전체를 training set으로 사용해볼까요? 
+자, 모형을 만들어야하므로 학습시킬 데이터가 필요하겠네요. 
+그러면 데이터 전체를 training set으로 사용해볼까요? 
 위 그림처럼 데이터 전체를 training set으로 학습시키면 모형을 만들수 있습니다. 
 하지만 여기서 한가지 문제점이 발생합니다. 
-우리는 모형을 만들어냈지만, 모형의 성능을 평가할 수 없습니다. 
-즉, 우리가 만든 모형이 좋은지 안좋은지 알수가 없다는 거죠.
+모형은 만들어냈지만, 모형의 성능을 평가할 수 없습니다. 
+즉, 생성된 모형이 좋은지 안좋은지 알 수 없다는 거죠.
 
 ![figure04](/assets/images/ml/validation/validation04.jpg){: width="500"}
 
 모델의 성능 평가를 위해 데이터를 두 부분으로 나눕니다. 
-위 그림처럼 전체 데이터의 일부분을 모형을 학습시키기 위한 tranining set으로 사용하고, 
-나머지 부분을 모형의 성능 평가를 위한 test set으로 사용합니다. 
+위 그림처럼 전체 데이터의 일부분을 모형 학습을 위한 tranining set으로 사용하고, 
+나머지 부분을 모형 성능 평가를 위한 test set으로 사용합니다. 
 하지만 여기서 또 문제점이 발생합니다. 
 바로 test set이 모형의 parameter 추정에 영향을 미친다는 것입니다. 
-즉, test set이 모형 결정에 영향을 미친다는 것이지요. 
-음, test set에 잘 맞으면 좋은거 아닌가요? 라고 생각하실수 있지만, 
-저희의 목적은 test set에 잘 적합시키는 것이 아니라, 실제로 사용할 수 있는 모형을 만드는 것입니다. 
-test set에 잘 맞더라도 실제로 모형 성능이 좋지 않으면 문제가 생기겠죠?
+무슨말이냐면, test set이 모형 결정에 영향을 미친다는 것이지요. 
+음... test set에 잘 맞으면 좋은거 아닌가요? 라고 생각하실수 있지만, 
+우리의 목적은 test set에 잘 적합시키는 것이 아니라, 실제로 사용할 수 있는 모형을 만드는 것입니다. 
+test set에 잘 맞더라도 실세계에 적용했을 때 모형 성능이 좋지 않으면 문제가 생기겠죠?
 
 ![figure05](/assets/images/ml/validation/validation05.jpg){: width="500"}
 
@@ -55,5 +56,7 @@ test set에 잘 맞더라도 실제로 모형 성능이 좋지 않으면 문제�
 
 ![figure06](/assets/images/ml/validation/validation06.jpg){: width="500"}
 
-그리고 validation set을 여러번 바꿔가며 반복적으로 시행하는 방법을 k-fold cross validation이라고 합니다. 
+그리고 training set을 k등분하고 validation set을 여러번 바꿔가며 반복적으로 시행하는 방법을 k-fold cross validation이라고 합니다. 
 위 그림에서는 training set을 3등분했으니 3-fold cross validation이겠네요. 
+물론 꼭 저렇게 해야한다는 것은 아니고 
+전체 데이터를 k등분한 후 validation set없이 test set 위치를 바꿔가며 테스트 하는 방법 등 여러가지 응용 방법이 존재합니다. 
