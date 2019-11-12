@@ -1,5 +1,5 @@
 ---
-title: "[머신러닝] cross validation의 개념, 의미" 
+title: "[머신러닝] 교차검증(cross validation)의 개념, 의미" 
 categories:
   - machine-learning
 tags:
@@ -13,7 +13,7 @@ sidebar:
   nav: sidebar-contents
 ---
 
-# [머신러닝] cross validation의 개념, 의미
+# [머신러닝] 교차검증(cross validation)의 개념, 의미
 
 오늘은 cross validation의 의미를 알아보겠습니다. 
 training set, test set이라는 말은 많이 들어보셨죠. 
