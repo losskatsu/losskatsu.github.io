@@ -24,7 +24,7 @@ test set은 모델의 성능을 평가하기 위해 사용합니다.
 ![figure02](/assets/images/ml/validation/validation02.jpg){: width="500"}
 
 위와 같은 데이터가 있다고 생각해봅시다. 
-우리에게 주어진 저 데이터를 이용해 목적에 맞는 적절한 모형을 만들어 내야합니다. 
+목표는 우리에게 주어진 저 데이터를 이용해 목적에 맞는 적절한 모형을 만드는 . 
 
 ![figure03](/assets/images/ml/validation/validation03.jpg){: width="500"}
 
