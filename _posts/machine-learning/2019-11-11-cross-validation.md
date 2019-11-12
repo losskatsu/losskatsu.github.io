@@ -15,8 +15,6 @@ sidebar:
 
 # [머신러닝] cross validation의 개념, 의미
 
-(현재 수정 중인 글입니다.)
-
 오늘은 cross validation의 의미를 알아보겠습니다. 
 training set, test set이라는 말은 많이 들어보셨죠. 
 training set은 모델을 학습시키기 위해 사용하고, 
@@ -26,7 +24,7 @@ test set은 모델의 성능을 평가하기 위해 사용합니다.
 ![figure02](/assets/images/ml/validation/validation02.jpg){: width="500"}
 
 위와 같은 데이터가 있다고 생각해봅시다. 
-우리는 우리에게 주어진 저 데이터를 이용해 우리의 목적에 맞는 적절한 모형을 만들어 내야합니다. 
+우리에게 주어진 저 데이터를 이용해 목적에 맞는 적절한 모형을 만들어 내야합니다. 
 
 ![figure03](/assets/images/ml/validation/validation03.jpg){: width="500"}
 
@@ -38,7 +36,8 @@ test set은 모델의 성능을 평가하기 위해 사용합니다.
 
 ![figure04](/assets/images/ml/validation/validation04.jpg){: width="500"}
 
-그래서 위 그림처럼 전체 데이터의 일부분을 모형을 학습시키기 위한 tranining set으로 사용하고, 
+모델의 성능 평가를 위해 데이터를 두 부분으로 나눕니다. 
+위 그림처럼 전체 데이터의 일부분을 모형을 학습시키기 위한 tranining set으로 사용하고, 
 나머지 부분을 모형의 성능 평가를 위한 test set으로 사용합니다. 
 하지만 여기서 또 문제점이 발생합니다. 
 바로 test set이 모형의 parameter 추정에 영향을 미친다는 것입니다. 
