@@ -15,6 +15,8 @@ sidebar:
 
 # 깃헙(github) 기본 사용법
 
+참고: [소스트리를 이용해 깃헙 작업흐름 ](https://losskatsu.github.io/programming/git-path/)
+
 깃헙 사이트 [github.com](github.com) 에 가서 가입 후 다음을 진행
 
 ## 1. Git 설치 
