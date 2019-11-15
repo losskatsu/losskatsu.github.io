@@ -110,7 +110,7 @@ author:
   avatar           : "/assets/images/my_profile01.jpg"
   bio              : "제가 공부하는 모든 것을 기록합니다. 부담없이 연락주세요, 페친도 환영합니다."
   location         : "Seoul, South Korea"
-  email            : 
+  email            : "stoicheolwon@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
