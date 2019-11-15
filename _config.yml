@@ -19,7 +19,7 @@ locale                   : "ko-KR" #"en-US"
 title                    : "로스카츠의 AI 머신러닝"
 title_separator          : "-"
 name                     : "Cheolwon Jang"
-description              : "부담없이 연락주세요. 페친도 환영합니다."
+description              : "Machine Learning Engineer"
 url                      : "https://losskatsu.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "losskatsu/losskatsu.github.io"
@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Cheolwon Jang"
   avatar           : "/assets/images/my_profile01.jpg"
-  bio              : "Machine Learning Scientist, record everything whatever I study"
+  bio              : "제가 공부하는 모든 것을 기록합니다. 부담없이 연락주세요, 페친도 환영합니다."
   location         : "Seoul, South Korea"
   email            : 
   links:
