@@ -70,9 +70,8 @@ public class Student {
 ## 어노테이션 종류
 
 * @Data
-* @NoArgsConstructor 
-* @AllArgsConstructor 
-* @RequiredArgsConstructor
-* @NonNull 
+* @NoArgsConstructor: 파라미터가 없는 생성자 생성
+* @AllArgsConstructor: 모든 필드를 파라미터로 가지는 생성자 생성
+* @RequiredArgsConstructor: 기본값이 없고 @NonNull 어노테이션이 붙은 필드를 파라미터로 입력받는 생성자 생성 
 
 
