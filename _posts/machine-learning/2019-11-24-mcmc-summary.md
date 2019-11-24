@@ -34,6 +34,9 @@ $$E(\hat{\mu}_n) = \frac{1}{n}\sum_{i=1}^{n}E(Y_i) = \mu$$
 <br />
 
 $$Var(\hat{\mu}_n) = E((\hat{\mu}_n - \mu)^2) = \frac{\sigma^2}{n}$$
+<br />
+
+### 2.2 Error estimation
 
 
 
