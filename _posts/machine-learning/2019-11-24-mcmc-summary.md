@@ -27,5 +27,15 @@ sidebar:
 
 $\hat{\mu}_n = \frac{1}{n}\sum_{i=1}^{n}Y_i$
 
+이떄 $$\hat{\mu}_n$$ 또한 확률변수이므로 평균과 분산을 갖는다. $$\hat{\mu}_n$$의 평균과 분산은 아래와 같이 구한다. 
+
+
+$E(\hat{\mu}_n) = \frac{1}{n}\sum_{i=1}^{n}E(Y_i) = \mu$
+
+$Var(\hat{\mu}_n) = E((\hat{\mu}_n - \mu)^2) = \frac{\sigma^2}{n}$
+
+
+
+
 
 
