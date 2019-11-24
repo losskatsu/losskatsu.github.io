@@ -38,6 +38,18 @@ $$Var(\hat{\mu}_n) = E((\hat{\mu}_n - \mu)^2) = \frac{\sigma^2}{n}$$
 
 ### 2.2 Error estimation
 
+### 2.3 Safely computing the standard error
+
+### 2.4 Estimating probabilities
+
+### 2.5 Estimating quantiles
+
+### 2.6 Random sample size
+
+### 2.7 Estimating ratios
+
+### 2.8 When Monte Carlo fails
+
 
 
 
