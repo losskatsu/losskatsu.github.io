@@ -25,7 +25,7 @@ sidebar:
 그리고나서 $$Y$$의 분포에서 iid(Independent and Identically Distributed)를 만족하는 $$Y_1, \dots , Y_n$$을 생성한다. 
 그리고 생성된 표본평균을 이용해 모평균을 $$\mu$$를 추정한다. 표본평균은 아래 식을 이용해 구한다. 
 
-$\hat{\mu}_n = \frac{1}{n}\sum_{i=1}^{n}Y_i$
+$$\hat{\mu}_n = \frac{1}{n}\sum_{i=1}^{n}Y_i$$
 
 이떄 $$\hat{\mu}_n$$ 또한 확률변수이므로 평균과 분산을 갖는다. $$\hat{\mu}_n$$의 평균과 분산은 아래와 같이 구한다. 
 <br />
