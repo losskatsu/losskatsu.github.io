@@ -49,9 +49,16 @@ curl도 7.19.7 버전이므로 예전 버전이다. curl 최신 버전은 아래
 
 링크: [http://curl.haxx.se/download](http://curl.haxx.se/download)
 
-그리고 아래 링크를 참고해 최신 curl을 설치하였다. 
+2019년 7월 31일 기준으로 7.65.3이 최신이므로 해당 버전을 설치했다. 
 
-링크: [curl 최신버전 설치하기](https://losskatsu.github.io/it-infra/curl-latest/)
+```bash
+$ wget http://curl.haxx.se/download/curl-7.65.3.tar.gz
+$ tar xvfz curl-7.65.3.tar.gz
+$ cd cur-7.65.3
+$ ./configure
+$ make
+$ make install
+```
 
 하지만, curl을 최신버전으로 업데이트 해봤지만 소용없었다. 
 
