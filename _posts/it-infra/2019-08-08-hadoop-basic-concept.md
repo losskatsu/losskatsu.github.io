@@ -82,19 +82,46 @@ MapReduce 프레임워크의 경우 처리할 입력 데이터를 HDFS에서 읽
 
 ## 하둡 명령어 정리
 
-명령어 | 뜻
--------------------------|------
-hdfs dfs -cat FILE | 파일 내용 나타내기
-hdfs dfs -chgrp GROUP PATH | 파일과 디렉터리에 대한 그룹 변경
-hdfs dfs -chmod MODE PATH | 파일과 디렉터리 권한 변경 
-hdfs dfs -chown PATH | 파일과 디렉터리 소유자 변경
-hdfs dfs -copyFromLocal LOCALSRC DST | 로컬 파일시스템으로 부터 파일 복사
-hdfs dfs -copyToLocal SRC LOCALDST | 파일들을 로컬 파일 시스템으로 복사
-hdfs dfs -moveFromLocal LOCALSRC DST | LOCALSRC를 HDFS에 복사후 해당파일은 삭제됨.
-hdfs dfs -count PATH | PATH에 있는 모든 파일과 디렉토리에 대한 이름, 사용된 바이트 수, 파일 개수, 하위 디렉터리 갯수 출력
-hdfs dfs -cp SRC DST | SRC로부터 DST로 파일 복사.
-hdfs dfs -du PATH | 파일 크기 출력
-hdfs dfs -expunge | 휴지통 비우기 
-hdfs dfs -ls PATH | 리눅스의 ls와 동일
-hdfs dfs -mkdir PATH | 디렉터리 생성. 리눅스의 mkdir과 동일
-hdfs dfs -stat PATH | 파일 통계 정보
+```bash
+//파일 내용 나타내기
+$ hdfs dfs -cat FILE
+
+//파일과 디렉터리에 대한 그룹 변경
+$ hdfs dfs -chgrp GROUP PATH 
+
+//파일과 디렉터리 권한 변경 
+$ hdfs dfs -chmod MODE PATH
+
+//파일과 디렉터리 소유자 변경
+$ hdfs dfs -chown PATH 
+
+//로컬 파일시스템으로 부터 파일 복사
+$ hdfs dfs -copyFromLocal LOCALSRC DST 
+
+//파일들을 로컬 파일 시스템으로 복사
+$ hdfs dfs -copyToLocal SRC LOCALDST
+
+//LOCALSRC를 HDFS에 복사후 해당파일은 삭제됨.
+$ hdfs dfs -moveFromLocal LOCALSRC DST 
+
+//PATH에 있는 모든 파일과 디렉토리에 대한 이름, 사용된 바이트 수, 파일 개수, 하위 디렉터리 갯수 출력
+$ hdfs dfs -count PATH 
+
+//SRC로부터 DST로 파일 복사
+$ hdfs dfs -cp SRC DST 
+
+//파일 크기 출력
+$ hdfs dfs -du PATH 
+
+//휴지통 비우기 
+$ hdfs dfs -expunge 
+
+//리눅스의 ls와 동일
+$ hdfs dfs -ls PATH 
+
+//디렉터리 생성. 리눅스의 mkdir과 동일
+$ hdfs dfs -mkdir PATH 
+
+//파일 통계 정보
+$ hdfs dfs -stat PATH 
+```
