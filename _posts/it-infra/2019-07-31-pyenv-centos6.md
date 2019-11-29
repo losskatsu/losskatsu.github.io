@@ -45,7 +45,11 @@ Protocols: tftp ftp telnet dict ldap ldaps http file https ftps scp sftp
 Features: GSS-Negotiate IDN IPv6 Largefile NTLM SSL libz
 ```
 
-curl도 7.19.7 버전이므로 예전 버전이다. curl 최신 버전은 아래 링크에서 확인 가능하다.
+curl도 7.19.7 버전이므로 예전 버전이다. 
+
+## curl 최신 버전 설치하기 
+
+curl 최신 버전은 아래 링크에서 확인 가능하다.
 
 링크: [http://curl.haxx.se/download](http://curl.haxx.se/download)
 
