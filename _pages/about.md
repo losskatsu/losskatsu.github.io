@@ -59,12 +59,12 @@ title: "About"
 * Default Probability of Government Employee Pension System and Pay-Peak System, 
     The Korean Statistical Society Autumn Conference 2014, Oct 2014, Korea
 
-### Honors
-* 개발자 신춘문예 2019 만화부문 장려상, 한빛미디어, May 2019, Korea 
-
 ### Publication
 * Jang C, Song S, (2015), "Default Probability of Government Employee Pension System and Wage-peak", 
 Journal of the Korean Data Analysis Society, Vol.17, No.2, pp687-695.
+
+### Extra Activity
+* 개발자 신춘문예 2019 만화부문 장려상, 한빛미디어, May 2019, Korea 
 
 ### Teaching Experience
 * Department of Statistics, Korea University, 
