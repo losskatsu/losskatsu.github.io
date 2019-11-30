@@ -64,7 +64,7 @@ title: "About"
 Journal of the Korean Data Analysis Society, Vol.17, No.2, pp687-695.
 
 ### Extracurricular
-* 공개SW전문교육 사물인터넷(IoT) 과정 수료, Nov 2019, 공개SW개발자센터 
+* 공개SW전문교육 사물인터넷(IoT) 과정 수료, 공개SW개발자센터, Nov 2019 
 
 ### Extra Activity
 * 개발자 신춘문예 2019 만화부문 장려상, 한빛미디어, May 2019, Korea 
