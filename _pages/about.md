@@ -44,12 +44,12 @@ title: "About"
 * 기계학습 기반의 유니티로 제작된 모바일 게임의 애뮬레이터 매크로 자동 탐지 시스템, 10-2019-0102038, 2019.08.21
 
 ### Talk
-* Special Lecture "Data Scientist" Job introduction,
-    Hanmin High School, Apr 2019, Sep 2019, Korea
-* Estimating Hackers in Battle Ground by using Machine Learning, 
-    Bluehole Developer Conference, Sep 2017, Korea
-* Default Probability of Government Employee Pension System and Pay-Peak System, 
-    The Korean Statistical Society Autumn Conference 2014, Oct 2014, Korea
+* 진로 탐색의 날 강연,
+    한민고등학교, Apr 2019, Sep 2019, Korea
+* 머신러닝을 이용한 배틀그라운드 핵 사용 의심 유저 추출, 
+    블루홀 개발자 컨퍼런스, Sep 2017, Korea
+* 공무원 연금재정의 파산확률과 임금피크제, 
+    한국통계학회 가을 컨퍼런스 2014, Oct 2014, Korea
 
 ### Extracurricular Course
 * 공개SW전문교육 사물인터넷(IoT) 과정 수료, 공개SW개발자센터, 2019.11.30 
