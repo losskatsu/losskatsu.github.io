@@ -43,9 +43,6 @@ title: "About"
 ### Patents
 * 기계학습 기반의 유니티로 제작된 모바일 게임의 애뮬레이터 매크로 자동 탐지 시스템, 10-2019-0102038, 2019.08.21
 
-### Domain Knowledge
-* IT security, Game Industry
-
 ### Research Experiences
 * High Dimensional and Higher Order Statistics Research Group  
     2016.09-2016.12
@@ -60,10 +57,6 @@ title: "About"
 * Default Probability of Government Employee Pension System and Pay-Peak System, 
     The Korean Statistical Society Autumn Conference 2014, Oct 2014, Korea
 
-### Publication
-* Jang C, Song S, (2015), "Default Probability of Government Employee Pension System and Wage-peak", 
-Journal of the Korean Data Analysis Society, Vol.17, No.2, pp687-695.
-
 ### Extracurricular Course
 * 공개SW전문교육 사물인터넷(IoT) 과정 수료, 공개SW개발자센터, Nov 2019 
 
@@ -75,3 +68,7 @@ Journal of the Korean Data Analysis Society, Vol.17, No.2, pp687-695.
     Teaching Assistant(STAT 232: Mathematical Statistics), Fall 2012, Fall 2013
 * Department of Statistics, Korea University,
     Teaching Assistant(STAT 221: Probability Theory), Spring 2013
+
+### Publication
+* Jang C, Song S, (2015), "Default Probability of Government Employee Pension System and Wage-peak", 
+Journal of the Korean Data Analysis Society, Vol.17, No.2, pp687-695.
