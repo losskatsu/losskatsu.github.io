@@ -33,21 +33,15 @@ title: "About"
 ### Skills
 * **language**  
     Python, Scala, R, Java, Matlab, C/C++, Fortran, SAS, SPSS
-* **library**  
-    numpy, matplotlib, pandas, scikit-learn, keras
-* **framework**  
-    Spark, tensorflow
+* **framework/library**  
+    numpy, matplotlib, pandas, scikit-learn, keras, Apache Spark, tensorflow
+* **Data Flatform**  
+    MySql, Cubrid, ElasticSearch, Apache Nifi, Apache Zeppelin  
 * **os**  
     CentOS, ubuntu, Windows
 
 ### Patents
 * 기계학습 기반의 유니티로 제작된 모바일 게임의 애뮬레이터 매크로 자동 탐지 시스템, 10-2019-0102038, 2019.08.21
-
-### Research Experiences
-* High Dimensional and Higher Order Statistics Research Group  
-    2016.09-2016.12
-* Geophysical Fluid Dynamics Institute  
-    2016.05-2016.08
 
 ### Talk
 * Special Lecture "Data Scientist" Job introduction,
@@ -62,6 +56,13 @@ title: "About"
 
 ### Extra Activity
 * 개발자 신춘문예 2019 만화부문 장려상, 한빛미디어, May 2019, Korea 
+* 교내 밴드 동아리 활동, Mar 2005 ~ Feb 2011
+
+### Research Experiences
+* High Dimensional and Higher Order Statistics Research Group  
+    2016.09-2016.12
+* Geophysical Fluid Dynamics Institute  
+    2016.05-2016.08
 
 ### Teaching Experience
 * Department of Statistics, Korea University, 
