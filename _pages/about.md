@@ -15,6 +15,7 @@ title: "About"
 * Probability model
 * High Dimensional Statistics
 * Dimension Reduction
+* Internet of Things(IoT)
 
 ### Work
 
@@ -63,7 +64,7 @@ title: "About"
 * Jang C, Song S, (2015), "Default Probability of Government Employee Pension System and Wage-peak", 
 Journal of the Korean Data Analysis Society, Vol.17, No.2, pp687-695.
 
-### Extracurricular
+### Extracurricular Course
 * 공개SW전문교육 사물인터넷(IoT) 과정 수료, 공개SW개발자센터, Nov 2019 
 
 ### Extra Activity
