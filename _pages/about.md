@@ -19,8 +19,8 @@ title: "About"
 
 ### Work
 
-* **NHN**, 2018.03 ~ present
-* **Krafton**, 2017.04 ~ 2018.02
+* **NHN**, Application Security Team, 2018.03 ~ present
+* **Krafton**, Data Development Team, 2017.04 ~ 2018.02
 
 ### Education
 * **Florida State University**  
@@ -34,7 +34,7 @@ title: "About"
 * **language**  
     Python, Scala, R, Java, Matlab, C/C++, Fortran, SAS, SPSS
 * **framework/library**  
-    numpy, matplotlib, pandas, scikit-learn, keras, Apache Spark, tensorflow
+    numpy, matplotlib, pandas, scikit-learn, keras, Apache Spark, Tensorflow
 * **Data Flatform**  
     MySql, Cubrid, ElasticSearch, Apache Nifi, Apache Zeppelin  
 * **os**  
