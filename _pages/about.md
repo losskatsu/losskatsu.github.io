@@ -6,7 +6,8 @@ title: "About"
 ## Cheolwon Jang(장철원)
 
 * email    : stoicheolwon at gmail dot com
-* git-page : losskatsu.github.io
+* blog : losskatsu.github.io
+* github : https://github.com/losskatsu
 
 ### Interest
 * Reinforcement Learning
