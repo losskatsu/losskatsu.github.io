@@ -26,9 +26,9 @@ title: "About"
 * **Florida State University**  
         PhD dropout in Statistics, US, 2015.08-2017.01
 * **Korea Universiy**  
-        MS in Statistics, Korea, 2012.03-2014.02
+        MS in Statistics, KR, 2012.03-2014.02
 * **Chungbuk National University**  
-        BS in Statistics, Korea, 2005.03-2011.02
+        BS in Statistics, KR, 2005.03-2011.02
 
 ### Skills
 * **language**  
@@ -52,7 +52,7 @@ title: "About"
     The Korean Statistical Society Autumn Conference 2014, Oct 2014, Korea
 
 ### Extracurricular Course
-* 공개SW전문교육 사물인터넷(IoT) 과정 수료, 공개SW개발자센터, Nov 2019 
+* 공개SW전문교육 사물인터넷(IoT) 과정 수료, 공개SW개발자센터, 2019.11.30 
 
 ### Extra Activity
 * 개발자 신춘문예 2019 만화부문 장려상, 한빛미디어, May 2019, Korea 
