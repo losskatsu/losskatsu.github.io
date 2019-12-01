@@ -17,9 +17,9 @@ sidebar:
 # 하둡(hadoop) 기본개념
 
 **참고사항** <br />
-[스쿱(sqoop)에 대해 알아보자](https://losskatsu.github.io/it-infra/sqoop/) <br />  
-[엘라스틱서치에 대해 알아보자](https://losskatsu.github.io/it-infra/es-basic/)  
-[하둡 홈페이지](http://hadoop.apache.org/)
+[스쿱(sqoop)에 대해 알아보자](https://losskatsu.github.io/it-infra/sqoop/) <br />
+[엘라스틱서치에 대해 알아보자](https://losskatsu.github.io/it-infra/es-basic/) <br />
+[하둡 홈페이지](http://hadoop.apache.org/) <br />
 
 
 하둡(hadoop)은 대용량 데이터를 분산처리 해주는 아파치 톱 레벨 오픈소스 프로젝트이며,  자바로 작성된 프레임워크입니다. 
