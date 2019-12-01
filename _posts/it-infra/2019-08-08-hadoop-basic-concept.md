@@ -17,8 +17,8 @@ sidebar:
 # 하둡(hadoop) 기본개념
 
 **참고사항** <br />
-[스쿱(sqoop)에 대해 알아보자](https://losskatsu.github.io/it-infra/sqoop/) <br />
-[엘라스틱서치에 대해 알아보자](https://losskatsu.github.io/it-infra/es-basic/)
+[스쿱(sqoop)에 대해 알아보자](https://losskatsu.github.io/it-infra/sqoop/) <br />  
+[엘라스틱서치에 대해 알아보자](https://losskatsu.github.io/it-infra/es-basic/)  
 [하둡 홈페이지](http://hadoop.apache.org/)
 
 
