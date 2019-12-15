@@ -41,3 +41,9 @@ Multi-armed bandit problem을 일반화 시킨 버전은 다수 존재한다.
 실제로 사전분포에 상관없는 stochastic Multi-armed bandit model을 적용한다. 
 여기서 stochastic Multi-armed bandit model이란 모든 arm에 대해 보상함수의 모수는 알수는 없지만 고정되어 있다.
 
+### 1.1 The multi-armed bandit problem
+
+stochastic multi-armed bandit(MAB) problem을 생각해보자. 
+우리에게 N개의 arm을 가지고 있는 슬롯 머신이 주어져 있다. 
+각 타임스텝 $$t = 1,2,3, \dots $$에서 N개의 arm중 하나를 선택해서 플레이한다. 
+
