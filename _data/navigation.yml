@@ -9,7 +9,7 @@ main:
    - title: "Category"
      url: "/categories/list"
    - title: "Contact"
-     url: "/contact"     
+     url: "/contact/"     
   # - title: "Category"
   #   url: "/categories/"
   # - title: "Sample Collections"
