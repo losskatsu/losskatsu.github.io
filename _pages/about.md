@@ -20,8 +20,8 @@ title: "About"
 
 ### Work
 
-* **NHN**, Application Security Team, 2018.03 ~ 2020.02
-* **Krafton(구 블루홀)**, Data Development Team, 2017.04 ~ 2018.02
+* **NHN**, IT보안실, 2018.03 ~ 2020.02
+* **Krafton(구 블루홀)**, 데이터분석실, 2017.04 ~ 2018.02
 
 ### Education
 * **플로리다 주립대학교(Florida State University)**  
