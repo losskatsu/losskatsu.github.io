@@ -3,7 +3,7 @@ permalink: /about/
 title: "About"
 ---
 
-## Cheolwon Jang(장철원)
+## 장철원(Cheolwon Jang)
 
 * email    : stoicheolwon at gmail dot com
 * blog : losskatsu.github.io
@@ -20,8 +20,8 @@ title: "About"
 
 ### Work
 
-* **NHN**, Application Security Team, 2018.03 ~ present
-* **Krafton**, Data Development Team, 2017.04 ~ 2018.02
+* **NHN**, Application Security Team, 2018.03 ~ 2020.02
+* **Krafton(구 블루홀)**, Data Development Team, 2017.04 ~ 2018.02
 
 ### Education
 * **Florida State University**  
@@ -67,9 +67,9 @@ title: "About"
 
 ### Teaching Experience
 * Department of Statistics, Korea University, 
-    Teaching Assistant(STAT 232: Mathematical Statistics), Fall 2012, Fall 2013
+    Teaching Assistant(STAT 232: 수리통계학(Mathematical Statistics)), Fall 2012, Fall 2013
 * Department of Statistics, Korea University,
-    Teaching Assistant(STAT 221: Probability Theory), Spring 2013
+    Teaching Assistant(STAT 221: 확률론(Probability Theory)), Spring 2013
 
 ### Publication
 * Jang C, Song S, (2015), "Default Probability of Government Employee Pension System and Wage-peak", 
