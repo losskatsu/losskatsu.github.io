@@ -12,7 +12,7 @@ title: "About"
 ### Interest
 * 강화학습(Reinforcement Learning)
 * 머신러닝(Machine Learning)
-* 마르코프체인 몬테카를로 시뮬레이션(Markov Chain Monte Carlo Simulation)
+* 마르코프체인 몬테카를로(Markov Chain Monte Carlo Simulation)
 * 확률적 모델링(Probability model)
 * 고차원 통계분석(High Dimensional Statistics)
 * 차원축소(Dimension Reduction)
