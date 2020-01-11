@@ -5,9 +5,9 @@ title: "About"
 
 ## 장철원(Cheolwon Jang)
 
-* email    : stoicheolwon at gmail dot com
-* blog : losskatsu.github.io
-* github : https://github.com/losskatsu
+* 이메일 : stoicheolwon at gmail dot com
+* 블로그 : losskatsu.github.io
+* 깃허브 : https://github.com/losskatsu
 
 ### Interests
 * 강화학습(Reinforcement Learning)
