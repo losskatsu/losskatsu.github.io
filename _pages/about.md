@@ -10,13 +10,13 @@ title: "About"
 * github : https://github.com/losskatsu
 
 ### Interest
-* Reinforcement Learning
-* Machine Learning
-* Markov Chain Monte Carlo Simulation
-* Probability model
-* High Dimensional Statistics
-* Dimension Reduction
-* Internet of Things(IoT)
+* 강화학습(Reinforcement Learning)
+* 머신러닝(Machine Learning)
+* 마르코프체인 몬테카를로 시뮬레이션(Markov Chain Monte Carlo Simulation)
+* 확률적 모델링(Probability model)
+* 고차원 통계분석(High Dimensional Statistics)
+* 차원축소(Dimension Reduction)
+* 사물인터넷(Internet of Things(IoT))
 
 ### Work
 
