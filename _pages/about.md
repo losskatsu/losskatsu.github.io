@@ -24,12 +24,12 @@ title: "About"
 * **Krafton(구 블루홀)**, Data Development Team, 2017.04 ~ 2018.02
 
 ### Education
-* **Florida State University**  
-        PhD dropout in Statistics, US, 2015.08-2017.01
-* **Korea Universiy**  
-        MS in Statistics, KR, 2012.03-2014.02
-* **Chungbuk National University**  
-        BS in Statistics, KR, 2005.03-2011.02
+* **플로리다 주립대학교(Florida State University)**  
+        PhD dropout in Statistics, US, FL, 2015.08-2017.01
+* **고려대학교(Korea Universiy)**  
+        MS in Statistics, KR, Seoul, 2012.03-2014.02
+* **충북대학교(Chungbuk National University)**  
+        BS in Statistics, KR, Cheongju, 2005.03-2011.02
 
 ### Skills
 * **language**  
