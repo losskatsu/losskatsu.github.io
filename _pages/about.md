@@ -9,7 +9,7 @@ title: "About"
 * blog : losskatsu.github.io
 * github : https://github.com/losskatsu
 
-### Interest
+### Interests
 * 강화학습(Reinforcement Learning)
 * 머신러닝(Machine Learning)
 * 마르코프체인 몬테카를로(Markov Chain Monte Carlo Simulation)
