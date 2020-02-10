@@ -42,6 +42,7 @@ sidebar:
 
 즉, 표본은 모집단의 일부분이라고 할 수 있습니다. 
 
+
 ### 2-2. 표본통계량(sample statistic)
 
 > 표본통계량(sample statistic)이란 표본의 몇몇 특징을 수치화한 값이다.
