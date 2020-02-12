@@ -15,6 +15,10 @@ sidebar:
 
 # 확률변수(random variable)의 개념, 의미
 
+* [확률변수 복습하기](https://losskatsu.github.io/statistics/random-variable/)
+* [모집단과 표본 복습하기](https://losskatsu.github.io/statistics/population-sample/)
+* [평균과 분산 복습하기](https://losskatsu.github.io/statistics/mean-vairance/)
+
 머신러닝, 딥러닝, 통계학 등 확률을 다루는 분야를 공부함에 있어 확률변수(random variable)의 개념은 필수적입니다. 
 다양한 분야에서 확률변수를 대상으로 여러가지 연산을 하게 되는데요, 
 확률변수의 개념을 제대로 이해하지 못하고 학습시킬 경우 엉뚱한 결과가 나올 수도 있습니다. 
