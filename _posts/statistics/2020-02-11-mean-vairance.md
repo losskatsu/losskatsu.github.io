@@ -37,7 +37,7 @@ sidebar:
 
 > 기대값은 각 사건이 벌어졌을 때의 이득과 그 사건이 벌어질 확률을 곱한 것을 전체 사건에 대해 합한 값이다. 이것은 어떤 확률적 사건에 대한 평균의 의미로 생각할 수 있다.
 
-### 1-3 평균과 기대값의 차이
+### 1-3. 평균과 기대값의 차이
 
 사실 평균과 기대값은 동일하다고 생각해도 크게 문제 되지는 않을 것 같아요. 
 실제로 두 용어를 섞어서 사용하기도 하는데요. 
@@ -47,11 +47,27 @@ sidebar:
 다른 말로하면 표본은 이미 구해진(정해진) 데이터의 평균, 
 기대값은 아직 구해지지않은 값(미래에 기대되는)에 대한 평균이라고도 볼 수 있을 것 같아요. 
 
+
+### 1-4. 중앙값(median)
+
+> 중앙값(median) 또는 중위수는 어떤 주어진 값들을 크기의 순서대로 정렬했을 때 가장 중앙에 위치하는 값을 의미한다. 예를 들어 1, 2, 100의 세 값이 있을 때, 2가 가장 중앙에 있기 때문에 2가 중앙값이다. 
+
+### 1-5. 평균과 중앙값의 차이
+
+![figure01](/assets/images/statistics/mean-variance/mean_median01.jpg){: width="500"}
+
+![figure02](/assets/images/statistics/mean-variance/mean_median02.jpg){: width="500"}
+
+
+
 ## 2. 분산(variance)와 표준편차(standard deviation)
 
 ### 2-1. 분산(variance)
 
 > 분산은 평균에 대한 편차 제곱의 평균을 구한 값이다.
+
+![figure03](/assets/images/statistics/mean-variance/mean_median03.jpg){: width="500"}
+
 
 ### 2-2. 표준편차(standard deviation)
 
