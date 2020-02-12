@@ -15,6 +15,11 @@ sidebar:
 
 # 평균(mean)과 분산(variance)
 
+* [확률변수 복습하기](https://losskatsu.github.io/statistics/random-variable/)
+* [모집단과 표본 복습하기](https://losskatsu.github.io/statistics/population-sample/)
+* [평균과 분산 복습하기](https://losskatsu.github.io/statistics/mean-vairance/)
+
+
 ## 0. 대표값
 
 우리는 앞서 [확률변수](https://losskatsu.github.io/statistics/random-variable/), 
