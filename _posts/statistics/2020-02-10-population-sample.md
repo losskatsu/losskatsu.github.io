@@ -15,6 +15,10 @@ sidebar:
 
 # 모집단과 표본의 의미
 
+* [확률변수 복습하기](https://losskatsu.github.io/statistics/random-variable/)
+* [모집단과 표본 복습하기](https://losskatsu.github.io/statistics/population-sample/)
+* [평균과 분산 복습하기](https://losskatsu.github.io/statistics/mean-vairance/)
+
 실무에서 "모수가 작다/크다." 라는 표현을 사용하는 것을 종종 보곤 하는데요, 이는 대부분 틀린 표현인 경우가 많습니다. 
 오늘은 저와 함께 모집단, 모수, 표본, 표본통계량의 개념에 대해 알아보도록 하겠습니다. 
 
