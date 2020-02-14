@@ -1,5 +1,5 @@
 ---
-title: "[기초통계] 평균과 분산" 
+title: "[기초통계] 평균과 분산의 의미, 개념" 
 categories:
   - statistics
 tags:
