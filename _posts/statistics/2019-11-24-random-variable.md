@@ -16,6 +16,7 @@ sidebar:
 # 확률변수(random variable)의 개념, 의미
 
 * [확률변수 복습하기](https://losskatsu.github.io/statistics/random-variable/)
+* [확률분포 복습하기](https://losskatsu.github.io/statistics/prob-distribution/)
 * [모집단과 표본 복습하기](https://losskatsu.github.io/statistics/population-sample/)
 * [평균과 분산 복습하기](https://losskatsu.github.io/statistics/mean-vairance/)
 
