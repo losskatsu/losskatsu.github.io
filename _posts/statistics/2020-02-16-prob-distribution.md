@@ -15,6 +15,11 @@ sidebar:
 
 # 확률 분포의 의미
 
+
+* [확률변수 복습하기](https://losskatsu.github.io/statistics/random-variable/)
+* [모집단과 표본 복습하기](https://losskatsu.github.io/statistics/population-sample/)
+* [평균과 분산 복습하기](https://losskatsu.github.io/statistics/mean-vairance/)
+
 ## 1. 확률 분포의 정의
 
 > 확률분포(probability distribution)은 확률변수가 특정한 값을 가질 확률을 나타내는 함수를 의미한다. 
@@ -45,6 +50,8 @@ sidebar:
 이를 수식을 나타내면 아래와 같습니다.
 
 $$ f_{X}(1) = P(X = 1) = 1/6 $$
+
+
 
 ## 3-1. 연속확률분포
 
