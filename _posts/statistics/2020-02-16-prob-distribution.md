@@ -17,8 +17,10 @@ sidebar:
 
 
 * [확률변수 복습하기](https://losskatsu.github.io/statistics/random-variable/)
+* [확률분포 복습하기](https://losskatsu.github.io/statistics/prob-distribution/)
 * [모집단과 표본 복습하기](https://losskatsu.github.io/statistics/population-sample/)
 * [평균과 분산 복습하기](https://losskatsu.github.io/statistics/mean-vairance/)
+
 
 ## 1. 확률 분포의 정의
 
