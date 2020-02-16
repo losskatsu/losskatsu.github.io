@@ -51,7 +51,7 @@ sidebar:
 
 $$ f_{X}(1) = P(X = 1) = 1/6 $$
 
-
+![figure01](/assets/images/statistics/prob-dist/distribution01.jpg){: width="500"}
 
 ## 3-1. 연속확률분포
 
