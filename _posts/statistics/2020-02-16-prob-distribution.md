@@ -85,3 +85,13 @@ $$ f_{X}(1) = P(X = 1) = 1/6 $$
 * 베타분포(Beta Distribution)
 * 카이제곱분포(Chi-square Distribution)
 * 균일분포(Uniform Distribution) 
+
+
+## 5. 누적분포함수 
+
+> 누적분포함수(cumulative distribution function, cdf)는 주어진 확률 변수가 특정 값보다 작거나 같은 확률을 나타내는 함수이다.
+
+즉, 누적분포함수를 수식으로 나타내면 아래와 같습니다. 
+
+$$ F_{X}(x) = P(X \in (-\infty, x) $$ 
+
