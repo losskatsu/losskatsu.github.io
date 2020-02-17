@@ -69,7 +69,17 @@ $$ f_{X}(1) = P(X = 1) = 1/6 $$
 확률밀도함수는 이산확률분포에서 확률 질량함수에 대응된다고 할 수 있습니다. 
 다만 확률밀도함수는 연속확률변수에 대응되기 때문에 특정값을 가질 확률은 0이 되므로 특정값을 가질 확률이 아닌 특정 구간에 포함된다고 표현합니다.
 
-## 4-1. 이산확률분포의 종류
+
+## 4. 누적분포함수 
+
+> 누적분포함수(cumulative distribution function, cdf)는 주어진 확률 변수가 특정 값보다 작거나 같은 확률을 나타내는 함수이다.
+
+즉, 누적분포함수를 수식으로 나타내면 아래와 같습니다. 
+
+$$ F_{X}(x) = P(X \in (-\infty, x)) $$ 
+
+
+## 5-1. 이산확률분포의 종류
 
 * 베르누이분포와 이항분포(Bernoulli Distribution, Binomial Distribution)
 * 기하분포(Geometric Distribution)
@@ -77,7 +87,7 @@ $$ f_{X}(1) = P(X = 1) = 1/6 $$
 * 음이항분포(Negative Binomial Distribution)
 * 포아송분포(Poisson Distribution)
 
-## 4-2. 연속확률분포의 종류
+## 5-2. 연속확률분포의 종류
 
 * 정규분포(Normal Distribution)
 * 지수분포(Exponential Distribution)
@@ -86,12 +96,4 @@ $$ f_{X}(1) = P(X = 1) = 1/6 $$
 * 카이제곱분포(Chi-square Distribution)
 * 균일분포(Uniform Distribution) 
 
-
-## 5. 누적분포함수 
-
-> 누적분포함수(cumulative distribution function, cdf)는 주어진 확률 변수가 특정 값보다 작거나 같은 확률을 나타내는 함수이다.
-
-즉, 누적분포함수를 수식으로 나타내면 아래와 같습니다. 
-
-$$ F_{X}(x) = P(X \in (-\infty, x)) $$ 
 
