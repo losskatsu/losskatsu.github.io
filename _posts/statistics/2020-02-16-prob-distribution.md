@@ -92,6 +92,6 @@ $$ F_{X}(x) = P(X \in (-\infty, x)) $$
 * 지수분포(Exponential Distribution)
 * 감마분포(Gamma Distribution)
 * 베타분포(Beta Distribution)
-* 카이제곱분포(Chi-square Distribution)
+* 카이제곱분포(Chi-squared Distribution)
 * 균일분포(Uniform Distribution) 
 
