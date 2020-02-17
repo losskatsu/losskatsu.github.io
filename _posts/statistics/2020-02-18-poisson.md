@@ -8,7 +8,7 @@ use_math: true
 toc: true
 toc_label: "My Table of Contents"
 toc_icon: "cog"
-sidebar:a
+sidebar:
   title: "AI Machine Learning"
   nav: sidebar-contents
 ---
