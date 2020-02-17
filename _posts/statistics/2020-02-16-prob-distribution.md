@@ -81,10 +81,9 @@ $$ F_{X}(x) = P(X \in (-\infty, x)) $$
 
 ## 5-1. 이산확률분포의 종류
 
-* 베르누이분포와 이항분포(Bernoulli Distribution, Binomial Distribution)
-* 기하분포(Geometric Distribution)
+* 베르누이분포(Bernoulli Distribution)와 이항분포(Binomial Distribution)
+* 기하분포(Geometric Distribution)와 음이항분포(Negative Binomial Distribution)
 * 초기하분포(Hypergeometric Distribution)
-* 음이항분포(Negative Binomial Distribution)
 * 포아송분포(Poisson Distribution)
 
 ## 5-2. 연속확률분포의 종류
@@ -95,5 +94,4 @@ $$ F_{X}(x) = P(X \in (-\infty, x)) $$
 * 베타분포(Beta Distribution)
 * 카이제곱분포(Chi-square Distribution)
 * 균일분포(Uniform Distribution) 
-
 
