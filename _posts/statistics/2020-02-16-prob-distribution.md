@@ -1,5 +1,5 @@
 ---
-title: "[기초통계] 확률분포의 의미" 
+title: "[기초통계] 확률분포의 의미 및 종류" 
 categories:
   - statistics
 tags:
@@ -13,7 +13,7 @@ sidebar:
   nav: sidebar-contents
 ---
 
-# 확률 분포의 의미
+# 확률 분포의 의미 및 종류 
 
 
 * [확률변수 복습하기](https://losskatsu.github.io/statistics/random-variable/)
