@@ -1,5 +1,5 @@
 ---
-title: "[기초통계] 초기하분포의 의미 및 개념 정리" 
+title: "[기초통계] 초기하분포 의미 및 개념 정리" 
 categories:
   - statistics
 tags:
@@ -8,11 +8,11 @@ use_math: true
 toc: true
 toc_label: "My Table of Contents"
 toc_icon: "cog"
-sidebar:a
+sidebar:
   title: "AI Machine Learning"
   nav: sidebar-contents
 ---
 
-# 초기하분포의 의미 및 개념 정리
+# 초기하분포 의미 및 개념 정리
 
 작성 중인 글 입니다. 
