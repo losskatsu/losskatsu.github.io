@@ -16,3 +16,8 @@ sidebar:
 # 감마분포 의미 및 개념 정리
 
 작성 중인 글 입니다. 
+
+![figure01](/assets/images/statistics/gamma/gamma01.jpg){: width="500"}
+
+![figure02](/assets/images/statistics/gamma/gamma01.jpg){: width="500"}
+
