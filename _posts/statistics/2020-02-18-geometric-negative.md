@@ -19,5 +19,8 @@ sidebar:
 
 ## 1. 기하분포
 
+![figure01](/assets/images/statistics/geometric/geometric01.jpg){: width="500"}
+
 ## 2. 음이항분포
 
+![figure02](/assets/images/statistics/geometric/geometric01.jpg){: width="500"}
