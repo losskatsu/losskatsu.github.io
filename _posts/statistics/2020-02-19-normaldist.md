@@ -16,3 +16,5 @@ sidebar:
 # 정규분포 의미 및 개념 정리
 
 작성 중인 글 입니다. 
+
+![figure01](/assets/images/statistics/normal/normaldist01.jpg){: width="500"}
