@@ -125,7 +125,75 @@ EC2는 웹콘솔로 접근하셔서 아래와 같은 절차를 진행해주세�
 성공적으로 설치된 것을 보실 수 있습니다.
 
 
-## 참고사항
+## 참고사항(디렉터리 설정)
 
 * 아파치 서버 설정파일: /etc/httpd/conf/httpd.conf
+
+```bash
+$ cd /etc/httpd/conf/
+$ ll
+total 52
+-rw-r--r-- 1 root root 34474 Nov  1  2017 httpd.conf
+-rw-r--r-- 1 root root 13139 Nov  1  2017 magic
+```
+
+* 해당파일을 확인하면 DocumentRoot 라고 있는데 거기가 루트 디렉터리입니다. 
+따라서 보여주고 싶은 파일이 있다면 루트 디렉터리 내에 저장하시면 됩니다. 
+저같은 경우에는 초기에 "/var/www/html"로 설정되어있습니다.
+
+```bash
+#
+# DocumentRoot: The directory out of which you will serve your
+# documents. By default, all requests are taken from this directory, but
+# symbolic links and aliases may be used to point to other locations.
+#
+DocumentRoot "/var/www/html"
+
+#
+# Each directory to which Apache has access can be configured with respect
+# to which services and features are allowed and/or disabled in that
+# directory (and its subdirectories).
+#
+# First, we configure the "default" to be a very restrictive set of
+# features.
+#
+<Directory />
+    Options FollowSymLinks
+    AllowOverride None
+</Directory>
+
+#
+# Note that from this point forward you must specifically allow
+# particular features to be enabled - so if something's not working as
+# you might expect, make sure that you have specifically enabled it
+# below.
+#
+
+#
+# This should be changed to whatever you set DocumentRoot to.
+#
+<Directory "/var/www/html">
+
+#
+
+```
+
+만약 이미지를 보여주고 싶다면 /var/www/html 하위에 img 디렉터리를 만들고 00000000001.JPG 파일을 넣었다고 합시다. 
+그럼 그림파일의 경로는 /var/www/html/00000000001.JPG 가 됩니다. 
+
+```bash
+$ pwd
+/var/www/html/img
+$ ll
+total 44
+-rw-r--r-- 1 root root 41995 Feb 19 12:58 00000000001.JPG
+```
+
+그리고 웹사이트에 잘 나오는지 확인하고 싶다면 
+<br />
+
+http://ip주소/img/00000000001.JPG
+
+<br />
+로 확인합니다.
 
