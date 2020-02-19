@@ -15,6 +15,12 @@ sidebar:
 
 # AWS EC2 리눅스 AMI에 아파치(apache) 서버 설치하기
 
+### 참고링크
+* [아파치, 톰캣, 엔진엑스 차이](https://losskatsu.github.io/it-infra/webserver/)
+* [아파치 서버 에러 로그 확인](https://losskatsu.github.io/it-infra/apache-error-log/)
+* [SSL, CRS 인증 관련 정리](https://losskatsu.github.io/it-infra/ssl-auth/)
+
+
 ## 운영체제 확인하기
 
 먼저 운영체제를 확인합시다. 저는 아마존 Linux AMI 를 사용하고 있습니다. 
