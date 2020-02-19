@@ -15,6 +15,12 @@ sidebar:
 
 # 웹서버 아파치(Apache), 톰캣(Tomcat), 엔진엑스(Nginx) 차이
 
+### 참고링크
+* [아파치, 톰캣, 엔진엑스 차이](https://losskatsu.github.io/it-infra/webserver/)
+* [아파치 서버 에러 로그 확인](https://losskatsu.github.io/it-infra/apache-error-log/)
+* [SSL, CRS 인증 관련 정리](https://losskatsu.github.io/it-infra/ssl-auth/)
+
+
 ## 아파치(Apache)
 
 아파치는 여러가지 프로젝트를 통해 오픈소스를 만들어내는 소프트웨어 단체 이름입니다. 
