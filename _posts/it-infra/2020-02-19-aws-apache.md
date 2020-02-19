@@ -46,6 +46,11 @@ $ sudo service httpd start
 Starting httpd:         [  OK  ]
 ```
 
+## (만약 아파치 서버 종료하고 싶다면)
+```bash
+$ sudo service httpd stop
+```
+
 ## 서버 잘 돌아가는지 확인
 
 ```bash
