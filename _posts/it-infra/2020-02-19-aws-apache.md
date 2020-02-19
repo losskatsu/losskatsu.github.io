@@ -123,3 +123,9 @@ EC2는 웹콘솔로 접근하셔서 아래와 같은 절차를 진행해주세�
 ![figure01](/assets/images/infra/aws_server/010.jpg){: width="500"}
 
 성공적으로 설치된 것을 보실 수 있습니다.
+
+
+## 참고사항
+
+* 아파치 서버 설정파일: /etc/httpd/conf/httpd.conf
+
