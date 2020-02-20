@@ -52,3 +52,8 @@ sidebar:
 연속형균일분포의 [확률밀도함수](https://losskatsu.github.io/statistics/prob-distribution/#), [평균, 분산](https://losskatsu.github.io/statistics/mean-vairance/#)은 다음과 같습니다.
 
 ![figure02](/assets/images/statistics/uniform/uniform02.jpg){: width="500"}
+
+## 참고. 확률분포간 관계도
+
+![figure100](/assets/images/statistics/dist_rel.jpg){: width="700"}
+
