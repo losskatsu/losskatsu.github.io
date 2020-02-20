@@ -60,3 +60,9 @@ sidebar:
 $$ Q = \sum_{i=1}^{p} X_{i}^{2} $$
 
 는 자유도 p의 카이제곱분포입니다. 이를 $ Q \sim \chi_{p}^{2}$ 으로 표현합니다. 
+
+
+## 참고. 확률분포간 관계도
+
+![figure100](/assets/images/statistics/dist_rel.jpg){: width="700"}
+
