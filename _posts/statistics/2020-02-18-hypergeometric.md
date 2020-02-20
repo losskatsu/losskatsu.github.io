@@ -57,3 +57,8 @@ sidebar:
 따라서 비복원추출을 가정하는 상황에서는 초기하분포를 사용해야하며, 
 복원추출을 가정하는 상황에서는 이항분포를 사용해야 합니다. 
 
+## 참고. 확률분포간 관계도
+
+![figure100](/assets/images/statistics/dist_rel.jpg){: width="700"}
+
+
