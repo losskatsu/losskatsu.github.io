@@ -106,3 +106,8 @@ $$ F_{X}(x) = P(X \in (-\infty, x)) $$
 * [베타분포(Beta Distribution)](https://losskatsu.github.io/statistics/betadist/)
 * [균일분포(Uniform Distribution)](https://losskatsu.github.io/statistics/uniformdist/) 
 
+## 참고. 확률분포간 관계도
+
+![figure100](/assets/images/statistics/dist_rel.jpg){: width="700"}
+
+
