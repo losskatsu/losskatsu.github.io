@@ -15,6 +15,25 @@ sidebar:
 
 # 지수분포 의미 및 개념 정리
 
+## 참고링크 
+* [확률변수 복습하기](https://losskatsu.github.io/statistics/random-variable/)
+* [확률분포 복습하기](https://losskatsu.github.io/statistics/prob-distribution/)
+* [모집단과 표본 복습하기](https://losskatsu.github.io/statistics/population-sample/)
+* [평균과 분산 복습하기](https://losskatsu.github.io/statistics/mean-vairance/) 
+### 이산확률분포
+* [베르누이분포, 이항분포](https://losskatsu.github.io/statistics/binomial/) 
+* [기하분포, 음이항분포](https://losskatsu.github.io/statistics/geometric-negative/)
+* [초기하분포](https://losskatsu.github.io/statistics/hypergeometric/)
+* [포아송분포](https://losskatsu.github.io/statistics/poisson/)
+### 연속확률분포
+* [정규분포](https://losskatsu.github.io/statistics/normaldist/)
+* [감마분포](https://losskatsu.github.io/statistics/gammadist/)
+* [지수분포](https://losskatsu.github.io/statistics/exponentialdist/)
+* [카이제곱분포](https://losskatsu.github.io/statistics/chisquareddist/)
+* [베타분포](https://losskatsu.github.io/statistics/betadist/)
+* [균일분포](https://losskatsu.github.io/statistics/uniformdist/)
+
+
 ## 1. 지수분포의 정의
 
 > 지수분포(exponential distribution)은 연속확률분포의 일정이다. 사건이 서로 독립적일 때, 일정 시간 동안 발생하는 사건의 횟수가 포아송분포를 따른다면, 다음 사건이 일어날 때까지의 대기 시간은 지수분포를 따른다. 이는 기하분포와 유사한 측면이 있다. 
