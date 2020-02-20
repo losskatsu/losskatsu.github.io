@@ -92,17 +92,17 @@ $$ F_{X}(x) = P(X \in (-\infty, x)) $$
 
 ## 5-1. 이산확률분포의 종류
 
-* 베르누이분포(Bernoulli Distribution)와 이항분포(Binomial Distribution)
-* 기하분포(Geometric Distribution)와 음이항분포(Negative Binomial Distribution)
-* 초기하분포(Hypergeometric Distribution)
-* 포아송분포(Poisson Distribution)
+* [베르누이분포(Bernoulli Distribution)와 이항분포(Binomial Distribution)](https://losskatsu.github.io/statistics/binomial/)
+* [기하분포(Geometric Distribution)와 음이항분포(Negative Binomial Distribution)](https://losskatsu.github.io/statistics/geometric-negative/)
+* [초기하분포(Hypergeometric Distribution)](https://losskatsu.github.io/statistics/hypergeometric/)
+* [포아송분포(Poisson Distribution)](https://losskatsu.github.io/statistics/poisson/)
 
 ## 5-2. 연속확률분포의 종류
 
-* 정규분포(Normal Distribution)
-* 지수분포(Exponential Distribution)
-* 감마분포(Gamma Distribution)
-* 베타분포(Beta Distribution)
-* 카이제곱분포(Chi-squared Distribution)
-* 균일분포(Uniform Distribution) 
+* [정규분포(Normal Distribution)](https://losskatsu.github.io/statistics/normaldist/)
+* [감마분포(Gamma Distribution)](https://losskatsu.github.io/statistics/gammadist/)
+* [지수분포(Exponential Distribution)](https://losskatsu.github.io/statistics/exponentialdist/)
+* [카이제곱분포(Chi-squared Distribution)](https://losskatsu.github.io/statistics/chisquareddist/)
+* [베타분포(Beta Distribution)](https://losskatsu.github.io/statistics/betadist/)
+* [균일분포(Uniform Distribution)](https://losskatsu.github.io/statistics/uniformdist/) 
 
