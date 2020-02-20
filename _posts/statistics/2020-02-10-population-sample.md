@@ -15,10 +15,23 @@ sidebar:
 
 # 모집단과 표본의 의미
 
+## 참고링크 
 * [확률변수 복습하기](https://losskatsu.github.io/statistics/random-variable/)
 * [확률분포 복습하기](https://losskatsu.github.io/statistics/prob-distribution/)
 * [모집단과 표본 복습하기](https://losskatsu.github.io/statistics/population-sample/)
-* [평균과 분산 복습하기](https://losskatsu.github.io/statistics/mean-vairance/)
+* [평균과 분산 복습하기](https://losskatsu.github.io/statistics/mean-vairance/) 
+### 이산확률분포
+* [베르누이분포, 이항분포](https://losskatsu.github.io/statistics/binomial/) 
+* [기하분포, 음이항분포](https://losskatsu.github.io/statistics/geometric-negative/)
+* [초기하분포](https://losskatsu.github.io/statistics/hypergeometric/)
+* [포아송분포](https://losskatsu.github.io/statistics/poisson/)
+### 연속확률분포
+* [정규분포](https://losskatsu.github.io/statistics/normaldist/)
+* [감마분포](https://losskatsu.github.io/statistics/gammadist/)
+* [지수분포](https://losskatsu.github.io/statistics/exponentialdist/)
+* [카이제곱분포](https://losskatsu.github.io/statistics/chisquareddist/)
+* [베타분포](https://losskatsu.github.io/statistics/betadist/)
+* [균일분포](https://losskatsu.github.io/statistics/uniformdist/)
 
 실무에서 "모수가 작다/크다." 라는 표현을 사용하는 것을 종종 보곤 하는데요, 이는 대부분 틀린 표현인 경우가 많습니다. 
 오늘은 저와 함께 모집단, 모수, 표본, 표본통계량의 개념에 대해 알아보도록 하겠습니다. 
