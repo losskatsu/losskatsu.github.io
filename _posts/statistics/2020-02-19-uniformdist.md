@@ -17,11 +17,22 @@ sidebar:
 
 작성 중인 글 입니다. 
 
-## 1. 이산형 균일분포
+## 1. 균일분포의 정의
+
+> 균등분포(uniform distribution)은 분포가 특정 범위 내에서 균등하게 나타나 있을 경우를 가리킨다. 
+
+균등분포는 특이하게 이산형확률분포, 연속형확률분포 두 형태 모두가 존재하는데요. 
+표현식의 차이가 있을 뿐, 특정 범위 내에서 분포가 균등하게 나타난다는 개념은 동일합니다. 
+
+## 2. 이산형 균일분포의 확률밀도함수, 평균, 분산
+
+이산형균일분포의 [확률밀도함수](https://losskatsu.github.io/statistics/prob-distribution/#), [평균, 분산](https://losskatsu.github.io/statistics/mean-vairance/#)은 다음과 같습니다.
 
 ![figure01](/assets/images/statistics/uniform/uniform01.jpg){: width="500"}
 
 
-## 2. 연속형 균일분포
+## 3. 연속형 균일분포의 확률밀도함수, 평균, 분산
+
+연속형균일분포의 [확률밀도함수](https://losskatsu.github.io/statistics/prob-distribution/#), [평균, 분산](https://losskatsu.github.io/statistics/mean-vairance/#)은 다음과 같습니다.
 
 ![figure02](/assets/images/statistics/uniform/uniform02.jpg){: width="500"}
