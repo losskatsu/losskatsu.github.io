@@ -54,7 +54,7 @@ sidebar:
 
 감마분포의 [확률밀도함수](https://losskatsu.github.io/statistics/prob-distribution/#), [평균, 분산](https://losskatsu.github.io/statistics/mean-vairance/#)은 다음과 같습니다.
 
-![figure02](/assets/images/statistics/gamma/gamma01.jpg){: width="500"}
+![figure02](/assets/images/statistics/gamma/gamma02.jpg){: width="500"}
 
 ## 4. 감마분포 vs 지수분포
 
