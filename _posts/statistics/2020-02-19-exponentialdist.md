@@ -63,4 +63,9 @@ sidebar:
 
 지수분포는 감마분포의 특별한 형태입니다. 2.에서 지수분포의 확률밀도함수를 보시면 지수분포는 감마분포에서 $\alpha$가 1인 경우라는 것을 알 수 있습니다. 
 
+## 참고. 확률분포간 관계도
+
+![figure100](/assets/images/statistics/dist_rel.jpg){: width="700"}
+
+
 
