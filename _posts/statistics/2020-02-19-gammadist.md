@@ -63,4 +63,8 @@ sidebar:
 감마분포는 $\alpha$번째 사건이 발생할 때 까지의 대기사간의 분포라고 보시면 됩니다. 
 즉, 지수분포는 감마분포의 특수한 경우라고 생각하시면 되겠습니다. 
 
+## 참고. 확률분포간 관계도
+
+![figure100](/assets/images/statistics/dist_rel.jpg){: width="700"}
+
 
