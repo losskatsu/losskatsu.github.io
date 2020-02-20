@@ -60,3 +60,8 @@ sidebar:
 
 ![figure02](/assets/images/statistics/geometric/geometric01.jpg){: width="500"}
 
+## 참고. 확률분포간 관계도
+
+![figure100](/assets/images/statistics/dist_rel.jpg){: width="700"}
+
+
