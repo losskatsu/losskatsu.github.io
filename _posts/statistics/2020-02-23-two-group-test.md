@@ -16,7 +16,7 @@ sidebar:
 # 두 집단 간 평균, 분산 비교, T-test, F-test
 
 참고링크
-* []()
+* [유의수준, 유의확률, 검정력의 의미](https://losskatsu.github.io/statistics/alpha-beta-test/)
 
 
 ## 1. 모분산이 알려진 경우(known population variacne)
