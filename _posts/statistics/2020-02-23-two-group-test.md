@@ -23,7 +23,7 @@ sidebar:
 
 두 집단이 [iid](https://losskatsu.github.io/statistics/prob-distribution/)를 따른다고 가정합시다. 
 
-$$ x_{1}, x_{2}, \dot ,x_{n1} \sim N(\mu_{1}, \sigma_{1}^{2} $$, 
+$$ x_{1}, x_{2}, \dot ,x_{n1} \sim N(\mu_{1}, \sigma_{1}^{2} $$, <br />
 $$ y_{1}, y_{2}, \dot ,y_{n1} \sim N(\mu_{2}, \sigma_{2}^{2} $$
 
 위 식은 $$
