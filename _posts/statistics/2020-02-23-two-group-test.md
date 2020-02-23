@@ -25,6 +25,8 @@ sidebar:
 
 ## 1. 모분산이 알려진 경우(known population variacne)
 
+모분산이 알려진 경우에는 모분산을  사용하지만 모분산이 알려지지 않더라도 표본의 크기가 큰 경우에는 표본분산을 모분산의 추정치로 사용가능합니다. 
+또한 표본의 크기가 큰 경우에는 모집단이 정규분포를 따르지 않더라도 정규분포를 이용한 검정을 할 수 있습니다. 
 
 ### 1-1. 데이터 셋팅 및 가정 확인 
 
@@ -66,4 +68,4 @@ $$ H0: \mu_{1} - \mu_{2} = 0, H1: \mu_{1} - \mu_{2} \neq 0 $$ -> $ \|Z\| > z_{\a
 
 $$ \Big( ((\bar{x}-\bar{y}))-z_{\alpha/2} \sqrt{\frac{\sigma_{1}^{2}}{n_{1}},  ((\bar{x}-\bar{y}))+z_{\alpha/2} \sqrt{\frac{\sigma_{1}^{2}}{n_{1}}\Big) $$
 
-## 모분산이 알려지지 않은 경우(unknown population variance)
+## 2. 모분산이 알려지지 않은 경우(unknown population variance)
