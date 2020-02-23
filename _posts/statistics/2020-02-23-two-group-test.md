@@ -58,16 +58,16 @@ $$ Z = \frac{(\bar{x} - \bar{y}) - (\mu_{1} - \mu_{2})}{\sqrt{\sigma_{1}^{2}/n_{
 
 그리고 위에 세운 가설의 형태와 검정통계량을 기준으로 아래와 같이 판별합니다.
 
-$$ H0: \mu_{1} - \mu_{2} = 0, H1: \mu_{1} - \mu_{2} > 0 $$일 때,  $Z > z_{\alpha}$이면 H0 기각<br />
-$$ H0: \mu_{1} - \mu_{2} = 0, H1: \mu_{1} - \mu_{2} < 0 $$일 때, $Z < -z_{\alpha}$이면 H0 기각<br />
-$$ H0: \mu_{1} - \mu_{2} = 0, H1: \mu_{1} - \mu_{2} \neq 0 $$일 때, $ \|Z\| > z_{\alpha}$이면 H0 기각
+$$ H0: \mu_{1} - \mu_{2} = 0, \, H1: \mu_{1} - \mu_{2} > 0 $$일 때,  $Z > z_{\alpha}$이면 H0 기각<br />
+$$ H0: \mu_{1} - \mu_{2} = 0, \, H1: \mu_{1} - \mu_{2} < 0 $$일 때, $Z < -z_{\alpha}$이면 H0 기각<br />
+$$ H0: \mu_{1} - \mu_{2} = 0, \, H1: \mu_{1} - \mu_{2} \neq 0 $$일 때, $ \|Z\| > z_{\alpha}$이면 H0 기각
 
 ### 1-5. 신뢰구간
 
 모평균의 차이 $\mu_{1} - \mu_{2}$의 $100(1-\alpha)$% 신뢰구간은 아래와 같습니다.
 
 
-$$ \bigg( (\bar{x}-\bar{y})-z_{\alpha/2} \sqrt{\frac{\sigma_{1}^{2}}{n_{1}}+ \frac{\sigma_{2}^{2}}{n_{2}}}, \  (\bar{x}-\bar{y})+z_{\alpha/2} \sqrt{\frac{\sigma_{1}^{2}}{n_{1}}+ \frac{\sigma_{2}^{2}}{n_{2}}}\bigg) $$
+$$ \bigg( (\bar{x}-\bar{y})-z_{\alpha/2} \sqrt{\frac{\sigma_{1}^{2}}{n_{1}}+ \frac{\sigma_{2}^{2}}{n_{2}}}, \,  (\bar{x}-\bar{y})+z_{\alpha/2} \sqrt{\frac{\sigma_{1}^{2}}{n_{1}}+ \frac{\sigma_{2}^{2}}{n_{2}}}\bigg) $$
 
 ## 2. 모분산이 알려지지 않은 경우(unknown population variance)
 
@@ -83,13 +83,13 @@ $$ t = \frac{( \bar{x}-\bar{y} )-(\mu_{1}-\mu_{2})}{ s_{p} \sqrt{ \frac{1}{n_{1}
 
 검정은 아래와 같이 합니다. 
 
-$$ H0: \mu_{1} - \mu_{2} = 0, H1: \mu_{1} - \mu_{2} > 0 $$일 때, $t > t_{\alpha}(n_{1} + n_{2} - 2)$이면 H0 기각<br />
-$$ H0: \mu_{1} - \mu_{2} = 0, H1: \mu_{1} - \mu_{2} < 0 $$일 때, $t < -t_{\alpha}(n_{1} + n_{2} - 2)$이면 H0 기각<br />
-$$ H0: \mu_{1} - \mu_{2} = 0, H1: \mu_{1} - \mu_{2} \neq 0 $$일 때, $ \|t\| > t_{\alpha/2}(n_{1} + n_{2} - 2)$이면 H0 기각
+$$ H0: \mu_{1} - \mu_{2} = 0, \, H1: \mu_{1} - \mu_{2} > 0 $$일 때, $t > t_{\alpha}(n_{1} + n_{2} - 2)$이면 H0 기각<br />
+$$ H0: \mu_{1} - \mu_{2} = 0, \, H1: \mu_{1} - \mu_{2} < 0 $$일 때, $t < -t_{\alpha}(n_{1} + n_{2} - 2)$이면 H0 기각<br />
+$$ H0: \mu_{1} - \mu_{2} = 0, \, H1: \mu_{1} - \mu_{2} \neq 0 $$일 때, $ \|t\| > t_{\alpha/2}(n_{1} + n_{2} - 2)$이면 H0 기각
 
 끝으로 신뢰구간은 이렇습니다. 
 
-$$ \bigg( (\bar{x}-\bar{y})-t_{\alpha/2}(n_{1} + n_{2} - 2) \times s_{p} \sqrt{\frac{1}{n_{1}}+ \frac{1}{n_{2}}},  \ (\bar{x}-\bar{y})+z_{\alpha/2} \times s_{p} \sqrt{\frac{1}{n_{1}}+ \frac{1}{n_{2}}}\bigg) $$
+$$ \bigg( (\bar{x}-\bar{y})-t_{\alpha/2}(n_{1} + n_{2} - 2) \times s_{p} \sqrt{\frac{1}{n_{1}}+ \frac{1}{n_{2}}},  \, (\bar{x}-\bar{y})+z_{\alpha/2} \times s_{p} \sqrt{\frac{1}{n_{1}}+ \frac{1}{n_{2}}}\bigg) $$
 
 
 ### 2-2. 모분산이 다른 경우
