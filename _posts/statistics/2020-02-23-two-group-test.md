@@ -89,16 +89,22 @@ $$ H0: \mu_{1} - \mu_{2} = 0, \, H1: \mu_{1} - \mu_{2} \neq 0 $$일 때, $ \|t\|
 
 끝으로 신뢰구간은 이렇습니다. 
 
-$$ \bigg( (\bar{x}-\bar{y})-t_{\alpha/2}(n_{1} + n_{2} - 2) \times s_{p} \sqrt{\frac{1}{n_{1}}+ \frac{1}{n_{2}}},  \, (\bar{x}-\bar{y})+z_{\alpha/2} \times s_{p} \sqrt{\frac{1}{n_{1}}+ \frac{1}{n_{2}}}\bigg) $$
+$$ \bigg( (\bar{x}-\bar{y})-t_{\alpha/2}(n_{1} + n_{2} - 2) \times s_{p} \sqrt{\frac{1}{n_{1}}+ \frac{1}{n_{2}}},  \, (\bar{x}-\bar{y})+t_{\alpha/2}(n_{1} + n_{2} - 2) \times s_{p} \sqrt{\frac{1}{n_{1}}+ \frac{1}{n_{2}}}\bigg) $$
 
 
 ### 2-2. 모분산이 다른 경우
 
 모분산이 다른 경우에는 아래와 같은 검정통계량을 사용합니다. 
 
+$$ t = \frac{( \bar{x}-\bar{y} )-(\mu_{1}-\mu_{2})}{ \sqrt{ \frac{s_{1}^{2}}{n_{1}} + \frac{s_{2}^{2}}{n_{2} }} } $$
+
 그리고 이 때 t는 t분포를 따르게 되는데, 아래의 자유도를 가지게 됩니다. 이를 새터스웨이트(Satterthwaite) 자유도라고 합니다.
 
 $$ v = \frac{ (   s_{1}^{2}/n_{1} + s_{2}^{2}/n_{2}   )^{2}  }{  \frac{(s_{1}^{2}/n_{1})^{2}}{n_{1}-1} + \frac{(s_{2}^{2}/n_{2})^{2}}{n_{2}-1}   } $$
+
+신뢰구간은 다음과 같습니다. 
+
+$$ \bigg( (\bar{x}-\bar{y})-t_{\alpha/2}(v) \sqrt{\frac{s_{2}^{2}}{n_{1}}+ \frac{s_{2}^{2}}{n_{2}}},  \, (\bar{x}-\bar{y})+t_{\alpha/2}(v)  \sqrt{\frac{s_{2}^{2}}{n_{1}}+ \frac{s_{2}^{2}}{n_{2}}}\bigg) $$
 
 ### 2-3. 모분산 비교
 
