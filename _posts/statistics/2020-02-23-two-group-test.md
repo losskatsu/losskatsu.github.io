@@ -16,11 +16,16 @@ sidebar:
 # 두 집단 간 평균, 분산 비교, T-test, F-test
 
 참고링크
+* [모집단과 표본의 개념](https://losskatsu.github.io/statistics/population-sample/)
+* [확률변수 개념](https://losskatsu.github.io/statistics/random-variable/)
+* [확률분포의 의미 및 종류](https://losskatsu.github.io/statistics/prob-distribution/)
+* [평균, 분산의 의미](https://losskatsu.github.io/statistics/mean-vairance/)
 * [유의수준, 유의확률, 검정력의 의미](https://losskatsu.github.io/statistics/alpha-beta-test/)
 
 
 ## 1. 모분산이 알려진 경우(known population variacne)
 
+우선 두 집단의 분산이 알려진 경우라고 가정합시다.  
 두 집단이 [iid](https://losskatsu.github.io/statistics/prob-distribution/)를 따른다고 가정합시다. 
 
 $$ x_{1}, x_{2}, \dots ,x_{n1} \sim N(\mu_{1}, \sigma_{1}^{2}) $$, <br />
@@ -35,4 +40,8 @@ $y_{1}, y_{2}, \dots ,y_{n2}$는 평균 $\mu_{2}$이고, 분산이 $\sigma_{2}^{
 $$ H0: \mu_{1} - \mu_{2} = 0, H1: \mu_{1} - \mu_{2} > 0 $$, <br />
 $$ H0: \mu_{1} - \mu_{2} = 0, H1: \mu_{1} - \mu_{2} < 0 $$, <br />
 $$ H0: \mu_{1} - \mu_{2} = 0, H1: \mu_{1} - \mu_{2} \neq 0 $$
+
+가설을 세운 후 가설을 검정하는 기준인 검정 통계량은 아래와 같은 식을 사용합니다.  
+
+$$ Z = \frac{(\bar{x} - \bar{y}) - (\mu_{1} - \mu_{2})}{\sqrt{\sigma_{1}^{2}/n_{1} + \sigma_{2}^{2}/n_{2}}} $$
 
