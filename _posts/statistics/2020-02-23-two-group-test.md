@@ -64,4 +64,6 @@ $$ H0: \mu_{1} - \mu_{2} = 0, H1: \mu_{1} - \mu_{2} \neq 0 $$ -> $ \|Z\| > z_{\a
 
 모평균의 차이 $\mu_{1} - \mu_{2}$의 $100(1-\alpha)$% 신뢰구간은 아래와 같습니다.
 
-$$ \Big( ((\bar{x}-\bar{y}))-z_{\alpha/2} \sqrt{\frac{\sigma_{1}^{2}}{n_{1}},  \Big) $$
+$$ \Big( ((\bar{x}-\bar{y}))-z_{\alpha/2} \sqrt{\frac{\sigma_{1}^{2}}{n_{1}},  ((\bar{x}-\bar{y}))+z_{\alpha/2} \sqrt{\frac{\sigma_{1}^{2}}{n_{1}}\Big) $$
+
+## 모분산이 알려지지 않은 경우(unknown population variance)
