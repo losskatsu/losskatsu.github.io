@@ -102,7 +102,7 @@ $$ P(2종 오류) = P(H0채택 | H1사실) $$
 
 $$p_{R}(x) = P(x \geq X) $$
 
-그림넣을곳
+![figure01](/assets/images/statistics/hypothesis-basic/alpha01.jpg){: width="500"}
 
 p값이 작을 수록 귀무가설을 기각할 수 있는 강한 증거가 됩니다. 즉, 유의확률은 귀무가설을 기각할만한 증가가 될 수 있습니다. 
 p값은 귀무가설이 사실일 때, 해당 실험데이터가 관측될 확률을 의미합니다. 
@@ -113,3 +113,4 @@ p값은 귀무가설이 사실일 때, 해당 실험데이터가 관측될 확�
 
 즉, 검정력이란 귀무가설이 사실이 아닐때, 귀무가설을 기각할 확률입니다. 같은 말로 대립가설이 사실일때, 대립가설을 채택할 확률입니다. 
 
+![figure02](/assets/images/statistics/hypothesis-basic/alpha02.jpg){: width="500"}
