@@ -144,5 +144,5 @@ $$ \bigg( (\bar{x}-\bar{y})-t_{\alpha/2}(v) \sqrt{\frac{s_{2}^{2}}{n_{1}}+ \frac
 
 이 경우 $d_{i} = x_{i}-y_{i}$에 대해 검정하며 아래와 같은 검정통계량을 사용합니다. 
 
-$$  t = \frac{\bar{x}}{s_{d}/sqrt{n}} \sim t(n-1)$$
+$$  t = \frac{\bar{x}}{s_{d}/\sqrt{n}} \sim t(n-1)$$
 
