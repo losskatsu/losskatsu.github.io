@@ -45,6 +45,6 @@ $$H0: p_{1j} = p_{2j} = \dots = p_{Ij} \, (j=1,2, ..., J)$$
 
 $$ \hat{p_{j}} = \frac{n_{+j}}{n}$$
 
-$$ E_{ij} = n_{i+}\hat{p_{j}} = \frac{n_{i+}{n}  $$
+$$ E_{ij} = n_{i+}\hat{p_{j}} = \frac{n_{i+}}{n}  $$
 
 $$ \chi^{2} = \sum_{i=1}^{I}\sum_{j=1}^{J}\frac{(n_{ij} - E_{ij})^{2}}{E_{ij}} $$
