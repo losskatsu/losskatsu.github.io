@@ -34,4 +34,4 @@ sidebar:
 
 우리가 $Y$의 분포에 대해 관심있을 때 중요한 것이 mean function 입니다. 
 
-$$ E(Y|X=x) = $$
+$$ E(Y|X=x) = \text{a function that depends on the value of} x $$
