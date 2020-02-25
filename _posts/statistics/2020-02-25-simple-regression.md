@@ -35,3 +35,20 @@ sidebar:
 우리가 $Y$의 분포에 대해 관심있을 때 중요한 것이 mean function 입니다. 
 
 $$ E(Y|X=x) = \text{a function that depends on the value of} x $$
+
+데이터에 대해서 생각해보면 데이터는 이미 '주어졌다'는 것을 알 수 있습니다. 
+'주어졌다'를 다른 말로 바꾸면 '정해졌다'라고 할 수 있는데요. 
+위 식에서 기대값은 $x$값이 '이미 정해을때'라는 조건부 기대값으로 볼 수 있습니다.
+이를 수식으로 나타내면,
+
+$$ E(Y|X=x) = \beta_{0} + \beta_{1}x $$
+
+위 mean function을 자세히 살펴보면, 직선이라는 것을 알 수 있는데요. 
+$\beta_{0}$가 절편(intercept)이 되고, $\beta_{1}$은 기울기(slope)입니다. 
+
+## VARIANCE FUNCTION
+
+회귀분석에서 종종 적합 모델에 사용되는 가정은 모든 $x$값에 대해 분산이 동일하다는 것입니다. 
+즉, 
+
+$$ Var(Y|X=x) = \sigma^{2} $$
