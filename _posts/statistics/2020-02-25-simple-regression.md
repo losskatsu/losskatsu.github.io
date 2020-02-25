@@ -34,7 +34,7 @@ sidebar:
 
 우리가 $Y$의 분포에 대해 관심있을 때 중요한 것이 mean function 입니다. 
 
-$$ E(Y|X=x) = \text{a function that depends on the value of} x $$
+$$ E(Y|X=x) = \text{a function that depends on the value of } x $$
 
 데이터에 대해서 생각해보면 데이터는 이미 '주어졌다'는 것을 알 수 있습니다. 
 '주어졌다'를 다른 말로 바꾸면 '정해졌다'라고 할 수 있는데요. 
