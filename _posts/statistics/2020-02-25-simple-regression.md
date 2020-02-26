@@ -110,7 +110,7 @@ $$ \hat{e_i} = y_i - \hat{E}(Y|X=x=x_i) = y_i - \hat{y_i} = y_i - (\hat{\beta_0}
 
 결국, 최소제곱법이란 
 
-$$ RSS = \sum_{i=1}^{n}\[y_i - (\hat{\beta_0} + \hat{\beta_1}x_i\]^{2} $$
+$$ RSS = \sum_{i=1}^{n}[y_i - (\hat{\beta_0} + \hat{\beta_1}x_i)]^{2} $$
 
 을 최소화 시키는 것을 의미합니다. 이 때 RSS를 Residual sum of squares라고 합니다. 
 최소제곱법을 이용한 모수의 추정치는 아래와 같습니다. 
