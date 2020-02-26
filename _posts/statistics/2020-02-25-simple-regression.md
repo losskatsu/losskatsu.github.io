@@ -170,8 +170,11 @@ $$ \textbf{R}_{adj}^{2} = 1 - \frac{RSS/df}{SYY/(n-1)}$$
 
 ## 3. 다중회귀분석(multiple regression)
 
+
 다중회귀분석은 단순회귀분석과 다르게 독립변수가 한 개가 아닌 여러 개 인 경우를 뜻합니다. 
 식으로 나타내면 아래와 같은데요. 
+
+![figure05](/assets/images/statistics/regression/regression05.jpg){: width="500"}
 
 $$ E(Y|X) = \beta_{0} + \beta_{1}x_{1} + \beta_{2}x_{2} + \dots + \beta_{p}x_{p} $$
 
