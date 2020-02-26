@@ -70,7 +70,7 @@ $$ Var(Y|X=x) = \sigma^{2} $$
 
 $$ y_{i} = E(Y|X=x_{i})+e_{i} $$ 
 
-$$ e_{i} = y_{i} - E(Y|X=x_{i}) $$ 
+$$ e_{i} = y_{i} - E(Y|X=x_{i}) = y_{i} - \beta_{0} + \beta_{1}x_i $$ 
 
 
 ![figure02](){: width="500"}
@@ -88,7 +88,9 @@ $$ e_{i} = y_{i} - E(Y|X=x_{i}) $$
 이 밖에도 오차항이 [정규분포](https://losskatsu.github.io/statistics/mean-vairance/)를 따라야한다는 가정도 있는데요. 
 이 가정은 다소 강한 가정으로 오차항이 반드시 [정규분포](https://losskatsu.github.io/statistics/mean-vairance/)를 따라야하는 것은 아닙니다. 
 
-## 최소제곱법
+또한 오차항은 [확률변수](https://losskatsu.github.io/statistics/random-variable/)이지만 [모수](https://losskatsu.github.io/statistics/population-sample/)는 아닙니다.
+
+## 최소제곱법 
 
 $$ y = \beta_{0} + \beta_{1}x $$
 
@@ -101,3 +103,22 @@ $y_i$는 실제값을 의미하구요, $\hat{y_i}$는 $i$번째 $y$의 추정치
 따라서 최소제곱법을 통해 구한 회귀식은 아래와 같이 표현됩니다. 
 
 $$  \hat{y_i} = \hat{E}(Y|X=x_i) = \hat{\beta_{0}} + \hat{\beta_{1}}x_i $$
+
+다음으로 오차항의 추정치는 아래와 같이 나타납니다. 
+
+$$ \hat{e_i} = y_i - \hat{E}(Y|X=x=x_i) = y_i - \hat{y_i} = y_i - (\hat{\beta_0} + \hat{\beta_1}x_i) $$
+
+결국, 최소제곱법이란 
+
+$$ RSS = \sum_{i=1}^{n}\[y_i - (\hat{\beta_0} + \hat{\beta_1}x_i\]^{2} $$
+
+을 최소화 시키는 것을 의미합니다. 이 때 RSS를 Residual sum of squares라고 합니다. 
+최소제곱법을 이용한 모수의 추정치는 아래와 같습니다. 
+
+
+
+## 최소제곱법으로 구한 해
+
+
+
+## 부록
