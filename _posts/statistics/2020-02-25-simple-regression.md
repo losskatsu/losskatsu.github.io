@@ -1,5 +1,5 @@
 ---
-title: "[기초통계] 회귀분석 정리" 
+title: "[기초통계] 단순 회귀분석의 개념과 의미" 
 categories:
   - statistics
 tags:
@@ -14,7 +14,7 @@ sidebar:
 ---
 
 
-# 회귀분석 정리
+# 단순 회귀분석 정리
 
 ## 회귀분석 정의
 
@@ -30,7 +30,9 @@ sidebar:
 결국 회귀분석이란 독립변수 $X$의 분포를 분석한 후, 종속변수 $Y$의 값을 예측하는 것입니다. 
 다른 말로하면 다양하게 분포된 $X$가 존재할 때, $Y$의 분포를 알아내는 것입니다. 
 
-## MEAN FUNCTION
+오늘 알아볼 것은 독립변수가 한 개일 경우, 즉 **단순회귀분석**에 대해 알아보겠습니다. 
+
+## 평균 함수(mean function)
 
 우리가 $Y$의 분포에 대해 관심있을 때 중요한 것이 mean function 입니다. 
 
@@ -46,9 +48,34 @@ $$ E(Y|X=x) = \beta_{0} + \beta_{1}x $$
 위 mean function을 자세히 살펴보면, 직선이라는 것을 알 수 있는데요. 
 $\beta_{0}$가 절편(intercept)이 되고, $\beta_{1}$은 기울기(slope)입니다. 
 
-## VARIANCE FUNCTION
+## 분산함수(variance function)
 
-회귀분석에서 종종 적합 모델에 사용되는 가정은 모든 $x$값에 대해 분산이 동일하다는 것입니다. 
+회귀분석에서 종종 적합 모델에 사용되는 가정은 모든 $x$값에 대해 [분산](https://losskatsu.github.io/statistics/mean-vairance/)이 동일하다는 것입니다. 
 즉, 
 
 $$ Var(Y|X=x) = \sigma^{2} $$
+
+이며, [분산](https://losskatsu.github.io/statistics/mean-vairance/)이 얼마인지는 모르는상태(unknown)입니다. 
+
+## 통계적 오차(statistical error)
+
+회귀분석에서 빼놓을 수 없는 요소가 바로 오차(error)인데요. 
+여기서 말하는 에러는 통계적 오차(statistical error)입니다. 
+왜냐하면 우리가 예상한 종속변수 $y$값은 실제로 관측된 $y$값과 차이가 날 수 있기 때문입니다. 
+즉, $E(Y|X=x_i)$와 $y_{i}$가 다를 수 있다는 뜻이죠. 이를 수식으로 나타내면 다음과 같습니다. 
+
+$$ y_{i} = E(Y|X=x_{i})+e_{i} $$ 
+
+$$ e_{i} = y_{i} - E(Y|X=x_{i}) $$ 
+
+오차항에는 두가지 가정이 필요합니다. 
+
+1. 오차항의 기대값은 0이다. $E(e|x_{i}) = 0$.
+즉, 가로축을 $x_{i}$라고 놓고, 세로축을 $e_{i}$로 놓고 그래프르를 그리면 패턴이 없다는 뜻입니다. 
+
+2. 오차항은 모두 서로독립(independent)이다. 
+즉, 하나의 오차는 다른 오차에 대해 어떠한 정보도 줄 수 없다는 뜻 입니다. 영향을 끼치지 않는다는 뜻이죠. 
+
+이 밖에도 오차항이 [정규분포](https://losskatsu.github.io/statistics/mean-vairance/)를 따라야한다는 가정도 있는데요. 
+이 가정은 다소 강한 가정으로 오차항이 반드시 [정규분포](https://losskatsu.github.io/statistics/mean-vairance/)를 따라야하는 것은 아닙니다. 
+
