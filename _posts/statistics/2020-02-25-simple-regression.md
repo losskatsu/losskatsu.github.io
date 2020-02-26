@@ -127,6 +127,14 @@ $$ \hat{\beta_{0}} = \bar{y} - \hat{\beta_{1}} - \hat{\beta_{1}}\bar{x} $$
 
 $$ \hat{\sigma^2} = \frac{RSS}{n-2} $$
 
+## 모형 설명력
+
+
+## 모형 진단
+
+![figure04](/assets/images/statistics/regression/regression04.jpg){: width="500"}
+
+
 ## 부록
 
 ![figure03](/assets/images/statistics/regression/regression03.jpg){: width="500"}
