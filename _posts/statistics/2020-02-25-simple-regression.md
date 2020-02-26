@@ -117,8 +117,14 @@ $$ RSS = \sum_{i=1}^{n}\[y_i - (\hat{\beta_0} + \hat{\beta_1}x_i\]^{2} $$
 
 
 
-## 최소제곱법으로 구한 해
+## 최소제곱법으로 구한 모수 추정치
 
+$$ \hat{\beta_{1}} = \frac{sum_{i=1}^{n}(x_i - \bat{x})(y_i - \bar{y})}{\sum_{i=1}^{n}(x_i - \bar{x})^{2} } $$ <br />
 
+$$ \hat{\beta_{0}} = \bar{y} - \hat{\beta_{1}} - \hat{\beta_{1}}\bar{x} $$
+
+## 분산 추정
+
+$$ \hat{\sigma^2} = \frac{RSS}{n-2} $$
 
 ## 부록
