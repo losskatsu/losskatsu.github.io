@@ -30,7 +30,7 @@ sidebar:
 결국 회귀분석이란 독립변수 $X$의 분포를 분석한 후, 종속변수 $Y$의 값을 예측하는 것입니다. 
 다른 말로하면 다양하게 분포된 $X$가 존재할 때, $Y$의 분포를 알아내는 것입니다. 
 
-![figure01](){: width="500"}
+![figure01](/assets/images/statistics/regression/regression01.jpg){: width="500"}
 
 오늘 알아볼 것은 독립변수가 한 개일 경우, 즉 **단순회귀분석**에 대해 알아보겠습니다. 
 
@@ -73,7 +73,7 @@ $$ y_{i} = E(Y|X=x_{i})+e_{i} $$
 $$ e_{i} = y_{i} - E(Y|X=x_{i}) = y_{i} - \beta_{0} + \beta_{1}x_i $$ 
 
 
-![figure02](){: width="500"}
+![figure02](/assets/images/statistics/regression/regression02.jpg){: width="500"}
 
 
 
@@ -128,3 +128,6 @@ $$ \hat{\beta_{0}} = \bar{y} - \hat{\beta_{1}} - \hat{\beta_{1}}\bar{x} $$
 $$ \hat{\sigma^2} = \frac{RSS}{n-2} $$
 
 ## 부록
+
+![figure03](/assets/images/statistics/regression/regression03.jpg){: width="500"}
+
