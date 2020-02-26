@@ -57,11 +57,13 @@ $\beta_{0}$가 절편(intercept)이 되고, $\beta_{1}$은 기울기(slope)입�
 ### 2-2. 분산함수(variance function)
 
 회귀분석에서 종종 적합 모델에 사용되는 가정은 모든 $x$값에 대해 [분산](https://losskatsu.github.io/statistics/mean-vairance/)이 동일하다는 것입니다. 
-즉, 
+$x$값이 얼마이든 분산에는 영향을 주지 않고, 분산은 항상 같다는 뜻입니다. 
+이를 식으로 나타내면 아래와 같습니다.  
 
 $$ Var(Y|X=x) = \sigma^{2} $$
 
 이며, [분산](https://losskatsu.github.io/statistics/mean-vairance/)이 얼마인지는 모르는상태(unknown)입니다. 
+
 
 ### 2-3. 통계적 오차(statistical error)
 
@@ -88,15 +90,13 @@ $$ e_{i} = y_{i} - E(Y|X=x_{i}) = y_{i} - \beta_{0} + \beta_{1}x_i $$
 즉, 하나의 오차는 다른 오차에 대해 어떠한 정보도 줄 수 없다는 뜻 입니다. 영향을 끼치지 않는다는 뜻이죠. 
 
 이 밖에도 오차항이 [정규분포](https://losskatsu.github.io/statistics/mean-vairance/)를 따라야한다는 가정도 있는데요. 
-이 가정은 다소 강한 가정으로 오차항이 반드시 [정규분포](https://losskatsu.github.io/statistics/mean-vairance/)를 따라야하는 것은 아닙니다. 
-
-또한 오차항은 [확률변수](https://losskatsu.github.io/statistics/random-variable/)이지만 [모수](https://losskatsu.github.io/statistics/population-sample/)는 아닙니다.
+이 가정은 다소 강한 가정으로 오차항이 반드시 [정규분포](https://losskatsu.github.io/statistics/mean-vairance/)를 따라야하는 것은 아닙니다. 또한 오차항은 [확률변수](https://losskatsu.github.io/statistics/random-variable/)이지만 [모수](https://losskatsu.github.io/statistics/population-sample/)는 아닙니다.
 
 ### 2-4. 최소제곱법 
 
 $$ y = \beta_{0} + \beta_{1}x $$
 
-위와 같은 회귀분석 식에서 우리가 추정해야할 [모수](https://losskatsu.github.io/statistics/population-sample/)는 $\beta_{0} \, \beta_{1}$입니다. 최소제곱법은 바로 이 모수를 추정하는 방식으로 오차항의 제곱합을 최소화 하는 방식으로 값을 구합니다. 
+위와 같은 회귀분석 식에서 우리가 추정해야할 [모수](https://losskatsu.github.io/statistics/population-sample/)는 $\beta_{0} , \beta_{1}$입니다. 최소제곱법은 바로 이 두가지 모수를 추정하는 방식으로써 오차항의 제곱합을 최소화 하는 방식으로 값을 구합니다. 
 
 > 최소제곱법(ordinary least squares, OLS)은 오차의 제곱합이 최소가 되는 해를 구하는 방법이다. 
 
