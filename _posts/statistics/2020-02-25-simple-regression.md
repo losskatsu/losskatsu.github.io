@@ -92,6 +92,12 @@ $$ e_{i} = y_{i} - E(Y|X=x_{i}) = y_{i} - \beta_{0} + \beta_{1}x_i $$
 이 밖에도 오차항이 [정규분포](https://losskatsu.github.io/statistics/mean-vairance/)를 따라야한다는 가정도 있는데요. 
 이 가정은 다소 강한 가정으로 오차항이 반드시 [정규분포](https://losskatsu.github.io/statistics/mean-vairance/)를 따라야하는 것은 아닙니다. 또한 오차항은 [확률변수](https://losskatsu.github.io/statistics/random-variable/)이지만 [모수](https://losskatsu.github.io/statistics/population-sample/)는 아닙니다.
 
+#### 참고. 오차 vs 잔차
+
+오차(error)와 잔차(residual)은 비슷한 뜻 이지만 차이가 있습니다. 
+오차는 [모집단](https://losskatsu.github.io/statistics/population-sample/)을 대상으로 한 회귀식에 쓰는 말이며, 잔차는 [표본](https://losskatsu.github.io/statistics/population-sample/)을 대상으로 쓰는 말입니다. 
+
+
 ### 2-4. 최소제곱법 
 
 $$ y = \beta_{0} + \beta_{1}x $$
