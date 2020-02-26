@@ -119,7 +119,7 @@ $$ RSS = \sum_{i=1}^{n}[y_i - (\hat{\beta_0} + \hat{\beta_1}x_i)]^{2} $$
 
 ## 최소제곱법으로 구한 모수 추정치
 
-$$ \hat{\beta_{1}} = \frac{\sum_{i=1}^{n}(x_i - \bar{x})(y_i - \bar{y})}{\sum_{i=1}^{n}(x_i - \bar{x})^{2} } $$ <br />
+$$ \hat{\beta_{1}} = \frac{\sum_{i=1}^{n}(x_i - \bar{x})(y_i - \bar{y})}{\sum_{i=1}^{n}(x_i - \bar{x})^{2} } $$  
 
 $$ \hat{\beta_{0}} = \bar{y} - \hat{\beta_{1}} - \hat{\beta_{1}}\bar{x} $$
 
@@ -148,7 +148,7 @@ R제곱값에는 한가지 단점이 있는데요.
 따라서 분석가는 무작정 변수를 추가함으로써 모형설명력이 높다고 착각할 수 있는데요. 
 이를 보완하기 위해 나온 것이 adjusted R제곱값 입니다. 
 
-$$ \textbf{R_{adj}^{2}} = = 1 - \frac{RSS/df}{SYY/(n-1)}$$ 
+$$ \textbf{R}_{adj}^{2} = 1 - \frac{RSS/df}{SYY/(n-1)}$$ 
 
 얼핏 보기에는 R제곱값과 비슷하지만 adjsted R제곱값은 자유도를 고려합니다. 
 따라서 변수를 무작정 추가했을때 설명력이 높아지는 것을 막을 수 있습니다. 
