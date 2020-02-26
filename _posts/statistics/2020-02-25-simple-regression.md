@@ -188,15 +188,15 @@ $$ E(\mathbf{Y}|\mathbf{X}) = \mathbf{X}\mathbf{\beta} $$
 
 ### 3-2. 오차항 e
 
-$$ E(\mathbf{e}|X)=0 \; Var(\mathbf{}|X) = \sigma^{2}\mathbf{I_n} $$
+$$ E(\mathbf{e}|X)=0 , \,\,\, Var(\mathbf{}|X) = \sigma^{2}\mathbf{I_n} $$
 
-$$ E(\mathbf{e}|X)=0 \: Var(\mathbf{}|X) = \sigma^{2}\mathbf{I_n} $$
-
-$$ E(\mathbf{e}|X)=0 \, Var(\mathbf{}|X) = \sigma^{2}\mathbf{I_n} $$
-
-$$ E(\mathbf{e}|X)=0 \! Var(\mathbf{}|X) = \sigma^{2}\mathbf{I_n} $$
- 
 $$ (\mathbf{e}|X) \sim N(0, \sigma^{2}\mathbf{I_n}) $$
+
+### 3-3. OLS 추정
+
+$$ RSS(\beta) = \sum(y_i - \mathbf{x_{i}^{T}})^{2} = (\mathbf{Y}-\mathbf{Y}\mathbf{\beta})^{T}(\mathbf{Y}-\mathbf{Y}\mathbf{\beta}) $$
+
+$$ \hat{\beta} = (\mathbf{X^{T}}\mathbf{X})^{-1}\mathbf{X^{T}}\mathbf{Y} $$
 
 ## 부록
 
