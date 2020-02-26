@@ -30,6 +30,8 @@ sidebar:
 결국 회귀분석이란 독립변수 $X$의 분포를 분석한 후, 종속변수 $Y$의 값을 예측하는 것입니다. 
 다른 말로하면 다양하게 분포된 $X$가 존재할 때, $Y$의 분포를 알아내는 것입니다. 
 
+![figure01](){: width="500"}
+
 오늘 알아볼 것은 독립변수가 한 개일 경우, 즉 **단순회귀분석**에 대해 알아보겠습니다. 
 
 ## 평균 함수(mean function)
@@ -47,6 +49,8 @@ $$ E(Y|X=x) = \beta_{0} + \beta_{1}x $$
 
 위 mean function을 자세히 살펴보면, 직선이라는 것을 알 수 있는데요. 
 $\beta_{0}$가 절편(intercept)이 되고, $\beta_{1}$은 기울기(slope)입니다. 
+또한 위 식에서 $\beta_{0} \, \beta_{1}$는 [모수](https://losskatsu.github.io/statistics/population-sample/)이며, 
+우리가 추정해야할 값입니다. 
 
 ## 분산함수(variance function)
 
@@ -68,6 +72,11 @@ $$ y_{i} = E(Y|X=x_{i})+e_{i} $$
 
 $$ e_{i} = y_{i} - E(Y|X=x_{i}) $$ 
 
+
+![figure02](){: width="500"}
+
+
+
 오차항에는 두가지 가정이 필요합니다. 
 
 1. 오차항의 기대값은 0이다. $E(e|x_{i}) = 0$.
@@ -78,4 +87,12 @@ $$ e_{i} = y_{i} - E(Y|X=x_{i}) $$
 
 이 밖에도 오차항이 [정규분포](https://losskatsu.github.io/statistics/mean-vairance/)를 따라야한다는 가정도 있는데요. 
 이 가정은 다소 강한 가정으로 오차항이 반드시 [정규분포](https://losskatsu.github.io/statistics/mean-vairance/)를 따라야하는 것은 아닙니다. 
+
+## 최소제곱법
+
+$$ y = \beta_{0} + \beta_{1}x $$
+
+위와 같은 회귀분석 식에서 우리가 추정해야할 [모수](https://losskatsu.github.io/statistics/population-sample/)는 $\beta_{0} \, \beta_{1}$입니다. 최소제곱법은 바로 이 모수를 추정하는 방식으로 오차항의 제곱합을 최소화 하는 방식으로 값을 구합니다. 
+
+> 최소제곱법(ordinary least squares, OLS)은 오차의 제곱합이 최소가 되는 해를 구하는 방법이다. 
 
