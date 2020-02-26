@@ -178,7 +178,25 @@ $$ \textbf{R}_{adj}^{2} = 1 - \frac{RSS/df}{SYY/(n-1)}$$
 
 $$ E(Y|X) = \beta_{0} + \beta_{1}x_{1} + \beta_{2}x_{2} + \dots + \beta_{p}x_{p} $$
 
+### 3-1. 평균 함수(mean function)
 
+다중회귀의 평균 함수는 다음과 같습니다. 
+
+$$ E(\mathbf{Y}|\mathbf{X}) = \mathbf{X}\mathbf{\beta} $$
+
+이 때, $X$는 $n \times (p+1)$ 행렬입니다.
+
+### 3-2. 오차항 e
+
+$$ E(\mathbf{e}|X)=0 \; Var(\mathbf{}|X) = \sigma^{2}\mathbf{I_n} $$
+
+$$ E(\mathbf{e}|X)=0 \: Var(\mathbf{}|X) = \sigma^{2}\mathbf{I_n} $$
+
+$$ E(\mathbf{e}|X)=0 \, Var(\mathbf{}|X) = \sigma^{2}\mathbf{I_n} $$
+
+$$ E(\mathbf{e}|X)=0 \! Var(\mathbf{}|X) = \sigma^{2}\mathbf{I_n} $$
+ 
+$$ (\mathbf{e}|X) \sim N(0, \sigma^{2}\mathbf{I_n}) $$
 
 ## 부록
 
