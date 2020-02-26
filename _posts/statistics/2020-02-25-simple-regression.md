@@ -188,11 +188,17 @@ $$ E(\mathbf{Y}|\mathbf{X}) = \mathbf{X}\mathbf{\beta} $$
 
 ### 3-2. 오차항 e
 
+기본적으로 단순회귀분석 때와 같은 개념입니다. 
+다만 행렬로 표현했을 뿐 입니다. 
+
 $$ E(\mathbf{e}|X)=0 , \,\,\, Var(\mathbf{}|X) = \sigma^{2}\mathbf{I_n} $$
 
 $$ (\mathbf{e}|X) \sim N(0, \sigma^{2}\mathbf{I_n}) $$
 
 ### 3-3. OLS 추정
+
+OLS 추정 또한 단순회귀때와 같습니다. 단지 행렬로 표현했을 뿐인데요. 
+물론 단순회귀때도 아래와 같이 행렬로 계산해도 같은 결과가 나옵니다. 
 
 $$ RSS(\beta) = \sum(y_i - \mathbf{x_{i}^{T}})^{2} = (\mathbf{Y}-\mathbf{Y}\mathbf{\beta})^{T}(\mathbf{Y}-\mathbf{Y}\mathbf{\beta}) $$
 
