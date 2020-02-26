@@ -1,5 +1,5 @@
 ---
-title: "[기초통계] 단순 회귀분석의 개념과 의미" 
+title: "[기초통계] 회귀분석의 개념과 의미" 
 categories:
   - statistics
 tags:
@@ -14,7 +14,7 @@ sidebar:
 ---
 
 
-# 단순 회귀분석 정리
+# 회귀분석 정리
 
 ## 1. 회귀분석 정의
 
@@ -32,9 +32,11 @@ sidebar:
 
 ![figure01](/assets/images/statistics/regression/regression01.jpg){: width="500"}
 
-오늘 알아볼 것은 독립변수가 한 개일 경우, 즉 **단순회귀분석**에 대해 알아보겠습니다. 
+오늘 알아볼 것은 독립변수가 한 개일 경우, 즉 **단순회귀분석** 부터 알아보겠습니다. 
 
-## 2. 평균 함수(mean function)
+## 2. 단순회귀분석
+
+### 2-1. 평균 함수(mean function)
 
 우리가 $Y$의 분포에 대해 관심있을 때 중요한 것이 mean function 입니다. 
 
@@ -52,7 +54,7 @@ $\beta_{0}$가 절편(intercept)이 되고, $\beta_{1}$은 기울기(slope)입�
 또한 위 식에서 $\beta_{0} \, \beta_{1}$는 [모수](https://losskatsu.github.io/statistics/population-sample/)이며, 
 우리가 추정해야할 값입니다. 
 
-## 3. 분산함수(variance function)
+### 2-2. 분산함수(variance function)
 
 회귀분석에서 종종 적합 모델에 사용되는 가정은 모든 $x$값에 대해 [분산](https://losskatsu.github.io/statistics/mean-vairance/)이 동일하다는 것입니다. 
 즉, 
@@ -61,7 +63,7 @@ $$ Var(Y|X=x) = \sigma^{2} $$
 
 이며, [분산](https://losskatsu.github.io/statistics/mean-vairance/)이 얼마인지는 모르는상태(unknown)입니다. 
 
-## 4. 통계적 오차(statistical error)
+### 2-3. 통계적 오차(statistical error)
 
 회귀분석에서 빼놓을 수 없는 요소가 바로 오차(error)인데요. 
 여기서 말하는 에러는 통계적 오차(statistical error)입니다. 
@@ -90,7 +92,7 @@ $$ e_{i} = y_{i} - E(Y|X=x_{i}) = y_{i} - \beta_{0} + \beta_{1}x_i $$
 
 또한 오차항은 [확률변수](https://losskatsu.github.io/statistics/random-variable/)이지만 [모수](https://losskatsu.github.io/statistics/population-sample/)는 아닙니다.
 
-## 5. 최소제곱법 
+### 2-4. 최소제곱법 
 
 $$ y = \beta_{0} + \beta_{1}x $$
 
@@ -117,17 +119,17 @@ $$ RSS = \sum_{i=1}^{n}[y_i - (\hat{\beta_0} + \hat{\beta_1}x_i)]^{2} $$
 
 
 
-## 6. 최소제곱법으로 구한 모수 추정치
+### 2-5. 최소제곱법으로 구한 모수 추정치
 
 $$ \hat{\beta_{1}} = \frac{\sum_{i=1}^{n}(x_i - \bar{x})(y_i - \bar{y})}{\sum_{i=1}^{n}(x_i - \bar{x})^{2} } $$  
 
 $$ \hat{\beta_{0}} = \bar{y} - \hat{\beta_{1}} - \hat{\beta_{1}}\bar{x} $$
 
-## 7. 분산 추정
+### 2-6. 분산 추정
 
 $$ \hat{\sigma^2} = \frac{RSS}{n-2} $$
 
-## 8. 모형 설명력
+### 2-7. 모형 설명력
 
 우리가 만든 회귀모형이 얼마나 설명력이 있을까요? 
 모형의 설명력은 변동성 개념을 이용해서 표현합니다. 
@@ -153,7 +155,7 @@ $$ \textbf{R}_{adj}^{2} = 1 - \frac{RSS/df}{SYY/(n-1)}$$
 얼핏 보기에는 R제곱값과 비슷하지만 adjsted R제곱값은 자유도를 고려합니다. 
 따라서 변수를 무작정 추가했을때 설명력이 높아지는 것을 막을 수 있습니다. 
 
-## 9. 모형 진단
+### 2-8. 모형 진단
 
 모형을 구한 후에는 모형이 적합한지 검증이 필요합니다. 
 앞서 모형 설정 이전에 여러가지 가정을 했었는데요. 
@@ -165,6 +167,15 @@ $$ \textbf{R}_{adj}^{2} = 1 - \frac{RSS/df}{SYY/(n-1)}$$
 위 그림에서 봐야할 것은 잔차의 평균이 0인지, 분산이 일정한지 입니다. 
 위 그림은 두 조건 모두 만족하네요. 
 따라서 위와 같은 플랏 형태가 나타난다면 회귀모형이 적합하다는 것을 알 수 있습니다. 
+
+## 3. 다중회귀분석(multiple regression)
+
+다중회귀분석은 단순회귀분석과 다르게 독립변수가 한 개가 아닌 여러 개 인 경우를 뜻합니다. 
+식으로 나타내면 아래와 같은데요. 
+
+$$ E(Y|X) = \beta_{0} + \beta_{1}x_{1} + \beta_{2}x_{2} + \dots + \beta_{p}x_{p} $$
+
+
 
 ## 부록
 
