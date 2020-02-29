@@ -46,9 +46,11 @@ $$ \hat{k^(n)} = \argmin_{k}[d(m^{k}, x^{n})] $$
 각 그룹에 대한 새로운 평균값을 업데이트 합니다.
 
 $$ 
-\begin
-
-\end
+r_{k}^(n) = 
+\begin{cases}
+1 & \text{if} \, \hat{k}^{(n)}=k \\
+0 & \text{if} \, \hat{k}^{(n)} \neq k \\
+\end{cases}
 $$
 
 ### 4. 반복
