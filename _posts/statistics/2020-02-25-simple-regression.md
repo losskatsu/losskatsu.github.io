@@ -16,6 +16,11 @@ sidebar:
 
 # 회귀분석 정리
 
+참고링크
+* [회귀분석 복습하기](https://losskatsu.github.io/statistics/simple-regression/)
+* [로지스틱 회귀분석 복습하기](https://losskatsu.github.io/statistics/logistic-regression/)
+* [서포트 벡터 머신 복습하기](https://losskatsu.github.io/machine-learning/svm/)
+
 ## 1. 회귀분석 정의
 
 > 회귀분석(regression analysis)는 [변수](https://losskatsu.github.io/statistics/random-variable/)들간의 함수관계를 추구하는 통계적 방법이다. 
