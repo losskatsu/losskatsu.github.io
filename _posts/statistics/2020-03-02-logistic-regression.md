@@ -61,10 +61,12 @@ $$ \pi(x) = \frac{exp(\alpha + \betax)}{1 + exp(\alpha + \betax)}  $$
 
 위 식은 일반화 시키면 아래와 같이 변경가능한데요. 
 
-$$ \frac{\pi(x)}{1-\pi(x)} = exp(\alpha + \beta_{1}x_{1} + \dots + + \beta_{p}x_{p}$$
+$$ \frac{\pi(x)}{1-\pi(x)} = exp(\alpha + \beta_{1}x_{1} + \dots + + \beta_{p}x_{p})$$
 
 위 식을 보니 [오즈(odds)](https://losskatsu.github.io/statistics/categorical-test/)가 생각나네요. 
 또한 양변에 로그를 취하면 아래와 같이 변합니다. 
+
+$$ log\frac{\pi(x)}{1-\pi(x)} = \alpha + \beta_{1}x_{1} + \dots + + \beta_{p}x_{p} $$ 
 
 
  
