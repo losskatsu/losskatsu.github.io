@@ -57,7 +57,7 @@ sidebar:
 로지스틱 회귀분석은 아래와 같습니다. 
 아래 식에서 $\pi(x)$란 $p(y=1\|x)$, 즉, $x$가 주어졌을 때의 $y$가 1일 확률이라고 생각하시면 되겠습니다.  
 
-$$ \pi(x) = \frac{exp(\alpha + \betax)}{1 + exp(\alpha + \betax)}  $$
+$$ \pi(x) = \frac{exp(\alpha + \beta x)}{1 + exp(\alpha + \beta x)}  $$
 
 위 식은 일반화 시키면 아래와 같이 변경가능한데요. 
 
