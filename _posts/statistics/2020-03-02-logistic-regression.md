@@ -16,6 +16,7 @@ sidebar:
 # 로지스틱 회귀분석 개념 정리
 
 참고링크
+* [범주형 자료분석 복습하기](https://losskatsu.github.io/statistics/categorical-test/)
 * [회귀분석 복습하기](https://losskatsu.github.io/statistics/simple-regression/)
 * [로지스틱 회귀분석 복습하기](https://losskatsu.github.io/statistics/logistic-regression/)
 * [서포트 벡터 머신 복습하기](https://losskatsu.github.io/machine-learning/svm/)
@@ -50,5 +51,20 @@ sidebar:
 이걸 예측관점으로보면 결과값이 0과 1사이의 값이 나오니 확률이라고 이해해서 발생할 확률을 예측한다고 볼수도있구요. 
 아니면 애초에 종속변수가 0, 1 뿐이니까 '분류'한다고 생각할수도 있습니다. 
 결국 같은 말인데, 어떻게 바라보냐에 따라 차이가 나타나는 것 같습니다. 
+
+## 로지스틱 회귀분석 모델
+
+로지스틱 회귀분석은 아래와 같습니다. 
+아래 식에서 $\pi(x)$란 $p(y=1\|x)$, 즉, $x$가 주어졌을 때의 $y$가 1일 확률이라고 생각하시면 되겠습니다.  
+
+$$ \pi(x) = \frac{exp(\alpha + \betax)}{1 + exp(\alpha + \betax)}  $$
+
+위 식은 일반화 시키면 아래와 같이 변경가능한데요. 
+
+$$ \frac{\pi(x)}{1-\pi(x)} = exp(\alpha + \beta_{1}x_{1} + \dots + + \beta_{p}x_{p}$$
+
+위 식을 보니 [오즈(odds)](https://losskatsu.github.io/statistics/categorical-test/)가 생각나네요. 
+또한 양변에 로그를 취하면 아래와 같이 변합니다. 
+
 
  
