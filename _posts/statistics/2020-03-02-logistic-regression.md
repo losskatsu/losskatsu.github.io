@@ -51,11 +51,14 @@ sidebar:
 이걸 예측관점으로보면 결과값이 0과 1사이의 값이 나오니 확률이라고 이해해서 발생할 확률을 예측한다고 볼수도있구요. 
 아니면 애초에 종속변수가 0, 1 뿐이니까 '분류'한다고 생각할수도 있습니다. 
 결국 같은 말인데, 어떻게 바라보냐에 따라 차이가 나타나는 것 같습니다. 
+로지스틱 회귀분석은 초기에는 의료분야에 적용되었고, 현재는 사회과학 분야에서도 많이 쓰입니다. 
+예를들어 한 사람의 수입, 직장, 과거에 얼마나 돈을 잘 갚았는지 등을 고려해 신용점수(credit-scoring)에 쓰이기도 합니다.
 
 ## 로지스틱 회귀분석 모델
 
 로지스틱 회귀분석을 위해 $\pi(x)$라는 표기법을 사용할 건데요. 
 아래 식처럼 $\pi(x)$란 $p(Y=1\|x)$, 즉, $x$가 주어졌을 때의 [확률변수](https://losskatsu.github.io/statistics/random-variable/) $Y$가 1일 확률이라고 생각하시면 되겠습니다.  
+그리고 위에서도 언급되었지만 종속변수 $Y$ 는 이항범주형 변수(binary response variable)입니다.
 
 $$ \pi(x) = P(Y=1 | X=x) = 1- P(Y=0 |X=x) $$
 
@@ -73,10 +76,28 @@ $$ \frac{\pi(x)}{1-\pi(x)} = exp(\alpha + \beta_{1}x_{1} + \dots + + \beta_{p}x_
 $$ logit[\pi(x)] = log\frac{\pi(x)}{1-\pi(x)} = \alpha + \beta_{1}x_{1} + \dots + + \beta_{p}x_{p} $$ 
 
 위 식처럼 오즈에 로그를 취한, 즉 log odds를 logit 이라고 합니다. 
+이와 같은 결과는 아래의 과정을 거쳐서 얻어집니다. 참고만 해주세요. 
+
+<center><img src="/assets/images/statistics/logistic-regression/logistic03.jpg" width="800"></center> 
+
+
+## 베타의 의미
+
+로지스틱 회귀분석에서 베타는 중요한 정보들을 가지고 있습니다. 
+우선 베타가 0보다 큰지 작은지에 따라 로지스틱 회귀곡선 형태가 바뀝니다. 아래 그림을 보시죠. 
 
  <center><img src="/assets/images/statistics/logistic-regression/logistic01.jpg" width="800"></center> 
- <center><img src="/assets/images/statistics/logistic-regression/logistic02.jpg" width="800"></center> 
- <center><img src="/assets/images/statistics/logistic-regression/logistic03.jpg" width="800"></center> 
- <center><img src="/assets/images/statistics/logistic-regression/logistic04.jpg" width="800"></center> 
+
+또한 로지스틱 회귀분석에서 베타는 회귀곡선의 기울기와 관련되어있는데요. 
+바로 독립변수 $x$가 한 단위 증가할 때 $\pi(x)$가 증가하는지 감소하는지를 나타냅니다. 
+아래 그림처럼 독립변수 $x$가 한단위 증가할 때 $\pi(x)$는 $\beta\pi(1-\pi)$ 만큼 증가합니다.
+
+<center><img src="/assets/images/statistics/logistic-regression/logistic02.jpg" width="800"></center> 
+ 
+위에서 $\beta\pi(1-\pi)$는 $\frac{\partial\pi(x)}{\partial x}$를 구함으로써 얻어집니다. 
+이는 아래 과정을 통해 얻어집니다. 
+ 
+<center><img src="/assets/images/statistics/logistic-regression/logistic04.jpg" width="800"></center> 
+
 
 
