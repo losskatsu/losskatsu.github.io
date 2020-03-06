@@ -94,7 +94,11 @@ $$ logit[\pi(x)] = log\frac{\pi(x)}{1-\pi(x)} = \alpha + \beta_{1}x_{1} + \dots 
 
 <center><img src="/assets/images/statistics/logistic-regression/logistic02.jpg" width="800"></center> 
  
-위에서 $\beta\pi(1-\pi)$는 $\frac{\partial\pi(x)}{\partial x}$를 구함으로써 얻어집니다. 
+위 그림에서 기울기에 대해 이야기해봅시다. 
+위 곡선에서 $\pi(x)=1/2$ 일 때, $x=-\frac{\alpha}{\beta}$일때 기울기가 가장 가파릅니다. 
+이 때 가장 기울기가 가장 가파른 $x$, 
+다른말로하면 $x$에 대한 $y$의 확률이 1/2이 되는 지점인 $x=-\frac{\alpha}{\beta}$일 때를 median effective level이라고 부릅니다. 
+또한 위에서 $\beta\pi(1-\pi)$는 $\frac{\partial\pi(x)}{\partial x}$를 구함으로써 얻어집니다. 
 이는 아래 과정을 통해 얻어집니다. 부록을 참고해주세요. 
 
 
