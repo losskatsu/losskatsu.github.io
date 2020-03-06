@@ -76,9 +76,8 @@ $$ \frac{\pi(x)}{1-\pi(x)} = exp(\alpha + \beta_{1}x_{1} + \dots + + \beta_{p}x_
 $$ logit[\pi(x)] = log\frac{\pi(x)}{1-\pi(x)} = \alpha + \beta_{1}x_{1} + \dots + + \beta_{p}x_{p} $$ 
 
 위 식처럼 오즈에 로그를 취한, 즉 log odds를 logit 이라고 합니다. 
-이와 같은 결과는 아래의 과정을 거쳐서 얻어집니다. 참고만 해주세요. 
+이와 같은 결과는 아래의 과정을 거쳐서 얻어집니다. 부록을 참고 해주세요. 
 
-<center><img src="/assets/images/statistics/logistic-regression/logistic03.jpg" width="800"></center> 
 
 
 ## 로지스틱 회귀곡선 의미
@@ -95,9 +94,14 @@ $$ logit[\pi(x)] = log\frac{\pi(x)}{1-\pi(x)} = \alpha + \beta_{1}x_{1} + \dots 
 <center><img src="/assets/images/statistics/logistic-regression/logistic02.jpg" width="800"></center> 
  
 위에서 $\beta\pi(1-\pi)$는 $\frac{\partial\pi(x)}{\partial x}$를 구함으로써 얻어집니다. 
-이는 아래 과정을 통해 얻어집니다. 
+이는 아래 과정을 통해 얻어집니다. 부록을 참고해주세요. 
  
-<center><img src="/assets/images/statistics/logistic-regression/logistic04.jpg" width="800"></center> 
 
 ## 로직스틱 회귀모형 해석
 
+
+## 부록
+
+<center><img src="/assets/images/statistics/logistic-regression/logistic03.jpg" width="800"></center> 
+
+<center><img src="/assets/images/statistics/logistic-regression/logistic04.jpg" width="800"></center> 
