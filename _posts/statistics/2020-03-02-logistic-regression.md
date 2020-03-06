@@ -81,7 +81,7 @@ $$ logit[\pi(x)] = log\frac{\pi(x)}{1-\pi(x)} = \alpha + \beta_{1}x_{1} + \dots 
 <center><img src="/assets/images/statistics/logistic-regression/logistic03.jpg" width="800"></center> 
 
 
-## 베타의 의미
+## 로지스틱 회귀곡선 의미
 
 로지스틱 회귀분석에서 베타는 중요한 정보들을 가지고 있습니다. 
 우선 베타가 0보다 큰지 작은지에 따라 로지스틱 회귀곡선 형태가 바뀝니다. 아래 그림을 보시죠. 
@@ -99,5 +99,5 @@ $$ logit[\pi(x)] = log\frac{\pi(x)}{1-\pi(x)} = \alpha + \beta_{1}x_{1} + \dots 
  
 <center><img src="/assets/images/statistics/logistic-regression/logistic04.jpg" width="800"></center> 
 
-
+## 로직스틱 회귀모형 해석
 
