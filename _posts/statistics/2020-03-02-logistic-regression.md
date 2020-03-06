@@ -89,12 +89,18 @@ $$ logit[\pi(x)] = log\frac{\pi(x)}{1-\pi(x)} = \alpha + \beta_{1}x_{1} + \dots 
 
 또한 로지스틱 회귀분석에서 베타는 회귀곡선의 기울기와 관련되어있는데요. 
 바로 독립변수 $x$가 한 단위 증가할 때 $\pi(x)$가 증가하는지 감소하는지를 나타냅니다. 
-아래 그림처럼 독립변수 $x$가 한단위 증가할 때 $\pi(x)$는 $\beta\pi(1-\pi)$ 만큼 증가합니다.
+아래 그림처럼 독립변수 $x$가 한단위 증가할 때 $\pi(x)$는 $\beta\pi(1-\pi)$ 만큼 증가합니다. 
+참고로 베타가 0에 가까울수록, 회귀곡선은 수평선에 가까워집니다.
 
 <center><img src="/assets/images/statistics/logistic-regression/logistic02.jpg" width="800"></center> 
  
 위에서 $\beta\pi(1-\pi)$는 $\frac{\partial\pi(x)}{\partial x}$를 구함으로써 얻어집니다. 
 이는 아래 과정을 통해 얻어집니다. 부록을 참고해주세요. 
+
+
+## 베타의 의미 및 회귀분석 결과 해석
+
+
  
 
 ## 로직스틱 회귀모형 해석
