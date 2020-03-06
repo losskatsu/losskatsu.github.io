@@ -74,4 +74,9 @@ $$ logit[\pi(x)] = log\frac{\pi(x)}{1-\pi(x)} = \alpha + \beta_{1}x_{1} + \dots 
 
 위 식처럼 오즈에 로그를 취한, 즉 log odds를 logit 이라고 합니다. 
 
- 
+ <center><img src="/assets/images/statistics/logistic-regression/logistic01.jpg" width="800"></center> 
+ <center><img src="/assets/images/statistics/logistic-regression/logistic02.jpg" width="800"></center> 
+ <center><img src="/assets/images/statistics/logistic-regression/logistic03.jpg" width="800"></center> 
+ <center><img src="/assets/images/statistics/logistic-regression/logistic04.jpg" width="800"></center> 
+
+
