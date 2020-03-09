@@ -63,12 +63,26 @@ sidebar:
 위 그림을 보시면 첫번째 **그림자 테스트** 입니다. 그림자 변수를 보고 뱀파이어인지 아닌지를 판단하는 테스트입니다. 
 보시면 Y의 경우 일반인을 정확히 검증하고, N는 완벽하게 뱀파이어임을 나타냅니다. 
 다만 ?인 경우에는 뱀파이어와 일반인이 섞여있네요. 
+즉, Y, N의 경우 동종집단으로 분리 가능하다는 뜻입니다. 
 이 테스트가 뱀파이어를 얼마나 잘 구분하냐고 점수를 매긴다면 4점이라고 할 수 있겠습니다. 
 음성 3명, 양성 1명을 맞춰서 3+1=4, 4점입니다. 
+위 테스트에서 ?인 경우에는 또다른 테스트가 필요하겠네요.
+
+<center><img src="/assets/images/ml/decision-tree/decisiontree05.jpg" width=800></center>
+
+다른 세가지 테스트도 동일한 방법으로 점수를 매겨봅니다. 
+순서대로 마늘테스트(3점), 안색테스트(2점), 억양테스트(0점)입니다. 
+억양테스트는 하나도 구분할 수가 없네요ㅜ
+
+그렇다면 위 네개 테스트 중 어느테스트가 가장 유용할까요? 
+위에서도 말했듯, 가장 좋은 테스트는 밑단을 동종집단으로 만드는 테스트를 원합니다. 
+따라서 성능측정이 필요한데요. 위와같은 방법으로 성능측정을 했습니다. 
+
+<center><img src="/assets/images/ml/decision-tree/decisiontree06.jpg" width=800></center>
+
+결국 위 점수를 토대로하면 가장 점수가 높은 그림자테스트를 우선 선발하고, 
 
 <center><img src="/assets/images/ml/decision-tree/decisiontree02.jpg" width=800></center>
-<center><img src="/assets/images/ml/decision-tree/decisiontree05.jpg" width=800></center>
-<center><img src="/assets/images/ml/decision-tree/decisiontree06.jpg" width=800></center>
 <center><img src="/assets/images/ml/decision-tree/decisiontree07.jpg" width=800></center>
 <center><img src="/assets/images/ml/decision-tree/decisiontree08.jpg" width=800></center>
 <center><img src="/assets/images/ml/decision-tree/decisiontree09.jpg" width=800></center>
