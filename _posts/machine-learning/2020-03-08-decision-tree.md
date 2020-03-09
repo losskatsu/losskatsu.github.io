@@ -81,12 +81,67 @@ sidebar:
 <center><img src="/assets/images/ml/decision-tree/decisiontree06.jpg" width=800></center>
 
 결국 위 점수를 토대로하면 가장 점수가 높은 그림자테스트를 우선 선발하고, 
+그림자테스트로 검증하지 못한 데이터에 대해서만 다시 테스트를 진행합니다. 
 
 <center><img src="/assets/images/ml/decision-tree/decisiontree02.jpg" width=800></center>
-<center><img src="/assets/images/ml/decision-tree/decisiontree07.jpg" width=800></center>
-<center><img src="/assets/images/ml/decision-tree/decisiontree08.jpg" width=800></center>
-<center><img src="/assets/images/ml/decision-tree/decisiontree09.jpg" width=800></center>
-<center><img src="/assets/images/ml/decision-tree/decisiontree10.jpg" width=800></center>
-<center><img src="/assets/images/ml/decision-tree/decisiontree11.jpg" width=800></center>
-<center><img src="/assets/images/ml/decision-tree/decisiontree12.jpg" width=800></center>
 
+즉, 위 그림처럼 기존에 존재하던 데이터에서 형광색으로 표시한, 그림자가 ?인 경우인 데이터 4개에 대해서만 다시 테스트를 진행합니다. 
+
+<center><img src="/assets/images/ml/decision-tree/decisiontree13.jpg" width=800></center>
+
+남은 4개의 데이터에 대한 테스트 결과는 위와 같습니다. 
+위 테스트 결과에서는 마늘테스트가 가장 뛰어나네요. 
+동종집단을 완벽히 갈랐습니다. 
+
+<center><img src="/assets/images/ml/decision-tree/decisiontree06.jpg" width=800></center>
+
+따라서 위와같이 마늘테스트가 두번째 테스트가 되는 것입니다.
+
+## 빅데이터에 대해선 어떻게?
+
+안타깝게도 위와 같은 테스트 방식은 빅데이터에 대해선 사용할 수 없습니다. 
+데이터가 크므로 하나의 테스트로 동종집단을 가르는 테스트는 아마 존재하지 않을 겁니다. 
+즉, 모든 테스트 점수가 0점이 됩니다. 
+따라서 이런 무질서 정도를 측정할 방법이 필요합니다. 
+참고로 무질서에 관한 것이라면 열역할자와 정보이론가(information theory)쪽이 잘 압니다. 
+
+## 무질서 측정
+
+정보이론가에 따르면 무질서 정도는 아래 공식을 구합니다. 
+
+$$ D(set) = -\frac{P}{T}log_{2}\frac{T}{P}-\frac{N}{T}log_{2}\frac{N}{T}$$
+
+이때, P는 positive, N은 negative, T는 전체숫자(P+N)을 의미합니다. 
+각 $\frac{P}{T}$에 대해 무질서 그래프를 그리면 아래와 같습니다. 
+
+<center><img src="/assets/images/ml/decision-tree/decisiontree07.jpg" width=800></center>
+
+따라서 위 그래프의 특징을 잘 기억하고 있으면 일일이 계산하지 않고도 무질서정도를 계산하기 쉽습니다. 
+위 식은 테스트의 한 갈래에 대해서 무질서정도를 구한것이구요. 
+갈래들이 모인 테스트에 대해선 각 갈래에 대한 합이 필요합니다.
+
+<center><img src="/assets/images/ml/decision-tree/decisiontree08.jpg" width=800></center>
+
+위 식처럼 하나의 테스트의 퀄리티는 각 갈래의 무질서 정도를 가중 합하는 것으로 구할 수 있습니다. 
+그럼 이 방법을 이용해 위에서 사용했던 예제의 무질서와 퀄리티를 측정해봅시다. 
+
+<center><img src="/assets/images/ml/decision-tree/decisiontree09.jpg" width=800></center>
+
+각 테스트에 대한 퀄리티를 구해보았습니다. 
+
+<center><img src="/assets/images/ml/decision-tree/decisiontree10.jpg" width=800></center>
+
+또한 두번째 테스트를 선발하기 위한 데이터에 대해서도 구했습니다. 
+위에서 쓴 결과와 동일하다는 것을 알 수 있죠. 
+이것이 의사결정나무에서 항상 쓰이는 winning mecanism입니다. 
+이 방법은 심지어 데이터가 숫자인 경우에도 사용할 수 있습니다. 
+아래 그림은 사람의 체온을 측정한 데이터입니다.
+
+<center><img src="/assets/images/ml/decision-tree/decisiontree11.jpg" width=800></center>
+
+위 데이터를 테스트하기 위해서는 각 값들마다 사이값을 기준으로 테스트를 한번씩 다해보면 됩니다. 
+즉, 모든 값과 값 사이가 후보가 되고 모든 후보에 대해 계산을 한번씩 다해보는 것입니다. (n-1개의 임계값 후보)
+
+<center><img src="/assets/images/ml/decision-tree/decisiontree12.jpg" width=800></center> 
+
+또한 k-최근접 이웃과는 다소 다른 분류그래프가 나타납니다. 
