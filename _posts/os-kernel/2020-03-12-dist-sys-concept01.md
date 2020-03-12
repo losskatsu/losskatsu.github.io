@@ -13,8 +13,6 @@ sidebar:
   nav: sidebar-contents
 ---
 
-
-
 # 분산 시스템의 개념(1)
 
 본 포스팅은 MIT 6.284 Distributed Systems을 참고하여 작성 되었습니다.
@@ -133,3 +131,4 @@ sidebar:
 키값의 일관성이 없어질 것입니다. 이런 상황을 consistency 하지 않다고 합니다. 
 반대로 strong consistency하다는 말은 가장 최신 데이터를 볼수있는 것을 보장한다는 뜻이고 
 weak consistency하다는 말은 최신 데이터를 볼수있다는 보장을 할 수 없다는 것을 의미합니다. 
+또한 strong consistency를 유지하는건 비용이 많이 듭니다.
