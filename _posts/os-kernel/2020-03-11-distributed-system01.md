@@ -87,3 +87,5 @@ sidebar:
 한두명이 웹서버에 접근할 때는 하나의 컴퓨터로 충분합니다. 
 하지만 몇백만명이 접속할때는 어떻게 해야할까요? 
 단순히는 웹서버를 늘리고, 유저를 각각 다른 웹서버에 접속하게끔 쪼개면 됩니다. 
+
+<center><img src="/assets/images/os/distributedsystem/01/distributedsystem01_02.jpg" width="800"></center>
