@@ -1,5 +1,5 @@
 ---
-title: "분산 처리 시스템(distributed system)(1)" 
+title: "분산처리시스템의 개념(1)" 
 categories:
   - os-kernel
 tags:
@@ -13,7 +13,7 @@ sidebar:
   nav: sidebar-contents
 ---
 
-# 분산 시스템(1)
+# 분산 시스템의 개념(1)
 
 본 포스팅은 MIT 6.284 Distributed Systems을 참고하여 작성 되었습니다.
 
