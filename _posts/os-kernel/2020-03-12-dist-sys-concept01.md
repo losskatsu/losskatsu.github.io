@@ -151,6 +151,7 @@ weak consistency하다는 말은 최신 데이터를 볼수있다는 보장을 �
 맵리듀스는 프레임워크입니다. 각각의 인풋파일에 대해서 map function이 적용되는데요. 아웃풋은 키값쌍이 됩니다. 
 쉽게 글자수를 세는 것에 대한 예를 들어봅시다. 그러면 맵함수의 결과는 (단어, 1) 형태가 될건데요. 
 맵리듀스 프레임워크의 중요한 개념은 모든 map으로부터의 인스턴스를 한데 모으는 것입니다. 
-아래 그림을 보시면 이해가 빠르실 겁니다. 이것이 MapReduce Job 입니다.
+아래 그림을 보시면 이해가 빠르실 겁니다. 이것이 MapReduce Job 입니다. 
+이때 input파일 하나에 대해 처리하는걸 task라고 하고 아래그림처럼 맵리듀스 전체를 Job이라고 합니다. 
 
 <center><img src="/assets/images/os/distsys/dist-sys01/distributedsystem01_04.jpg" width="800"></center>
