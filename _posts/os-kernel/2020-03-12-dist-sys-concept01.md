@@ -155,4 +155,3 @@ weak consistency하다는 말은 최신 데이터를 볼수있다는 보장을 �
 이때 input파일 하나에 대해 처리하는걸 task라고 하고 아래그림처럼 맵리듀스 전체를 Job이라고 합니다. 
 
 <center><img src="/assets/images/os/distsys/dist-sys01/distributedsystem01_04.jpg" width="800"></center>
-
