@@ -1,5 +1,5 @@
 ---
-title: "ROC Curve(ROC 커브)란? ROC 커브 해석" 
+title: "ROC Curve(ROC 커브)란? 머신러닝 모형 평가" 
 categories:
   - machine-learning
 tags:
