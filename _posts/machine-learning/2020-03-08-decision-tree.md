@@ -25,7 +25,7 @@ sidebar:
 
 ## 의사결정나무가 필요한 데이터
 
-<center><img src="/assets/images/ml/decision-tree/decisiontree01.jpg" width=800></center>
+<center><img src="/assets/images/ml/decision-tree/decisiontree01.jpg" width="800"></center> 
 
 위와 같은 데이터셋이 있다고 합시다. 
 이 데이터는 루마니아인을 대상으로 뱀파이어인지 아닌지에 대한 데이터베이스입니다.
