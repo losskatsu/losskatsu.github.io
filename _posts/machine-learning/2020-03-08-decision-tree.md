@@ -36,6 +36,7 @@ sidebar:
 
 <center><img src="/assets/images/ml/decision-tree/decisiontree03.jpg" width=800></center>
 
+
 이런 데이터를 다를 때는 테스트를 하게 되는데요. 하나의 테스트를 선택하면 그에 따른 결과를 볼 수 있습니다. 
 또한 위 그림에서 볼수있듯, 하나의 테스트결과가 또다른 테스트가 되는 경우도 있습니다.
 즉, 테스트를 어떻게 배치하느냐가 중요합니다. 
@@ -64,6 +65,7 @@ sidebar:
 
 <center><img src="/assets/images/ml/decision-tree/decisiontree04.jpg" width=800></center>
 
+
 위 그림을 보시면 첫번째 **그림자 테스트** 입니다. 그림자 변수를 보고 뱀파이어인지 아닌지를 판단하는 테스트입니다. 
 보시면 Y의 경우 일반인을 정확히 검증하고, N는 완벽하게 뱀파이어임을 나타냅니다. 
 다만 ?인 경우에는 뱀파이어와 일반인이 섞여있네요. 
@@ -74,6 +76,7 @@ sidebar:
 
 <center><img src="/assets/images/ml/decision-tree/decisiontree05.jpg" width=800></center>
 
+
 다른 세가지 테스트도 동일한 방법으로 점수를 매겨봅니다. 
 순서대로 마늘테스트(3점), 안색테스트(2점), 억양테스트(0점)입니다. 
 억양테스트는 하나도 구분할 수가 없네요ㅜ
@@ -83,6 +86,7 @@ sidebar:
 따라서 성능측정이 필요한데요. 위와같은 방법으로 성능측정을 했습니다. 
 
 <center><img src="/assets/images/ml/decision-tree/decisiontree06.jpg" width=800></center>
+
 
 결국 위 점수를 토대로하면 가장 점수가 높은 그림자테스트를 우선 선발하고, 
 그림자테스트로 검증하지 못한 데이터에 대해서만 다시 테스트를 진행합니다. 
@@ -120,11 +124,13 @@ $$ D(set) = -\frac{P}{T}log_{2}\frac{T}{P}-\frac{N}{T}log_{2}\frac{N}{T}$$
 
 <center><img src="/assets/images/ml/decision-tree/decisiontree07.jpg" width=800></center>
 
+
 따라서 위 그래프의 특징을 잘 기억하고 있으면 일일이 계산하지 않고도 무질서정도를 계산하기 쉽습니다. 
 위 식은 테스트의 한 갈래에 대해서 무질서정도를 구한것이구요. 
 갈래들이 모인 테스트에 대해선 각 갈래에 대한 합이 필요합니다.
 
 <center><img src="/assets/images/ml/decision-tree/decisiontree08.jpg" width=800></center>
+
 
 위 식처럼 하나의 테스트의 퀄리티는 각 갈래의 무질서 정도를 가중 합하는 것으로 구할 수 있습니다. 
 그럼 이 방법을 이용해 위에서 사용했던 예제의 무질서와 퀄리티를 측정해봅시다. 
