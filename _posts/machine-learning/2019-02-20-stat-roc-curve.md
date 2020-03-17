@@ -15,14 +15,28 @@ sidebar:
   nav: sidebar-contents
 ---
 
-# 1. ROC 커브란 무엇일까요? 
+
+# 머신러닝 성능 평가 - ROC 커브 개념 정리
+
+**참고링크**
+* [ROC 커브 복습하기](https://losskatsu.github.io/machine-learning/stat-roc-curve/)
+* [교차검증(cross validataion)](https://losskatsu.github.io/machine-learning/cross-validation/)
+* [k-means클러스터링 복습하기](https://losskatsu.github.io/machine-learning/kmeans-clustering/)
+* [k-최근접 이웃 알고리즘 복습하기](https://losskatsu.github.io/machine-learning/knn/)
+* [의사결정나무 복습하기](https://losskatsu.github.io/machine-learning/decision-tree/)
+* [서포트벡터머신 복습하기](https://losskatsu.github.io/machine-learning/svm/)
+* [딥러닝 기초 복습하기](https://losskatsu.github.io/machine-learning/dl-basic01/)
+* [부스팅(boosting) 복습하기](https://losskatsu.github.io/machine-learning/boosting/)
+* [사이킷런 실습하기](https://losskatsu.github.io/machine-learning/sklearn/)
+
+## 1. ROC 커브란 무엇일까요? 
 
 여러분이 머신러닝 모델을 만들었다고 가정합시다. 
 모델을 만들었으면 이 모델이 성능이 좋은지 안좋은지 평가를 해야 하겠죠?
 ROC 커브는 머신러닝 모델을 평가할 때 쓰입니다. 
 <br />
 
-# 2. 민감도와 특이도
+## 2. 민감도와 특이도
 
 ROC 커브를 이야기 하기전에 민감도(Sensitivity)와 특이도(Specificity)의 개념을 아셔야 합니다. 
 흔히 민감도와 특이도를 설명하기 위해 의사의 진단을 예를 듭니다.
@@ -61,7 +75,7 @@ $$ \texttt{에러율(Error Rate)} = \frac{(2)+(3)}{(1)+(2)+(3)+(4)} = \frac{FP +
 $$ \texttt{정밀도(Precision)} = \frac{(1)}{(1)+(2)} = \frac{TP}{TP + FP}$$
 
 
-## 2-1. 정밀도(Precision)와 민감도(Recall)
+### 2-1. 정밀도(Precision)와 민감도(Recall)
 
 $$ \texttt{정밀도(Precision)} = \frac{TP}{TP + FP}$$
 
@@ -75,7 +89,7 @@ Precision을 보시면 분모가 TP + FP이므로 Positive 라는 판정을 내�
 반면 Recall을 보면 분모가 TP + FN 이므로 '옳은판정'이 기준입니다. 
 즉, Precision과 recall은 기준이 다르다는 차이가 있습니다.
 
-# 3. ROC 커브
+## 3. ROC 커브
 
 결국 모형이 좋다는 말의 뜻을 생각해보면,
 모든 환자에게 양성 판정을 내리고, 모든 정상인에게 음성 판정을 내리면 완벽합니다. 
