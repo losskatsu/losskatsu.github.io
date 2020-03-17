@@ -15,6 +15,19 @@ sidebar:
 
 # 의사결정나무(decision tree) 개념
 
+**참고링크**
+* [ROC 커브 복습하기](https://losskatsu.github.io/machine-learning/stat-roc-curve/)
+* [교차검증(cross validataion)](https://losskatsu.github.io/machine-learning/cross-validation/)
+* [k-means클러스터링 복습하기](https://losskatsu.github.io/machine-learning/kmeans-clustering/)
+* [k-최근접 이웃 알고리즘 복습하기](https://losskatsu.github.io/machine-learning/knn/)
+* [선형회귀분석 복습하기](https://losskatsu.github.io/statistics/simple-regression/)
+* [로지스틱 회귀분석 복습하기](https://losskatsu.github.io/statistics/logistic-regression/)
+* [의사결정나무 복습하기](https://losskatsu.github.io/machine-learning/decision-tree/)
+* [서포트벡터머신 복습하기](https://losskatsu.github.io/machine-learning/svm/)
+* [딥러닝 기초 복습하기](https://losskatsu.github.io/machine-learning/dl-basic01/)
+* [부스팅(boosting) 복습하기](https://losskatsu.github.io/machine-learning/boosting/)
+* [사이킷런 실습하기](https://losskatsu.github.io/machine-learning/sklearn/)
+
 ## 의사결정나무의 정의
 
 본 포스팅은 MIT 6.034 Artificial Intelligence 수업을 참고하여 작성하였습니다. 
