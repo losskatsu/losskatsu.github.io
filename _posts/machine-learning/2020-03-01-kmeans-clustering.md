@@ -15,6 +15,8 @@ sidebar:
 
 # K-means 클러스터링 개념 정리
 
+* [k-means클러스터링 복습하기](https://losskatsu.github.io/machine-learning/kmeans-clustering/)
+
 ## K-Means 클러스터링 간단 개념
 
 K-Means 클러스터링은 N개의 데이터를 K개의 클러스터로 나누는 클러스터링 기법입니다. 
