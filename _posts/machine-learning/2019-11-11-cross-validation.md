@@ -15,6 +15,17 @@ sidebar:
 
 # [머신러닝] 교차검증(cross validation)의 개념, 의미
 
+**참고링크**
+* [ROC 커브 복습하기](https://losskatsu.github.io/machine-learning/stat-roc-curve/)
+* [교차검증(cross validataion)](https://losskatsu.github.io/machine-learning/cross-validation/)
+* [k-means클러스터링 복습하기](https://losskatsu.github.io/machine-learning/kmeans-clustering/)
+* [k-최근접 이웃 알고리즘 복습하기](https://losskatsu.github.io/machine-learning/knn/)
+* [의사결정나무 복습하기](https://losskatsu.github.io/machine-learning/decision-tree/)
+* [서포트벡터머신 복습하기](https://losskatsu.github.io/machine-learning/svm/)
+* [딥러닝 기초 복습하기](https://losskatsu.github.io/machine-learning/dl-basic01/)
+* [부스팅(boosting) 복습하기](https://losskatsu.github.io/machine-learning/boosting/)
+* [사이킷런 실습하기](https://losskatsu.github.io/machine-learning/sklearn/)
+
 오늘은 cross validation의 의미를 알아보겠습니다. 
 training set, test set이라는 말은 많이 들어보셨죠. 
 training set은 모델을 학습시키기 위해 사용하고, 
