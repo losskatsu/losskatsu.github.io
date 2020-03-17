@@ -15,7 +15,16 @@ sidebar:
 
 # K-means 클러스터링 개념 정리
 
+**참고링크**
+* [ROC 커브 복습하기](https://losskatsu.github.io/machine-learning/stat-roc-curve/)
+* [교차검증(cross validataion)](https://losskatsu.github.io/machine-learning/cross-validation/)
 * [k-means클러스터링 복습하기](https://losskatsu.github.io/machine-learning/kmeans-clustering/)
+* [k-최근접 이웃 알고리즘 복습하기](https://losskatsu.github.io/machine-learning/knn/)
+* [의사결정나무 복습하기](https://losskatsu.github.io/machine-learning/decision-tree/)
+* [서포트벡터머신 복습하기](https://losskatsu.github.io/machine-learning/svm/)
+* [딥러닝 기초 복습하기](https://losskatsu.github.io/machine-learning/dl-basic01/)
+* [부스팅(boosting) 복습하기](https://losskatsu.github.io/machine-learning/boosting/)
+* [사이킷런 실습하기](https://losskatsu.github.io/machine-learning/sklearn/)
 
 ## K-Means 클러스터링 간단 개념
 
