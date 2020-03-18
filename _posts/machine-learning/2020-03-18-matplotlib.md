@@ -20,7 +20,7 @@ sidebar:
 그중에서 유명한 것이 matplotlib, seaborn 인데요, 
 오늘은 matplotlib 라이브러리를 이용한 파이썬 시각화 기초 예제를 살펴보겠습니다. 
 
-## 라이브러리 불러오기
+## 1.라이브러리 불러오기
 
 ```python
 ## 내장 데이터 불러오기 용
@@ -30,7 +30,7 @@ from sklearn import datasets
 import matplotlib.pyplot as plt
 ```
 
-## 시각화할 데이터 불로오기
+## 2.시각화할 데이터 불러오기
 
 예제에 쓰일 데이터를 불러오기 위해 사이킷런(sklearn)에 내장 되어있는 데이터를 불러오겠습니다. 
 
@@ -53,9 +53,9 @@ rawData.columns=['mean radius', 'mean texture',
  'worst fractal dimension', 'cancer']
 ```
 
-## 산점도
+## 3.산점도
 
-### 기본 산점도 
+### 3.1 기본 산점도 
 
 ```python
 plt.scatter(rawData['mean radius'], rawData['mean texture'])
@@ -67,7 +67,10 @@ plt.show()
 <center><img src="/assets/images/ml/visualization/visualization01.png" width="500"></center>
 
 
-### 중첩 산점도
+### 3.2 중첩 산점도
+
+matplotlib에서는 플랏을 중첩해서 그릴 수 있습니다. 
+이런 기능은 여러가지 데이터를 비교하는데 유용하게 쓰입니다. 
 
 ```python
 plt.scatter(rawData['mean radius'], rawData['mean texture'], c='blue')
@@ -81,7 +84,7 @@ plt.show()
 <center><img src="/assets/images/ml/visualization/visualization02.png" width="500"></center>
 
 
-## 히스토그램
+## 4.히스토그램
 
 ```python
 plt.hist(rawData['cancer'], bins=2, 
