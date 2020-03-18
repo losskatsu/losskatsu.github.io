@@ -66,6 +66,7 @@ plt.show()
 ```
 <center><img src="/assets/images/ml/visualization/visualization01.png" width=500></center>
 
+
 ### 중첩 산점도
 
 ```python
@@ -79,6 +80,7 @@ plt.show()
 ```
 <center><img src="/assets/images/ml/visualization/visualization02.png" width=500></center>
 
+
 ## 히스토그램
 
 ```python
@@ -86,4 +88,5 @@ plt.hist(rawData['cancer'], bins=2,
             range=(0,1),edgecolor='black', linewidth=1.2)
 plt.show()
 ```
+
 <center><img src="/assets/images/ml/visualization/visualization03.png" width=500></center>
