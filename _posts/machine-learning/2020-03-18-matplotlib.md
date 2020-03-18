@@ -57,6 +57,33 @@ rawData.columns=['mean radius', 'mean texture',
 
 ### 기본 산점도 
 
+```python
+plt.scatter(rawData['mean radius'], rawData['mean texture'])
+plt.xlabel('radius')
+plt.ylabel('texture')
+plt.title('radius vs texture')
+plt.show()
+```
+<center><img src="/assets/images/ml/visualization/visualization01.png" width=500></center>
+
 ### 중첩 산점도
 
+```python
+plt.scatter(rawData['mean radius'], rawData['mean texture'], c='blue')
+plt.scatter(rawData['worst radius'], rawData['worst texture'], c='red')
+plt.xlabel('radius')
+plt.ylabel('texture')
+plt.title('mean vs worst')
+plt.legend(['mean','worst'])
+plt.show()
+```
+<center><img src="/assets/images/ml/visualization/visualization02.png" width=500></center>
+
 ## 히스토그램
+
+```python
+plt.hist(rawData['cancer'], bins=2, 
+            range=(0,1),edgecolor='black', linewidth=1.2)
+plt.show()
+```
+<center><img src="/assets/images/ml/visualization/visualization03.png" width=500></center>
