@@ -64,7 +64,7 @@ plt.ylabel('texture')
 plt.title('radius vs texture')
 plt.show()
 ```
-<center><img src="/assets/images/ml/visualization/visualization01.png" width=500></center>
+<center><img src="/assets/images/ml/visualization/visualization01.png" width="500"></center>
 
 
 ### 중첩 산점도
@@ -78,7 +78,7 @@ plt.title('mean vs worst')
 plt.legend(['mean','worst'])
 plt.show()
 ```
-<center><img src="/assets/images/ml/visualization/visualization02.png" width=500></center>
+<center><img src="/assets/images/ml/visualization/visualization02.png" width="500"></center>
 
 
 ## 히스토그램
@@ -89,4 +89,4 @@ plt.hist(rawData['cancer'], bins=2,
 plt.show()
 ```
 
-<center><img src="/assets/images/ml/visualization/visualization03.png" width=500></center>
+<center><img src="/assets/images/ml/visualization/visualization03.png" width="500"></center>
