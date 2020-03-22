@@ -1,5 +1,5 @@
 ---
-title: "R 마크다운(markdown)으로 pdf 저장하기" 
+title: "R 마크다운(markdown)으로 한글 pdf 저장하기" 
 categories:
   - it-infra
 tags:
@@ -44,7 +44,7 @@ install.packages("rmarkdown")
 
 ```R
 ---
-title: "R"
+title: "R마크다운으로 한글 저장"
 mainfont: NanumGothic
 output:
   pdf_document:
