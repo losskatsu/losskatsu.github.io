@@ -21,6 +21,11 @@ sidebar:
 
 ## Mysql 설치하기
 
+### mysql 버전확인
+```bash
+$ mysql --version
+```
+
 ### 맥에서 Mysql 설치하기
 ```bash
 $ brew install mysql
