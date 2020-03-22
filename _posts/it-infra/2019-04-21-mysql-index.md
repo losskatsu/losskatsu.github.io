@@ -119,6 +119,16 @@ DB 삭제
 ```bash
 mysql> drop database db명;
 ```
+선택중인 DB확인
+```bash
+mysql> select database();
+```
+선택중인 user확인
+```bash
+mysql> select user(); 
+```
+
+
 ### 2.2 테이블 관련
 
 테이블 목록 확인
