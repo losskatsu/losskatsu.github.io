@@ -19,6 +19,74 @@ sidebar:
 
 > jdbc:mysql://IP주소:포트/DB명
 
+## Mysql 설치하기
+
+### 맥에서 Mysql 설치하기
+```bash
+$ brew install mysql
+```
+비밀번호 설정
+```bash
+$ mysql_secure_installation
+```
+Mysql실행
+```bash
+$ mysql.server start
+```
+상태확인
+```bash
+$ mysql.server status
+```
+mysql실행정지
+```bash
+$ mysql.server stop
+```
+### 우분투에서 Mysql 설치하기 
+```bash
+$ sudo apt update
+$ sudo apt install mysql-server
+```
+비밀번호 설정
+```bash
+$ sudo mysql_secure_installation
+```
+
+mysql서버 실행
+```bash
+$ service mysql start
+```
+mysql서버 상태확인
+```bash
+$ service mysql status
+● mysql.service - MySQL Community Server
+   Loaded: loaded (/lib/systemd/system/mysql.service; enabled; vendor preset: enabled)
+   Active: active (running) since Mon 2020-03-23 08:00:07 KST; 5min ago
+ Main PID: 8182 (mysqld)
+    Tasks: 29 (limit: 4915)
+   CGroup: /system.slice/mysql.service
+           └─8182 /usr/sbin/mysqld --daemonize --pid-file=/run/mysqld/mysqld.pid
+
+ 3월 23 08:00:07 cheolwon-910S3L-911S3L systemd[1]: Starting MySQL Community Server...
+ 3월 23 08:00:07 cheolwon-910S3L-911S3L systemd[1]: Started MySQL Community Server.
+```
+
+mysql 서버 종료
+```bash
+$ service mysql stop
+```
+종료후 상태확인
+```bash
+$ service mysql status
+● mysql.service - MySQL Community Server
+   Loaded: loaded (/lib/systemd/system/mysql.service; enabled; vendor preset: enabled)
+   Active: inactive (dead) since Mon 2020-03-23 08:06:50 KST; 2s ago
+ Main PID: 8182 (code=exited, status=0/SUCCESS)
+
+ 3월 23 08:00:07 cheolwon-910S3L-911S3L systemd[1]: Starting MySQL Community Server...
+ 3월 23 08:00:07 cheolwon-910S3L-911S3L systemd[1]: Started MySQL Community Server.
+ 3월 23 08:06:49 cheolwon-910S3L-911S3L systemd[1]: Stopping MySQL Community Server...
+ 3월 23 08:06:50 cheolwon-910S3L-911S3L systemd[1]: Stopped MySQL Community Server.
+```
 
 ## mysql MMM 구조
 
