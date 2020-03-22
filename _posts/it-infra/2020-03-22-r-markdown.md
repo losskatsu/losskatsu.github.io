@@ -35,9 +35,9 @@ install.packages("rmarkdown")
 
 ## mark다운 파일 생성하기
 
-<center><img scrc="/assets/images/infra/rmarkdown/01.JPG" width="800"></center>
+<center><img src="/assets/images/infra/rmarkdown/01.JPG" width="800"></center>
 
-<center><img scrc="/assets/images/infra/rmarkdown/02.jpg" width="800"></center>
+<center><img src="/assets/images/infra/rmarkdown/02.jpg" width="800"></center>
 
 
 ## 아웃풋 설정
@@ -64,10 +64,10 @@ editor_options:
 
 ## 아웃풋 확인
 
-<center><img scrc="/assets/images/infra/rmarkdown/03.jpg" width="800"></center>
+<center><img src="/assets/images/infra/rmarkdown/03.jpg" width="800"></center>
 
 
 ## 참고: 옵션
 
-<center><img scrc="/assets/images/infra/rmarkdown/04.jpg" width="800"></center>
+<center><img src="/assets/images/infra/rmarkdown/04.jpg" width="800"></center>
 
