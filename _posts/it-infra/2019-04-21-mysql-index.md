@@ -19,14 +19,14 @@ sidebar:
 
 > jdbc:mysql://IP주소:포트/DB명
 
-## Mysql 설치하기
+## 1. Mysql 설치하기
 
 ### mysql 버전확인
 ```bash
 $ mysql --version
 ```
 
-### 맥에서 Mysql 설치하기
+### 1.1 맥에서 Mysql 설치하기
 ```bash
 $ brew install mysql
 ```
@@ -46,7 +46,7 @@ mysql실행정지
 ```bash
 $ mysql.server stop
 ```
-### 우분투에서 Mysql 설치하기 
+### 1.2 우분투에서 Mysql 설치하기 
 ```bash
 $ sudo apt update
 $ sudo apt install mysql-server
@@ -91,6 +91,53 @@ $ service mysql status
  3월 23 08:00:07 cheolwon-910S3L-911S3L systemd[1]: Started MySQL Community Server.
  3월 23 08:06:49 cheolwon-910S3L-911S3L systemd[1]: Stopping MySQL Community Server...
  3월 23 08:06:50 cheolwon-910S3L-911S3L systemd[1]: Stopped MySQL Community Server.
+```
+
+## 2. mysql 기본 명령어
+
+mysql접속
+```bash
+$ sudo mysql
+```
+### 2.1 DB 관련
+
+DB목록보기
+```bash
+mysql> show databases; 
+```
+DB 선택
+```bash
+mysql> use db명;
+```
+DB 생성 
+```bash
+mysql> create database db명;
+```
+DB 삭제
+```bash
+mysql> drop database db명;
+```
+### 2.2 테이블 관련
+
+테이블 목록 확인
+```bash
+mysql> show tables;
+```
+테이블 구조 확인
+```bash
+mysql> desc 테이블명;
+mysql> describe 테이블명;
+mysql> explain 테이블명;
+```
+
+테이블 이름 변경
+```bash
+mysql> rename table 테이블명1 to 테이블명2;
+```
+
+테이블 삭제
+```bash
+mysql> drop table 테이블명; 
 ```
 
 ## mysql MMM 구조
