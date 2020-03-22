@@ -44,7 +44,7 @@ install.packages("rmarkdown")
 
 ```R
 ---
-title: "가설검정"
+title: "R"
 mainfont: NanumGothic
 output:
   pdf_document:
