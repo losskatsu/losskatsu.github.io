@@ -33,4 +33,41 @@ R을 실행한 후 rmarkdown이라는 패키지를 설치해 줍시다.
 install.packages("rmarkdown")
 ```
 
+## mark다운 파일 생성하기
+
+<center><img scrc="/assets/images/infra/rmarkdown/01.JPG" width="800"></center>
+
+<center><img scrc="/assets/images/infra/rmarkdown/02.jpg" width="800"></center>
+
+
+## 아웃풋 설정
+
+```R
+---
+title: "가설검정"
+mainfont: NanumGothic
+output:
+  pdf_document:
+    latex_engine: xelatex
+  word_document: default
+  html_document:
+    df_print: paged
+editor_options:
+  chunk_output_type: console
+---
+```
+
+## R 재실행하기
+
+이것 저것 설치를 하셨으면 R을 재시작하겠습니다. 
+저는 재시작 안하고 실행했었는데 대체 왜 안되는거지라며 원인을 다른데서 찾았네요ㅠ
+
+## 아웃풋 확인
+
+<center><img scrc="/assets/images/infra/rmarkdown/03.jpg" width="800"></center>
+
+
+## 참고: 옵션
+
+<center><img scrc="/assets/images/infra/rmarkdown/04.jpg" width="800"></center>
 
