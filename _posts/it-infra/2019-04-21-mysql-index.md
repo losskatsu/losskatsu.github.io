@@ -98,6 +98,8 @@ $ service mysql status
 mysql접속
 ```bash
 $ sudo mysql
+# 또는
+$ sudo mysql -u root -p 
 ```
 ### 2.1 DB 관련
 
