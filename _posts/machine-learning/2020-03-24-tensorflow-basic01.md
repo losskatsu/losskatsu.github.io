@@ -53,3 +53,53 @@ Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-dataset
 4423680/4422102 [==============================] - 1s 0us/step
 ```
 
+## 데이터 확인
+
+```python
+class_names = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat',
+               'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
+```
+
+아래 결과는 train 데이터는 28x28 이미지가 60,000장 이라는 뜻입니다.
+
+```python
+train_images.shape
+```
+```text
+(60000, 28, 28)
+```
+```python
+len(train_labels)
+```
+```text
+60000
+```
+
+```python
+train_labels
+```
+```text
+array([9, 0, 0, ..., 3, 0, 5], dtype=uint8)
+```
+
+```python
+test_images.shape
+```
+```text
+(10000, 28, 28)
+```
+
+```python
+len(test_labels)
+```
+```text
+10000
+```
+
+```python
+plt.figure()
+plt.imshow(train_images[0])
+plt.colorbar()
+plt.grid(False)
+plt.show()
+```
