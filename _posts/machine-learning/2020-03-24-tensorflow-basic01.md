@@ -35,6 +35,10 @@ print(tf.__version__)
 2.0.0
 ```
 
+### 전체 데이터 모양
+
+<center><img src="/assets/images/ml/dl/basic-tensorflow/basic01/01.JPG" width="500"></center>
+
 ## train, test 분리
 
 ```python
