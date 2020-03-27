@@ -140,6 +140,9 @@ $$ \mathbf{u} \cdot \mathbf{v} = \parallel \mathbf{u} \parallel \parallel \mathb
 <center><img src="/assets/images/innerproduct/innerproduct04.JPG" width="800"></center>
 
 위 그림은 1차원 직선을 고려했을 때 내적의 설명이구요, 
+
+<center><img src="/assets/images/innerproduct/innerproduct05.JPG" width="800"></center>
+
 만약 좌표가 2차원이라고 합시다. 
 (2,3)에 공이 위치해 있고 (1,2)를 내적한다고 하죠. 
 그럼 내적은 성분끼리 곱하고 모두 더하는 것이니, 
