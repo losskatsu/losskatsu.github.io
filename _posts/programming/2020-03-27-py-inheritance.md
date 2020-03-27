@@ -17,6 +17,11 @@ sidebar:
 
 본 포스팅은 [코딩도장](https://dojang.io/mod/page/view.php?id=2384)을 참고하였습니다. 
 
+* [파이썬 클로저 복습하기](https://losskatsu.github.io/programming/py-closure/)
+* [파이썬 데코레이터 복습하기](https://losskatsu.github.io/programming/py-decorator/)
+* [파이썬 상속, 오버라이딩 복습하기](https://losskatsu.github.io/programming/py-inheritance/)
+
+
 ## 상속 정의 
 
 * 부모클래스(parent class), 슈퍼클래스(super class), 기반클래스
