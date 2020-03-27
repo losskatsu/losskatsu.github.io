@@ -137,6 +137,8 @@ $$ \mathbf{u} \cdot \mathbf{v} = \parallel \mathbf{u} \parallel \parallel \mathb
 어떤 물건에 힘을 작용했을 때 x1, x2, x3, ...성분별로 힘(w1, w2, w3,...)을 적용시키고(곱하고), 
 성분별 힘 적용후 얼마나 움직였을 때를 모두 더하면 그 물체가 얼마나 움직였는지 알수 있습니다.(내적의 결과) 
 
+<center><img src="/assets/images/innerproduct/innerproduct04.JPG" width="800"></center>
+
 이로 부터 우리는 아래와 같은 성질을 추가적으로 알 수 있습니다. 
 
 Cauchy-Schwarz Inequality
