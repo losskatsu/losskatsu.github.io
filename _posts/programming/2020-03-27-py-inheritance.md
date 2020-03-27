@@ -19,8 +19,8 @@ sidebar:
 
 ## 상속 정의 
 
-* 부모클래스(parent class), 슈퍼클래스(super class)
-* 자식클래스(child class), 서브클래스(subclass)
+* 부모클래스(parent class), 슈퍼클래스(super class), 기반클래스
+* 자식클래스(child class), 서브클래스(subclass), 파생클래스 
 
 ## 기본 문법
 
@@ -57,3 +57,60 @@ class Student(Person):
 > issubclass(Student, Person)
 True
 ```
+
+## 초기화가 포함될 경우 슈퍼클래스의 변수 반환
+
+```python
+class Person:
+    def __init__(self):
+        print('Person __init__')
+        self.hello = '안녕하세요.'
+ 
+class Student(Person):
+    def __init__(self):
+        print('Student __init__')
+        self.school = '파이썬 코딩 도장'
+ 
+james = Student()
+print(james.school)
+print(james.hello)    # 기반 클래스의 속성을 출력하려고 하면 에러가 발생함
+```
+
+위 코드가 에러나는 이유는 기반클래스 Person의 __init__ 메소드가 호출되지 않았기 때문에 self.hello가 실행되지 않습니다. 
+
+## super()로 기반클래스 초기화하기 
+
+```python
+class Person:
+    def __init__(self):
+        print('Person __init__')
+        self.hello = '안녕하세요.'
+ 
+class Student(Person):
+    def __init__(self):
+        print('Student __init__')
+        super().__init__()                # super()로 기반 클래스의 __init__ 메서드 호출
+        self.school = '파이썬 코딩 도장'
+ 
+james = Student()
+print(james.school)
+print(james.hello)
+```
+
+## 기반 클래스를 초기화하지 않아도 되는 경우
+
+```python
+class Person:
+    def __init__(self):
+        print('Person __init__')
+        self.hello = '안녕하세요.'
+ 
+class Student(Person):
+    pass
+ 
+james = Student()
+print(james.hello)
+```
+
+이처럼 파생 클래스에 __init__ 메서드가 없다면 기반 클래스의 
+__init__ 이 자동으로 호출되므로 기반 클래스의 속성을 사용할 수 있습니다.
