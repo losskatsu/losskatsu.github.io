@@ -1,5 +1,5 @@
 ---
-title: "[python] 파이썬 상속(inheritance) 개념" 
+title: "[python] 파이썬 상속(inheritance), 오버라이딩(overriding) 개념" 
 categories:
   - programming
 tags:
@@ -13,7 +13,7 @@ sidebar:
   nav: sidebar-contents
 ---
 
-# 파이썬 상속(inheritance) 개념
+# 파이썬 상속(inheritance)과 오버라이딩(overriding) 개념
 
 본 포스팅은 [코딩도장](https://dojang.io/mod/page/view.php?id=2384)을 참고하였습니다. 
 
@@ -114,3 +114,26 @@ print(james.hello)
 
 이처럼 파생 클래스에 __init__ 메서드가 없다면 기반 클래스의 
 __init__ 이 자동으로 호출되므로 기반 클래스의 속성을 사용할 수 있습니다.
+
+
+## 오버라이딩
+
+오버라이딩은 기존의 함수를 덮어씌운다는 느낌입니다. 
+
+```python
+class Person:
+    def greeting(self):
+        print('안녕하세요.')
+ 
+class Student(Person):
+    def greeting(self):
+        super().greeting()    # 기반 클래스의 메서드 호출하여 중복을 줄임
+        print('저는 파이썬 코딩 도장 학생입니다.')
+```
+
+```python
+> james = Student()
+> james.greeting()
+안녕하세요. 
+저는 파이썬 코딩 도장 학생입니다.
+```
