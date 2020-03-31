@@ -130,7 +130,7 @@ sidebar:
 
 정보이론가에 따르면 무질서 정도는 아래 공식을 구합니다. 
 
-$$ D(set) = -\frac{P}{T}log_{2}\frac{T}{P}-\frac{N}{T}log_{2}\frac{N}{T}$$
+$$ D(set) = -\frac{P}{T}\log_{2}\frac{T}{P}-\frac{N}{T}\log_{2}\frac{N}{T} $$
 
 이때, P는 positive, N은 negative, T는 전체숫자(P+N)을 의미합니다. 
 각 $\frac{P}{T}$에 대해 무질서 그래프를 그리면 아래와 같습니다. 
