@@ -47,7 +47,7 @@ sidebar:
 또한 비용문제도 있는데요. 테스트할때 다른 테스트보다 공수가 많이 들어갑니다. 
 위 데이터를 예로 들면 실제로 실험참가자에게 마늘을 먹여봐야하기 때문이죠. 
 
-<center><img src="/assets/images/ml/decision-tree/decisiontree03.jpg" width=800></center>
+<center><img src="/assets/images/ml/decision-tree/decisiontree03.jpg" width="800"></center>
 
 
 이런 데이터를 다를 때는 테스트를 하게 되는데요. 하나의 테스트를 선택하면 그에 따른 결과를 볼 수 있습니다. 
@@ -76,7 +76,7 @@ sidebar:
 위 데이터베이스를 보면 우리는 각각 **그림자, 마늘, 안색, 억양**에 대해 뱀파이어인지 아닌지에 대해 테스트할 수 있습니다. 
 그럼 테스트하나씩 살펴보겠습니다. 
 
-<center><img src="/assets/images/ml/decision-tree/decisiontree04.jpg" width=800></center>
+<center><img src="/assets/images/ml/decision-tree/decisiontree04.jpg" width="800"></center>
 
 
 위 그림을 보시면 첫번째 **그림자 테스트** 입니다. 그림자 변수를 보고 뱀파이어인지 아닌지를 판단하는 테스트입니다. 
@@ -87,7 +87,7 @@ sidebar:
 음성 3명, 양성 1명을 맞춰서 3+1=4, 4점입니다. 
 위 테스트에서 ?인 경우에는 또다른 테스트가 필요하겠네요.
 
-<center><img src="/assets/images/ml/decision-tree/decisiontree05.jpg" width=800></center>
+<center><img src="/assets/images/ml/decision-tree/decisiontree05.jpg" width="800"></center>
 
 
 다른 세가지 테스트도 동일한 방법으로 점수를 매겨봅니다. 
@@ -98,7 +98,7 @@ sidebar:
 위에서도 말했듯, 가장 좋은 테스트는 밑단을 동종집단으로 만드는 테스트를 원합니다. 
 따라서 성능측정이 필요한데요. 위와같은 방법으로 성능측정을 했습니다. 
 
-<center><img src="/assets/images/ml/decision-tree/decisiontree06.jpg" width=800></center>
+<center><img src="/assets/images/ml/decision-tree/decisiontree06.jpg" width="800"></center>
 
 
 결국 위 점수를 토대로하면 가장 점수가 높은 그림자테스트를 우선 선발하고, 
@@ -108,13 +108,13 @@ sidebar:
 
 즉, 위 그림처럼 기존에 존재하던 데이터에서 형광색으로 표시한, 그림자가 ?인 경우인 데이터 4개에 대해서만 다시 테스트를 진행합니다. 
 
-<center><img src="/assets/images/ml/decision-tree/decisiontree13.jpg" width=800></center>
+<center><img src="/assets/images/ml/decision-tree/decisiontree13.jpg" width="800"></center>
 
 남은 4개의 데이터에 대한 테스트 결과는 위와 같습니다. 
 위 테스트 결과에서는 마늘테스트가 가장 뛰어나네요. 
 동종집단을 완벽히 갈랐습니다. 
 
-<center><img src="/assets/images/ml/decision-tree/decisiontree06.jpg" width=800></center>
+<center><img src="/assets/images/ml/decision-tree/decisiontree06.jpg" width="800"></center>
 
 따라서 위와같이 마늘테스트가 두번째 테스트가 되는 것입니다.
 
@@ -135,14 +135,14 @@ $$ D(set) = -\frac{P}{T}log_{2}\frac{T}{P}-\frac{N}{T}log_{2}\frac{N}{T}$$
 이때, P는 positive, N은 negative, T는 전체숫자(P+N)을 의미합니다. 
 각 $\frac{P}{T}$에 대해 무질서 그래프를 그리면 아래와 같습니다. 
 
-<center><img src="/assets/images/ml/decision-tree/decisiontree07.jpg" width=800></center>
+<center><img src="/assets/images/ml/decision-tree/decisiontree07.jpg" width="800"></center>
 
 
 따라서 위 그래프의 특징을 잘 기억하고 있으면 일일이 계산하지 않고도 무질서정도를 계산하기 쉽습니다. 
 위 식은 테스트의 한 갈래에 대해서 무질서정도를 구한것이구요. 
 갈래들이 모인 테스트에 대해선 각 갈래에 대한 합이 필요합니다.
 
-<center><img src="/assets/images/ml/decision-tree/decisiontree08.jpg" width=800></center>
+<center><img src="/assets/images/ml/decision-tree/decisiontree08.jpg" width="800"></center>
 
 
 위 식처럼 하나의 테스트의 퀄리티는 각 갈래의 무질서 정도를 가중 합하는 것으로 구할 수 있습니다. 
@@ -152,7 +152,7 @@ $$ D(set) = -\frac{P}{T}log_{2}\frac{T}{P}-\frac{N}{T}log_{2}\frac{N}{T}$$
 
 각 테스트에 대한 퀄리티를 구해보았습니다. 
 
-<center><img src="/assets/images/ml/decision-tree/decisiontree10.jpg" width=800></center>
+<center><img src="/assets/images/ml/decision-tree/decisiontree10.jpg" width="800"></center>
 
 또한 두번째 테스트를 선발하기 위한 데이터에 대해서도 구했습니다. 
 위에서 쓴 결과와 동일하다는 것을 알 수 있죠. 
@@ -160,11 +160,11 @@ $$ D(set) = -\frac{P}{T}log_{2}\frac{T}{P}-\frac{N}{T}log_{2}\frac{N}{T}$$
 이 방법은 심지어 데이터가 숫자인 경우에도 사용할 수 있습니다. 
 아래 그림은 사람의 체온을 측정한 데이터입니다.
 
-<center><img src="/assets/images/ml/decision-tree/decisiontree11.jpg" width=800></center>
+<center><img src="/assets/images/ml/decision-tree/decisiontree11.jpg" width="800"></center>
 
 위 데이터를 테스트하기 위해서는 각 값들마다 사이값을 기준으로 테스트를 한번씩 다해보면 됩니다. 
 즉, 모든 값과 값 사이가 후보가 되고 모든 후보에 대해 계산을 한번씩 다해보는 것입니다. (n-1개의 임계값 후보)
 
-<center><img src="/assets/images/ml/decision-tree/decisiontree12.jpg" width=800></center> 
+<center><img src="/assets/images/ml/decision-tree/decisiontree12.jpg" width="800"></center> 
 
 또한 k-최근접 이웃과는 다소 다른 분류그래프가 나타납니다. 
