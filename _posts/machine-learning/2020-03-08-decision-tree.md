@@ -104,7 +104,7 @@ sidebar:
 결국 위 점수를 토대로하면 가장 점수가 높은 그림자테스트를 우선 선발하고, 
 그림자테스트로 검증하지 못한 데이터에 대해서만 다시 테스트를 진행합니다. 
 
-<center><img src="/assets/images/ml/decision-tree/decisiontree02.jpg" width=800></center>
+<center><img src="/assets/images/ml/decision-tree/decisiontree02.jpg" width="800"></center>
 
 즉, 위 그림처럼 기존에 존재하던 데이터에서 형광색으로 표시한, 그림자가 ?인 경우인 데이터 4개에 대해서만 다시 테스트를 진행합니다. 
 
