@@ -44,7 +44,7 @@ sidebar:
 [이산확률분포](https://losskatsu.github.io/statistics/prob-distribution/#)는 많은 경우 베르누이시행을 기반으로 이루어져있습니다.  
 아래에 기하분포를 간략히 정리해보았습니다. 
 
-![figure01](/assets/images/statistics/geometric/geometric02.jpg){: width="500"}
+<center><img src="/assets/images/statistics/geometric/geometric02.jpg" width="500"></center>
 
 기하분포는 두가지 관점으로 정의될 수 있으므로 기하분포를 사용할때는 기준을 **시도한 횟수**로 볼 것인지, **실패한 횟수**로 볼것인지를 명확히 해야합니다. 
 
@@ -58,10 +58,15 @@ sidebar:
 * [베르누이시행](https://losskatsu.github.io/statistics/binomial/)에서 **r번째 성공**까지 **시도한 횟수** X의 분포
 * [베르누이시행](https://losskatsu.github.io/statistics/binomial/)에서 **r번쨰 성공**까지 **실패한 횟수** Y=X-r의 분포
 
-![figure02](/assets/images/statistics/geometric/geometric01.jpg){: width="500"}
+<center><img src="/assets/images/statistics/geometric/geometric01.jpg" width="500"></center>
+
+추가적으로 r=3일 경우의, 음이항 분포의 mgf를 구해보았습니다.
+
+<center><img src="/assets/images/statistics/geometric/geometric03.jpg" width="500"></center>
+
 
 ## 참고. 확률분포간 관계도
 
-![figure100](/assets/images/statistics/dist_rel.jpg){: width="700"}
+<center><img src="/assets/images/statistics/dist_rel.jpg" width="700"></center>
 
 
