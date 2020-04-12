@@ -19,4 +19,7 @@ sidebar:
 
 ## Introduction
 
-$ {y_i, x_i}_{i=1}^{N} $ 을 트레이닝 셋이라고 합시다. 
+우선 ${y_i, x_i}_{i=1}^{N}$ 을 트레이닝 셋이라고 합시다. 이때 $N$을 피쳐벡터(feature vector)라고하고, 
+$x_i$를 $i$번째 피쳐벡터, $y_i \in {0,1,2,\dots, K-1}$을 $i$번째 클래스라벨(class label)이라 하고 $K \geq 3$인 멀티 클래스 분류문제라고 합시다.
+
+
