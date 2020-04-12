@@ -33,4 +33,9 @@ $$ F^{(M)}(x) = \sum_{m=1}^{M}\rho_{m}h(x;a_m) $$
 이때 $h(x;a_m)$는 약한 분류기이다. 여기서 파라미터는 $\rho_m, a_m$인데 이들은 데이터로 부터 학습된다. 
 학습 방법은 아래와 같은 log-likelihood 함수를 최소화시킴으로써 학습된다. 
 
+## 알고리즘
+
+$$0: r_{i,k}=1, \test{if} y_i=k, r_{i,k}=0 \test{otherwise}$$
+$$1: F_{i,k}=0, p_{i,k}=\frac{1}{K}, k=0, \dots, K-1, i=1,\dots,N $$
+
 
