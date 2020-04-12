@@ -15,3 +15,8 @@ sidebar:
 
 # Robust LogitBoost and Adaptive Base Class(ABC) LogitBoost
 
+[원문링크](https://arxiv.org/ftp/arxiv/papers/1203/1203.3491.pdf)
+
+## Introduction
+
+$ {y_i, x_i}_{i=1}^{N} $ 을 트레이닝 셋이라고 합시다. 
