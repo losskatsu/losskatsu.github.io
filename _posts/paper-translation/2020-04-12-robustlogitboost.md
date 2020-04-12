@@ -35,7 +35,5 @@ $$ F^{(M)}(x) = \sum_{m=1}^{M}\rho_{m}h(x;a_m) $$
 
 ## 알고리즘
 
-$$0: r_{i,k}=1, \test{if} y_i=k, r_{i,k}=0 \test{otherwise}$$
-$$1: F_{i,k}=0, p_{i,k}=\frac{1}{K}, k=0, \dots, K-1, i=1,\dots,N $$
 
 
