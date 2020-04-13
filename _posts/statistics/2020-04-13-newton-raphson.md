@@ -15,3 +15,5 @@ sidebar:
 
 # 뉴튼-랩슨(Newton-Raphson) 개념 정리
 
+$$ x^{t+1} = x^{t} - \frac{f(x^{t})}{f\textprime(x^{t})} $$
+
