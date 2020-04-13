@@ -24,3 +24,8 @@ sidebar:
 
 $$ x^{n+1} = x^{n} - \frac{f(x^{n})}{f\prime(x^{n})} $$
 
+위 식을 그림으로 나타내면 아래와 같습니다. 
+
+<center><img src="/assets/images/statistics/newton-raphson/nr01.jpg" width="800"></center>
+
+
