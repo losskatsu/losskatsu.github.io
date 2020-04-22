@@ -18,6 +18,10 @@ title: "About"
 * 차원축소(Dimension Reduction)
 * 사물인터넷(Internet of Things(IoT))
 
+### Lecture
+
+* 프로젝트와 함께 배우는 R 데이터 분석 Online, 2020.04 ~ 2020.06
+
 ### Work
 
 * **프리랜서**, 2020.02 ~ Present
