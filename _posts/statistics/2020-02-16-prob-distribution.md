@@ -20,6 +20,7 @@ sidebar:
 * [확률분포 복습하기](https://losskatsu.github.io/statistics/prob-distribution/)
 * [모집단과 표본 복습하기](https://losskatsu.github.io/statistics/population-sample/)
 * [평균과 분산 복습하기](https://losskatsu.github.io/statistics/mean-vairance/) 
+* [공분산, 상관계수 복습하기](https://losskatsu.github.io/statistics/cov-corr/) 
 ### 이산확률분포
 * [베르누이분포, 이항분포](https://losskatsu.github.io/statistics/binomial/) 
 * [기하분포, 음이항분포](https://losskatsu.github.io/statistics/geometric-negative/)
