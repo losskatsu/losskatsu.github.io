@@ -129,6 +129,7 @@ sidebar:
 ## 무질서(disorder) 측정
 
 정보이론가에 따르면 무질서 정도는 아래 공식을 구합니다. 
+무질서는 낮을 수록 좋습니다. 
 
 $$ D(set) = -\frac{P}{T}\log_{2}\frac{P}{T}-\frac{N}{T}\log_{2}\frac{N}{T} $$
 
