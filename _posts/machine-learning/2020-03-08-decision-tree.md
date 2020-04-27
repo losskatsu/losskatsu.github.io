@@ -130,7 +130,7 @@ sidebar:
 
 정보이론가에 따르면 무질서 정도는 아래 공식을 구합니다. 
 
-$$ D(set) = -\frac{P}{T}\log_{2}\frac{T}{P}-\frac{N}{T}\log_{2}\frac{N}{T} $$
+$$ D(set) = -\frac{P}{T}\log_{2}\frac{P}{T}-\frac{N}{T}\log_{2}\frac{N}{T} $$
 
 이때, P는 positive, N은 negative, T는 전체숫자(P+N)을 의미합니다. 
 각 $\frac{P}{T}$에 대해 무질서 그래프를 그리면 아래와 같습니다. 
@@ -148,7 +148,7 @@ $$ D(set) = -\frac{P}{T}\log_{2}\frac{T}{P}-\frac{N}{T}\log_{2}\frac{N}{T} $$
 위 식처럼 하나의 테스트의 퀄리티는 각 갈래의 무질서 정도를 가중 합하는 것으로 구할 수 있습니다. 
 그럼 이 방법을 이용해 위에서 사용했던 예제의 무질서와 퀄리티를 측정해봅시다. 
 
-<center><img src="/assets/images/ml/decision-tree/decisiontree09.jpg" width=800></center>
+<center><img src="/assets/images/ml/decision-tree/decisiontree09.jpg" width="800"></center>
 
 각 테스트에 대한 퀄리티를 구해보았습니다. 
 
