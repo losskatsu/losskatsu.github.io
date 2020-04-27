@@ -49,11 +49,6 @@ sidebar:
 확률 분포는 확률 변수의 종류에 따라 이산확률분포와 연속확률분포로 나뉘는데요. 
 쉽게 말해 확률변수를 셀 수 있는지 없는지에 따라 나눈다고 생각하시면 됩니다. 
 
-## 독립항등분포(iid, independent and identically distributed)
-
-두 개 이상의 [확률변수](https://losskatsu.github.io/statistics/random-variable/)를 고려할 때, 
-각 변수들이 통계적으로 독립(independent)이고, 동일한 확률분포를 가지고 있을때(identically distributed) 독립항등분포를 따른다고 하는데요. 
-실제로 독립항등분포라는 한글 쓰는 대신 iid라고 줄여서 부릅니다. 
 
 ## 2-1. 이산확률분포
 
@@ -96,6 +91,13 @@ $$ f_{X}(1) = P(X = 1) = 1/6 $$
 즉, 누적분포함수를 수식으로 나타내면 아래와 같습니다. 
 
 $$ F_{X}(x) = P(X \in (-\infty, x)) $$ 
+
+
+## 독립항등분포(iid, independent and identically distributed)
+
+두 개 이상의 [확률변수](https://losskatsu.github.io/statistics/random-variable/)를 고려할 때, 
+각 변수들이 통계적으로 독립(independent)이고, 동일한 확률분포를 가지고 있을때(identically distributed) 독립항등분포를 따른다고 하는데요. 
+실제로 독립항등분포라는 한글 쓰는 대신 iid라고 줄여서 부릅니다. 
 
 
 ## 5-1. 이산확률분포의 종류
