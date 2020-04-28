@@ -15,6 +15,12 @@ sidebar:
 
 # CentOS 6에 파이썬 가상환경(pyenv) 설치하기 
 
+참고링크 
+* [윈도우에 아나콘다를 사용해 파이썬 가상환경 설치하기](https://losskatsu.github.io/programming/py-conda/)
+* [맥북에 파이썬 가상환경(pyenv) 설치하기](https://losskatsu.github.io/it-infra/pyenv-osx/)
+* [우분투에 파이썬 가상환경(pyenv) 설치하기](https://losskatsu.github.io/programming/pyenv/)
+* [CentOS에 파이썬 가상환경(pyenv) 설치하기](https://losskatsu.github.io/it-infra/pyenv-centos6/)
+
 
 ## 삽질의 시작, curl이 안먹힘
 
