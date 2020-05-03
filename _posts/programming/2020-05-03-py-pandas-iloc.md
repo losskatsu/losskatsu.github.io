@@ -62,3 +62,4 @@ rawdata_boston.loc[rawdata_boston['CRIM']>0.3,['CRIM','ZN']]
 
 ## 3. iloc: 인덱스 번호를 사용해 데이터프레임 분리하기
 
+
