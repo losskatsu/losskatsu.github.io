@@ -62,4 +62,16 @@ rawdata_boston.loc[rawdata_boston['CRIM']>0.3,['CRIM','ZN']]
 
 ## 3. iloc: 인덱스 번호를 사용해 데이터프레임 분리하기
 
+위와 같이 'CRIM', 'ZN'열만 가져오는데 열 이름으 사용하는 대시 열번호로 가져와 보겠습니다.
+파이썬은 0부터 시작하므로 0번째열인 'CRIM'과 1번쨰열인 'ZN'만 가져오는 코드는 아래와 같습니다. 
 
+```python
+rawdata_boston.iloc[:,[0,1]]
+```
+
+이번에도 행조건을 넣어보겠습니다.
+
+```python
+rawdata_boston.iloc[rawdata_boston['CRIM']>0.3,[0,1]]
+NotImplementedError: iLocation based boolean indexing on an integer type is not available
+```
