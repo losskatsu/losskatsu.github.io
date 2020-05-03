@@ -76,4 +76,5 @@ rawdata_boston.iloc[rawdata_boston['CRIM']>0.3,[0,1]]
 NotImplementedError: iLocation based boolean indexing on an integer type is not available
 ```
 
-loc을 
+loc을 사용할때와는 다르게 입력이 iloc에서는 boolean을 포함하는 조건을 넣을 수 없습니다.
+따라서 boolean 조건을 넣고 싶다면 iloc이 아닌 loc을 사용하셔야겠습니다. 
