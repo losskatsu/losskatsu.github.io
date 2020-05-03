@@ -23,6 +23,7 @@ sidebar:
 먼저 데이터프레임을 다루기 위한 판다스(pandas)와 데이터셋 사용을 위한 사이킷런(sklearn) 라이브러리를 불러옵니다.
 
 ```python
+import numpy as np
 import pandas as pd
 from sklearn import datasets
 ```
@@ -54,10 +55,10 @@ rawdata_boston.loc[:,['CRIM','ZN']]
 이번에는 행에도 조건을 걸어서 가져와보겠습니다. 
 
 ```python
-rawdata_boston.loc[rawdata_boston['INDUS']>0.3,['CRIM','ZN']]
+rawdata_boston.loc[rawdata_boston['CRIM']>0.3,['CRIM','ZN']]
 ```
 
-위 코드는 'CRIM', 'ZN'열만 가져오는데 'INDUS'컬럼값이 0.3보다 큰 행만 가져옵니다. 
+위 코드는 'CRIM', 'ZN'열만 가져오는데 'CRIM'컬럼값이 0.3보다 큰 행만 가져옵니다. 
 
 ## 3. iloc: 인덱스 번호를 사용해 데이터프레임 분리하기
 
