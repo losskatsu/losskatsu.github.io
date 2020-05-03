@@ -40,6 +40,7 @@ rawdata_boston.columns = column_total_boston
 
 rawdata_boston
 ```
+<center><img src="/assets/images/programming/dataanal/iloc/iloc01.jpg" width="800"></center>
 
 
 ## 2. loc: 변수명을 사용해서 데이터프레임 분리하기
@@ -54,9 +55,15 @@ rawdata_boston.loc[:,['CRIM','ZN']]
 위 코드르 입력하시면 전체 데이터프레임에서 'CRIM', 'ZN'열만 가져옵니다. 
 이번에는 행에도 조건을 걸어서 가져와보겠습니다. 
 
+<center><img src="/assets/images/programming/dataanal/iloc/iloc02.jpg" width="800"></center>
+
+
 ```python
 rawdata_boston.loc[rawdata_boston['CRIM']>0.3,['CRIM','ZN']]
 ```
+
+<center><img src="/assets/images/programming/dataanal/iloc/iloc03.jpg" width="800"></center>
+
 
 위 코드는 'CRIM', 'ZN'열만 가져오는데 'CRIM'컬럼값이 0.3보다 큰 행만 가져옵니다. 
 
@@ -68,6 +75,8 @@ rawdata_boston.loc[rawdata_boston['CRIM']>0.3,['CRIM','ZN']]
 ```python
 rawdata_boston.iloc[:,[0,1]]
 ```
+<center><img src="/assets/images/programming/dataanal/iloc/iloc02.jpg" width="800"></center>
+
 
 이번에도 행조건을 넣어보겠습니다.
 
