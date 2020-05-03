@@ -75,3 +75,5 @@ rawdata_boston.iloc[:,[0,1]]
 rawdata_boston.iloc[rawdata_boston['CRIM']>0.3,[0,1]]
 NotImplementedError: iLocation based boolean indexing on an integer type is not available
 ```
+
+loc을 
