@@ -23,15 +23,15 @@ sidebar:
 subject to 다음 부터 나오는 부분, $f_i(x) \leq 0$, $h_i(x) = 0$을 제약식(constraint)라고 합니다. 
 위 최적화 문제는 목적함수와 제약식이 따로 분리되어 있는데요. 
 이를 하나의 식으로 정리한 것은 아래와 같으며, 
-아래와 같은 식을 라그랑주 프리멀 함수(Lagrange primal function)이라고 합니다.
+아래와 같은 식을 라그랑주 프리멀 함수(Lagrange primal function)이라고 합니다. 
 
 <center><img src="/assets/images/math/dualfunction/02.jpg" width="800"><center>
 
-위 식에서 사용된 $\lambda_i$, $v_i$를 라그랑주 승수(Lagrange multiplier)라고 합니다.
+위 식에서 사용된 $\lambda_i$, $v_i$를 라그랑주 승수(Lagrange multiplier)라고 합니다. 
 
 <center><img src="/assets/images/math/dualfunction/03.jpg" width="800"><center>
 
-그리고 위와 같이 $\lambda_i$, $v_i$를 모아놓은 벡터를 라그랑주 승수 벡터(Lagrange multiplier vector)라고 합니다.
+그리고 위와 같이 $\lambda_i$, $v_i$를 모아놓은 벡터를 라그랑주 승수 벡터(Lagrange multiplier vector)라고 합니다. 
 
 <center><img src="/assets/images/math/dualfunction/04.jpg" width="800"><center>
 
@@ -40,5 +40,5 @@ subject to 다음 부터 나오는 부분, $f_i(x) \leq 0$, $h_i(x) = 0$을 제�
 
 <center><img src="/assets/images/math/dualfunction/05.jpg" width="800"><center>
 
-결국 라그랑주 듀얼 함수를 최대화 시키면 우리가 구하고자 하는 최적값(optimal value)를 구할 수 있습니다.
+결국 라그랑주 듀얼 함수를 최대화 시키면 우리가 구하고자 하는 최적값(optimal value)를 구할 수 있습니다. 
 
