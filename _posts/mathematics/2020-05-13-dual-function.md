@@ -19,7 +19,10 @@ sidebar:
 
 <center><img src="/assets/images/math/dualfunction/01.jpg" width="800"><center>
 
-위 최적화 문제를 하나의 식으로 정리한 것은 아래와 같으며, 
+위 형식에서 $f_0(x)$를 우리가 최적화된 값을 구하고자 하는 목적함수(objective function)라고 하구요. 
+subject to 다음 부터 나오는 부분, $f_i(x) \leq 0$, $h_i(x) = 0$을 제약식(constraint)라고 합니다. 
+위 최적화 문제는 목적함수와 제약식이 따로 분리되어 있는데요. 
+이를 하나의 식으로 정리한 것은 아래와 같으며, 
 아래와 같은 식을 라그랑주 프리멀 함수(Lagrange primal function)이라고 합니다.
 
 <center><img src="/assets/images/math/dualfunction/02.jpg" width="800"><center>
