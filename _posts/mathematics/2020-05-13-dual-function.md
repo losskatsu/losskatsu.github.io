@@ -15,6 +15,11 @@ sidebar:
 
 # [최적화] 라그랑주 듀얼 함수(Lagrange dual function)의 개념
 
+참고링크
+
+* [라그랑주 듀얼 함수](https://losskatsu.github.io/mathematics/dual-function/)
+* [Karush-Kuhn-Tucker](https://losskatsu.github.io/mathematics/kkt/)
+
 ## 최적화 문제의 표준 형식
 
 최적화 문제의 표준적인 형식은 아래와 같습니다. 
