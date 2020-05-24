@@ -42,6 +42,7 @@ $$ f(\theta x + (1-\theta)y) \leq \theta f(x) + (1-\theta)f(y) $$
 를 만족하는 함수 $ f: \mathbb{R}^{n} \rightarrow \mathbb{R} $를 컨벡스(convex)하다라고 말합니다. 
 위 부등식의 의미는 두 점 $(x, f(x)), (y, f(y))$ 사이의 [line segment](https://losskatsu.github.io/mathematics/convex-set/), 
 즉, 두점사이의 현(chord)이 함수 $f$의 그래프보다 위쪽에 놓여있어야합니다. 
+위 부등식을 그림으로 표현하면 아래와 같습니다. 
 
 <center><img src="/assets/images/math/convex-function/01.jpg" width="800"></center>
 
@@ -66,6 +67,7 @@ $f$가 미분가능하다고 할때, 함수 $f$가 convex하다는 말은 곧 $\
 $$ f(y) \geq f(x) + \bigtriangledown f(x)^{T}(y-x)$$
 
 위와 같은 부등식이 $\mathbf{bol}\, f$내 모든 점 $x, y$에 대해 만족한다는 말과 같습니다. 
+위 부등식을 그림으로 표현하면 아래와 같습니다. 
 
 <center><img src="/assets/images/math/convex-function/02.jpg" width="800"></center>
 
