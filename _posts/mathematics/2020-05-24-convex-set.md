@@ -13,7 +13,7 @@ sidebar:
   nav: sidebar-contents
 ---
 
-# Convex set의 개념
+# [최적화] Convex set의 개념
 
 ## 1. line segment
 
@@ -29,5 +29,10 @@ $$ y = \theta x_1 + (1-\theta)x_2 $$
 
 특정 집합(set) $C\subseteq \mathbb{R}^n$이 아핀(affine)이라는 말은 아래와 같습니다. 
 $C$ 속의 두 점을 잇는 직선이 있다고했을 때, 즉, $x_1, x_2 \in C$이고 $\theta \in \mathbb{R}^n$ 일 때, 
-$ \theta x_1 + (1-\theta) x_2 \in C $
+$ \theta x_1 + (1-\theta) x_2 \in C $s이면 $C$는 아핀 셋(affine set) 입니다. 
+즉, 집합 $C$는 집합 $C$에 속하는 두 점의 선형 결합(linear combination)입니다. 
+이 때, 선형 결합 계수 $\theta$들의 합은 1입니다. 
 
+이를 2차원 이상으로 확장시키면 $\theta_1 x_1 + \cdots + \theta_k x_k$, $\theta_1+\cdots+\theta_k = 1$으로 쓸 수 있는데 
+이를 포인트 $x_1, \dots, x_k$에 대한 아핀 결합(affine bombination)이라고 합니다. 
+즉, 아핀 셋(affine set)은 해당 아핀 셋의 포인트에 대한 모든 아핀 결합을 포함합니다. 
