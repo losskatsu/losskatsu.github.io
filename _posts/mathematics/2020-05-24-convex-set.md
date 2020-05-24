@@ -18,6 +18,9 @@ sidebar:
 참고링크
 
 * [내적 ](https://losskatsu.github.io/linear-algebra/innerproduct/)
+* [컨벡스 셋(convex set)](https://losskatsu.github.io/mathematics/convex-set/)
+* [라그랑주 듀얼 함수](https://losskatsu.github.io/mathematics/dual-function/)
+* [Karush-Kuhn-Tucker](https://losskatsu.github.io/mathematics/kkt/)
 
 
 ## 1. line segment
