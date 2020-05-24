@@ -54,7 +54,7 @@ subject to 다음 부터 나오는 부분, $f_i(x) \leq 0$, $h_i(x) = 0$을 제�
 <center><img src="/assets/images/math/dualfunction/04.jpg" width="800"></center> 
 
 위와 같은 형태를 라그랑주 듀얼 함수(Lagrange dual function)이라고 하며, 
-라그랑주 프리멀 함수의 최소값을 나타냅니다. 
+라그랑주 프리멀 함수의 하한(infimum)을 나타냅니다. 
 
 <center><img src="/assets/images/math/dualfunction/05.jpg" width="800"></center> 
 
