@@ -113,3 +113,10 @@ $$ f(\theta x + (1-\theta)y) \leq \theta f(x) + (1-\theta)f(y) $$
 $$f(\theta_1 x_1 + \cdots + \theta_k x_k) \leq \theta_1 f(x_1) + \cdots + \theta_k f(x_k) $$ 
 
 이때, $x_1, \dots, x_k \in \mathbf{bol}\, f$이며, $\theta_1, \dots, \theta_k \geq 0$이고 $\theta_1 + \cdots + \theta_k =1$입니다. 
+Jensen's inequality를 응용해 흔히 사용되는 부등식 중 하나는 아래와 같습니다.
+
+$$f(E(x)) \leq E(f(x)) $$
+
+위 부등식에서 E는 Expectation, 즉, 기대값을 의미합니다. 또한 아래와 같이 간단한 부등식도 있습니다. 
+
+$$f(\frac{x+y}{2}) \leq \frac{f(x)+f(y)}{2} $$
