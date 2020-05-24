@@ -61,7 +61,7 @@ $0 < \theta < 1$이면 strictly convex하다고 말합니다.
 ## First-order conditions
 
 $f$가 미분가능하다는 말은 $\mathbf{bol}\, f$내의 모든 점들에 대해, 
-해당 점의 그래디언트(gradient) $\bigtriangledown f$, $\triangledown f$가 존재한다는 뜻입니다. 
+해당 점의 그래디언트(gradient) $\bigtriangledown f$가 존재한다는 뜻입니다. 
 $f$가 미분가능하다고 할때, 함수 $f$가 convex하다는 말은 곧 $\mathbf{bol} \, f$가 컨벡스하며 
 
 $$ f(y) \geq f(x) + \bigtriangledown f(x)^{T}(y-x)$$
@@ -75,3 +75,15 @@ $$ f(y) \geq f(x) + \bigtriangledown f(x)^{T}(y-x)$$
 이로부터 우리는 global information을 유도할수 있다는 것입니다. 
 예를들어 , $\bigtriangledown f = 0$일때, 모든 $y \in \mathbf{dom} f$에 대해, $f(y) \geq f(x)$라면, 
 $x$는 함수 $f$에 대한 global minimizer입니다. 
+
+strict convexity 위와 같은 형식으로 표현할 수 있습니다. 
+만약 $\mathbf{dom}\, f$가 컨벡스이고 $x, y \in \mathbf{dom}$일 때, 
+
+$$ f(y) > f(x) + \bigtriangledown f(x)^{T}(y-x)$$
+
+위 부등식을 만족하면 strict convex하다고 말합니다. 
+그리고 $\mathbf{dom}\, f$가 컨벡스이고 
+
+$$ f(y) \leq f(x) + \bigtriangledown f(x)^{T}(y-x)$$
+
+이면 concave하다고 말합니다. 
