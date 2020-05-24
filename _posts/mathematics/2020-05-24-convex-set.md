@@ -29,7 +29,7 @@ $$ y = \theta x_1 + (1-\theta)x_2 $$
 
 특정 집합(set) $C\subseteq \mathbb{R}^n$이 아핀(affine)이라는 말은 아래와 같습니다. 
 $C$ 속의 두 점을 잇는 직선이 있다고했을 때, 즉, $x_1, x_2 \in C$이고 $\theta \in \mathbb{R}^n$ 일 때, 
-$ \theta x_1 + (1-\theta) x_2 \in C $s이면 $C$는 아핀 셋(affine set) 입니다. 
+$ \theta x_1 + (1-\theta) x_2 \in C $s이면 $C$는 **아핀 셋(affine set)** 입니다. 
 즉, 집합 $C$는 집합 $C$에 속하는 두 점의 선형 결합(linear combination)입니다. 
 이 때, 선형 결합 계수 $\theta$들의 합은 1입니다. 
 
@@ -45,4 +45,8 @@ $ \theta x_1 + (1-\theta) x_2 \in C $s이면 $C$는 아핀 셋(affine set) 입�
 
 $$ \theta x_1 + (1-\theta)x_2 \in C $$
 
+좀더 러프하게 말하면, 컨벡스 셋이란, 어떤 집합내의 모든 두 점들을 서로 이었을 때, 
+해당 직선 또한 집합내에 속해야한다는 뜻입니다. 
 
+**모든 아핀 집합은 컨벡스입니다.** 왜냐하면 아핀 셋은 두 지점 사이의 모든 점을 포함하므로 
+두 점 사이의 모든 line segment를 포함하기 때문입니다. 
