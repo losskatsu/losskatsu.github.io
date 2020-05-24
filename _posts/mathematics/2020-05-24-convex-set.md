@@ -33,6 +33,12 @@ $$ y = \theta x_1 + (1-\theta)x_2 $$
 만약 $\theta = 0$이면 $y=x_2$가 되고, $\theta = 1$이면 $y=x_1$이 됩니다. 
 이때, $ 0 \leq \theta \leq 1$이면 $x_1, x_2$간의 line segment라고 합니다. 
 
+위 식은 아래와 같이 바꿔쓸수 있습니다. 
+
+$$ y = x_2 + \theta(x_1-x_2)$$
+
+위 식을 해석해보면, 
+$y$는 base 지점 $x_2$과 $x_1-x_2$ 방향(direction)에다가 $\theta$만큼 스케일(scale)한 값의 합으로 표현할수 있다는 것입니다. 
 
 ## 2. 아핀 셋(affine set)
 
