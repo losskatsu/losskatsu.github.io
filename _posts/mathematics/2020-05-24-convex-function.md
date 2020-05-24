@@ -31,3 +31,8 @@ $$ f: \mathbb{R}^{p} \rightarrow \mathbb{R}^{q} $$
 이 때, 함수 $f$의 정의역(domain)을 $\mathbf{bol} f$라고 쓰겠습니다. 
 위 함수의 의미는 함수 $f$는 $\mathbb{R}^{p}$ 공간에 속하는 벡터 $p-vector$를 취한 후,
 $\mathbb{R}^{q}$ 공간에 속하는 벡터 $q-vector$를 반환합니다. 
+
+<center><img src="/assets/images/math/convex-function/01.jpg" width="800"></center>
+
+<center><img src="/assets/images/math/convex-function/02.jpg" width="800"></center>
+
