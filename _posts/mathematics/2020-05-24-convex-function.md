@@ -43,8 +43,19 @@ $$ f(\theta x + (1-\theta)y) \leq \theta f(x) + (1-\theta)f(y) $$
 위 부등식의 의미는 두 점 $(x, f(x)), (y, f(y))$ 사이의 [line segment](https://losskatsu.github.io/mathematics/convex-set/), 
 즉, 두점사이의 현(chord)이 함수 $f$의 그래프보다 위쪽에 놓여있어야합니다. 
 
-
 <center><img src="/assets/images/math/convex-function/01.jpg" width="800"></center>
+
+만약 위 부등호가 아래와 같이 등호가 없고(strict inequality), 
+
+$$ f(\theta x + (1-\theta)y) < \theta f(x) + (1-\theta)f(y) $$
+
+$0 < \theta < 1$이면 strictly convex하다고 말합니다. 
+또한 $-f$가 convex하다면 $f$는 concave하다고 말합니다. 
+마찬가지로 $-f$가 strictly concave하다면 $f$는 strictly convex하다고 말합니다. 
+
+참고로 [아핀함수(affine function)](https://losskatsu.github.io/mathematics/convex-set/)는 컨벡스 조건 부등식을 만족하므로, 
+아핀함수는 convex이고 concave합니다. 
+반대로, 어떤 함수가 convex이고 concave하다면 해당 함수는 아핀함수 입니다. 
 
 <center><img src="/assets/images/math/convex-function/02.jpg" width="800"></center>
 
