@@ -30,6 +30,7 @@ $$ y = \theta x_1 + (1-\theta)x_2 $$
 만약 $\theta = 0$이면 $y=x_2$가 되고, $\theta = 1$이면 $y=x_1$이 됩니다. 
 이때, $ 0 \leq \theta \leq 1$이면 $x_1, x_2$간의 line segment라고 합니다. 
 
+
 ## 2. 아핀 셋(affine set)
 
 특정 집합(set) $C\subseteq \mathbb{R}^n$이 아핀(affine)이라는 말은 아래와 같습니다. 
@@ -53,6 +54,8 @@ $$ \theta x_1 + (1-\theta)x_2 \in C $$
 좀더 러프하게 말하면, 컨벡스 셋이란, 어떤 집합내의 모든 두 점들을 서로 이었을 때, 
 해당 직선 또한 집합내에 속해야한다는 뜻입니다. 
 
+<center><img src="/assets/images/math/convex-set/01.jpg" width="800"></center>
+
 **모든 아핀 집합은 컨벡스입니다.** 왜냐하면 아핀 셋은 두 지점 사이의 모든 점을 포함하므로 
 두 점 사이의 모든 line segment를 포함하기 때문입니다. 
 
@@ -67,3 +70,10 @@ $$ \{ x | a^T x = b \} $$
 기하학에서 초평면은 초평면의 점들에 벡터 $a$를 [내적](https://losskatsu.github.io/linear-algebra/innerproduct/)한 집합으로 해석합니다. 
 또는 normal vector $a$에 대한 초평면이라고 부릅니다. 
 이 때, $b \in \mathbb{R}$는 초평면과 원점사이의 차이(offset) 결정합니다.  
+
+<center><img src="/assets/images/math/convex-set/02.jpg" width="800"></center>
+
+<center><img src="/assets/images/math/convex-set/03.jpg" width="800"></center>
+
+<center><img src="/assets/images/math/convex-set/04.jpg" width="800"></center>
+
