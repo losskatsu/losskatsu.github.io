@@ -82,12 +82,12 @@ $$ \{ x | a^T (x-x_0) = b \} $$
 
 위 그림을 토대로 표현방법을 아래와 같이 바꿀수도 있습니다.
 
-$$ \{ x | a^T (x-x_0) = 0  \} = x_0 + a^{\pert}  $$ 
+$$ \{ x | a^T (x-x_0) = 0  \} = x_0 + a^{\bot}  $$ 
 
-위 식에서 $a^{\pert}$는 $a$의 orthogonal complement입니다. 
+위 식에서 $a^{\bot}$는 $a$의 orthogonal complement입니다. 
 즉, 모든 orthogonal 한 벡터의 집합은 아래와 같이 표현할 수 있습니다.
 
-$$ a^{\pert} = \{ a^{T}v = 0 \} $$
+$$ a^{\bot} = \{ a^{T}v = 0 \} $$
 
 이 말인 즉슨, 초평면은 오프셋(offset) $x_0$에 벡터 $a$에 orthogonal한 모든 벡터를 더한 값이 됩니다.
 
