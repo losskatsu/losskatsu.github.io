@@ -60,7 +60,7 @@ $$ \theta x_1 + (1-\theta)x_2 \in C $$
 
 초평면(hyperplane)은 아래와 같은 형태의 집합을 말합니다.
 
-$\{ x | a^T x = b \}$
+$$ \{ x | a^T x = b \} $$
 
 이 때, $a \in \mathbb{R}^n$이고, $a \neq 0$이며, $b \in \mathbb{b}$입니다. 
 해석학에서 초평면은 선형 방정식에서 솔루현의 형태입니다. 
