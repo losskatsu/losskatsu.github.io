@@ -99,8 +99,18 @@ $$ a^{\pert} = \{ a^{T}v = 0 \} $$
 $$ \{ a^{T}x \leq b \} $$
 
 반공간은 컨벡스(convex)이지만 아핀(affine)은 아닙니다. 
+이를 그림으로 표현하면 아래와 같습니다. 
 
 <center><img src="/assets/images/math/convex-set/03.jpg" width="800"></center>
+
+## 6. 유클리디안 볼(Euclidean ball)
+
+$\mathbb{R}^{n}$내에서 유클리디안 볼(Euclidean ball)은 아래와 같이 표현합니다. 
+
+$$ B(x_c, r) = \{ x | \Vert x - x_c \Vert_{2} \leq r \} = \{ x| (x-x_c)^{2}(x-x_c) \leq r^2 \}$$ 
+
+이 때, $r>0$ 이며, $\Vert u \Vert_{2} = (u^{T}u)^{\frac{1}{2}}$ 입니다.(Euclidean norm) 
+$x_c$는 ball의 중심을 나타내며 $r$은 반지름()을 나타냅니다. 
 
 <center><img src="/assets/images/math/convex-set/04.jpg" width="800"></center>
 
