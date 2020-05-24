@@ -28,9 +28,16 @@ sidebar:
 
 $$ f: \mathbb{R}^{p} \rightarrow \mathbb{R}^{q} $$ 
 
-이 때, 함수 $f$의 정의역(domain)을 $\mathbf{bol} f$라고 쓰겠습니다. 
+이 때, 함수 $f$의 정의역(domain)을 $\mathbf{bol}\, f$라고 쓰겠습니다. 
 위 함수의 의미는 함수 $f$는 $\mathbb{R}^{p}$ 공간에 속하는 벡터 $p-vector$를 취한 후,
 $\mathbb{R}^{q}$ 공간에 속하는 벡터 $q-vector$를 반환합니다. 
+
+## 2. Convex
+
+만약 
+
+아래 조건을 만족하는 함수 $ f: \mathbb{R}^{n} \rightarrow \mathbb{R} $를 컨벡스(convex)하다라고 말합니다. 
+
 
 <center><img src="/assets/images/math/convex-function/01.jpg" width="800"></center>
 
