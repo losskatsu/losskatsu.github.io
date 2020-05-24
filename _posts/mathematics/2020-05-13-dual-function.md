@@ -1,5 +1,5 @@
 ---
-title: "라그랑주 듀얼 함수(Lagrange dual function)의 개념" 
+title: "[최적화] 라그랑주 듀얼 함수(Lagrange dual function)의 개념" 
 categories:
   - mathematics
 tags:
@@ -13,7 +13,7 @@ sidebar:
   nav: sidebar-contents
 ---
 
-# [최적화] 라그랑주 듀얼 함수(Lagrange dual function)의 개념
+# 라그랑주 듀얼 함수(Lagrange dual function)의 개념
 
 참고링크
 
