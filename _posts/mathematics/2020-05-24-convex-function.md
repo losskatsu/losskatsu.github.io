@@ -71,3 +71,7 @@ $$ f(y) \geq f(x) + \bigtriangledown f(x)^{T}(y-x)$$
 
 <center><img src="/assets/images/math/convex-function/02.jpg" width="800"></center>
 
+위 부등식이 의미하는 것은 컨벡스 함수에 대해 local information을 보여주며, 
+이로부터 우리는 global information을 유도할수 있다는 것입니다. 
+예를들어 , $\bigtriangledown f = 0$일때, 모든 $y \in \mathbf{dom} f$에 대해, $f(y) \geq f(x)$라면, 
+$x$는 함수 $f$에 대한 global minimizer입니다. 
