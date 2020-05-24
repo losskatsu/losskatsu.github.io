@@ -34,9 +34,11 @@ $\mathbb{R}^{q}$ 공간에 속하는 벡터 $q-vector$를 반환합니다.
 
 ## 2. Convex
 
-만약 
+만약 $\mathbf{bol}\, f$가 컨벡스 셋(convex set)이고, 모든 $x$와, $y\in \mathbf{bol}\, f$, $0\leq \theta \leq 1$에 대해 
 
-아래 조건을 만족하는 함수 $ f: \mathbb{R}^{n} \rightarrow \mathbb{R} $를 컨벡스(convex)하다라고 말합니다. 
+$$ f(\theta x + (1-\theta)y) \leq \theta f(x) + (1-\theta)f(y) $$
+
+를 만족하는 함수 $ f: \mathbb{R}^{n} \rightarrow \mathbb{R} $를 컨벡스(convex)하다라고 말합니다. 
 
 
 <center><img src="/assets/images/math/convex-function/01.jpg" width="800"></center>
