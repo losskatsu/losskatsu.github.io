@@ -114,3 +114,6 @@ $x_c$는 ball의 중심을 나타내며 $r$은 반지름()을 나타냅니다.
 
 <center><img src="/assets/images/math/convex-set/04.jpg" width="800"></center>
 
+**유클리디안 볼은 컨벡스 셋(convex set)입니다.** 
+만약 $\Vert x_1 - x_c \Vert_{2} \leq r$, $\Vert x_2 - x_c \Vert_{2} \leq r$이고 $0 \leq \theta \leq 1$이면, 
+
