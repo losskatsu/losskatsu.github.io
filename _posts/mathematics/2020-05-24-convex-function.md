@@ -139,3 +139,12 @@ $$ f = w_1 f_1 + \cdots + w_m f_m $$
 $$ g(x) = f(Ax+b) $$ 
 
 위 조건을 만족하는 $g$또한 컨벡스합니다. 
+
+
+## 6. Conjugate function
+
+$f: \mathbb{R}^{n} \rightarrow \mathbb{R}$일 때, 
+
+$$ f^{\ast}$$
+
+위와 같은 함수 $f^{\ast}: \mathbb{R}^{n} \rightarrow \mathbb{R}$는 함수 $f$의 conjuate라고 합니다.
