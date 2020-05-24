@@ -150,3 +150,7 @@ $$ f^{\ast} = sup_{x\in \mathbf{dom}\, f}(y^{T}x - f(x))$$
 위와 같은 함수 $f^{\ast}: \mathbb{R}^{n} \rightarrow \mathbb{R}$는 함수 $f$의 conjuate라고 합니다. 
 
 <center><img src="/assets/images/math/convex-function/03.jpg" width="800"></center>
+
+위 그림을 통해 conjugate를 정의해보겠습니다. 
+conjugate 함수 $f^{\ast}$는 선형함수 $yx$와 $f(x)$간의 maximum gap을 의미합니다. 
+만약 $f$가 미분가능하다면 이는 $f\prime(x)=y$에서 발생합니다. 
