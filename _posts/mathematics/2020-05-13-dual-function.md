@@ -55,8 +55,16 @@ subject to 다음 부터 나오는 부분, $f_i(x) \leq 0$, $h_i(x) = 0$을 제�
 
 위와 같은 형태를 라그랑주 듀얼 함수(Lagrange dual function)이라고 하며, 
 라그랑주 프리멀 함수의 하한(infimum)을 나타냅니다. 
+만약 라그랑주 듀얼 함수의 최적값을 $d^{\ast}$라고 하고, 
+우리가 구하고자 하는 최적값을 $p^{\ast}$라고 하면 아래와 같은 부등식이 성립합니다. 
 
-<center><img src="/assets/images/math/dualfunction/05.jpg" width="800"></center> 
+$$d^{\ast} \leq p^{\ast} $$ 
 
-결국 라그랑주 듀얼 함수를 최대화 시키면 우리가 구하고자 하는 최적값(optimal value)를 구할 수 있습니다. 
+위와 같은 성질을 weak duality라고 합니다. 또한 $p^{\ast} -d^{\ast}$를 optimal duality gap이라고 부릅니다. 
+이는 프리말 문제의 최적값인 $p^{\ast}$와 라그랑지 유얼 함수로부터 얻어진 lower bound $d^{\ast}$의 차이를 의미합니다. 
+optimal duality gap은 nonnegative 합니다. 
+
+만약 아래와 같은 식을 만족한다면 strong duality라고 부릅니다. 
+
+$$ d^{\ast} = p^{\ast} $$
 
