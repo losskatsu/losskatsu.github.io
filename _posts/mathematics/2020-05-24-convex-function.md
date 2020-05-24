@@ -121,3 +121,21 @@ $$f(E(x)) \leq E(f(x)) $$
 위 부등식에서 E는 Expectation, 즉, 기대값을 의미합니다. 또한 아래와 같이 간단한 부등식도 있습니다. 
 
 $$f(\frac{x+y}{2}) \leq \frac{f(x)+f(y)}{2} $$
+
+## 5. Convex 성질이 보존되는 경우
+
+### 5.1 Nonnegative weighted sums
+
+우선 $f$가 컨벡스일때, $\alpha \geq 0$에 대해 $\alpha f$ 또한 컨벡스합니다. 
+또한 $f_1, f_2$가 모두 컨벡스일때, 두 함수의 합 $f_1 + f_2$또한 컨벡스합니다. 
+이를 조합하면 아래 조건을 만족하는 함수 $f$는 컨벡스하다는 것을 알 수 있습니다.
+
+$$ f = w_1 f_1 + \cdots + w_m f_m $$
+
+## 5.2 Composition with an affine mapping 
+
+만약 $f$가 컨벡스하다면 
+
+$$ g(x) = f(Ax+b) $$ 
+
+위 조건을 만족하는 $g$또한 컨벡스합니다. 
