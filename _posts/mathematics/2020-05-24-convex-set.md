@@ -117,3 +117,17 @@ $x_c$는 ball의 중심을 나타내며 $r$은 반지름()을 나타냅니다.
 **유클리디안 볼은 컨벡스 셋(convex set)입니다.** 
 만약 $\Vert x_1 - x_c \Vert_{2} \leq r$, $\Vert x_2 - x_c \Vert_{2} \leq r$이고 $0 \leq \theta \leq 1$이면, 
 
+$$
+\begin{align}
+\Vert \theta x_1 + (1-\theta)x_2 \Vert_{2} &= \Vert\theta(x_1-x_c)+(1-\theta)(x_2-x_c) \Vert_{2} \\
+                   &\leq \theta\Vert x_1-x_c \Vert_{2} + (1-\theta)\Vert x_2 - x_c \Vert_{2} \\
+                   &\leq r
+\end{align}
+$$
+
+이와 연관된 컨벡스셋을 타원체(ellipsoid)라고 하는데, 이는 아래와 같이 표현합니다. 
+
+$$ \mathcal{e} = \{ x | (x-x_c)^{T}P^{-1}(x-x_c) \leq 1 \} $$ 
+
+이 때, $P$는 대칭행렬(symmetric)이며, positive definite입니다. 
+$P$가 의미하는 것은 중심 $x_c$로부터 모든 방향으로 얼마나 뻗어나가는 지를 의미합니다. 
