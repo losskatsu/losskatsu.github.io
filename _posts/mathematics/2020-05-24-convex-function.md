@@ -100,3 +100,16 @@ $$ \bigtriangledown^{2}f(x) \geq 0 $$
 $$ \bigtriangledown^{2}f(x) \leq 0 $$ 
 
 하다면 함수 $f$는 concave하다고 합니다.
+
+
+## 4. Jensen's inequality
+
+가장 처음에 언급했던 부등식
+
+$$ f(\theta x + (1-\theta)y) \leq \theta f(x) + (1-\theta)f(y) $$
+
+을 Jensen's inequality라고도 부릅니다. 이를 좀더 일반화 하면 아래와 같이 쓸수 있습니다. 
+
+$$f(\theta_1 x_1 + \cdots + \theta_k x_k) \leq \theta_1 f(x_1) + \cdots + \theta_k f(x_k) $$ 
+
+이때, $x_1, \dots, x_k \in \mathbf{bol}\, f$이며, $\theta_1, \dots, \theta_k \geq 0$이고 $\theta_1 + \cdots + \theta_k =1$입니다. 
