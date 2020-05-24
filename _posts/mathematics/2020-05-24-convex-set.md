@@ -50,3 +50,11 @@ $$ \theta x_1 + (1-\theta)x_2 \in C $$
 
 **모든 아핀 집합은 컨벡스입니다.** 왜냐하면 아핀 셋은 두 지점 사이의 모든 점을 포함하므로 
 두 점 사이의 모든 line segment를 포함하기 때문입니다. 
+
+## 4. 초평면(hyperplane)과 반공간(halfspace)
+
+초평면(hyperplane)은 아래와 같은 형태의 집합을 말합니다.
+
+$\{ x | a^T x = b \}$
+
+이 때, $a \in \mathbb{R}^n$이고, $a \neq 0$이며, $b \in \mathbb{b}$입니다.
