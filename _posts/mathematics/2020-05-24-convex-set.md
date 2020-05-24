@@ -19,6 +19,7 @@ sidebar:
 
 * [내적 ](https://losskatsu.github.io/linear-algebra/innerproduct/)
 * [컨벡스 셋(convex set)](https://losskatsu.github.io/mathematics/convex-set/)
+* [컨벡스 함수(convex function)](https://losskatsu.github.io/mathematics/convex-function/)
 * [라그랑주 듀얼 함수](https://losskatsu.github.io/mathematics/dual-function/)
 * [Karush-Kuhn-Tucker](https://losskatsu.github.io/mathematics/kkt/)
 
