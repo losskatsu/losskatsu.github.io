@@ -57,5 +57,13 @@ $0 < \theta < 1$이면 strictly convex하다고 말합니다.
 아핀함수는 convex이고 concave합니다. 
 반대로, 어떤 함수가 convex이고 concave하다면 해당 함수는 아핀함수 입니다. 
 
+## First-order conditions
+
+$f$가 미분가능하다는 말은 $\mathbf{bol}\, f$내의 모든 점들에 대해, 
+해당 점의 그래디언트(gradient) $\bigtriangledown f$가 존재한다는 뜻입니다. 
+$f$가 미분가능하다고 할때, 함수 $f$가 convex하다는 말은 곧 $\mathbf{bol} \, f$가 컨벡스하며 
+
+$$ f(y) \geq f(x) + $$
+
 <center><img src="/assets/images/math/convex-function/02.jpg" width="800"></center>
 
