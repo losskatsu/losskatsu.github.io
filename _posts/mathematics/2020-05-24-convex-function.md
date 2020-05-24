@@ -148,3 +148,5 @@ $f: \mathbb{R}^{n} \rightarrow \mathbb{R}$일 때,
 $$ f^{\ast} = sup_{x\in \mathbf{dom}\, f}(y^{T}x - f(x))$$
 
 위와 같은 함수 $f^{\ast}: \mathbb{R}^{n} \rightarrow \mathbb{R}$는 함수 $f$의 conjuate라고 합니다. 
+
+<center><img src="/assets/images/math/convex-function/03.jpg" width="800"></center>
