@@ -15,6 +15,11 @@ sidebar:
 
 # [최적화] Convex set의 개념
 
+참고링크
+
+* [내적 ](https://losskatsu.github.io/linear-algebra/innerproduct/)
+
+
 ## 1. line segment
 
 $\mathbb{R}^n$ 공간에서의 두 점 $x_1, x_2$가 있다고 합시다. 
@@ -57,4 +62,8 @@ $$ \theta x_1 + (1-\theta)x_2 \in C $$
 
 $\{ x | a^T x = b \}$
 
-이 때, $a \in \mathbb{R}^n$이고, $a \neq 0$이며, $b \in \mathbb{b}$입니다.
+이 때, $a \in \mathbb{R}^n$이고, $a \neq 0$이며, $b \in \mathbb{b}$입니다. 
+해석학에서 초평면은 선형 방정식에서 솔루현의 형태입니다. 
+기하학에서 초평면은 초평면의 점들에 벡터 $a$를 [내적](https://losskatsu.github.io/linear-algebra/innerproduct/)한 집합으로 해석합니다. 
+또는 normal vector $a$에 대한 초평면이라고 부릅니다. 
+이 때, $b \in \mathbb{R}$는 초평면과 원점사이의 차이(offset) 결정합니다.  
