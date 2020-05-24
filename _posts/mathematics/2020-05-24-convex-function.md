@@ -87,3 +87,16 @@ $$ f(y) > f(x) + \bigtriangledown f(x)^{T}(y-x)$$
 $$ f(y) \leq f(x) + \bigtriangledown f(x)^{T}(y-x)$$
 
 이면 concave하다고 말합니다. 
+
+
+## 3. Second-order conditions
+
+만약 함수 $f$가 두번 미분가능해서 $\bigtriangledown^{2}f$가 존재할때, 
+
+$$ \bigtriangledown^{2}f(x) \geq 0 $$
+
+이면 함수 $f$는 컨벡스하다고 말합니다. 반대로
+
+$$ \bigtriangledown^{2}f(x) \leq 0 $$ 
+
+하다면 함수 $f$는 concave하다고 합니다.
