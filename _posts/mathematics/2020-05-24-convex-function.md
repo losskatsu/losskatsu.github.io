@@ -63,7 +63,9 @@ $f$가 미분가능하다는 말은 $\mathbf{bol}\, f$내의 모든 점들에 �
 해당 점의 그래디언트(gradient) $\bigtriangledown f$, $\triangledown f$가 존재한다는 뜻입니다. 
 $f$가 미분가능하다고 할때, 함수 $f$가 convex하다는 말은 곧 $\mathbf{bol} \, f$가 컨벡스하며 
 
-$$ f(y) \geq f(x) + $$
+$$ f(y) \geq f(x) + \bigtriangledown f(x)^{T}(y-x)$$
+
+위와 같은 부등식이 $\mathbf{bol}\, f$내 모든 점 $x, y$에 대해 만족한다는 말과 같습니다. 
 
 <center><img src="/assets/images/math/convex-function/02.jpg" width="800"></center>
 
