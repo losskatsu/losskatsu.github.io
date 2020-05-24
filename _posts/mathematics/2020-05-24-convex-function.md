@@ -59,7 +59,7 @@ $0 < \theta < 1$이면 strictly convex하다고 말합니다.
 아핀함수는 convex이고 concave합니다. 
 반대로, 어떤 함수가 convex이고 concave하다면 해당 함수는 아핀함수 입니다. 
 
-## First-order conditions
+## 3. First-order conditions
 
 $f$가 미분가능하다는 말은 $\mathbf{bol}\, f$내의 모든 점들에 대해, 
 해당 점의 그래디언트(gradient) $\bigtriangledown f$가 존재한다는 뜻입니다. 
@@ -90,7 +90,7 @@ $$ f(y) \leq f(x) + \bigtriangledown f(x)^{T}(y-x)$$
 이면 concave하다고 말합니다. 
 
 
-## 3. Second-order conditions
+## 4. Second-order conditions
 
 만약 함수 $f$가 두번 미분가능해서 $\bigtriangledown^{2}f$가 존재할때, 
 
@@ -103,7 +103,7 @@ $$ \bigtriangledown^{2}f(x) \leq 0 $$
 하다면 함수 $f$는 concave하다고 합니다.
 
 
-## 4. Jensen's inequality
+## 5. Jensen's inequality
 
 가장 처음에 언급했던 부등식
 
@@ -122,9 +122,9 @@ $$f(E(x)) \leq E(f(x)) $$
 
 $$f(\frac{x+y}{2}) \leq \frac{f(x)+f(y)}{2} $$
 
-## 5. Convex 성질이 보존되는 경우
+## 6. Convex 성질이 보존되는 경우
 
-### 5.1 Nonnegative weighted sums
+### 6.1 Nonnegative weighted sums
 
 우선 $f$가 컨벡스일때, $\alpha \geq 0$에 대해 $\alpha f$ 또한 컨벡스합니다. 
 또한 $f_1, f_2$가 모두 컨벡스일때, 두 함수의 합 $f_1 + f_2$또한 컨벡스합니다. 
@@ -132,7 +132,7 @@ $$f(\frac{x+y}{2}) \leq \frac{f(x)+f(y)}{2} $$
 
 $$ f = w_1 f_1 + \cdots + w_m f_m $$
 
-## 5.2 Composition with an affine mapping 
+## 6.2 Composition with an affine mapping 
 
 만약 $f$가 컨벡스하다면 
 
@@ -141,10 +141,10 @@ $$ g(x) = f(Ax+b) $$
 위 조건을 만족하는 $g$또한 컨벡스합니다. 
 
 
-## 6. Conjugate function
+## 7. Conjugate function
 
 $f: \mathbb{R}^{n} \rightarrow \mathbb{R}$일 때, 
 
-$$ f^{\ast}$$
+$$ f^{\ast} = sup_{x\in \mathbf{dom}\, f}(y^{T}x - f(x))$$
 
-위와 같은 함수 $f^{\ast}: \mathbb{R}^{n} \rightarrow \mathbb{R}$는 함수 $f$의 conjuate라고 합니다.
+위와 같은 함수 $f^{\ast}: \mathbb{R}^{n} \rightarrow \mathbb{R}$는 함수 $f$의 conjuate라고 합니다. 
