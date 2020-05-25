@@ -120,7 +120,7 @@ $\mathbb{R}^{n}$내에서 유클리디안 볼(Euclidean ball)은 아래와 같�
 $$ B(x_c, r) = \{ x | \Vert x - x_c \Vert_{2} \leq r \} = \{ x| (x-x_c)^{2}(x-x_c) \leq r^2 \}$$ 
 
 이 때, $r>0$ 이며, $\Vert u \Vert_{2} = (u^{T}u)^{\frac{1}{2}}$ 입니다.(Euclidean norm) 
-$x_c$는 ball의 중심을 나타내며 $r$은 반지름()을 나타냅니다. 
+$x_c$는 ball의 중심을 나타내며 $r$은 반지름(radius)을 나타냅니다. 
 
 <center><img src="/assets/images/math/convex-set/04.jpg" width="800"></center>
 
