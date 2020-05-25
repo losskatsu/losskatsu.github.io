@@ -29,14 +29,14 @@ sidebar:
 
 $$ f: \mathbb{R}^{p} \rightarrow \mathbb{R}^{q} $$ 
 
-이 때, 함수 $f$의 정의역(domain)을 $\mathbf{bol}\, f$라고 쓰겠습니다. 
+이 때, 함수 $f$의 정의역(domain)을 $\mathbf{dom}\, f$라고 쓰겠습니다. 
 위 함수의 의미는 함수 $f$는 $\mathbb{R}^{p}$ 공간에 속하는 벡터 $p-vector$를 취한 후,
 $\mathbb{R}^{q}$ 공간에 속하는 벡터 $q-vector$를 반환합니다. 
 
 ## 2. Convex
 
-만약 $\mathbf{bol}\, f$가 [컨벡스 셋(convex set)](https://losskatsu.github.io/mathematics/convex-set/)이고, 
-모든 $x$와, $y\in \mathbf{bol}\, f$, $0\leq \theta \leq 1$에 대해 
+만약 $\mathbf{dom}\, f$가 [컨벡스 셋(convex set)](https://losskatsu.github.io/mathematics/convex-set/)이고, 
+모든 $x$와, $y\in \mathbf{dom}\, f$, $0\leq \theta \leq 1$에 대해 
 
 $$ f(\theta x + (1-\theta)y) \leq \theta f(x) + (1-\theta)f(y) $$
 
