@@ -94,3 +94,23 @@ comment | "##" | 주석문자로 출력결과 서두에 붙인다.
 fig.width | 7 | 덩어리로 생성되는 그래프 폭 인치 지정
 fig.height | 7 | 덩어리로 생성되는 그래프에 대한 높이 인치 지정 
  
+### 사용법
+
+```r
+---
+title: "자기가 원하는 제목"
+mainfont: NanumGothic
+output:
+  pdf_document:
+    latex_engine: xelatex
+  word_document: default
+  html_document:
+    df_print: paged
+editor_options:
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, error = FALSE, warning = FALSE)
+```
+```
