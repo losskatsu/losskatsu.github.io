@@ -78,3 +78,19 @@ editor_options:
 
 <center><img src="/assets/images/infra/rmarkdown/04.jpg" width="800"></center>
 
+## 참고: 옵션2
+
+선택옵션 | 기본설정 | 효과
+--------|---------|------- 
+eval | TRUE | 코드 평가 및 결과 포함
+echo | TRUE | 실행결과와 함께 코드 출력
+warning | TRUE | 경고메시지 출력 
+error | FALSE | 오류메시지 출력
+message | TRUE | 메시지 출력
+tidy | FALSE | 깔끔한 방식으로 코드 변형
+results | "markup" | "markup", "asis", "hold", "hide"
+cache | FALSE | 결과값을 캐쉬해서 향후 실행시 건너뛰게 설정
+comment | "##" | 주석문자로 출력결과 서두에 붙인다.
+fig.width | 7 | 덩어리로 생성되는 그래프 폭 인치 지정
+fig.height | 7 | 덩어리로 생성되는 그래프에 대한 높이 인치 지정 
+ 
