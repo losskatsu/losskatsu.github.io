@@ -15,6 +15,10 @@ sidebar:
 
 # R 마크다운(markdown)으로 한글 pdf 저장하기
 
+참고링크
+
+* [R 마크다운 치트시트](https://rstudio.com/wp-content/uploads/2016/02/rmarkdown-cheatsheet-kr.pdf)
+
 ## 사전준비물 - latex 설치
 
 R의 결과물을 pdf파일로 저장하기 위해선 우선 latex가 설치되어있어야 합니다. 
