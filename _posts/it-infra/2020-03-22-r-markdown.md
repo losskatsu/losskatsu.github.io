@@ -110,7 +110,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-\```{r setup, include=FALSE}
+(R코드 실행시 이 괄호 제거)```{r setup, include=FALSE} 
 knitr::opts_chunk$set(echo = TRUE, error = FALSE, warning = FALSE)
-\```
+(R코드 실행시 이 괄호 제거)```
 ```
