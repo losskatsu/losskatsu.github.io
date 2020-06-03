@@ -24,9 +24,11 @@ sidebar:
 * [로지스틱 회귀분석 복습하기](https://losskatsu.github.io/statistics/logistic-regression/)
 * [의사결정나무 복습하기](https://losskatsu.github.io/machine-learning/decision-tree/)
 * [서포트벡터머신 복습하기](https://losskatsu.github.io/machine-learning/svm/)
+* [LDA 복습하기](https://losskatsu.github.io/machine-learning/lda/)
 * [딥러닝 기초 복습하기](https://losskatsu.github.io/machine-learning/dl-basic01/)
 * [부스팅(boosting) 복습하기](https://losskatsu.github.io/machine-learning/boosting/)
 * [사이킷런 실습하기](https://losskatsu.github.io/machine-learning/sklearn/)
+
 
 ## K-Means 클러스터링 간단 개념
 
