@@ -58,6 +58,7 @@ title: "About"
     한국통계학회 가을 컨퍼런스 2014, Oct 2014, Korea
 
 ### Extracurricular Course
+* IaaS 개발자 양성을 위한 클라우드 인프라 개발, 한국클라우드컴퓨팅연구조합(CCCR), 2020.06 
 * 공개SW전문교육 사물인터넷(IoT) 과정 수료, 공개SW개발자센터, 2019.11.30 
 
 ### Extra Activity
