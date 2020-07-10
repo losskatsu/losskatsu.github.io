@@ -9,15 +9,6 @@ title: "About"
 * 블로그 : losskatsu.github.io
 * 깃허브 : https://github.com/losskatsu
 
-### Interests
-* 강화학습(Reinforcement Learning)
-* 머신러닝(Machine Learning)
-* 마르코프체인 몬테카를로(Markov Chain Monte Carlo Simulation)
-* 확률적 모델링(Probability model)
-* 고차원 통계분석(High Dimensional Statistics)
-* 차원축소(Dimension Reduction)
-* 사물인터넷(Internet of Things(IoT))
-
 ### Lecture
 
 * 프로젝트와 함께 배우는 R 데이터 분석 Online, 패스트캠퍼스, 2020.04 ~ 2020.06
@@ -35,6 +26,15 @@ title: "About"
         MS in Statistics, KR, Seoul, 2012.03-2014.02
 * **충북대학교(Chungbuk National University)**  
         BS in Statistics, KR, Cheongju, 2005.03-2011.02
+
+### Interests
+* 강화학습(Reinforcement Learning)
+* 머신러닝(Machine Learning)
+* 마르코프체인 몬테카를로(Markov Chain Monte Carlo Simulation)
+* 확률적 모델링(Probability model)
+* 고차원 통계분석(High Dimensional Statistics)
+* 차원축소(Dimension Reduction)
+* 사물인터넷(Internet of Things(IoT))
 
 ### Skills
 * **language**  
