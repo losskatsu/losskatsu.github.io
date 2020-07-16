@@ -21,7 +21,7 @@ title: "About"
 
 ### Education
 * **플로리다 주립대학교(Florida State University)**  
-        PhD dropout in Statistics, US, FL, 2015.08-2017.01
+        PhD candidate in Statistics, US, FL, 2015.08-2017.01
 * **고려대학교(Korea Universiy)**  
         MS in Statistics, KR, Seoul, 2012.03-2014.02
 * **충북대학교(Chungbuk National University)**  
