@@ -13,9 +13,15 @@ title: "About"
 
 * 프로젝트와 함께 배우는 R 데이터 분석 Online, 패스트캠퍼스, 2020.04 ~ 2020.06
 
-### Beta Reading
+### Special Lecture
+
+* 진로 탐색의 날 강연,
+    한민고등학교, Apr 2019, Sep 2019, Korea
+
+### Beta Reader
 
 * 임베디드 엔지니어 교과서, 와타나베 노보루, 2020.07
+
 
 ### Work
 
@@ -31,7 +37,7 @@ title: "About"
 * **충북대학교(Chungbuk National University)**  
         BS in Statistics, KR, Cheongju, 2005.03-2011.02
 
-### Interests
+### Interest
 * 강화학습(Reinforcement Learning)
 * 머신러닝(Machine Learning)
 * 마르코프체인 몬테카를로(Markov Chain Monte Carlo Simulation)
@@ -40,7 +46,7 @@ title: "About"
 * 차원축소(Dimension Reduction)
 * 사물인터넷(Internet of Things(IoT))
 
-### Skills
+### Skill
 * **language**  
     Python, Scala, R, Java, Matlab, C/C++, Fortran, SAS, SPSS
 * **framework/library**  
@@ -50,12 +56,10 @@ title: "About"
 * **os**  
     CentOS, ubuntu, Windows
 
-### Patents
+### Patent
 * 기계학습 기반의 유니티로 제작된 모바일 게임의 애뮬레이터 매크로 자동 탐지 시스템, 10-2019-0102038, 2019.08.21
 
-### Talk
-* 진로 탐색의 날 강연,
-    한민고등학교, Apr 2019, Sep 2019, Korea
+### Conference
 * 머신러닝을 이용한 배틀그라운드 핵 사용 의심 유저 추출, 
     블루홀 개발자 컨퍼런스, Sep 2017, Korea
 * 공무원 연금재정의 파산확률과 임금피크제, 
@@ -69,7 +73,7 @@ title: "About"
 * 개발자 신춘문예 2019 만화부문 장려상, 한빛미디어, May 2019, Korea 
 * 교내 밴드 동아리 활동, Mar 2005 ~ Feb 2011
 
-### Research Experiences
+### Research Experience
 * High Dimensional and Higher Order Statistics Research Group  
     2016.09-2016.12
 * Geophysical Fluid Dynamics Institute  
