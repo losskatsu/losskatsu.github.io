@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Cheolwon Jang"
   avatar           : "/assets/images/my_profile01.jpg"
-  bio              : "[클래스101 강의 오픈] 완전 입문, 초보자 분들 대상으로 파이썬 머신러닝 강의 합니다. 많은 관심 부탁 드립니다. 아래 주소 참고해주세요.  [클래스101 강의 주소 링크](https://class101.app/e/Machine_Learning_class)"
+  bio              : "[클래스101 강의 오픈] 완전 입문, 초보자 분들 대상으로 파이썬 머신러닝 강의 합니다. 많은 관심 부탁 드립니다. 아래 주소 참고해주세요. https://class101.app/e/Machine_Learning_class"
   location         : "Seoul, South Korea"
   email            : 
   links:
