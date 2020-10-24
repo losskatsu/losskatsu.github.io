@@ -43,24 +43,24 @@ sidebar:
 
 대각화를 이야기하기전에 '닮음'이라는 성질에 대해 먼저 알아야하는데요, 
 우리가 일상생활에서 쓰는 '닮았다'라는 말은 두 대상이 동일하진 않지만 '비슷하다'라는 느낌이 들 때 쓰는데요.
-행렬에서 닮음(similar)라고 함은, $$P^{-1}AP = B$$를 만족하는 가역행렬 P가 존재할 때, 
+행렬에서 닮음(similar)라고 함은, $P^{-1}AP = B$를 만족하는 가역행렬 P가 존재할 때, 
 정사각행렬 A와 B는 서로 닮음 이라고 합니다. 
 행렬 A와 B는 동일한 행렬은 아니지만 서로 비슷하다는 의미죠. 
 이 때 '가역행렬 P'란 P의 역행렬이 존재한다는 뜻입니다. 
 역행렬이 존재하기 위해서는 [행렬식](https://losskatsu.github.io/linear-algebra/determinant/)이 0이 되면 안되겠죠?
-그리고 한걸음 더 나아가서 $$ B = P^{T}AP$$를 만족하면 [직교행렬](https://losskatsu.github.io/linear-algebra/orthogonal/) P가 존재할때, 
+그리고 한걸음 더 나아가서 $ B = P^{T}AP$를 만족하면 [직교행렬](https://losskatsu.github.io/linear-algebra/orthogonal/) P가 존재할때, 
 B는 A에 직교닮음(orthogonally similar)라고 합니다.
 
 ## 3.직교 대각화(Orthogonal Diagonalization)
 
 방금 다루었던, 직교 닮음에서 정사각행렬 B가 대각행렬 D라면 어떨까요? 
-즉, $$P^{T}AP = D$$를 만족하는 직교행렬 P가 존재하는 경우죠. 
+즉, $P^{T}AP = D$를 만족하는 직교행렬 P가 존재하는 경우죠. 
 이런 경우 직교행렬 P는 A를 '직교 대각화' 한다고 말하며, 
 A는 '직교 대각화 가능(orthogonally diagonalizable)'하다고 말합니다. 
-$$P^{T}AP = D$$ 이 식을 잘 보시면 행렬 A에 어떤 [선형변환](https://losskatsu.github.io/linear-algebra/linear-trans/)을 취했을 때, 
+$P^{T}AP = D$ 이 식을 잘 보시면 행렬 A에 어떤 [선형변환](https://losskatsu.github.io/linear-algebra/linear-trans/)을 취했을 때, 
 대각 원소만 남는 대각행렬이 된다고 생각하시면 편하실 것 같아요. 
 그리고 A가 만약 직교 대각화 가능하다면 A는 반드시 대칭행렬이어야합니다. 
-대칭행렬은 $$A^{T}=A$$, 즉, 자기 자신과 전치행렬이 같아지는 특징이 있는데요. 
+대칭행렬은 $A^{T}=A$, 즉, 자기 자신과 전치행렬이 같아지는 특징이 있는데요. 
 행렬 A가 대칭행렬이어야하는 이유는 아래와 같습니다. 
 
 $ A^{T} = (PDP^{T})^{T} = (P^{T})^{T}D^{T}P^{T} = PDP^{T} = A $
@@ -78,7 +78,7 @@ $ A^{T} = (PDP^{T})^{T} = (P^{T})^{T}D^{T}P^{T} = PDP^{T} = A $
 제가 선형대수 포스팅 중 가장 먼저했던 포스팅이 [고유값, 고유벡터](https://losskatsu.github.io/linear-algebra/eigen/) 였는데요, 
 그만큼 중요하다는 뜻이겠죠. 
 이번에도 고유값, 고유벡터가 쓰입니다. 
-즉 직교대각화에서 쓰이는 '직교'벡터 $$P$$가 고유값 분해에서는 고유벡터를 이용해 만들고, 
+즉 직교대각화에서 쓰이는 '직교'벡터 $P$가 고유값 분해에서는 고유벡터를 이용해 만들고, 
 대각행렬의 원소에 해당하는 것이 고유값이라고 생각하시면 됩니다. 
 즉 쉽게 말해 어떤 대칭행렬 A의 고유값과 고유벡터가 존재할때 A의 스펙트럴 분해는 아래와 같습니다.
 
@@ -96,5 +96,5 @@ $ A^{T} = (PDP^{T})^{T} = (P^{T})^{T}D^{T}P^{T} = PDP^{T} = A $
 ## 5.마무리
 
 오늘 배운 고유값 분해는 머신러닝에서 많이 쓰이는데요. 
-특히 유명한 것은 고유값분해를 $$m \times n$$ 행렬로 일반화 시킨 특이값 분해(singular value decomposition, SVD) 입니다. 
+특히 유명한 것은 고유값분해를 $m \times n$ 행렬로 일반화 시킨 특이값 분해(singular value decomposition, SVD) 입니다. 
 다음 시간에는 특이값 분해에 대해 알아보겠습니다. 감사합니다. 
