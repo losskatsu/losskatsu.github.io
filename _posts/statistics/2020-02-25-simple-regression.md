@@ -79,7 +79,7 @@ $ Var(Y\|X=x) = \sigma^{2} $
 
 $ y_{i} = E(Y\|X=x_{i})+e_{i} $ 
 
-$ e_{i} = y_{i} - E(Y|X=x_{i}) = y_{i} - \beta_{0} + \beta_{1}x_i $  
+$ e_{i} = y_{i} - E(Y\|X=x_{i}) = y_{i} - \beta_{0} + \beta_{1}x_i $  
 
 
 ![figure02](/assets/images/statistics/regression/regression02.jpg){: width="500"}
@@ -202,7 +202,7 @@ $ E(\mathbf{Y}\|\mathbf{X}) = \mathbf{X}\mathbf{\beta} $
 기본적으로 단순회귀분석 때와 같은 개념입니다. 
 다만 행렬로 표현했을 뿐 입니다. 
 
-$ E(\mathbf{e}\|X)=0 , \,\,\, Var(\mathbf{}|X) = \sigma^{2}\mathbf{I_n} $ 
+$ E(\mathbf{e}\|X)=0 , \,\,\, Var(\mathbf{}\|X) = \sigma^{2}\mathbf{I_n} $ 
 
 $ (\mathbf{e}\|X) \sim N(0, \sigma^{2}\mathbf{I_n}) $ 
 
