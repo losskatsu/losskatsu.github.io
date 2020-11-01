@@ -72,24 +72,24 @@ ROC 커브를 이야기 하기전에 민감도(Sensitivity)와 특이도(Specifi
 
 <br />
 
-$$ \texttt{민감도(Sensitivity, Recall, True Positive Rate)} = \frac{(1)}{(1)+(3)} = \frac{TP}{TP + FN} $$ 
+$ \texttt{민감도(Sensitivity, Recall, True Positive Rate)} = \frac{(1)}{(1)+(3)} = \frac{TP}{TP + FN} $ 
 
-$$ \texttt{특이도(Specificity, True Negative rate)} = \frac{(4)}{(2)+(4)} = \frac{TN}{FP + TN}$$
+$ \texttt{특이도(Specificity, True Negative rate)} = \frac{(4)}{(2)+(4)} = \frac{TN}{FP + TN}$
 
-$$ \texttt{False positive rate(FPR)} = \frac{(2)}{(2)+(4)} = \frac{FP}{FP + TN}$$
+$ \texttt{False positive rate(FPR)} = \frac{(2)}{(2)+(4)} = \frac{FP}{FP + TN}$
 
-$$ \texttt{정확도(Accuracy)} = \frac{(1)+(4)}{(1)+(2)+(3)+(4)} = \frac{TP + TN}{TP + FP + FN + TN}$$
+$ \texttt{정확도(Accuracy)} = \frac{(1)+(4)}{(1)+(2)+(3)+(4)} = \frac{TP + TN}{TP + FP + FN + TN}$
 
-$$ \texttt{에러율(Error Rate)} = \frac{(2)+(3)}{(1)+(2)+(3)+(4)} = \frac{FP + FN}{TP + FP + FN + TN} $$
+$ \texttt{에러율(Error Rate)} = \frac{(2)+(3)}{(1)+(2)+(3)+(4)} = \frac{FP + FN}{TP + FP + FN + TN} $
 
-$$ \texttt{정밀도(Precision)} = \frac{(1)}{(1)+(2)} = \frac{TP}{TP + FP}$$
+$ \texttt{정밀도(Precision)} = \frac{(1)}{(1)+(2)} = \frac{TP}{TP + FP}$
 
 
 ### 2-1. 정밀도(Precision)와 민감도(Recall)
 
-$$ \texttt{정밀도(Precision)} = \frac{TP}{TP + FP}$$
+$ \texttt{정밀도(Precision)} = \frac{TP}{TP + FP}$ 
 
-$$ \texttt{민감도(Recall)} = \frac{TP}{TP + FN} $$ 
+$ \texttt{민감도(Recall)} = \frac{TP}{TP + FN} $  
 
 Precision과 Recall의 차이는 무엇일까요? 
 위 식을 보시면 분모는 같습니다. 
