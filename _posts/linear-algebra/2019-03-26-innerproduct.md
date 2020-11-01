@@ -41,12 +41,12 @@ sidebar:
 앞서 내적은 연산이라고 말씀드렸습니다.
 그럼 간단히 내적이 어떤 연산인지 확인해 봅시다.
 
-$$ \langle \mathbf{u}, \mathbf{v} \rangle = \mathbf{u} \cdot \mathbf{v} =  u_{1}v_{1} + u_{2}v_{2} + \dots + u_{n}v_{n} $$
+$ \langle \mathbf{u}, \mathbf{v} \rangle = \mathbf{u} \cdot \mathbf{v} =  u_{1}v_{1} + u_{2}v_{2} + \dots + u_{n}v_{n} $ 
 
 위와 같은 연산을 쉽게 생각하면 벡터의 element들끼리 곱한 후 더한다라고 생각할 수도 있지만, 
 벡터곱으로 생각할 수 있습니다. 예를 들어 $\mathbf{u}, \mathbf{v}$를 아래와 같이 열벡터의 형태라고 생각해봅시다.
 
-$$ \mathbf{u} = 
+$ \mathbf{u} = 
 \begin{pmatrix}
 u_{1} \\
 u_{2} \\
@@ -59,11 +59,11 @@ v_{1} \\
 v_{2} \\
 \vdots \\
 v_{n}
-\end{pmatrix} $$
+\end{pmatrix} $ 
 
 위와 같은 두 열벡터의 내적은 아래와 같이 표현할 수 있습니다. 
 
-$$ \mathbf{u} \cdot \mathbf{v} = \mathbf{u}^{T}\mathbf{v} $$
+$ \mathbf{u} \cdot \mathbf{v} = \mathbf{u}^{T}\mathbf{v} $ 
 
 즉, 두 열 벡터의 내적을 구하려고 할 경우 둘 중 하나의 벡터를 transpose 시켜 행 벡터의 형태로 바꾼 후, 
 나머지 벡터와 벡터곱을 시키는 것입니다.. 
@@ -74,12 +74,12 @@ $$ \mathbf{u} \cdot \mathbf{v} = \mathbf{u}^{T}\mathbf{v} $$
 벡터 $\mathbf{v}$의 norm, norm은 벡터의 길이(length)라고도 표현합니다. 그리고 norm이 1인 벡터는 unit vector라고 부릅니다.  
 <br />
 
-$$ \parallel \mathbf{v} \parallel = \sqrt{\langle \mathbf{v}, \mathbf{v} \rangle}  $$
+$ \parallel \mathbf{v} \parallel = \sqrt{\langle \mathbf{v}, \mathbf{v} \rangle}  $ 
 
 벡터 $\mathbf{u}$, $\mathbf{v}$ 사이의 거리 
 <br />
 
-$$ d(\mathbf{u}, \mathbf{v}) = \parallel \mathbf{\mathbf{u} - \mathbf{v}} \parallel = \sqrt{\langle \mathbf{u} - \mathbf{v}, \mathbf{u} - \mathbf{v} \rangle}  $$
+$ d(\mathbf{u}, \mathbf{v}) = \parallel \mathbf{\mathbf{u} - \mathbf{v}} \parallel = \sqrt{\langle \mathbf{u} - \mathbf{v}, \mathbf{u} - \mathbf{v} \rangle}  $ 
 
 즉, 우리가 알고 있는 norm, distance 의 개념은 내적을 이용해서 표현 가능합니다.
 
@@ -87,7 +87,7 @@ $$ d(\mathbf{u}, \mathbf{v}) = \parallel \mathbf{\mathbf{u} - \mathbf{v}} \paral
 
 위와 같은 내적의 정의를 이용하면 아래와 같은 성질을 생각할 수 있습니다.
 
-$$ \parallel \mathbf{u} + \mathbf{v} \parallel \leq \parallel \mathbf{u} \parallel + \parallel \mathbf{v} \parallel $$
+$ \parallel \mathbf{u} + \mathbf{v} \parallel \leq \parallel \mathbf{u} \parallel + \parallel \mathbf{v} \parallel $ 
 
 즉 어떤 두 벡터의 합의 길이는 각각의 길이의 합보다 작거나 같다는 뜻이며, 아래와 같이 그림으로 생각하면 좀 더 이해하기 편합니다.
 
@@ -107,7 +107,7 @@ $$ \parallel \mathbf{u} + \mathbf{v} \parallel \leq \parallel \mathbf{u} \parall
 (그림으로 표현하진 않았지만 각도가 90도 보다 큰 경우도 존재합니다.) 
 그리고 위에서 정의했던 내적을 아래와 같은 식으로 표현할 수 있습니다. 
 
-$$ \mathbf{u} \cdot \mathbf{v} = \parallel \mathbf{u} \parallel \parallel \mathbf{v} \parallel cos\theta  $$
+$ \mathbf{u} \cdot \mathbf{v} = \parallel \mathbf{u} \parallel \parallel \mathbf{v} \parallel cos\theta  $ 
 
 위 식을 이용하면 내적과 각도 $\theta$와의 관계를 알 수 있습니다. 
 
@@ -161,24 +161,24 @@ y축 방향으로 3에 위치한 공에 2만큼 힘을 적용한 후 모두를 �
 Cauchy-Schwarz Inequality
 <br />
 
-$$ | \mathbf{u} \cdot \mathbf{v} | \leq \parallel \mathbf{u} \parallel \parallel \mathbf{v} \parallel $$
+$ | \mathbf{u} \cdot \mathbf{v} | \leq \parallel \mathbf{u} \parallel \parallel \mathbf{v} \parallel $ 
 
 ## 4.정사영 관점으로 보는 내적 
 
 위 개념은 정사영과 연관지을 수도 있습니다. 
 다시 한번 내적을 구하는 식을 보시죠. 
 
-$$ \mathbf{u} \cdot \mathbf{v} = \parallel \mathbf{u} \parallel \parallel \mathbf{v} \parallel cos\theta  $$
+$ \mathbf{u} \cdot \mathbf{v} = \parallel \mathbf{u} \parallel \parallel \mathbf{v} \parallel cos\theta  $ 
 
 위 식을 조금 변형하면 
 
-$$ \parallel \mathbf{u} \parallel \parallel \mathbf{v} \parallel cos\theta = 
-\parallel \mathbf{u} \parallel ( \parallel \mathbf{v} \parallel cos\theta ) $$
+$ \parallel \mathbf{u} \parallel \parallel \mathbf{v} \parallel cos\theta = 
+\parallel \mathbf{u} \parallel ( \parallel \mathbf{v} \parallel cos\theta ) $ 
 
 혹은
 
-$$ \parallel \mathbf{u} \parallel \parallel \mathbf{v} \parallel cos\theta = 
-( \parallel \mathbf{u} \parallel cos\theta ) \parallel \mathbf{v} \parallel   $$
+$ \parallel \mathbf{u} \parallel \parallel \mathbf{v} \parallel cos\theta = 
+( \parallel \mathbf{u} \parallel cos\theta ) \parallel \mathbf{v} \parallel   $ 
 
 으로 표현 가능합니다. 
 위 식의 의미를 생각해보면 내적은 한 벡터를 다른 벡터에 정사영 시킨 후 각 벡터의 크기(길이)를 곱한다라고 생각할 수 있습니다. 
