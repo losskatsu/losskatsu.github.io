@@ -81,3 +81,44 @@ sidebar:
 분산이 적다는 것은 정답에 대한 확신을 강하게 만들어줍니다. 즉, 샘플을 통해 얻은 답이 모집단의 특성을 가리킨다는 것에 대한 확신이죠. 
 반면 100번 던졌는데 앞면, 뒷면이 반반씩 나온건 분산(variance)이 커졌음을 의미합니다. 
 다음번 동전을 던졌을 때 예측하는게 훨씬 어려워졌다는 말이죠. 
+따라서 분산이 커질수록 같은 크기의 확신을 얻기위해 더 큰 샘플이 필요하다는 의미입니다. 
+이번에는 룰렛을 예로 들어봅시다. 룰렛은 공이 멈추는 숫자와 색깔을 맞추는 게임입니다. 
+룰렛 게임은 다음과 같이 프로그래밍 할 수 있습니다. 
+
+```python
+class FairRoulette():
+    def __init__(self):
+        self.pockets = []
+        for i in range(1, 37):
+            self.pockets.append(i)
+        self.ball = None
+        self.pocketOdds = len(self.pockets) - 1
+    def spin(self):
+        self.ball = random.choice(self.pockets)
+    def betPocket(self, pocket, amt):
+        if str(pocket) == str(self.ball):
+            return amt*self.pocketOdds
+        else: return -amt
+    def __str__(self):
+        return 'Fair Roulette'
+```
+
+자 이제 게임을 시작해봅시다. 
+
+```python
+def playRoulette(game, numSpins, pocket, bet):
+    totPocket = 0
+    for i in range(numSpins):
+        game.spin()
+        totPocket += game.betPocket(pocket, bet)
+    if toPrint:
+        print(numSpins, 'spins of', game)
+        print('Expected return betting', pocket, '=', str(100*totPocket/numSpins) + '%\n')
+    return (totPocket/numSpins)
+    
+game = FairRoulette()
+for numSpins in (100, 1000000):
+    for i in range(3):
+        playRoulette(game, numSpins, 2, 1, True)
+```
+
