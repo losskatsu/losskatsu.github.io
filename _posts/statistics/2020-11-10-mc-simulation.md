@@ -86,6 +86,8 @@ sidebar:
 룰렛 게임은 다음과 같이 프로그래밍 할 수 있습니다. 
 
 ```python
+import random
+
 class FairRoulette():
     def __init__(self):
         self.pockets = []
@@ -106,7 +108,7 @@ class FairRoulette():
 자 이제 게임을 시작해봅시다. 
 
 ```python
-def playRoulette(game, numSpins, pocket, bet):
+def playRoulette(game, numSpins, pocket, bet, toPrint):
     totPocket = 0
     for i in range(numSpins):
         game.spin()
@@ -117,8 +119,34 @@ def playRoulette(game, numSpins, pocket, bet):
     return (totPocket/numSpins)
     
 game = FairRoulette()
-for numSpins in (100, 1000000):
+for numSpins in (100, 100000):
     for i in range(3):
         playRoulette(game, numSpins, 2, 1, True)
 ```
 
+위 실험의 결과는 다음과 같습니다. 
+
+```
+100 spins of Fair Roulette
+Expected return betting 2 = 44.0%
+
+100 spins of Fair Roulette
+Expected return betting 2 = 8.0%
+
+100 spins of Fair Roulette
+Expected return betting 2 = -28.0%
+
+100000 spins of Fair Roulette
+Expected return betting 2 = -0.712%
+
+100000 spins of Fair Roulette
+Expected return betting 2 = 3.968%
+
+100000 spins of Fair Roulette
+Expected return betting 2 = -0.928%
+```
+
+100번을 던졌을 때는 변동성이 큽니다. 이게 도박의 매력이죠. 
+100번했는데 승률이 44%면 꽤 이길 가능성이 높다고 생각합니다. 
+100000번 했을 때는 분산이 훨씬 작아집니다. 
+100번 던졌을 때와 비교하면 결과가 -0.7, 3.9, -0.9로 거의 0에 가까워지네요.
