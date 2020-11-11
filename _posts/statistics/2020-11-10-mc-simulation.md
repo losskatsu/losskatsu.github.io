@@ -1,5 +1,5 @@
 ---
-title: "몬테카를로 시뮬레이션(monte carlo simulation) 요약" 
+title: "몬테카를로 시뮬레이션(monte carlo simulation) 기초" 
 categories:
   - statistics
 tags:
@@ -14,7 +14,7 @@ sidebar:
 ---
 
 
-# 몬테카를로 시뮬레이션(monte carlo simulation) 요약
+# 몬테카를로 시뮬레이션(monte carlo simulation) 기초 
 
 본 포스팅은 [MIT 강의](https://www.youtube.com/watch?v=OgO1gpXSUzU&ab_channel=MITOpenCourseWare)를 참고했습니다. 
 
