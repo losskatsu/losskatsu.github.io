@@ -1,9 +1,9 @@
 ---
 title: "몬테카를로 시뮬레이션(monte carlo simulation) 요약" 
 categories:
-  - machine-learning
+  - statistics
 tags:
-  - machine-learning
+  - statistics
 use_math: true
 toc: true
 toc_label: "My Table of Contents"
@@ -12,6 +12,7 @@ sidebar:
   title: "AI Machine Learning"
   nav: sidebar-contents
 ---
+
 
 # 몬테카를로 시뮬레이션(monte carlo simulation) 요약
 
