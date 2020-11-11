@@ -87,6 +87,22 @@ def testRoll(n=10):
 그리고 사건이 모두 독립일 때 사건이 모두 일어날 확률은 각 사건이 발생할 확률의 곱과 같습니다. 
 두사건의 결과가 서로에게 영향을 미치지 않을 때 두 사건은 독립이라고 합니다. 
 사람들이 하는 흔한 실수는 사건이 독립적이지 않은데 독립적이라고 가정하고 계산하는 것입니다. 
+예를 들어보겠습니다. 
 
+```python
+def runSim(goal, numTrials, txt):
+    total = 0
+    for i in range(numTrials):
+        result = ''
+        for j in range(len(goal)):
+            result += str(rollDie())
+        if result == goal:
+            total += 1
+    print('Actual probability of', txt, '=',
+            round(1/(6**len(goal)), 8))
+    estProbability = round(total/numTrials, 8)
+    print('Estimated Probability of', txt, '=',
+            round(estProbability, 8))
 
-2135
+run Sim('11111', 1000, '11111')
+```
