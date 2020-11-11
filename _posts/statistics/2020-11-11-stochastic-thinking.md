@@ -1,5 +1,5 @@
 ---
-title: "확률적 사고 방식" 
+title: "확률과정론 기초" 
 categories:
   - statistics
 tags:
@@ -13,7 +13,7 @@ sidebar:
   nav: sidebar-contents
 ---
 
-# 확률적 사고 방식(stochastic thinking)
+# 확률과정론 기초(stochastic thinking)
 
 본 포스팅은 [MIT 강의](https://www.youtube.com/watch?v=-1BnXEwHUok&t=505s&ab_channel=MITOpenCourseWare)를 참고로 작성했습니다. 
 
@@ -87,7 +87,8 @@ def testRoll(n=10):
 그리고 사건이 모두 독립일 때 사건이 모두 일어날 확률은 각 사건이 발생할 확률의 곱과 같습니다. 
 두사건의 결과가 서로에게 영향을 미치지 않을 때 두 사건은 독립이라고 합니다. 
 사람들이 하는 흔한 실수는 사건이 독립적이지 않은데 독립적이라고 가정하고 계산하는 것입니다. 
-예를 들어보겠습니다. 
+
+## 6. 추정확률과 실제확률 
 
 ```python
 def runSim(goal, numTrials, txt):
@@ -119,3 +120,4 @@ Estimated Probability = 0.0
 이 때문에 디버깅하는것이 아주 어려워지는데요. 
 왜냐면 돌릴때마다 값이 달라지니까요. 
 그래서 생긴것이 우리가 흔히 사용하는 random.seed 입니다.
+위 코드에서 시행횟수가 많아질수록 실제확률과 추정확률이 차이가 줄어듭니다. 
