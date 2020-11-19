@@ -18,6 +18,11 @@ sidebar:
 
 본 포스팅은 [MIT 강의](https://www.youtube.com/watch?v=OgO1gpXSUzU&ab_channel=MITOpenCourseWare)를 참고했습니다. 
 
+**참고 자료**
+
+* [모집단, 표본 개념 복습하기](https://losskatsu.github.io/statistics/population-sample/)
+* [분산 개념 복습하기](https://losskatsu.github.io/statistics/mean-vairance/)
+
 ## 1. 몬테카를로 시뮬레이션의 역사
 
 한 수학자가 살고 있었습니다. 
@@ -39,11 +44,12 @@ sidebar:
 
 모집단(population)은 가능한 예의 전체 우주, 세계를 의미합니다. 
 카드게임을 예로 들면 플레이 가능한 모든 상황을 의미합니다. 카드게임이니 엄청나게 많은 상황이겠네요. 
+모집단에 대한 자세한 내용은 [모집단 링크](https://losskatsu.github.io/statistics/population-sample/)를 확인해주세요.
 
 
 ### 2.2. 샘플
 
-샘플(sample)은 모집단의 부분집합(subset)입니다. 샘플 수는 적어도 0보다는 커야합니다. 
+[샘플(sample)](https://losskatsu.github.io/statistics/population-sample/)은 모집단의 부분집합(subset)입니다. 샘플 수는 적어도 0보다는 커야합니다. 
 그리고나서 샘플을 통해 모집단에 대한 추론을 이끌어내는 것입니다. 
 모집단은 굉장히 큰 집합인 반면 샘플은 상대적으로 더 작은 집합이죠. 
 이게 가능하게 하려면 샘플을 잘 선택하는게 중요한데, 만약 우리가 랜덤으로 샘플을 선택한다면 
@@ -78,7 +84,7 @@ sidebar:
 
 ### 2.4. 분산
 
-동전을 100번 던졌을 때 100번 모두 앞면이 나왔을 때는 분산이 없었습니다. 답이 항상 같았으니까요. 
+동전을 100번 던졌을 때 100번 모두 앞면이 나왔을 때는 [분산](https://losskatsu.github.io/statistics/mean-vairance/)이 없었습니다. 답이 항상 같았으니까요. 
 분산이 적다는 것은 정답에 대한 확신을 강하게 만들어줍니다. 즉, 샘플을 통해 얻은 답이 모집단의 특성을 가리킨다는 것에 대한 확신이죠. 
 반면 100번 던졌는데 앞면, 뒷면이 반반씩 나온건 분산(variance)이 커졌음을 의미합니다. 
 다음번 동전을 던졌을 때 예측하는게 훨씬 어려워졌다는 말이죠. 
