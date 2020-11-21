@@ -15,8 +15,9 @@ title: "About"
 
 ### Special Lecture
 
-* 진로 탐색의 날 강연,
-    한민고등학교, Apr 2019, Sep 2019, Korea
+* 동해시 취업박람회 IT 취업 특강, 2020.11
+* 진로 탐색의 날 강연, 한민고등학교, 2019.04, 2019.09
+
 
 ### Beta Reader
 
