@@ -65,7 +65,7 @@ sidebar:
 예를 들어 주사위를 던졌을 때 나오는 수를 X라고 하면 X가 1일 확률을 1/6이 된다는 것을 알 수 있습니다. 
 이를 수식을 나타내면 아래와 같습니다.
 
-$$ f_{X}(1) = P(X = 1) = 1/6 $$
+$ f_{X}(1) = P(X = 1) = 1/6 $  
 
 ![figure01](/assets/images/statistics/prob-dist/distribution01.jpg){: width="500"}
 
@@ -90,7 +90,7 @@ $$ f_{X}(1) = P(X = 1) = 1/6 $$
 
 즉, 누적분포함수를 수식으로 나타내면 아래와 같습니다. 
 
-$$ F_{X}(x) = P(X \in (-\infty, x)) $$ 
+$ F_{X}(x) = P(X \in (-\infty, x)) $   
 
 
 ## 독립항등분포(iid, independent and identically distributed)
