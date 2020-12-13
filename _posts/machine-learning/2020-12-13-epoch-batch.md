@@ -13,7 +13,7 @@ sidebar:
   nav: sidebar-contents
 ---
 
-# 배치(batch) vs 에포크(epoch) vs iteration의 차이
+# 배치(batch) vs 에포크(epoch) vs 반복(iteration)의 차이
 
 딥러닝을 하다보며 에포크(epoch), 배치(batch), 반복(iteration)이라는 단어를 많이 접하게 됩니다. 
 그런데 이 단어들이 다 비슷비슷한 느낌이라 처음에는 헷갈릴 수 있는데요. 
