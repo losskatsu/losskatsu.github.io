@@ -49,11 +49,15 @@ batch size란 정확히 무엇을 의미할까요?
 전체 트레이닝 데이터 셋을 여러 작은 그룹을 나누었을 때 batch size는 하나의 소그룹에 속하는 데이터 수를 의미합니다. 
 전체 트레이닝 셋을 작게 나누는 이유는 트레이닝 데이터를 통째로 신경망에 넣으면 비효율적이 리소스 사용으로 학습 시간이 오래 걸리기 때문입니다. 
 
+<center><img src="/assets/images/dl/epoch/epoch01.jpg" width="800"></center>
+
 
 ## 3. epoch의 의미 
 
 딥러닝에서 epoch는 전체 트레이닝 셋이 신경망을 통과한 횟수 의미합니다. 
 예를 들어, 1-epoch는 전체 트레이닝 셋이 하나의 신경망에 적용되어 순전파와 역전파를 통해 신경망을 한 번 통과했다는 것을 의미합니다. 
+
+<center><img src="/assets/images/dl/epoch/epoch02.jpg" width="800"></center>
 
 
 ## 4. iteration의 의미
