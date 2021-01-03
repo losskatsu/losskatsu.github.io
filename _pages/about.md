@@ -92,5 +92,5 @@ title: "About"
     Teaching Assistant(STAT 221: 확률론(Probability Theory)), Spring 2013
 
 ### Publication
-* Jang C, Song S, (2015), "Default Probability of Government Employee Pension System and Wage-peak", 
+* Jang C, Song S, (2015), "공무원 연금재정의 파산확률과 임금피크제(Default Probability of Government Employee Pension System and Wage-peak)", 
 Journal of the Korean Data Analysis Society, Vol.17, No.2, pp687-695.
