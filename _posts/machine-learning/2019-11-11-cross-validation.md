@@ -37,12 +37,12 @@ sidebar:
 흔히 트레이닝 셋(training set), 밸리데이션 셋(validation set), 테스트 셋(test set)이라는 단어를 많이 사용하는데,
 오늘은 이것들과 관련된 내용을 다루려고 합니다.
 
-![figure02](/assets/images/ml/validation/validation02.jpg){: width="500"}
+<center><img src="/assets/images/ml/validation/validation02.jpg" width="800"></center>
 
 위와 같은 데이터가 있다고 생각해봅시다. 
 목표는 우리에게 주어진 저 데이터를 이용해 목적에 맞는 적절한 모형을 만드는 . 
 
-![figure03](/assets/images/ml/validation/validation03.jpg){: width="500"}
+<center><img src="/assets/images/ml/validation/validation03.jpg" width="800"></center>
 
 자, 모형을 만들어야하므로 학습시킬 데이터가 필요하겠네요. 
 그러면 데이터 전체를 트레이닝 셋으로 사용해볼까요? 
@@ -58,7 +58,7 @@ sidebar:
 하지만 새로운 데이터를 구한다는 것은 아주 어려운 일입니다. 
 따라서 우리는 기존 데이터를 두 부분으로 나누어서 사용하기로 합니다. 
 
-![figure04](/assets/images/ml/validation/validation04.jpg){: width="500"}
+<center><img src="/assets/images/ml/validation/validation04.jpg" width="800"></center>
 
 모델의 성능 평가를 위해 데이터를 두 부분으로 나눕니다. 
 위 그림처럼 학습을 위한 부분을 트레이닝 셋이라고 하고, 
@@ -73,7 +73,7 @@ sidebar:
 평가를 위해 사용해야할 테스트 셋이 하이퍼파라미터 적합에 사용됩니다. 
 즉, 하이퍼파라미터가 테스트 셋에 영향을 받는다는 것이죠. 
 
-![figure05](/assets/images/ml/validation/validation05.jpg){: width="500"}
+<center><img src="/assets/images/ml/validation/validation05.jpg" width="800"></center>
 
 그래서 밸리데이션 셋(validation set)이 필요한 것입니다. 
 모형의 파라미터 추정에는 트레이닝셋을 사용하고, 
@@ -81,9 +81,13 @@ sidebar:
 그리고 마지막으로 테스트 셋에 모형을 적용시켜 정확도를 측정합니다.  
 즉, 트레이닝 셋으로 학습시키고, 밸리데이션 셋으로 하이퍼파라미터 튜닝하고, 테스트 셋으로 최종 테스트를 하는 것입니다. 
 
-![figure06](/assets/images/ml/validation/validation06.jpg){: width="500"}
+<center><img src="/assets/images/ml/validation/validation06.jpg" width="800"></center>
 
 그리고 트레이닝을 k등분하고 validation set을 여러번 바꿔가며 반복적으로 시행하는 방법을 k-fold cross validation이라고 합니다. 
 위 그림에서는 3등분했으니 3-fold cross validation이겠네요. 
 물론 꼭 저렇게 해야한다는 것은 아니고 
 전체 데이터를 k등분한 후 밸리데이션 셋 없이 테스트 셋 위치를 바꿔가며 테스트 하는 방법 등 여러가지 응용 방법이 존재합니다. 
+
+<center><img src="/assets/images/ml/validation/validation07.jpg" width="800"></center>
+
+지금까지 내용을 정리하면 위 그림으로 나타낼 수 있습니다. 
