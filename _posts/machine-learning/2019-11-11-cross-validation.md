@@ -32,11 +32,10 @@ sidebar:
 * [사이킷런 실습하기](https://losskatsu.github.io/machine-learning/sklearn/)
 
 
-오늘은 cross validation의 의미를 알아보겠습니다. 
-training set, test set이라는 말은 많이 들어보셨죠. 
-training set은 모델을 학습시키기 위해 사용하고, 
-test set은 모델의 성능을 평가하기 위해 사용합니다. 
-그렇다면 valiation set은 왜 필요한 걸까요? 
+오늘은 크로스 밸리데이션(cross validation)의 의미를 알아보겠습니다. 
+크로스 밸리데이션은 우리말로 '교차 검증'이라고도 합니다. 
+흔히 트레이닝 셋(training set), 밸리데이션 셋(validation set), 테스트 셋(test set)이라는 단어를 많이 사용하는데,
+오늘은 이것들과 관련된 내용을 다루려고 합니다.
 
 ![figure02](/assets/images/ml/validation/validation02.jpg){: width="500"}
 
