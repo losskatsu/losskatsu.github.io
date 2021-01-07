@@ -8,6 +8,7 @@ title: "About"
 * 이메일 : stoicheolwon at gmail dot com
 * 블로그 : losskatsu.github.io
 * 깃허브 : https://github.com/losskatsu
+* 네이버 카페: https://cafe.naver.com/aifromstat
 
 ### Lecture
 
