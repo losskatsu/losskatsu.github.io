@@ -1,5 +1,5 @@
 ---
-title: "[머신러닝] 교차검증(cross validation)의 개념, 의미" 
+title: "[머신러닝] 크로스 밸리데이션(cross validation, 교차 검증)의 개념, 의미" 
 categories:
   - machine-learning
 tags:
@@ -13,7 +13,7 @@ sidebar:
   nav: sidebar-contents
 ---
 
-# [머신러닝] 교차검증(cross validation)의 개념, 의미
+# [머신러닝] 크로스 밸리데이션(cross validation, 교차 검증)의 개념, 의미
 
 **참고링크**
 * [ROC 커브 복습하기](https://losskatsu.github.io/machine-learning/stat-roc-curve/)
