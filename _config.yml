@@ -116,7 +116,7 @@ author:
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:stoicheolwon@gmail.com
     - label: "Naver Cafe"
-      icon: "fab fa-fw fa-leaf"
+      icon: "fab fa-fw fa-envira"
       url: "https://cafe.naver.com/aifromstat"      
     - label: "Website"
       icon: "fas fa-fw fa-link"
