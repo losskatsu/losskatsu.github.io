@@ -6,9 +6,9 @@ title: "About"
 ## 장철원(Cheolwon Jang)
 
 * 이메일 : stoicheolwon at gmail dot com
-* 블로그 : losskatsu.github.io
-* 깃허브 : https://github.com/losskatsu
-* 네이버 카페: https://cafe.naver.com/aifromstat
+* 블로그 : [losskatsu.github.io](losskatsu.github.io)
+* 깃허브 : [https://github.com/losskatsu](https://github.com/losskatsu)
+* 네이버 카페: [https://cafe.naver.com/aifromstat](https://cafe.naver.com/aifromstat)
 
 
 ### Book
