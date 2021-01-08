@@ -10,6 +10,10 @@ title: "About"
 * 깃허브 : https://github.com/losskatsu
 * 네이버 카페: https://cafe.naver.com/aifromstat
 
+
+### Book
+
+
 ### Lecture
 
 * 실무 데이터를 활용한 파이썬 머신러닝, 디엘정보기술, 2020.12
