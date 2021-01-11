@@ -244,3 +244,20 @@ $ git commit -m "수정했습니당"
 ```bash
 $ git push --set-upstream origin modify01
 ```
+
+(아래는 확인 필요)
+
+원격 저장소의 master 브랜치로 이동
+
+```bash
+$ git checkout origin/master
+```
+
+머지(merge)
+
+```bash
+$ git merge origin/modify
+$ git push
+$ git branch -d origin/modify
+```
+
