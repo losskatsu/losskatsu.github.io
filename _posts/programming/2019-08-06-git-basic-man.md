@@ -199,3 +199,7 @@ $ git rm --cached a.cpp
 $ git commit -m "itsmistake"
 $ git push origin master
 ```
+
+## 브랜치(ㅇbranch) 따서 원격 저장소에 올리기
+
+
