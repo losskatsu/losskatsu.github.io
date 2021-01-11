@@ -200,6 +200,47 @@ $ git commit -m "itsmistake"
 $ git push origin master
 ```
 
-## 브랜치(ㅇbranch) 따서 원격 저장소에 올리기
+## 브랜치(branch) 따서 원격 저장소에 올리기
 
+브랜치 확인. 현재는 마스터 브랜치 하나만 있는 것을 알 수 있다.
 
+```bash
+$ git branch
+* master
+```
+
+브랜치 생성. modify01 이라는 브랜치를 만들자.
+
+```bash
+$ git branch modify01
+  modify01
+* master
+```
+
+방금 만든 modify01 브랜치로 이동하자.
+
+```bash
+$ git checkout modify01
+* modify01
+  master
+```
+
+수정이 끝난 파일(new01.txt)을 add 하자.
+
+```bash
+$ git add new01.txt
+```
+
+commit 하자
+
+```bash
+$ git commit -m "수정했습니당"
+```
+
+원격 저장소로 올리자. 현재 내가 만든 브랜치는 내 로컬에만 존재하므로 
+원격 저장소에도 동일한 브랜치가 필요하다. 따라서 아래 명령처럼 --set-upstream 옵션을 걸어주면 
+원격 저장소에도 동일하게 modify01 브랜치가 생성되어 있다.
+
+```bash
+$ git push --set-upstream origin modify01
+```
