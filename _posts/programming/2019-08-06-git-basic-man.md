@@ -264,3 +264,72 @@ $ git branch -d origin/modify
 
 # 실제 테스트 
 
+일단 작업을 원하는 폴더로 가자.
+그리고 아래와 같이 git clone 명령어를 이용하면 폴더를 통째로 들고 온다.
+즉 폴더이름을 내가 미리 만들 필요 없다는 소리다.
+폴더 이름은 깃 레퍼지토리 이름과 동일하다. 
+해당 폴더에 들어가면 .git 파일도 생성되어있다.
+(git init 명령 안쳐도 된다는 뜻이다.)
+(아마 remote도 설정되어 있을 것이다.)
+
+```bash
+$ git clone "http주소"
+```
+
+
+로컬에서 작업할 브랜치 생성
+
+```bash
+$ git branch mody01
+$ git checkout mody01
+```
+만약 위 문장을 한줄로 치고 싶다면 아래와 같이 입력하자.
+
+```bash
+$ git checkout -b mody01
+```
+
+리모트 저장소에도 똑같이 브랜치를 만들어 줍시다.
+
+```bash
+$ git push origin mody01
+```
+
+로컬과 리모트 저장소의 브랜치를 연동시킵니다. 
+
+```bash
+$ git branch --set-upstream-to origin/mody01
+```
+
+작업을 합니다. test01.txt라는 파일을 만들었다고 칩시다.
+올리고 커밋합시다.
+
+```bash
+$ git add .
+$ git commit -m "수정"
+```
+
+push!
+
+```bash
+$ git push origin mody01
+```
+
+홈피가서 pull request 버튼 누르고, merge하고 브랜치 삭제까지하자.
+
+그리고 로컬에서도 merge 해줌
+
+```bash
+$ git checkout main
+$ git merge mody02
+```
+
+여기까지.
+
+만약 추후에 인터넷상에서 업데이트 된 코드 가져오고 싶다면?
+
+```bash
+$ git pull origin main
+```
+
+그리고 브랜치 따고 작업 작업....이하 동일 
