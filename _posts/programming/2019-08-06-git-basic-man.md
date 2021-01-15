@@ -295,7 +295,7 @@ $ git checkout -b mody01
 $ git push origin mody01
 ```
 
-로컬과 리모트 저장소의 브랜치를 연동시킵니다. 
+로컬과 리모트 저장소의 브랜치를 연동시킵니다. (이건 사실 안해도 됨) 
 
 ```bash
 $ git branch --set-upstream-to origin/mody01
