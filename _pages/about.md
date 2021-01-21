@@ -14,11 +14,11 @@ title: "About"
 ### Book
 
 * 선형대수와 통계학으로 배우는 머신러닝, 비제이퍼블릭, 2021.01   
-      * [교보문고](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791165920395&orderClick=LAG&Kc=)
-      * [yes24](http://www.yes24.com/Product/Goods/97032765?OzSrank=1)
-      * [영풍문고](https://www.ypbooks.co.kr/book.yp)
-      * [반디앤루니스](http://www.bandinlunis.com/front/product/detailProduct.do?prodId=4392545)
-      * [알라딘](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=262038358)
+      * [교보문고](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791165920395&orderClick=LAG&Kc=)   
+      * [yes24](http://www.yes24.com/Product/Goods/97032765?OzSrank=1)   
+      * [영풍문고](https://www.ypbooks.co.kr/book.yp)   
+      * [반디앤루니스](http://www.bandinlunis.com/front/product/detailProduct.do?prodId=4392545)   
+      * [알라딘](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=262038358)   
 
 ### Lecture
 
