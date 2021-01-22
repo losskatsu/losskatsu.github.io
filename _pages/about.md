@@ -11,7 +11,7 @@ title: "About"
 * 네이버 카페: [https://cafe.naver.com/aifromstat](https://cafe.naver.com/aifromstat)
 
 
-### Book
+### Book 
 
 * 선형대수와 통계학으로 배우는 머신러닝, 비제이퍼블릭, 2021.01   
       * [교보문고](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791165920395&orderClick=LAG&Kc=)   
