@@ -20,7 +20,7 @@ sidebar:
 
 <center><img src="/assets/images/statistics/sample_size/01.jpg" width="800"></center>
 
-ㅇㅇ
+먼저 가설을 세웁니다. 
 
 <center><img src="/assets/images/statistics/sample_size/02.jpg" width="800"></center>
 
