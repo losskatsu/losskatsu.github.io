@@ -47,3 +47,18 @@ $ man hier
 
 /var  
 
+
+## 파일 찾기
+
+```bash
+$ which
+```
+
+
+```bash
+$ whereis
+```
+
+```bash
+$ locate
+```
