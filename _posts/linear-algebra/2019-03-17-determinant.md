@@ -110,3 +110,9 @@ $$
 > 선형대수학에서, 행렬식(determinant)은 정사각행렬에 수를 대응시키는 함수의 하나이다. 
 대략, 정사각행렬이 나타내는 선형변환이 부피를 확대시키는 정도를 나타낸다. 
 
+### 잠깐! 선형대수, 머신러닝에 대해 좀 더 자세히 알고 싶다면?
+
+<a href="http://www.yes24.com/Product/Goods/97032765?OzSrank=1"><img src="/assets/images/mybook/book_cover01.JPG" width="100">
+
+* [선형대수와 통계학으로 배우는 머신러닝 with 파이썬](http://www.yes24.com/Product/Goods/97032765?OzSrank=1)
+  * [yes24](http://www.yes24.com/Product/Goods/97032765?OzSrank=1), [교보문고](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791165920395&orderClick=LEa&Kc=), [알라딘](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=262038358), [리디북스](https://ridibooks.com/books/3780000100)
