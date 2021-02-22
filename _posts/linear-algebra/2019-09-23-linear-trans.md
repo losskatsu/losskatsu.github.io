@@ -101,3 +101,12 @@ and for all scalars k: <br />
 (1) T(ku) = kT(u) <br />
 (2) T(u + v) = T(u) + T(v) <br />
 In the special case where V=W, the linear transformation T is called a linear operator on the vector space V.
+
+
+
+### 잠깐! 선형대수, 머신러닝에 대해 좀 더 자세히 알고 싶다면?
+
+<a href="http://www.yes24.com/Product/Goods/97032765?OzSrank=1"><img src="/assets/images/mybook/book_cover01.JPG" width="100" align="middle"> [선형대수와 통계학으로 배우는 머신러닝 with 파이썬](http://www.yes24.com/Product/Goods/97032765?OzSrank=1)
+
+<br/>
+
