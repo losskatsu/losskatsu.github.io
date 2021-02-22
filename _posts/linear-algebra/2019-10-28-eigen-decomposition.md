@@ -98,3 +98,11 @@ $ A^{T} = (PDP^{T})^{T} = (P^{T})^{T}D^{T}P^{T} = PDP^{T} = A $
 오늘 배운 고유값 분해는 머신러닝에서 많이 쓰이는데요. 
 특히 유명한 것은 고유값분해를 $m \times n$ 행렬로 일반화 시킨 특이값 분해(singular value decomposition, SVD) 입니다. 
 다음 시간에는 특이값 분해에 대해 알아보겠습니다. 감사합니다. 
+
+
+### 잠깐! 선형대수, 머신러닝에 대해 좀 더 자세히 알고 싶다면?
+
+<a href="http://www.yes24.com/Product/Goods/97032765?OzSrank=1"><img src="/assets/images/mybook/book_cover01.JPG" width="100" align="middle"> [선형대수와 통계학으로 배우는 머신러닝 with 파이썬](http://www.yes24.com/Product/Goods/97032765?OzSrank=1)
+
+<br/>
+
