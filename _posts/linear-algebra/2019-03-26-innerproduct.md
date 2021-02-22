@@ -184,4 +184,11 @@ $ \parallel \mathbf{u} \parallel \parallel \mathbf{v} \parallel cos\theta =
 위 식의 의미를 생각해보면 내적은 한 벡터를 다른 벡터에 정사영 시킨 후 각 벡터의 크기(길이)를 곱한다라고 생각할 수 있습니다. 
 
 
+### 잠깐! 선형대수, 머신러닝에 대해 좀 더 자세히 알고 싶다면?
+
+<a href="http://www.yes24.com/Product/Goods/97032765?OzSrank=1"><img src="/assets/images/mybook/book_cover01.JPG" width="100" align="middle"> [선형대수와 통계학으로 배우는 머신러닝 with 파이썬](http://www.yes24.com/Product/Goods/97032765?OzSrank=1)
+
+<br/>
+
+
 
