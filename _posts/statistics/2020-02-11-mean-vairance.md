@@ -135,3 +135,11 @@ sidebar:
 
 위 내용을 종합하면 평균, 중앙값, 분산, 표준편차 등을 알면, 
 데이터전체를 확인하지 않더라도 전체 데이터가 어떤 형태를 띄는지 알 수 있습니다. 
+
+
+### 잠깐! 선형대수, 머신러닝에 대해 좀 더 자세히 알고 싶다면?
+
+<a href="http://www.yes24.com/Product/Goods/97032765?OzSrank=1"><img src="/assets/images/mybook/book_cover01.JPG" width="100" align="middle"> [선형대수와 통계학으로 배우는 머신러닝 with 파이썬](http://www.yes24.com/Product/Goods/97032765?OzSrank=1)
+
+<br/>
+
