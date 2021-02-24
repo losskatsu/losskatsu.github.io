@@ -97,3 +97,12 @@ sidebar:
 밸리데이션 셋으로 하이퍼파라미터를 설정합니다. 
 그리고 최종 모형을 만든 후, 
 테스트 셋을 활용해 모형 평가를 합니다. 
+
+
+<br/>
+
+### 잠깐! 선형대수, 머신러닝에 대해 좀 더 자세히 알고 싶다면?
+
+<a href="http://www.yes24.com/Product/Goods/97032765?OzSrank=1"><img src="/assets/images/mybook/book_cover01.JPG" width="100" align="middle"> [선형대수와 통계학으로 배우는 머신러닝 with 파이썬](http://www.yes24.com/Product/Goods/97032765?OzSrank=1)
+
+<br/>
