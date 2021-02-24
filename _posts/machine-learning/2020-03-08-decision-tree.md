@@ -173,3 +173,12 @@ $$ D(set) = -\frac{P}{T}\log_{2}\frac{P}{T}-\frac{N}{T}\log_{2}\frac{N}{T} $$
 <center><img src="/assets/images/ml/decision-tree/decisiontree12.jpg" width="800"></center> 
 
 또한 k-최근접 이웃과는 다소 다른 분류그래프가 나타납니다. 
+
+
+<br/>
+
+### 잠깐! 선형대수, 머신러닝에 대해 좀 더 자세히 알고 싶다면?
+
+<a href="http://www.yes24.com/Product/Goods/97032765?OzSrank=1"><img src="/assets/images/mybook/book_cover01.JPG" width="100" align="middle"> [선형대수와 통계학으로 배우는 머신러닝 with 파이썬](http://www.yes24.com/Product/Goods/97032765?OzSrank=1)
+
+<br/>
