@@ -84,3 +84,12 @@ $$ m^{(k)} = \frac{\sum_{n}r_{k}^{(n)}x^{(n)}}{\sum_{n}r_{k}^{(n)}} $$
 
 사실 k-menas 클러스터링에서는 가중치를 주거나하지 않기 때문에 클러스터간 데이터의 밀도의 차이가 있을 경우 클러스터링이 잘 되지 않는 경향이 있습니다. 
 또한 이 방법은 클러스터의 모양을 고려하지 않습니다. 
+
+
+<br/>
+
+### 잠깐! 선형대수, 머신러닝에 대해 좀 더 자세히 알고 싶다면?
+
+<a href="http://www.yes24.com/Product/Goods/97032765?OzSrank=1"><img src="/assets/images/mybook/book_cover01.JPG" width="100" align="middle"> [선형대수와 통계학으로 배우는 머신러닝 with 파이썬](http://www.yes24.com/Product/Goods/97032765?OzSrank=1)
+
+<br/>
