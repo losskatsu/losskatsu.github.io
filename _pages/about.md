@@ -52,6 +52,13 @@ title: "About"
 * **충북대학교(Chungbuk National University)**  
         BS in Statistics, KR, Cheongju, 2005.03-2011.02
 
+### Project
+
+* 디바이스 식별 시스템 알고리즘 개발
+* 어뷰징 대응 시스템 
+* FDS DW 개발 및 운영
+* 게임 애뮬레이터 매크로 자동 탐지 시스템 개발 및 운영
+
 ### Interest
 * 강화학습(Reinforcement Learning)
 * 머신러닝(Machine Learning)
