@@ -17,6 +17,7 @@ sidebar:
 
 ### 참고 링크  
 
+* [MySQL 윈도우에 설치하기](https://losskatsu.github.io/it-infra/mysql-install-win/)
 * [MySQL 간단 정리, 우분투, 맥에 설치 하기](https://losskatsu.github.io/it-infra/mysql-index/)
 * [파이썬, MySQL 연동](https://losskatsu.github.io/programming/py-db-conn/)
 * [데이터베이스에서 널(null)과 공백의 차이](https://losskatsu.github.io/it-infra/db-null/)
