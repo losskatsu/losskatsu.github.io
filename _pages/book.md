@@ -3,7 +3,7 @@ permalink: /book/
 title: "Book"
 ---
 
-# 저서  
+# 장철원 저서  
 
 <center><img src="/assets/images/book/ml_by_la_stat.png" width="500"></center>  
 
