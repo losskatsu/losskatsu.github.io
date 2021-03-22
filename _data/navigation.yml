@@ -24,27 +24,27 @@ sidebar:
   nav: sidebar-contents
   
 sidebar-contents:
-  - title: "Machine Learning"
+  - title: "머신러닝"
     children:
-      - title: "Reinforcement Learning"
+      - title: "강화학습"
         url: "/categories/#reinforcement-learning"
-      - title: "PaperTranslation"
+      - title: "논문"
         url: "/categories/#paper-translation"
-  - title: "Statistics"
+  - title: "통계학"
     children:
-      - title: "Linear Algebra"
+      - title: "선형대수"
         url: "/categories/#linear-algebra"
-      - title: "Statistics"
+      - title: "통계학"
         url: "/categories/#statistics"
-      - title: "Mathematics"
+      - title: "수학"
         url: "/categories/#mathematics"
   - title: "IT"
     children:
-      - title: "OS kernel"
+      - title: "OS 커널"
         url: "/categories/#os-kernel"
-      - title: "IT Infra"
+      - title: "IT 인프라"
         url: "/categories/#it-infra"
-      - title: "Programming"
+      - title: "프로그래밍"
         url: "/categories/#programming"
-      - title: "BookReview"
+      - title: "책"
         url: "/categories/#book-review"
