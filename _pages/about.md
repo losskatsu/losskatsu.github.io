@@ -3,6 +3,9 @@ permalink: /about/
 title: "About"
 ---
 
+<img src="/assets/images/profile/my_profile02.jpg" width="300">
+
+
 ## 장철원(Cheolwon Jang)
 
 * 이메일 : stoicheolwon at gmail dot com
