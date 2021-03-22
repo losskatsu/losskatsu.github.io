@@ -1,14 +1,14 @@
 # main links
 main:
-   - title: "Home"
+   - title: "홈"
      url: "/"
-   - title: "About"
+   - title: "프로필"
      url: "/about/"
-   - title: "Book"
+   - title: "저서"
      url: "/book/"     
   # - title: "Tag"
   #   url: "/tags/"
-   - title: "Category"
+   - title: "공부방"
      url: "/categories/list"
 #    - title: "Contact"
 #      url: "/contact/"     
