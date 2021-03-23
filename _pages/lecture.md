@@ -24,7 +24,7 @@ stoicheolwon@gmail.com
 각 머신러닝 알고리즘의 개념부터 시작해 수학적 이론을 거쳐 R 프로그래밍까지 실습하는 순서로 구성되어 있습니다. 
 강의 내 지도학습 알고리즘에는 k-최근접 이웃, 로지스틱 ,나이브 베이즈, 의사결정나무, 랜덤포레스트, 서포트벡터머신으로 구성되어 있습니다. 
 
-# 기업 강의 및 중,고등,대학교 특강
+# 오프라인 
 
 <img src="/assets/images/profile/special_lecture01.jpg" width="250" /> <img src="/assets/images/profile/special_lecture02.jpg" width="190" /> <img src="/assets/images/profile/company_lecture01.jpg" width="190" />  
 
