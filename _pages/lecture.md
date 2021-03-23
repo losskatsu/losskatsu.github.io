@@ -28,8 +28,8 @@ stoicheolwon@gmail.com
 
 <img src="/assets/images/profile/special_lecture01.jpg" width="250" /> <img src="/assets/images/profile/special_lecture02.jpg" width="190" /> <img src="/assets/images/profile/company_lecture01.jpg" width="190" />  
 
+* 실무 데이터를 활용한 파이썬 머신러닝, 디엘정보기술, 2020.12, 2021.02
+* 동해시 취업박람회 IT 취업 특강, 2020.11
+* 진로 탐색의 날 강연, 한민고등학교, 2019.04, 2019.09
 
-## 강의 주제
-
-* 인공지능, 머신러닝
 
