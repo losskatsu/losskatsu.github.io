@@ -22,7 +22,7 @@ stoicheolwon@gmail.com
 
 ## 특강
 
-<img src="/assets/images/profile/special_lecture01.jpg" width="300" /> <img src="/assets/images/profile/special_lecture02.jpg" width="200" /> <img src="/assets/images/profile/company_lecture01.jpg" width="200" />  
+<img src="/assets/images/profile/special_lecture01.jpg" width="270" /> <img src="/assets/images/profile/special_lecture02.jpg" width="200" /> <img src="/assets/images/profile/company_lecture01.jpg" width="200" />  
 
 
 ## 강의 주제
