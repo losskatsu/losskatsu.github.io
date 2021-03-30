@@ -15,6 +15,18 @@ sidebar:
 
 # 프로세스(process)란?
 
+
+**참고링크
+
+* [프로세스란?](https://losskatsu.github.io/os-kernel/os-process/)
+* [리다이렉션, 파이프 개념](https://losskatsu.github.io/os-kernel/linux-redirection/)
+* [네임스페이스 개념](https://losskatsu.github.io/os-kernel/linux-namespace/)
+* [분산시스템 개념(1)](https://losskatsu.github.io/os-kernel/dist-sys-concept01/)
+* [분산시스템 개념(2)](https://losskatsu.github.io/os-kernel/dist-sys-concept02/)
+* [프로그램, 바이너리, 프로세스, 스레드의 개념](https://losskatsu.github.io/os-kernel/process-thread/)
+
+
+
 예전 컴퓨터는 한번에 하나의 프로그램만 실행가능 했었다. 
 그리고 실행중인 프로그램은 모든 시스템 자원을 사용했었다. 
 시간이 흘러 현대의 컴퓨터는 여러 프로그램을 메모리에 올리고 동시에 실행이 가능하다. 
