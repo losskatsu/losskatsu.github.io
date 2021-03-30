@@ -15,6 +15,18 @@ sidebar:
 
 # 분산 시스템의 개념(1)
 
+
+**참고링크**
+
+* [프로세스란?](https://losskatsu.github.io/os-kernel/os-process/)
+* [리다이렉션, 파이프 개념](https://losskatsu.github.io/os-kernel/linux-redirection/)
+* [네임스페이스 개념](https://losskatsu.github.io/os-kernel/linux-namespace/)
+* [분산시스템 개념(1)](https://losskatsu.github.io/os-kernel/dist-sys-concept01/)
+* [분산시스템 개념(2)](https://losskatsu.github.io/os-kernel/dist-sys-concept02/)
+* [프로그램, 바이너리, 프로세스, 스레드의 개념](https://losskatsu.github.io/os-kernel/process-thread/)
+
+
+
 본 포스팅은 MIT 6.284 Distributed Systems을 참고하여 작성 되었습니다.
 
 ## 분산 시스템의 정의
