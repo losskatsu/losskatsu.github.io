@@ -16,7 +16,7 @@ sidebar:
 # 프로세스(process)란?
 
 
-**참고링크
+**참고링크**
 
 * [프로세스란?](https://losskatsu.github.io/os-kernel/os-process/)
 * [리다이렉션, 파이프 개념](https://losskatsu.github.io/os-kernel/linux-redirection/)
