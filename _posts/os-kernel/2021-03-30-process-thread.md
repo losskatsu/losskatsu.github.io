@@ -15,6 +15,16 @@ sidebar:
 
 # 프로그램, 바이너리, 프로세스, 스레드의 개념
 
+**참고링크
+
+* [프로세스란?](https://losskatsu.github.io/os-kernel/os-process/)
+* [리다이렉션, 파이프 개념](https://losskatsu.github.io/os-kernel/linux-redirection/)
+* [네임스페이스 개념](https://losskatsu.github.io/os-kernel/linux-namespace/)
+* [분산시스템 개념(1)](https://losskatsu.github.io/os-kernel/dist-sys-concept01/)
+* [분산시스템 개념(2)](https://losskatsu.github.io/os-kernel/dist-sys-concept02/)
+* [프로그램, 바이너리, 프로세스, 스레드의 개념](https://losskatsu.github.io/os-kernel/process-thread/)
+
+
 ## 1. 프로그램(program)
 
 프로그램(program)은 실행 가능한 명령어(instruction)의 집합입니다. 
