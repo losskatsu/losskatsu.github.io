@@ -15,6 +15,18 @@ sidebar:
 
 # 리눅스 - 네임스페이스(namespace)의 개념
 
+
+**참고링크**
+
+* [프로세스란?](https://losskatsu.github.io/os-kernel/os-process/)
+* [리다이렉션, 파이프 개념](https://losskatsu.github.io/os-kernel/linux-redirection/)
+* [네임스페이스 개념](https://losskatsu.github.io/os-kernel/linux-namespace/)
+* [분산시스템 개념(1)](https://losskatsu.github.io/os-kernel/dist-sys-concept01/)
+* [분산시스템 개념(2)](https://losskatsu.github.io/os-kernel/dist-sys-concept02/)
+* [프로그램, 바이너리, 프로세스, 스레드의 개념](https://losskatsu.github.io/os-kernel/process-thread/)
+
+
+
 ## 1. 네임스페이스 
 
 네임스페이스는 최근 유행하는 도커(docker)와 같은 컨테이너(container) 기반의 가상화 기술의 기반이 되는 기술입니다. 
