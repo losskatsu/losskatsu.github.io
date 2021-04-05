@@ -87,7 +87,7 @@ print("new_a + new_b = ", sol)
 
 <center><img src="/assets/images/programming/function-module-package/05.JPG" width="800"></center>
 
-파일을 생성했다면 Anaconda prompt를 실해앟ㅂ니다. 그리고 생성된 프롬프트 창에서 다음과 같이 입력합니다. 
+파일을 생성했다면 Anaconda prompt를 실행합니다. 그리고 생성된 프롬프트 창에서 다음과 같이 입력합니다. 
 
 ```bash
 (base) > cd ‘실습폴더’
