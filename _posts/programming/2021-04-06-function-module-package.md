@@ -21,7 +21,7 @@ sidebar:
 함수를 사용하면 같은 코드를 여러 번 작성할 필요가 없다는 장점이 있습니다.
 
 
-<center><img src="/assets/images/programming/function-module-package/01.JPG" width="800"></center>
+<center><img src="/assets/images/programming/function-module-package/01.JPG" width="500"></center>
 
 위 그림은 입력변수의 덧셈 결과를 출력하는 sum이라는 함수입니다. 
 
@@ -31,7 +31,7 @@ def sum(a,b):
     return c
 ```
 
-<center><img src="/assets/images/programming/function-module-package/02.JPG" width="800"></center>
+<center><img src="/assets/images/programming/function-module-package/02.JPG" width="500"></center>
 
 함수는 위 그림과 같이 어렸을 때 수학 시간에 배운 함수의 개념과 동일하다고 생각할 수 있습니다.
 
@@ -107,7 +107,7 @@ new_a + new_b = 3
 혼용해서 사용하기도 합니다. 
 예를 들어, 넘파이 라이브러리라고도 부르고, 넘파이 패키지라고도 부릅니다.
 
-<center><img src="/assets/images/programming/function-module-package/08.JPG" width="800"></center>
+<center><img src="/assets/images/programming/function-module-package/08.JPG" width="500"></center>
 
 패키지 실습 폴더 구성은 위 그림과 같습니다. 파일의 코드는 앞선 모듈 코드와 동일합니다. 
 모듈 실습과의 차이점은 모듈이 package01이라는 폴더 안에 존재한다는 것입니다. 
