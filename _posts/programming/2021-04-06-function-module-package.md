@@ -15,6 +15,13 @@ sidebar:
 
 # 파이썬 함수, 모듈 패키지의 차이점 
 
+**참고링크**
+
+* [윈도우에 아나콘다를 사용해 파이썬 가상환경 설치하기](https://losskatsu.github.io/programming/py-conda/)
+* [맥북에 파이썬 가상환경(pyenv) 설치하기](https://losskatsu.github.io/it-infra/pyenv-osx/)
+* [우분투에 파이썬 가상환경(pyenv) 설치하기](https://losskatsu.github.io/programming/pyenv/)
+* [CentOS에 파이썬 가상환경(pyenv) 설치하기](https://losskatsu.github.io/it-infra/pyenv-centos6/)
+
 ## 1. 함수
 
 함수는 미리 정한 동작을 수행하는 코드를 묶은 것을 의미합니다. 
