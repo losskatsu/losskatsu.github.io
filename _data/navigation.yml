@@ -8,7 +8,7 @@ main:
      url: "/book/"     
    - title: "전자책"
      url: "/ebook/"     
-   - title: "강의"
+   - title: "강의"   
      url: "/lecture/"         
   # - title: "Tag"
   #   url: "/tags/"
