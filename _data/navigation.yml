@@ -6,6 +6,8 @@ main:
      url: "/about/"
    - title: "저서"
      url: "/book/"     
+   - title: "전자책"
+     url: "/ebook/"     
    - title: "강의"
      url: "/lecture/"         
   # - title: "Tag"
