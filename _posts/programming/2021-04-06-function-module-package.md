@@ -13,7 +13,7 @@ sidebar:
   nav: sidebar-contents
 ---
 
-# 파이썬 함수, 모듈 패키지의 차이점 
+# 파이썬 함수, 모듈, 패키지의 차이점 
 
 **참고링크**
 
@@ -21,6 +21,8 @@ sidebar:
 * [맥북에 파이썬 가상환경(pyenv) 설치하기](https://losskatsu.github.io/it-infra/pyenv-osx/)
 * [우분투에 파이썬 가상환경(pyenv) 설치하기](https://losskatsu.github.io/programming/pyenv/)
 * [CentOS에 파이썬 가상환경(pyenv) 설치하기](https://losskatsu.github.io/it-infra/pyenv-centos6/)
+* [함수, 모듈, 패키지의 차이점](https://losskatsu.github.io/programming/function-module-package/)
+* [클래스, 객체 개념](https://losskatsu.github.io/programming/class-object/)
 
 ## 1. 함수
 
