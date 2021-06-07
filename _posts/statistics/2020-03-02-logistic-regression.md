@@ -60,20 +60,20 @@ sidebar:
 아래 식처럼 $\pi(x)$란 $p(Y=1\|x)$, 즉, $x$가 주어졌을 때의 [확률변수](https://losskatsu.github.io/statistics/random-variable/) $Y$가 1일 확률이라고 생각하시면 되겠습니다.  
 그리고 위에서도 언급되었지만 종속변수 $Y$ 는 이항범주형 변수(binary response variable)입니다.
 
-$$ \pi(x) = P(Y=1 | X=x) = 1- P(Y=0 |X=x) $$
+$ \pi(x) = P(Y=1 | X=x) = 1- P(Y=0 |X=x) $  
 
 로지스틱 회귀분석은 아래와 같습니다. 
 
-$$ \pi(x) = \frac{exp(\alpha + \beta x)}{1 + exp(\alpha + \beta x)}  $$
+$ \pi(x) = \frac{exp(\alpha + \beta x)}{1 + exp(\alpha + \beta x)}  $  
 
 위 식은 일반화 시키면 아래와 같이 변경가능한데요. 
 
-$$ \frac{\pi(x)}{1-\pi(x)} = exp(\alpha + \beta_{1}x_{1} + \dots + + \beta_{p}x_{p})$$
+$ \frac{\pi(x)}{1-\pi(x)} = exp(\alpha + \beta_{1}x_{1} + \dots + + \beta_{p}x_{p})$  
 
 위 식을 보니 [오즈(odds)](https://losskatsu.github.io/statistics/categorical-test/)가 생각나네요. 
 또한 양변에 로그를 취하면 아래와 같이 변합니다. 
 
-$$ logit[\pi(x)] = log\frac{\pi(x)}{1-\pi(x)} = \alpha + \beta_{1}x_{1} + \dots + + \beta_{p}x_{p} $$ 
+$ logit[\pi(x)] = log\frac{\pi(x)}{1-\pi(x)} = \alpha + \beta_{1}x_{1} + \dots + + \beta_{p}x_{p} $  
 
 위 식처럼 오즈에 로그를 취한, 즉 log odds를 logit 이라고 합니다. 
 이와 같은 결과는 아래의 과정을 거쳐서 얻어집니다. 부록을 참고 해주세요. 
@@ -114,17 +114,17 @@ $$ logit[\pi(x)] = log\frac{\pi(x)}{1-\pi(x)} = \alpha + \beta_{1}x_{1} + \dots 
 $\beta$는 위 문장처럼 해석되는데요. 
 위 문장에 따르면 $e^{\beta}$는 곧 '오즈비'입니다. 왜냐하면 아래와 같기 때문입니다. 
 
-$$ e^{\beta} = \frac{odds(X=x+1)}{odds(X=x)} $$
+$ e^{\beta} = \frac{odds(X=x+1)}{odds(X=x)} $  
 
 문장만보면 쉽게 이해되지 않을수도있으므로 예제를 들어보겠습니다.
 아래와 같은 로지스틱 회귀모형이 있다고 가정합시다. 
 
-$$ \hat{\pi(x)} = \frac{exp(-12.3+0.5x)}{1 + exp(-12.3+0.5x)} $$
+$ \hat{\pi(x)} = \frac{exp(-12.3+0.5x)}{1 + exp(-12.3+0.5x)} $  
 
 저 모형을 어떻게 해석해야할까요? 
 우선 50% 구간을 살펴보면 아래와 같이 $x=24.8$일 때, 추정된 확률이 50%라는 것을 알 수 있습니다. 
 
-$$x = - \frac{\hat{\alpha}}{\hat{\beta}} = \frac{12.3}{0.5} = 24.8$$
+$x = - \frac{\hat{\alpha}}{\hat{\beta}} = \frac{12.3}{0.5} = 24.8$  
 
 또한 $x$가 한 단위 증가할 때마다 오즈의 추정치는 $exp(\hat{\beta})=exp(0.5)=1.64$ 만큼 곱해집니다. 
 즉, $x$가 한 단위 증가할 때마다 오즈의 추정치는 64% 증가합니다.
