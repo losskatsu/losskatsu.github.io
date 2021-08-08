@@ -69,22 +69,41 @@ sidebar:
 
 ## 4. 라즈베리파이 OS 설치
 
+앞서 시작을 눌른 후 화면에서 INSTALL을 눌러 OS를 설치합니다. 
+
 <center><img src="/assets/images/os/raspberrypi/vminstall/11.JPG" width="800"></center>
 
 <center><img src="/assets/images/os/raspberrypi/vminstall/12.JPG" width="800"></center>
 
+설치가 완료되면 다음과 같은 화면이 나오는데 각종 설정을 해줍니다.
+
 <center><img src="/assets/images/os/raspberrypi/vminstall/13.JPG" width="800"></center>
 
+지금부터는 ssh 접속을 가능하게 하기 위한 설정을 해줍니다. 
+
+딸기모양 -> Preferences -> Raspberry Pi Configuration  
+
+을 클릭합니다.
+
 <center><img src="/assets/images/os/raspberrypi/vminstall/14.JPG" width="800"></center>
+
+이 때 기본값이 disable로 되어있는데, enable로 바꿔 줍니다. 
 
 <center><img src="/assets/images/os/raspberrypi/vminstall/15.JPG" width="800"></center>
 
 
 ## 5. 네트워크 설정 및 접속
 
+우리는 22번 포트로 접속할 것이므로 22번 포트를 포트포워딩 해주겠습니다. 
+버츄어 박스에서 다음과 같이 설정합니다. 
+
 <center><img src="/assets/images/os/raspberrypi/vminstall/16.JPG" width="800"></center>
 
 <center><img src="/assets/images/os/raspberrypi/vminstall/17.JPG" width="800"></center>
+
+그리고 마지막으로 putty를 사용해 접속하면 됩니다. 
+
+우리는 로컬에 라즈베리파이 OS가 있으므로 127.0.0.1로 접속하면 됩니다. 
 
 <center><img src="/assets/images/os/raspberrypi/vminstall/18.JPG" width="800"></center>
 
