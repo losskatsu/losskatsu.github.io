@@ -39,11 +39,22 @@ sidebar:
 
 ## 3. 버츄어 박스 실행 및 이미지 추가
 
+먼저 버츄어 박스를 실행합니다. 
+
 <center><img src="/assets/images/os/raspberrypi/vminstall/01.png" width="800"></center>
+
+그리고 위와 같이 머신 -> 새로만들기를 클릭합니다.
+
 
 <center><img src="/assets/images/os/raspberrypi/vminstall/02.JPG" width="800"></center>
 
+그리고 위 사진과 같이 운영체제의 종류와 버전을 설정해줍니다. 
+기본값은 윈도우로 되어 있는데 리눅스로 바꿔줍니다. 
+
 <center><img src="/assets/images/os/raspberrypi/vminstall/03.JPG" width="800"></center>
+
+그리고 메모리 크기를 설정해줍니다. 기본이 1024인데 만약 본인이 좀더 많이 사용하고 싶다면 조절할 수 있습니다. 
+나머지는 기본설정 그대로 갑니다.
 
 <center><img src="/assets/images/os/raspberrypi/vminstall/04.JPG" width="800"></center>
 
