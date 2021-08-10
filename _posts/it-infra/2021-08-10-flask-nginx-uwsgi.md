@@ -150,7 +150,7 @@ ini 파일은 다양한 장소에 생성할 수 있지만 저는 맨 처음 만�
 module = hello
 callable = app
 
-socket = /home/user/test/test.sock
+socket = /home/user/work/test/test.sock
 chmod-socket = 666
 vacuum = true
 
@@ -209,12 +209,24 @@ server {
 
 ## 6. nginx, uwsgi, 연동 테스트
 
-```
+이제 uwsgi를 이용해 test.ini를 실행해 줍니다. 
+
+```bash
 (py3_8_5)~work/test$ uwsgi --ini test.ini
 [uWSGI] getting INI configuration from test.ini
 ```
 
+그리고 다음과 같이 nginx를 재시작합니다.
+
+```bash
+(py3_8_5)~work/test$ sudo service nginx restart
 ```
-(py3_8_5)~work/test$ uwsgi --ini test.ini
-[uWSGI] getting INI configuration from test.ini
+
+그리고 나서 다시 크롬 브라우저의 주소창에 자신의 ip주소를 입력하고 다음 화면을 보면 성공입니다.
+
 ```
+Hello World!
+```
+
+주의 해야할 점은 ip 주소만 입력해야합니다. (5000번 포트 입력하면 안됨)
+
