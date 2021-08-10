@@ -147,7 +147,7 @@ ini 파일은 다양한 장소에 생성할 수 있지만 저는 맨 처음 만�
 ```
 [uwsgi]
 
-module = api_test
+module = hello
 callable = app
 
 socket = /home/user/test/test.sock
@@ -160,5 +160,61 @@ die-on-term = true
 venv = /home/user/.pyenv/versions/3.8.5/envs/py3_8_5
 ```
 
-# nginx 설정 파일 수정
+# 5. nginx 설정 파일 수정
 
+이번에는 nginx 설정 파일을 수정합니다. 
+nginx 설정 파일은 /etc/nginx/sites-enabled/default 입니다. 루트 권한으로 열어주세요. 
+열어보면 파일이 좀 긴데 주석을 제외하면 다음과 같습니다. 
+
+```bash
+(py3_8_5)$ sudo vim /etc/nginx/sites-enabled/default
+server {
+    listen 80 default_server;
+    listen [::]:80 default_server;
+    
+    root /var/www/html;
+
+    index index.html index.htm index.nginx-debian.html;
+    server_name _;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+}
+```
+
+위 원본을 다음고 같이 바꿔줍니다.
+
+```bash
+(py3_8_5)$ sudo vim /etc/nginx/sites-enabled/default
+server {
+    listen 80 default_server;
+    listen [::]:80 default_server;
+    
+    root /var/www/html;
+
+    index index.html index.htm index.nginx-debian.html;
+    server_name _;
+
+    location / {
+        try_files $uri @app;
+    }
+
+    location @app {
+        include uwsgi_params;
+        uwsgi_pass unix:/home/user/work/test/test.sock;
+    }
+}
+```
+
+## 6. nginx, uwsgi, 연동 테스트
+
+```
+(py3_8_5)~work/test$ uwsgi --ini test.ini
+[uWSGI] getting INI configuration from test.ini
+```
+
+```
+(py3_8_5)~work/test$ uwsgi --ini test.ini
+[uWSGI] getting INI configuration from test.ini
+```
