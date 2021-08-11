@@ -137,6 +137,15 @@ Thank you for using nginx.
 (py3_8_5)$ pip install uwsgi
 ```
 
+그리고 다음과 같은 work/test 디렉토리에 uwsgi.py라는 파이썬 파일을 만들어줍니다.
+
+```python 
+from hello import app
+
+if __name__ == "__main__":
+    app.run(host='0.0.0.0')
+```
+
 ## 4. ini 파일 작성
 
 uwsgi를 설치했다면 uwsgi 데몬으로 uwsgi 애플리케이션을 사용할 수 있도록 다음과 같은 ini 파일을 작성합니다. 
