@@ -22,3 +22,7 @@ sidebar:
 * [flask, nginx, uwsgi 연동 실습](https://losskatsu.github.io/it-infra/flask-nginx-uwsgi/)  
 
 ## 전체 구조
+
+flask, nginx, uwsgi의 전체 구조는 다음과 같습니다. 
+
+<center><img src="/assets/images/infra/flask-concept/flask01.jpg" width="800"></center>
