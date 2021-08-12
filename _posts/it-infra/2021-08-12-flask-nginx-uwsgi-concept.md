@@ -18,8 +18,8 @@ sidebar:
 
 **관련 내용 복습하기**   
 
-* [flask, nginx, uwsgi 개념](https://losskatsu.github.io/it-infra/flask-nginx-uwsgi-concept/)
-* [flask, nginx, uwsgi 연동 실습](https://losskatsu.github.io/it-infra/flask-nginx-uwsgi/)  
+* [flask, nginx, uwsgi (1)개념](https://losskatsu.github.io/it-infra/flask-nginx-uwsgi-concept/)
+* [flask, nginx, uwsgi (2)연동 실습](https://losskatsu.github.io/it-infra/flask-nginx-uwsgi/)  
 * [AWS에 아파치 서버 설치하기](https://losskatsu.github.io/it-infra/aws-apache/)
 * [아파치 서버 에러 로그 확인](https://losskatsu.github.io/it-infra/apache-error-log/)
 * [커버로스 인증 개념](https://losskatsu.github.io/it-infra/kerberos/)
