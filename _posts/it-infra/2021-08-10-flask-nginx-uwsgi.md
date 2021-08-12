@@ -13,7 +13,7 @@ sidebar:
   nav: sidebar-contents
 ---
 
-# flask, nginx, uwsgi 연동하기
+# flask, nginx, uwsgi 연동하기(실습)
 
 이번 포스팅에서는 flask로 만든 웹 서버를 nginx, uwsgi와 연동해 봅니다.
 
