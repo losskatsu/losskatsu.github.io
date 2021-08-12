@@ -15,10 +15,15 @@ sidebar:
 
 # flask, nginx, uwsgi 연동하기(실습)
 
-**복습하기**   
+**관련 내용 복습하기**   
 
-* [flask, nginx, uwsgi 개념](https://losskatsu.github.io/it-infra/flask-nginx-uwsgi-concept/)
-* [flask, nginx, uwsgi 연동 실습](https://losskatsu.github.io/it-infra/flask-nginx-uwsgi/)  
+* [flask, nginx, uwsgi (1)개념](https://losskatsu.github.io/it-infra/flask-nginx-uwsgi-concept/)
+* [flask, nginx, uwsgi (2)연동 실습](https://losskatsu.github.io/it-infra/flask-nginx-uwsgi/)  
+* [AWS에 아파치 서버 설치하기](https://losskatsu.github.io/it-infra/aws-apache/)
+* [아파치 서버 에러 로그 확인](https://losskatsu.github.io/it-infra/apache-error-log/)
+* [커버로스 인증 개념](https://losskatsu.github.io/it-infra/kerberos/)
+* [아파치, 톰캣, nginx 차이](https://losskatsu.github.io/it-infra/webserver/)
+* [SSL, CRS 인증 관련 정리(대칭키, 공개키, 개인키)](https://losskatsu.github.io/it-infra/ssl-auth/)
 
 이번 포스팅에서는 flask로 만든 웹 서버를 nginx, uwsgi와 연동해 봅니다.
 
