@@ -15,3 +15,10 @@ sidebar:
 
 # flask, nginx, uwsgi(1) 개념
 
+
+**복습하기**   
+
+* [flask, nginx, uwsgi 개념](https://losskatsu.github.io/it-infra/flask-nginx-uwsgi-concept/)
+* [flask, nginx, uwsgi 연동 실습](https://losskatsu.github.io/it-infra/flask-nginx-uwsgi/)  
+
+## 전체 구조
