@@ -1,5 +1,5 @@
 ---
-title: "[Infra] flask, nginx, uwsgi 연동하기" 
+title: "[Infra] flask, nginx, uwsgi(2) 연동하기" 
 categories:
   - it-infra
 tags:
@@ -14,6 +14,10 @@ sidebar:
 ---
 
 # flask, nginx, uwsgi 연동하기(실습)
+
+* 복습하기  
+
+* [flask, nginx, uwsgi 연동 실습](https://losskatsu.github.io/it-infra/flask-nginx-uwsgi/)  
 
 이번 포스팅에서는 flask로 만든 웹 서버를 nginx, uwsgi와 연동해 봅니다.
 
