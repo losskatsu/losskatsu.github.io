@@ -20,8 +20,10 @@ title: "About"
       * [yes24](http://www.yes24.com/Product/Goods/97032765?OzSrank=1)   
       * [교보문고](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791165920395&orderClick=LAG&Kc=)   
       * [알라딘](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=262038358)   
-      * [리디북스](https://ridibooks.com/books/3780000100?_s=search&_q=%EC%9E%A5%EC%B2%A0%EC%9B%90)
-      * [2021 교보문고 상반기 베스트 셀러](https://www.notion.so/2021-IT-1f79e6783cca4b3aa20a1c53fc0b0368)
+      * [리디북스](https://ridibooks.com/books/3780000100?_s=search&_q=%EC%9E%A5%EC%B2%A0%EC%9B%90)  
+      * [2021 교보문고 상반기 베스트 셀러](https://www.notion.so/2021-IT-1f79e6783cca4b3aa20a1c53fc0b0368)  
+
+
 ### 강의
 
 * 머신러닝에 필요한 기초통계학, 디엘정보기술, 2021.02
