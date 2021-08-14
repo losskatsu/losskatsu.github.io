@@ -21,7 +21,7 @@ title: "About"
       * [교보문고](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791165920395&orderClick=LAG&Kc=)   
       * [알라딘](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=262038358)   
       * [리디북스](https://ridibooks.com/books/3780000100?_s=search&_q=%EC%9E%A5%EC%B2%A0%EC%9B%90)
-
+      * [2021 교보문고 상반기 베스트 셀러](https://www.notion.so/2021-IT-1f79e6783cca4b3aa20a1c53fc0b0368)
 ### 강의
 
 * 머신러닝에 필요한 기초통계학, 디엘정보기술, 2021.02
@@ -96,6 +96,10 @@ title: "About"
 * 네트워크를 통해 복수의 사용자 단말기들과 통신하는 네트워크 서버 및 그것의 동작 방법, 등록번호 - 1022083140000, 2021.01.21.  
 
 * (출원 당시)기계학습 기반의 유니티로 제작된 모바일 게임의 애뮬레이터 매크로 자동 탐지 시스템, 10-2019-0102038, 2019.08.21
+
+### 수상
+
+* 2021 교보문고 상반기 베스트 셀러(선형대수와 통계학으로 배우는 머신러닝, 비제이퍼블릭, 2021.01.26 
 
 ### 컨퍼런스
 * 머신러닝을 이용한 배틀그라운드 핵 사용 의심 유저 추출, 
