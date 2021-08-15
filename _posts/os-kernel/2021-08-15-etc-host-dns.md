@@ -70,4 +70,20 @@ dns 서버를 통해 해당 도메인의 ip를 알아냈다면 알아낸 ip로 �
 
 ## 5. 리눅스 /etc/hosts 파일
 
+리눅스 계열의 파일 시스템을 보면 etc 디렉토리에 hosts파일이 존재합니다. 
+그리고 이 hosts 파일이 dns서버역할을 합니다. 
+예를 들어, 우리가 주소창에 localhost라고 입력했을 때 해당 도메인을 127.0.0.1로 바꿔주는거죠.
 
+/etc/hosts 파일은 다음과 같이 생겼습니다. 
+
+```bash
+$ cat /etc/hosts
+127.0.0.1       localhost
+::1             localhost ip6-localhost ip6-loopback
+ff02::1         ip6-allnodes
+ff02::2         ip6-allrouters
+
+127.0.1.1               raspberrypi
+```
+
+파일을 보면 127.0.0.1이랑 localhost랑 매핑되어 있는 것을 볼 수 있습니다. 
