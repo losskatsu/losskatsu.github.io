@@ -57,7 +57,16 @@ DNS서버는 우리가 주소창에 [https://www.naver.com/](https://www.naver.c
 
 ## 4. 우리가 주소창에 네이버를 입력했을 때 일어나는 일
 
+그렇다면 앞서 배운 내용을 토대로 우리가 웹 브라우저 주소창에 [https://www.naver.com/](https://www.naver.com/)를 입력했을 때 
+일어난 일을 그림으로 알아보겠습니다. 
 
+<center><img src="/assets/images/os/dns/dns01.jpg" width="800"></center>
+
+우리가 주소창에 [https://www.naver.com/](https://www.naver.com/)를 입력하면 먼저 dns서버에 물어봅니다. 
+나는 지금 [https://www.naver.com/](https://www.naver.com/)에 접속하고 싶은데 이분 ip가 뭐야?라고 말이죠. 
+그러면 dns서버가 해당 주소의 ip를 알려줍니다. [http://125.209.222.141/](http://125.209.222.141/)라고 말이죠. 
+dns 서버를 통해 해당 도메인의 ip를 알아냈다면 알아낸 ip로 접속을 시도합니다. 
+그리고 요청을 받은 [http://125.209.222.141/](http://125.209.222.141/)는 저에게 화면을 보여줍니다. 
 
 ## 5. 리눅스 /etc/hosts 파일
 
