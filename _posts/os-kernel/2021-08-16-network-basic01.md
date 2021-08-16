@@ -26,7 +26,15 @@ ISO(International Organization for Standardization, 국제표준화기구)에서
 
 계층 | 이름 | 설명
 -----|-------|-------------------
-7계층 |  응용 계층(Application) | 애플리케이션 서비스 제공
+7계층 | 응용 계층(Application) | 애플리케이션 서비스 제공
+6계층 | 표현 계층(Presentation) | 문자코드, 압축, 암호화
+5계층 | 세션 계층(Session) | 통신 방식 결정
+4계층 | 전송 계층(Transport) | 신뢰성 있는 통신 구현
+3계층 | 네트워크 계층(Network) | 다른 네트워크와 통신하기 위한 IP주소 결정
+2계층 | 데이터링크 계층(Data Link) | 물리주소 결정
+1계층 | 물리 계층(Physical Layer) 물리적인 연결과 전기 신호 변환
+
+
 
 
 참고도서: 모두의 네트워크, 길벗, 2018
