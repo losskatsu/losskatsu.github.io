@@ -1,5 +1,5 @@
 ---
-title: "네트워크 기초(1) - OSI 7계층, 물리 계층" 
+title: "네트워크 기초(1) - OSI 7계층이란?" 
 categories:
   - os-kernel
 tags:
@@ -13,7 +13,7 @@ sidebar:
   nav: sidebar-contents
 ---
 
-# 네트워크 기초(1) - OSI 7계층, 물리 계층
+# 네트워크 기초(1) - OSI 7계층이란?
 
 
 
@@ -65,3 +65,4 @@ ISO(International Organization for Standardization, 국제표준화기구)에서
 
 <center><img src="/assets/images/os/network-basic/network03.jpg" width="800"></center>
 
+다음 포스팅부터는 OSI 7계층의 각각의 계층에 대해 알아보도록 하겠습니다. 
