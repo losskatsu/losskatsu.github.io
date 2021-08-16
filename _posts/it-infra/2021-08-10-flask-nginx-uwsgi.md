@@ -262,3 +262,95 @@ Nice to meet you!
 ```
 
 위와 같은 출력창이 보이면 성공입니다.
+
+
+## 7. 만약 502 BAD GATEWAY 에러가 난다면?
+
+에러가 날 수도 있습니다. 예를 들어 위 과정을 모두 수행했는데 에러가 날 수도 있습니다. 
+그럴때는 다음과 같이 합니다.  
+
+가장 먼저 확인해야할 것은 에러 메시지 입니다. 다음과 같이 확인합시다. 
+우선 uwsgi.log 파일을 확인해야합니다. 해당 파일이 있는 곳으로 이동하고 다음과 같이 입력합니다. 
+
+```bash
+$ tail -n 40 uwsgi.log
+!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!
+no request plugin is loaded, you will not be able to manage requests.
+you may need to install the package for your language of choice, or simply load it with --plugin.
+!!!!!!!!!!! END OF WARNING !!!!!!!!!!
+spawned uWSGI worker 1 (and the only) (pid: 51023, cores: 1)
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+*** Starting uWSGI 2.0.18-debian (64bit) on [Mon Aug 16 05:20:06 2021] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-80-generic #90-Ubuntu SMP Fri Jul 9 22:49:44 UTC 2021
+nodename: poc-dlinfo-gpu01
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 16
+current working directory: /home/dlinfo/work/living_paradise/predict_product_demand
+detected binary path: /usr/bin/uwsgi-core
+your processes number limit is 514723
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/dlinfo/work/living_paradise/predict_product_demand/main.sock fd 3
+your server socket listen backlog is limited to 2000 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 187664 bytes (183 KB) for 3 cores
+*** Operational MODE: threaded ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!
+no request plugin is loaded, you will not be able to manage requests.
+you may need to install the package for your language of choice, or simply load it with --plugin.
+!!!!!!!!!!! END OF WARNING !!!!!!!!!!
+spawned uWSGI master process (pid: 71869)
+spawned uWSGI worker 1 (pid: 71872, cores: 3)
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+```
+
+이런 에러가 난다면 우선 uwsgi-plugin-python3를 설치해야합니다. 
+
+```bash
+$ sudo apt-get install uwsgi-plugin-python3
+```
+
+위와 같이 설치했다면 이번에는 test.ini 파일을 고쳐줍니다. 
+
+```
+[uwsgi]
+
+module = hello
+callable = app
+
+socket = /home/user/work/test/test.sock
+chmod-socket = 666
+vacuum = true
+
+daemonize = /home/user/work/test/uwsgi.log
+
+die-on-term = true
+venv = /home/user/.pyenv/versions/3.8.5/envs/py3_8_5
+
+plugins = python3
+```
+
+위에서 설치했으니까 ini파일에서 가장 마지막줄에 'plugins = python3'를 추가하는 것입니다.
+
+```bash
+$ uwsgi --ini test.ini
+[uWSGI] getting INI configuration from test.ini
+```
+
+```bash
+$ sudo service nginx restart
+```
+
+그리고 다시 시작해줍니다. 
