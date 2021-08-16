@@ -32,8 +32,9 @@ ISO(International Organization for Standardization, 국제표준화기구)에서
 4계층 | 전송 계층(Transport) | 신뢰성 있는 통신 구현
 3계층 | 네트워크 계층(Network) | 다른 네트워크와 통신하기 위한 IP주소 결정
 2계층 | 데이터링크 계층(Data Link) | 물리주소 결정
-1계층 | 물리 계층(Physical Layer) 물리적인 연결과 전기 신호 변환
+1계층 | 물리 계층(Physical Layer) | 물리적인 연결과 전기 신호 변환
 
+위 표가 바로 그 유명한 OSI 7 계층 입니다. 
 
 
 
