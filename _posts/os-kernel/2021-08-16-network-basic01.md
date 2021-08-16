@@ -39,7 +39,7 @@ ISO(International Organization for Standardization, 국제표준화기구)에서
 데이터를 보내는 쪽(송신)과 받는 쪽(수신)이 있을 때 
 데이터를 주고 받는 통신 과정은 다음 그림과 같습니다. 
 
-<그림 1> 삽입
+<center><img src="/assets/images/os/network-basic/network01.jpg" width="800"></center>
 
 데이터를 송신하는 쪽에서는 7계층 부터 시작합니다. 
 왜냐면 데이터를 보낸다는 것은 무엇인가 애플리케이션이 특정 데이터를 다른 컴퓨터로 보내고 싶어하는 것이기 때문입니다. 
@@ -48,5 +48,20 @@ ISO(International Organization for Standardization, 국제표준화기구)에서
 이러한 과정이 1계층부터 7계층까지 가는 과정인 것입니다. 
 
 
+## 2. TCP/IP 모델 4계층
 
+앞서 배운 OSI 7계층을 4계층 버전으로 바꾼것이 TCP/IP 모델 입니다. 
+
+<center><img src="/assets/images/os/network-basic/network02.jpg" width="800"></center>
+
+
+## 3. 캡슐화 
+
+데이터를 송신할 때 송신하는 쪽에서는 처음에 보내는 7계층의 데이터로 시작해서 6계층, 5계층으로 내려갈수록 
+각 계층에 필요한 헤더(header)를 붙입니다. 이러한 과정을 캡슐화라고 부르고 1계층까지 내려간 후 
+수신하는 쪽에 헤더(header)를 붙인 데이터를 보내면 
+수신하는 쪽에서는 1계층부터 순차적으로 헤더(header)를 제거합니다. 그리고 마지막 7계층 까지가면 원래 수신하고자 하는 데이터만 남는 거죠. 
+이를 그림으로 나타내면 다음과 같습니다. 
+
+<center><img src="/assets/images/os/network-basic/network03.jpg" width="800"></center>
 
