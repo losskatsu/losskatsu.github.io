@@ -16,6 +16,10 @@ sidebar:
 # 네트워크 기초(1) - OSI 7계층이란?
 
 
+**참고 링크**
+
+* [네트워크 기초(1) - OSI 7계층이란?](https://losskatsu.github.io/os-kernel/network-basic01/)
+* [네트워크 기초(2) - 1계층: 물리계층](https://losskatsu.github.io/os-kernel/network-basic02/)
 
 ## 1. OSI 7계층이란
 
