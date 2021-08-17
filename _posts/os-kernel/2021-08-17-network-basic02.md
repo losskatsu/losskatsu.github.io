@@ -32,7 +32,7 @@ sidebar:
 그리고 상대 컴퓨터는 전기 신호를 받고 다시 0과 1로 변환하는 과정을 거칩니다. 
 
 
-<그림>
+<center><img src="/assets/images/os/network-basic/network04.jpg" width="800"></center>
 
 ## 3. 랜(LAN) 카드
 
@@ -44,9 +44,12 @@ sidebar:
 
 
 
-<리피터 그림>
+<center><img src="/assets/images/os/network-basic/network05.jpg" width="800"></center>
 
 ## 5. 허브(hub)
 
 
-<허브 그림>
+<center><img src="/assets/images/os/network-basic/network06.jpg" width="800"></center>
+
+<center><img src="/assets/images/os/network-basic/network07.jpg" width="800"></center>
+
