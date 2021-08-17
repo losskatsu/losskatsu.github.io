@@ -23,6 +23,9 @@ sidebar:
 물리 계층은 시스템끼리 물리적인 연결을 하며 전기 신호를 변환, 제어 합니다. 
 물리 계층은 전송하고자 하는 데이터를 전기 신호로 바꾸어 상대 컴퓨터에게 전송하는 일을 합니다.
 
+<center><img src="/assets/images/os/network-basic/network02.jpg" width="800"></center>
+
+
 
 ## 2. 전기 신호
 
