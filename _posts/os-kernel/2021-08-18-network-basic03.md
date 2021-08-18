@@ -19,7 +19,7 @@ sidebar:
 
 * [네트워크 기초(1) - OSI 7계층이란?](https://losskatsu.github.io/os-kernel/network-basic01/)
 * [네트워크 기초(2) - 1계층: 물리계층](https://losskatsu.github.io/os-kernel/network-basic02/)
-
+* [네트워크 기초(3) - 2계층: 데이터 링크 계층](https://losskatsu.github.io/os-kernel/network-basic03/)
 
 ## 1. 이더넷(Ethernet)
 
@@ -39,3 +39,19 @@ sidebar:
 그런데 보낼 때 보내더라도 목적지 이외의 컴퓨터는 데이터를 받아도 무시합니다. 
 위 그림으로 예를 들면 컴퓨터 1이 컴퓨터 4에게 데이터를 보내면, 
 컴퓨터 4는 데이터를 확인하지만 컴퓨터 2, 컴퓨터 3은 데이터를 받아도 무시합니다. 
+
+
+## 2. CSMA/CD
+
+
+## 3. MAC 주소
+
+
+
+## 4. 스위치
+
+
+
+## 5. ARP(Address Resolution Protocol)
+
+
