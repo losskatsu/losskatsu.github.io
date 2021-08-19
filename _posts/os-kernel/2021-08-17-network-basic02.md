@@ -15,7 +15,6 @@ sidebar:
 
 # 네트워크 기초(2) - OSI 7계층 - 1계층: 물리 계층
 
-
 **참고 링크**
 
 * [네트워크 기초(1) - OSI 7계층이란?](https://losskatsu.github.io/os-kernel/network-basic01/)
