@@ -40,6 +40,8 @@ sidebar:
 하나의 스위치에 연결되어 있는 컴퓨터들의 모음을 하나의 '네트워크'라고 표현하겠습니다. 
 그렇다면 서로다른 네트워크에 있는 컴퓨터들은 서로 어떻게 데이터를 주고받을 수 있을까요? 
 
+<center><img src="/assets/images/os/network-basic/network16.jpg" width="800"></center>
+
 이때 등장하는 것이 네트워크 계층입니다. 네트워크 계층은 서로 다른 네트워크 간의 통신을 가능하게 해줍니다. 
 즉, 서로다른 네트워크에 속한 컴퓨터들끼리 데이터를 주고 받을 수 있다는 뜻입니다. 
 
@@ -58,6 +60,8 @@ sidebar:
 그리고 네트워크 계층에서는 캡슐화할 때 IP 헤더를 붙입니다. 
 IP헤더에는 버전, 헤더 길이, 서비스 유형, 전체 패킷 길이, ID, flags, fragment offset, TTL, 
 프로토콜, 헤더체크섬, 출발지 IP, 목적지 IP 순서로 헤더가 구성되어 있습니다. 
+
+<center><img src="/assets/images/os/network-basic/network17.jpg" width="800"></center>
 
 이렇게 보내려고 하는 데이터에 IP 헤더를 포함한 것을 IP 패킷이라고 합니다. 
 (참고로 데이터링크에서는 프레임이라고 불렀습니다.)
@@ -105,6 +109,9 @@ D 클래스 | 멀티캐스트 주소
 E 클래스 | 연구 및 특수용도 주소 
 
 지금부터 위 클래스에 대해 알아보겠습니다. 
+
+<center><img src="/assets/images/os/network-basic/network18.jpg" width="800"></center>
+
 
 ### 3.1. A 클래스
 
@@ -157,6 +164,9 @@ IP 주소 중에는 네트워크 주소와 브로드캐스트 주소라는 특�
 이 네트워크 주소와 브로트캐스트 주소는 어디에 사용하는 것일까요? 
 네트워크 주소는 이름 그대로 해당 네트워크를 대표하는 주소라고 생각하면 됩니다. 
 
+<center><img src="/assets/images/os/network-basic/network19.jpg" width="800"></center>
+
+
 그리고 브로트캐스트 주소는 해당 네트워크에 있는 컴퓨터 모두에게 데이터를 전송할때 사용되는 IP주소입니다. 
 
 
@@ -169,6 +179,8 @@ A클래스에는 1677만 7214개의 컴퓨터가 있다고 했습니다. 한번�
 
 이럴때 서브넷(subnet)이라는 개념이 등장합니다. A클래스와 같은 대규모 네트워크를 작은 네트워크로 분할하는 것을 서브넷팅이라고 하고 
 분할된 각각의 네트워크를 서브넷(subnet)이라고 합니다. 
+
+<center><img src="/assets/images/os/network-basic/network20.jpg" width="800"></center>
 
 
 따라서 서브넷을 사용할 경우 기존 네트워크 ID, 호스트 ID로 구성되었던 IP 주소가  네트워크 ID, 서브넷 ID, 호스트 ID로 
@@ -190,12 +202,21 @@ C 클래스 | 255.255.255.0 | /24
 이번에는 네트워크 계층의 핵심 장비인 라우터(router)에 대해 알아봅니다. 
 라우터는 서로다른 네트워크끼리 통신할때 필요하다고 했습니다. 
 
+<center><img src="/assets/images/os/network-basic/network21.jpg" width="800"></center>
+
+
 동일한 스위치에 연결되어 있는 컴퓨터들은 동일한 네트워크에 속합니다. 
 그리고 라우터는 서로다른 네트워크를 연결해줍니다. 
 즉, 그림에서 라우터는 두 개의 네트워크를 연결하고 있는 것입니다. 
 
+<center><img src="/assets/images/os/network-basic/network22.jpg" width="800"></center>
+
+
 반대로 위 그림처럼 두개의 스위치에 연결되어 있는 각각의 네트워크를 
 스위치로 연결하면 이는 2개의 네트워크가 아닌 1개의 네트워크 입니다. 
+
+<center><img src="/assets/images/os/network-basic/network23.jpg" width="800"></center>
+
 
 라우터를 사용하면 서로 다른 네트워크간 통신이 가능하다고 했습니다. 
 예를 들어 보겠습니다. 
