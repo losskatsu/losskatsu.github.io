@@ -32,6 +32,10 @@ sidebar:
 
 지금까지 배운것을 잠시 복습해보면 다른 컴퓨터에 데이터를 전송하기 위해 
 1계층에서는 허브, 2계층에서는 스위치, 3계층에서는 라우터가 필요했습니다. 
+
+<center><img src="/assets/images/os/network-basic/network24.jpg" width="800"></center>
+
+
 그런데 이렇게 데이터를 보내는것 까진 좋은데 데이터가 잘 전송되었는지, 
 아니면 중간에 사고가 발생해 데이터 전송에 문제가 생겼는지는 알아야하지 않을까요? 
 지금까지 배웠던 1,2,3계층만을 이용하면 이 문제를 해결할 수 없습니다. 
@@ -71,6 +75,8 @@ TCP로 전송할때랑 UDP로 전송할 때랑 서로 다른 헤더를 붙입니
 TCP로 전송할때 붙이는 헤더를 TCP헤더라고 하고 TCP 헤더와 데이터를 합친 것을 세그먼트(segment)라고 부릅니다. 
 2계층에서 이더넷헤더+데이터를 프레임이라 부르고, 3계층에서 IP헤더+데이터를 패킷이라고 불렀던 것을 참고해주세요. 
 
+<center><img src="/assets/images/os/network-basic/network25.jpg" width="800"></center>
+
 
 TCP는 데이터를 전송할 때 상대방의 반응을 계속확인한다고 했습니다. 
 이게 가능하려면 상대방과 연결이 되어 있어야 되는데요. 
@@ -79,16 +85,28 @@ TCP는 데이터를 전송할 때 상대방의 반응을 계속확인한다고 �
 
 이를 위해 TCP헤더를 보면 코드 비트 부분에 연결 제어 정보가 기록됩니다. 
 
+<center><img src="/assets/images/os/network-basic/network26.jpg" width="800"></center>
+
+
 코드비트는 6비트로 구성되는데 상대방과 연결을 확보하려면 SYN과 ACK가 필요합니다. 
 SYN은 연결 요청, ACK는 확인 응답을 의미합니다. 이 둘을 이용해 데이터를 전송하기 전에 
 연결을 하기 위해 먼저 
 패킷을 전송하는데 다음과 같이 진행합니다. 
 
+<center><img src="/assets/images/os/network-basic/network27.jpg" width="800"></center>
+
+
 위와 같이 데이터 전송전 패킷을 3번 주고 받는 것을 3-way handshake라고 합니다. 
 이는 연결을 끊을때도 진행합니다. 
 
+<center><img src="/assets/images/os/network-basic/network28.jpg" width="800"></center>
+
+
 연결을 했다면 이제 본격적으로 데이터를 보내는데 TCP 헤더의 
 일련번호와 확인 응답 번호를 보면 몇번째 데이터를 주고 받았는지 확인할 수 있습니다.
+
+<center><img src="/assets/images/os/network-basic/network29.jpg" width="800"></center>
+
 
 그런데 잘 생각해보면 세그먼트 하나를 보낼때 마다 계속 확인을 하면 비효율적일 수 있습니다. 
 데이터를 보내는데 드는 수고보다 확인하는데 쓰는 수고가 더 크다고 할까요. 
@@ -130,9 +148,14 @@ HTTPS | 443
 앞서 말했듯, UDP는 데이터가 조금 손실, 유실되도 상관없는 동영상, 이미지를 전송할 때 사용됩니다. 
 그리고 동일한 랜에 속하는(동일한 스위치에 연결되어 있는) 컴퓨터 모두에게 데이터를 보내는 브로드캐스팅을 할때도 UDP가 사용됩니다. 
 
+<center><img src="/assets/images/os/network-basic/network30.jpg" width="800"></center>
+
 
 앞서 TCP 헤더와 데이터를 합친것을 세그먼트라고 했습니다. 
 이와 비슷하게 UDP 헤더와 데이터를 합친 것을 UDP 데이터그램이라고 부릅니다. 
-
 복잡했던 TCP헤더와는 달리 UDP헤더는 간결합니다. 
- 
+
+<center><img src="/assets/images/os/network-basic/network30.jpg" width="800"></center>
+
+그리고 상대방과 계속 패킷을 주고받던 TCP와는 달리 UDP는 상대방에게 알방적으로 데이터를 전송하는 것을 볼 수 있습니다. 
+
