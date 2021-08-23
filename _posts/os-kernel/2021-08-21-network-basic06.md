@@ -67,4 +67,4 @@ url은 웹사이트 주소를 지정하기 위해 사용합니다.
 
 ## 4. DNS 
 
-DNS 서버에 대한 내용은 링크를 참고해주세요.
+DNS 서버에 대한 내용은 [링크](https://losskatsu.github.io/os-kernel/etc-host-dns/)를 참고해주세요.
