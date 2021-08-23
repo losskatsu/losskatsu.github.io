@@ -23,6 +23,7 @@ sidebar:
 * [네트워크 기초(4) - 3계층: 네트워크 계층](https://losskatsu.github.io/os-kernel/network-basic04/)
 * [네트워크 기초(5) - 4계층: 전송 계층](https://losskatsu.github.io/os-kernel/network-basic05/)
 * [네트워크 기초(6) - 5,6,7계층: 응용 계층](https://losskatsu.github.io/os-kernel/network-basic06/)
+* [DNS 서버란?](https://losskatsu.github.io/os-kernel/etc-host-dns/)
 
 
 ## 1. 이더넷(Ethernet)
