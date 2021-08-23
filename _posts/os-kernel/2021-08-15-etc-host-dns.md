@@ -15,6 +15,18 @@ sidebar:
 
 # DNS서버란? /etc/hosts 파일이란?
 
+**참고 링크**
+
+* [네트워크 기초(1) - OSI 7계층이란?](https://losskatsu.github.io/os-kernel/network-basic01/)
+* [네트워크 기초(2) - 1계층: 물리계층](https://losskatsu.github.io/os-kernel/network-basic02/)
+* [네트워크 기초(3) - 2계층: 데이터 링크 계층](https://losskatsu.github.io/os-kernel/network-basic03/)
+* [네트워크 기초(4) - 3계층: 네트워크 계층](https://losskatsu.github.io/os-kernel/network-basic04/)
+* [네트워크 기초(5) - 4계층: 전송 계층](https://losskatsu.github.io/os-kernel/network-basic05/)
+* [네트워크 기초(6) - 5,6,7계층: 응용 계층](https://losskatsu.github.io/os-kernel/network-basic06/)
+* [DNS 서버란?](https://losskatsu.github.io/os-kernel/etc-host-dns/)
+
+
+
 이번 포스팅에서는 DNS 서버에 대해 알아보고 이와 연관지어 리눅스에서 /etc/hosts 파일에 대해 알아보겠습니다. 
 
 ## 1. DNS?
