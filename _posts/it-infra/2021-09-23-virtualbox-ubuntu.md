@@ -34,6 +34,10 @@ sidebar:
 
 위 사진에서 다운로드를 클릭하면 우분투 이미지를 다운받을 수 있습니다.
 
+
+## 2. 설정
+
+
 <center><img src="/assets/images/infra/virtualbox-ubuntu/vb02.png" width="800"></center>
 
 이미지를 다운로드 받았다면 버추어박스를 실행시킨후 "새로만들기"를 클릭하고, 
@@ -92,6 +96,9 @@ sidebar:
 
 그러면 다시 메인화면으로 돌아가는데 저장소에 우분투 이미지가 들어있는 것을 볼 수 있으므로 
 시작을 눌러줍니다. 
+
+## 3. 우분투 설치
+
 
 <center><img src="/assets/images/infra/virtualbox-ubuntu/vb15.png" width="800"></center>
 
