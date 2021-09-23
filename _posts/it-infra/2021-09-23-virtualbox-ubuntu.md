@@ -1,5 +1,5 @@
 ---
-title: "[Infra] 버추어박스(virtualbox)에 우분투 설치하기" 
+title: "[Infra] 버추얼박스(virtualbox)에 우분투 설치하기" 
 categories:
   - it-infra
 tags:
@@ -13,7 +13,7 @@ sidebar:
   nav: sidebar-contents
 ---
 
-# 버추어박스(virtualbox)에 우분투 설치하기
+# 버추얼박스(virtualbox)에 우분투 설치하기
 
 **참고 링크**
 
@@ -23,7 +23,7 @@ sidebar:
 
 ## 1. 우분투 다운로드
 
-버추어박스에 우분투를 설치하기 위해 먼저 우분투를 다운로드 하겠습니다. 
+버추얼박스에 우분투를 설치하기 위해 먼저 우분투를 다운로드 하겠습니다. 
 다음 사이트에서 우분투를 다운로드합니다.  
 
 [https://ubuntu.com/download/desktop](https://ubuntu.com/download/desktop)  
