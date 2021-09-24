@@ -83,6 +83,7 @@ $ ifconfig
 
 우측 상단 화살표가 나오는데 우리가 ip를 할당할 이더넷의 유선 네트워크 설정을 클릭해줍니다. 
 
+
 <center><img src="/assets/images/infra/virtualbox-ubuntu-ip/ip08.png" width="800"></center>
 
 그러면 위와 같은 화면이 나오는데 톱니바퀴 버튼 클릭해줍시다. 
