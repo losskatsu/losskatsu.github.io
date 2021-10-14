@@ -117,7 +117,7 @@ title: "About"
 ### 외부 활동
 
 * 개발자 신춘문예 2019 만화부문 장려상, 한빛미디어, May 2019, Korea 
-* 교내 밴드 동아리 활동, Mar 2005 ~ Feb 2011
+* 교내 밴드 동아리 활동, 고장난잠수함, Mar 2005 ~ Feb 2011
 
 ### 연구 경력
 * High Dimensional and Higher Order Statistics Research Group  
