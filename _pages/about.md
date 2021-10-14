@@ -16,12 +16,8 @@ title: "About"
 
 ### 저서 
 
-* 선형대수와 통계학으로 배우는 머신러닝, 비제이퍼블릭, 2021.01.26   
-      * [yes24](http://www.yes24.com/Product/Goods/97032765?OzSrank=1)   
-      * [교보문고](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791165920395&orderClick=LAG&Kc=)   
-      * [알라딘](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=262038358)   
-      * [리디북스](https://ridibooks.com/books/3780000100?_s=search&_q=%EC%9E%A5%EC%B2%A0%EC%9B%90)  
-      * [2021 교보문고 상반기 베스트 셀러](https://www.notion.so/2021-IT-1f79e6783cca4b3aa20a1c53fc0b0368)  
+* [선형대수와 통계학으로 배우는 머신러닝](http://www.yes24.com/Product/Goods/97032765?OzSrank=1), 비제이퍼블릭, 2021.01.26   
+      * [2021 교보문고 상반기 베스트 셀러 선정](https://www.notion.so/2021-IT-1f79e6783cca4b3aa20a1c53fc0b0368)  
 
 
 ### 코스 강의
@@ -102,7 +98,7 @@ title: "About"
 
 ### 수상
 
-* 2021 교보문고 상반기 베스트 셀러(선형대수와 통계학으로 배우는 머신러닝, 비제이퍼블릭, 2021.01.26 
+* 2021 교보문고 상반기 베스트 셀러(선형대수와 통계학으로 배우는 머신러닝), 비제이퍼블릭, 2021.01.26 
 
 ### 컨퍼런스
 * 머신러닝을 이용한 배틀그라운드 핵 사용 의심 유저 추출, 
