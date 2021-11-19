@@ -38,11 +38,6 @@ title: "About"
 * 진로 탐색의 날 강연, 한민고등학교, 2019.04, 2019.09
 
 
-### 베타 리딩
-
-* 임베디드 엔지니어 교과서, 와타나베 노보루, 2020.07
-
-
 ### 업무 경력
 
 * **프리랜서**, 2020.02 ~ Present  
@@ -127,6 +122,11 @@ title: "About"
     2016.09-2016.12
 * Geophysical Fluid Dynamics Institute  
     2016.05-2016.08
+
+### 베타 리딩
+
+* 임베디드 엔지니어 교과서, 와타나베 노보루, 2020.07
+
 
 ### Teaching Experience
 * Department of Statistics, Korea University, 
