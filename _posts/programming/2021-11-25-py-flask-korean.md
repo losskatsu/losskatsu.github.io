@@ -25,7 +25,7 @@ sidebar:
 * [Flask를 이용한 api 서버 구축(2)](https://losskatsu.github.io/programming/py-flask02/)
 
 
-# 1. 개요
+## 1. 개요
 
 flask로 API 서버를 만들었을때 한글을 받아야하는 경우가 있는데요. 
 flask는 요청 데이터를 기본적으로 아스키코드로 받기 때문에 한글을 받을 수 없습니다. 
@@ -35,7 +35,7 @@ flask는 요청 데이터를 기본적으로 아스키코드로 받기 때문에
 이것은 urllib 라이브러리를 활용하면 가능합니다. 
 
 
-# 2. (서버) Flask 한글 POST 요청 받기
+## 2. (서버) Flask 한글 POST 요청 받기
 
 플라스크로 한글을 받기 위해 다음과 같이 서버를 올립니다. 
 
@@ -72,7 +72,7 @@ if __name__ == '__main__':
 10.1.55.81 - - [25/Nov/2021 14:58:36] "POST /test HTTP/1.1" 200 -
 ```
 
-## 2. (클라이언트) 한글 보내기 
+## 3. (클라이언트) 한글 보내기 
 
 클라이언트에서는 한글을 보냅니다. 
 이때 한글 원문을 그대로 보내면 안되고 인코딩 한 후에 보냅니다. 
@@ -86,5 +86,85 @@ C:\Users> curl -d "{""review"":""%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94""
 
 한글이 잘 보내지는 것을 알 수 있습니다. 
 
-## 3. 인코딩, 디코딩 
+## 4. 인코딩, 디코딩 
 
+이번에는 인코딩과 디코딩에 대해 알아보겠습니다. 
+
+```python
+s1 = '안녕하세요'
+print(s1)
+```
+```
+안녕하세요
+```
+
+위와 같은 문자열을 인코딩해보겠습니다.
+
+```python
+from urllib import parse
+s2 = parse.quote(s1)
+print(s2)
+```
+```
+%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94
+```
+
+인코딩 함수는 quote와 quote_plus가 있습니다. 
+두 함수의 차이는 quote는 띄어쓰기를 '%20'으로 처리하는 반면 
+quote_plus는 띄어쓰기를 '+'기호로 처리합니다.  
+ 
+먼저 quote 방식을 이용해 인코딩해봅니다.
+
+```python
+s3 = '제 이름은 홍길동 입니다.'
+s4 = parse.quote(s3)
+print(s4)
+```
+```
+%EC%A0%9C%20%EC%9D%B4%EB%A6%84%EC%9D%80%20%ED%99
+%8D%EA%B8%B8%EB%8F%99%20%EC%9E%85%EB%8B%88%EB%8B%A4.
+```
+
+다음은 quote_plus 방법을 써보겠습니다.
+
+```python
+s5 = parse.quote_plus(s3)
+print(s5)
+```
+```
+%EC%A0%9C+%EC%9D%B4%EB%A6%84%EC%9D%80+%ED%99%8D
+%EA%B8%B8%EB%8F%99+%EC%9E%85%EB%8B%88%EB%8B%A4.
+```
+quote_plus를 사용하면 띄어쓰기가 '+'기호인 것을 볼 수 있습니다.
+
+```python
+parse.unquote(s4)
+```
+```
+'제 이름은 홍길동 입니다.'
+```
+
+
+```python
+parse.unquote_plus(s4)
+```
+```
+'제 이름은 홍길동 입니다.'
+```
+
+
+```python
+parse.unquote(s5)
+```
+```
+'제+이름은+홍길동+입니다.'
+```
+
+
+
+```python
+parse.unquote_plus(s5)
+```
+```
+'제 이름은 홍길동 입니다.'
+```
