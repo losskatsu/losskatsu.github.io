@@ -23,7 +23,7 @@ sidebar:
 * [파이썬과 DB 연동하기](https://losskatsu.github.io/programming/py-db-conn/)
 * [Flask를 이용한 api 서버 구축(1)](https://losskatsu.github.io/programming/py-flask01/) 
 * [Flask를 이용한 api 서버 구축(2)](https://losskatsu.github.io/programming/py-flask02/)
-
+* [Flask로 한글 받기](https://losskatsu.github.io/programming/py-flask-korean/)
 
 ## 1. 개요
 
@@ -137,8 +137,16 @@ print(s5)
 ```
 quote_plus를 사용하면 띄어쓰기가 '+'기호인 것을 볼 수 있습니다.
 
+
+이번에는 디코딩을 해보겠습니다.
+인코딩과 마찬가지로 디코딩도 unquote와 unquote_plus로 나눠집니다.
+
+먼저 quote로 인코딩한 바이트 문자열을 디코딩해보겠습니다. 
+다음과 같이 quote를 이용해 인코딩했을 때는 
+unquote를 쓰던 unquote_plus를 쓰던 동일하게 디코딩되는 것을 볼 수 있습니다. 
+
 ```python
-parse.unquote(s4)
+parse.unquote(s4, 'utf8')
 ```
 ```
 '제 이름은 홍길동 입니다.'
@@ -146,25 +154,31 @@ parse.unquote(s4)
 
 
 ```python
-parse.unquote_plus(s4)
+parse.unquote_plus(s4, 'utf8')
 ```
 ```
 '제 이름은 홍길동 입니다.'
 ```
 
+다음은 quote_plus 함수를 사용해 인코딩한 문자열 s5를 디코딩해보겠습니다. 
 
 ```python
-parse.unquote(s5)
+parse.unquote(s5, 'utf8')
 ```
 ```
 '제+이름은+홍길동+입니다.'
 ```
 
+위와 같이 quote_plus함수를 사용해 인코딩한 문자열을 unquote로 디코딩하면 
+띄어쓰기가 +로 디코딩 된 것을 볼 수 있습니다. 
 
 
 ```python
-parse.unquote_plus(s5)
+parse.unquote_plus(s5, 'utf8')
 ```
 ```
 '제 이름은 홍길동 입니다.'
 ```
+
+반면 quote_plus함수를 사용해 인코딩한 문자열을 unquote_plus 디코딩하면 
+제대로 디코딩된 것을 볼 수 있습니다. 
