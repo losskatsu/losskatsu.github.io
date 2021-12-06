@@ -1,5 +1,5 @@
 ---
-title: "[Infra] 리버스 프록시(reverse proxy) 개념" 
+title: "[Infra] 리버스 프록시(reverse proxy) 서버 개념" 
 categories:
   - it-infra
 tags:
@@ -13,7 +13,7 @@ sidebar:
   nav: sidebar-contents
 ---
 
-# 리버스 프록시(reverse proxy) 개념
+# 리버스 프록시(reverse proxy) 서버 개념
 
 **참고 링크**
 
@@ -24,7 +24,7 @@ sidebar:
 * [커버로스 인증 개념](https://losskatsu.github.io/it-infra/kerberos/)
 * [아파치, 톰캣, nginx 차이](https://losskatsu.github.io/it-infra/webserver/)
 * [SSL, CRS 인증 관련 정리(대칭키, 공개키, 개인키)](https://losskatsu.github.io/it-infra/ssl-auth/)
-
+* [프록시 서버, 리버스 프록시 서버 정리](https://losskatsu.github.io/it-infra/reverse-proxy/)
 
 ## 1. 프록시(proxy) 서버란?
 
