@@ -18,6 +18,7 @@ title: "About"
 
 * [선형대수와 통계학으로 배우는 머신러닝](http://www.yes24.com/Product/Goods/97032765?OzSrank=1), 비제이퍼블릭, 2021.01.26   
       * [2021 교보문고 상반기 베스트 셀러 선정](https://www.notion.so/2021-IT-1f79e6783cca4b3aa20a1c53fc0b0368)  
+      * [2021 교보문고 올해의 책 IT 전문서 3위](http://www.kyobobook.co.kr/eventRenewal/eventViewByPid.laf?eventId=94493)
 
 
 ### 코스 강의
@@ -102,7 +103,7 @@ title: "About"
 
 ### 수상
 
-* 2021 교보문고 올해의 책 IT 전문서 3위, 2021.12.18
+* [2021 교보문고 올해의 책 IT 전문서 3위](http://www.kyobobook.co.kr/eventRenewal/eventViewByPid.laf?eventId=94493), 2021.12.18
 * 2021 교보문고 상반기 베스트 셀러(선형대수와 통계학으로 배우는 머신러닝), 비제이퍼블릭, 2021.01.26 
 
 ### 컨퍼런스
