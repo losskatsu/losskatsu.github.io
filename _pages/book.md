@@ -20,4 +20,15 @@ title: "Book"
  * [리디북스](https://ridibooks.com/books/3780000100?_s=search&_q=%EC%9E%A5%EC%B2%A0%EC%9B%90)  
 
 
+<center><img src="/assets/images/book/linear_algebra_with_python.png" width="500"></center>   
+
+
+## 알고리즘 구현으로 배우는 선형대수 with 파이썬
+### 장철원 지음, 비제이퍼블릭, 2021.12.27
+
+* [yes24](http://www.yes24.com/Product/Goods/105772247)
+* [교보문고](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791165921125&orderClick=LEa&Kc=)
+* [알라딘](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=285412337)
+* 리디북스
+
 
