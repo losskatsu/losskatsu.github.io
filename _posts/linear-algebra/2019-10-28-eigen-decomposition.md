@@ -106,3 +106,6 @@ $ A^{T} = (PDP^{T})^{T} = (P^{T})^{T}D^{T}P^{T} = PDP^{T} = A $
 
 <br/>
 
+<a href="http://www.yes24.com/Product/Goods/105772247"><img src="/assets/images/mybook/linear_algebra.PNG" width="100" align="middle"> [알고리즘 구현으로 배우는 선형대수 with 파이썬](http://www.yes24.com/Product/Goods/105772247)
+  
+<br/>
