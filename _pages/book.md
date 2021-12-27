@@ -31,6 +31,6 @@ title: "Book"
 * [yes24](http://www.yes24.com/Product/Goods/105772247)
 * [교보문고](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791165921125&orderClick=LEa&Kc=)
 * [알라딘](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=285412337)
-* 리디북스
+* [리디북스](https://ridibooks.com/books/3780000139?_s=search&_q=%EC%9E%A5%EC%B2%A0%EC%9B%90&_rdt_sid=search&_rdt_idx=0)
 
 
