@@ -25,12 +25,10 @@ sidebar:
 
 ```bash
 // 페도라(Fedora)인 경우
-$ yum install curl-devel expat-devel gettext-devel openssl-devel zlib-devel
-$ yum install git-core
+$ sudo dnf install git-all
 
-// 데비안(Debian)인 경우
-$ apt-get install libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev
-$ apt-get install git
+// 우분투 계열의 데비안(Debian)인 경우
+$ sudo apt install git-all
 ```
 
 자세한 사항은 아래 링크 참조
