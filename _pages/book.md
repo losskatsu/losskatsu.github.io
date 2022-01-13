@@ -34,7 +34,7 @@ title: "Book"
 * [리디북스](https://ridibooks.com/books/3780000139?_s=search&_q=%EC%9E%A5%EC%B2%A0%EC%9B%90&_rdt_sid=search&_rdt_idx=0)
 
 
-<center><img src="/assets/images/book/webcrawling_3d.jpg" width="300"></center>   
+<center><img src="/assets/images/book/webcrawling_3d.jpg" width="400"></center>   
 
 
 
