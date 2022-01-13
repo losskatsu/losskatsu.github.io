@@ -36,5 +36,12 @@ title: "Book"
 
 <center><img src="/assets/images/book/webcrawling_3d.jpg" width="330"></center>   
 
+## 웹 크롤링 & 데이터 분석 with 파이썬
+### 장철원 지음, 인사이트, 2022.01.24
 
+인터넷 정보를 나의 필요나 업무의 요구에 맞게 불러오고 가공하고 자동화하는 모든 것들이 다 웹 크롤링이라는 IT 기술을 기반으로 한다. 이 책은 웹 크롤링 기술에 대한 안내서이자 입문서다. 그동안 파이썬이라는 언어와 크롤링의 난해한 코드로 고개를 떨구던 독자에게, 크롤링 기술은 누구나 쉽게 배울 수 있다는 것을 알려주는 책이다.
+
+* [yes24](http://www.yes24.com/Product/Goods/106175772)
+* [교보문고](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788966263394&orderClick=LEa&Kc=)
+* [알라딘](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=286684632)
 
