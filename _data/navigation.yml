@@ -34,7 +34,7 @@ sidebar-contents:
         url: "/categories/#reinforcement-learning"
       - title: "논문"
         url: "/categories/#paper-translation"
-  - title: "통계학"
+  - title: "자연과학"
     children:
       - title: "선형대수"
         url: "/categories/#linear-algebra"
@@ -42,6 +42,8 @@ sidebar-contents:
         url: "/categories/#statistics"
       - title: "수학"
         url: "/categories/#mathematics"
+      - title: "물리학"
+        url: "categories/#physics"
   - title: "IT"
     children:
       - title: "OS 커널"
