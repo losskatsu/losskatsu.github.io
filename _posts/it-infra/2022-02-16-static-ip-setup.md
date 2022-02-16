@@ -174,6 +174,32 @@ $ sudo ufw allow ssh
 $ sudo ufw status
 ```
 
+
+### 4-5. 특정 ip 접속 허용
+
+```bash
+# vi /etc/hosts.allow
+
+# /etc/hosts.allow: list of hosts that are allowed to access the system.
+#                   See the manual pages hosts_access(5) and hosts_options(5).
+#
+# Example:    ALL: LOCAL @some_netgroup
+#             ALL: .foobar.edu EXCEPT terminalserver.foobar.edu
+#
+# If you're going to protect the portmapper use the name "rpcbind" for the
+# daemon name. See rpcbind(8) and rpc.mountd(8) for further information.
+#
+
+sshd: 211.57.136.82
+```
+
+허용을 했으면 재시작을 해줍니다
+
+```bash
+# systemctl restart sshd
+```
+
+
 ### 부록: ssh 비활성화
 
 ```bash
