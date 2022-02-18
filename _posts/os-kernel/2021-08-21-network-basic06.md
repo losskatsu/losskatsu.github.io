@@ -24,6 +24,10 @@ sidebar:
 * [네트워크 기초(5) - 4계층: 전송 계층](https://losskatsu.github.io/os-kernel/network-basic05/)
 * [네트워크 기초(6) - 5,6,7계층: 응용 계층](https://losskatsu.github.io/os-kernel/network-basic06/)
 * [DNS 서버란?](https://losskatsu.github.io/os-kernel/etc-host-dns/)
+* [DHCP 서버란?](https://losskatsu.github.io/os-kernel/dhcp/)
+* [ifconfig 출력 결과 해석](https://losskatsu.github.io/os-kernel/ifconfig/)
+* [네트워크 소켓 프로그래밍](https://losskatsu.github.io/os-kernel/network-socket/)
+
 
 
 ## 1. 애플리케이션
