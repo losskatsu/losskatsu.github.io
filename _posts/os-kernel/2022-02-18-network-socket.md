@@ -29,7 +29,7 @@ sidebar:
 * [네트워크 소켓 프로그래밍](https://losskatsu.github.io/os-kernel/network-socket/)
 
 
-## 간단한 원리
+## 1. 간단한 설명
 
 이 포스팅은 윤성우 저 열혈 TCP/IP 소켓 프로그래밍 도서를 참고했습니다. 
 
@@ -54,4 +54,26 @@ bind | IP, Port 번호 할당 | 전화 번호 부여
 listen | 연결 요청 가능 상태로 변경 | 전화 케이블 연결
 accept | 연결 요청 수락| 오는 전화 받음
 connect | 연결 요청 | 상대방에게 전화거는 행위
+
+## 2. 프로그래밍 순서
+
+연결 요청을 수락하는 기능의 프로그램을 서버(server)라고 합니다. 
+서버 프로그램을 작성할 때는 앞서 배운 socket, bind, listen, accept 함수를 순서대로 사용합니다. 
+
+```c
+#include <sys/socket.h>
+int socket(int domain, int type, int protocol);
+int bind(int sockfd, struct sockaddr *myaddr, socklen_t addrlen);
+int listen(int sockfd, int backlog);
+int accept(int sockfd, struct sockaddr *addr, socklen_t *addrlen);
+```
+
+참고로 클라이언트에서 서버로 연결 요청하는 함수인 connect 함수는 다음과 같습니다.
+
+```c
+int connect(int sockfd, struct sockaddr *serv_addr, socklen_t addrlen);
+```
+
+
+## 3. 소켓과 리눅스 파일
 
