@@ -112,18 +112,18 @@ author:
   location         : "Seoul, South Korea"
   email            : 
   links:
-    - label: "이메일"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:stoicheolwon@gmail.com
+#     - label: "이메일"
+#       icon: "fas fa-fw fa-envelope-square"
+#       url: mailto:stoicheolwon@gmail.com
     - label: "유튜브"
       icon: "fas fa-fw fa-youtube-play"
       url: "https://www.youtube.com/channel/UCHGdug7d72yrZq1cRORahXA"
     - label: "네이버카페"
       icon: "fab fa-fw fa-envira"
       url: "https://cafe.naver.com/aifromstat"      
-    - label: "웹사이트"
-      icon: "fas fa-fw fa-link"
-      url: "https://losskatsu.github.io"
+#     - label: "웹사이트"
+#       icon: "fas fa-fw fa-link"
+#       url: "https://losskatsu.github.io"
     - label: "페이스북"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://www.facebook.com/cheolwon.jang.87"
