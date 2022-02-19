@@ -116,7 +116,7 @@ author:
 #       icon: "fas fa-fw fa-envelope-square"
 #       url: mailto:stoicheolwon@gmail.com
     - label: "유튜브"
-      icon: "fas fa-fw fa-youtube-play"
+      icon: "fab fa-fw fa-youtube-play"
       url: "https://www.youtube.com/channel/UCHGdug7d72yrZq1cRORahXA"
     - label: "네이버카페"
       icon: "fab fa-fw fa-envira"
