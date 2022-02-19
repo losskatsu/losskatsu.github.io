@@ -27,6 +27,10 @@ df = pd.read_csv("./data/stella/star_classification_origin.csv")
 df
 ```
 
+<center><img src="/assets/images/programming/dataanal/pandas-change-value/01.png" width="800"></center>
+
+
+
 ## 해당 컬럼에서 유니크 값 확인
 
 ```py
@@ -36,6 +40,8 @@ df['class'].unique()
 array(['GALAXY', 'QSO', 'STAR'], dtype=object)
 ```
 
+위 데이터에서 class 변수에 있는 값은 총 세가지로 문자열 데이터 입니다.
+문자형 데이터인 위 값을 숫자로 바꾸겠습니다.
 
 ## 해당 컬럼에서 조건에 맞는 값 바꾸기
 
@@ -45,6 +51,7 @@ df.loc[(df['class']=='QSO'), 'class']=1
 df.loc[(df['class']=='STAR'), 'class']=2
 df
 ```
+<center><img src="/assets/images/programming/dataanal/pandas-change-value/02.png" width="800"></center>
 
 ## 바뀐 값 확인
 
