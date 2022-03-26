@@ -18,6 +18,8 @@ sidebar:
 **참고링크** 
 
 * [판다스 iloc, loc 차이](https://losskatsu.github.io/programming/py-pandas-iloc/)
+* [판다스에서 특정 컬럼에 속하는 값 원하는 값으로 바꾸기](https://losskatsu.github.io/programming/py-pandas-chage-value/)
+* [판다스 데이터 parquet 파일을 DB로 넣기](https://losskatsu.github.io/it-infra/pandas-db/#)
 
 ## 판다스에서 데이터 불러오기
 
