@@ -238,7 +238,7 @@ list는 파이썬 자료형이라서 변수명으로 사용할수 없는데,
 ```__ilshift__(self, other)``` | ```a<<=b```
 ```__irshift__(self, other)``` | ```a>>=b```
 ```__iand__(self, other)``` | ```a&=b```
-```__ior__(self, other)``` | ```a|=b```
+```__ior__(self, other)``` | ```a\|=b```
 ```__ixor__(self, other)``` | ```a^=b```
 
 
@@ -265,10 +265,26 @@ list는 파이썬 자료형이라서 변수명으로 사용할수 없는데,
 ```__sizeof__(self)``` |  ```sys.getsizeof()``` 메소드
 
 
+속성 매직 메소드 | 의미
+-----------------|------
+```__getattr__(self, name)``` |  클래스에 존재하지 않는 속성에 접근할 때
+```__setattr__(self, name, value)``` |  클래스의 속성에 값을 할당할 때
+```__delattr__(self, name)``` |  클래스의 속성을 삭제할때
 
 
-
-
-
+연산자 매직 메소드 | 의미
+-------------------|----
+```__add__(self, other)``` |  ```+``` 연산자
+```__sub__(self, other)``` |  ```-``` 연산자
+```__mul__(self, other)``` |  ```*``` 연산자
+```__floordiv__(self, other)``` |  ```//``` 연산자
+```__truediv__(self, other)``` |  ```/``` 연산자
+```__mod__(self, other)``` |  ```%``` 연산자
+```__pow__(self, other)``` |  ```**``` 연산자
+```__lt__(self, other)``` |  ```<``` 연산자
+```__le__(self, other)``` |  ```<=``` 연산자
+```__eq__(self, other)``` |  ```==``` 연산자
+```__ne__(self, other)``` |  ```!=``` 연산자
+```__ge__(self, other)``` |  ```>=``` 연산자
 
 [참고: 매직 메소드](https://www.tutorialsteacher.com/python/magic-methods-in-python)
