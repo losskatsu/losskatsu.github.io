@@ -160,9 +160,6 @@ def _hello():
 >>> hi()
 hi
 >>> _hello()
-NameError                                 Traceback (most recent call last)
-<ipython-input-3-62720c717c63> in <module>
-----> 1 _hello()
 NameError: name '_hello' is not defined
 ```
 
@@ -202,6 +199,111 @@ list는 파이썬 자료형이라서 변수명으로 사용할수 없는데,
 뒤에 언더바를 붙여주면 위와 같이 사용할 수 있습니다.
 
 ## 7. 앞 언더바 2개, 네임 맹글링(name mangling)
+
+### 7.1. 외부에서 클래스 속성값에 접근하지 못하도록 할때
+
+먼저 네임 맹글링은 외부에서 클래스 속성값에 접근하지 못하도록 할때 사용됩니다. 
+다음과 같이 일반적인 클래스를 생성해보겠습니다.
+
+```python
+class Resume:
+    def __init__(self):
+        self.name = "홍길동"
+        self.age = "25"
+        self.hobby = "독서"
+```
+
+```python
+>> human = Resume()
+>> print(human.name)
+홍길동
+>> print(human.age)
+25
+>> print(human.hobby)
+독서
+```
+
+위와 같이 ```Resume```라는 클래스를 만들고 각 속성값에 접근할 수 있는 것을 볼 수 있습니다.
+그런데 만댝 다음과 같이 ```hobby```라는 속성값 앞에 언더바 2개를 붙여보겠습니다. 
+
+```python
+class Resume:
+    def __init__(self):
+        self.name = "홍길동"
+        self.age = "25"
+        self.__hobby = "독서"
+```
+```python
+>> human = Resume()
+>> print(human.name)
+홍길동
+>> print(human.age)
+25
+>> print(human.__hobby)
+AttributeError: 'Resume' object has no attribute '__hobby'
+```
+
+위와 같이 속성값 앞에 언더바를 두개 붙이면 클래스를 생성해도 해당 속성값에 접근할 수가 없습니다. 
+위 예에서는 ```__hobby```에 접근할 수 없는것을 볼 수 있습니다.
+
+
+### 7.2. 오버라이딩 방지용
+
+네임 맹글링은 오버라이딩을 방지하기 위해서도 사용합니다. 
+다음 코드는 ```Resume``` 클래스를 오버라이딩해 ```CV```클래스를 생성하는 코드입니다.
+
+```python
+class Resume:
+    def __init__(self):
+        self.name = "홍길동"
+        self.age = "25"
+        self.hobby = "독서"
+        
+class CV:
+    def __init__(self):
+        super().__init__()
+        self.name = "김민규"
+        self.age = "27"
+        self.hobby = "음악감상"        
+```
+```python
+>> minkyu = CV()
+>> print(minkyu.name)
+김민규
+>> print(minkyu.age)
+27
+>> print(minkyu.hobby)
+음악감상
+```
+
+위 코드는 정상적으로 오버라이딩 된 것을 볼 수 있습니다. 
+그러나 다음 코드와 같이 hobby 앞에 언더바 두개를 붙이면 
+오버라이딩 되지 않는 것을 볼 수 있습니다. 
+
+```python
+class Resume:
+    def __init__(self):
+        self.name = "홍길동"
+        self.age = "25"
+        self.__hobby = "독서"
+        
+class CV:
+    def __init__(self):
+        super().__init__()
+        self.name = "김민규"
+        self.age = "27"
+        self.__hobby = "음악감상"        
+```
+```python
+>> minkyu = CV()
+>> print(minkyu.name)
+김민규
+>> print(minkyu.age)
+27
+>> print(minkyu.__hobby)
+AttributeError: 'CV' object has no attribute '__hobby'
+```
+
 
 ## 8. 앞뒤 언더바 2개씩, 매직 메소드
 
