@@ -140,7 +140,7 @@ print(num3)
 다만 실생활에서와 같이 천단위로 구분을 해주면 보기 편하겠죠. 
 위 코드는 어느 자리에 구분을 주던 상관 없다는 것을 알 수 있습니다. 
 
-## 5. 앞 언더바, 변수/함수를 모듈 내에서만 사용하고 싶을때
+## 5. 앞 언더바 1개, 변수/함수를 모듈 내에서만 사용하고 싶을때
 
 다음과 같이 greeting.py 라는 모듈을 만든다고 해보겠습니다.
 
@@ -153,4 +153,66 @@ def _hello():
     print('hello')
 ```
 
-위 모듈을 불러와서 hi함수와 ```_hello``` 함수를 사용해보겠습니다.
+위 모듈을 불러와서 ```hi```함수와 ```_hello``` 함수를 사용해보겠습니다. 
+
+```python
+>>> from greeting import *
+>>> hi()
+hi
+>>> _hello()
+NameError                                 Traceback (most recent call last)
+<ipython-input-3-62720c717c63> in <module>
+----> 1 _hello()
+NameError: name '_hello' is not defined
+```
+
+위 코드와 같이 greeting 모듈의 모든 함수를 임포트 했지만 ```hi```함수는 사용할 수 있는 반면
+```_hello``` 함수는 사용할 수 없는 것을 볼 수 있습니다.
+
+```python
+>>> from greeting import hi, _hello
+>>> hi()
+hi
+>>> _hello()
+hello
+```
+
+그러나 위 코드와 같이 import로 함수이름을 직접 적어주면 
+```_hello``` 함수를 사용할 수 있는 것을 볼 수 있습니다.
+
+
+```python
+>> import greeting
+>> greeting.hi()
+hi
+>> greeting._hello()
+hello
+```
+
+뿐만 아니라 위와 같은 코드로도 ```_hello``` 함수를 사용할 수 있는 것을 볼 수 있습니다.
+
+## 6. 뒤 언더바 1개, 파이썬 기본 변수/함수명 충돌을 피하고 싶은 경우
+
+```python
+list_ = [1,2,3,4,5]
+print(list_)
+[1, 2, 3, 4, 5]
+```
+list는 파이썬 자료형이라서 변수명으로 사용할수 없는데, 
+뒤에 언더바를 붙여주면 위와 같이 사용할 수 있습니다.
+
+## 7. 앞 언더바 2개, 맹글링(mangling)
+
+## 8. 앞뒤 언더바 2개씩, 매직 메소드
+
+파이썬의 매직 메소드에는 다음과 같은 종류가 있습니다. 
+
+생성자 | 사용법
+----|--------
+```__new__(cls, other)``` | 오브젝트의 인스턴스화
+```__init__(self, other)``` |  ```__new__``` 메소드 
+```__del__(self)``` |  삭제 메소드 
+
+
+
+[참고: 매직 메소드](https://www.tutorialsteacher.com/python/magic-methods-in-python)
