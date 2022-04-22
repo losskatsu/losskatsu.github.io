@@ -207,11 +207,43 @@ list는 파이썬 자료형이라서 변수명으로 사용할수 없는데,
 
 파이썬의 매직 메소드에는 다음과 같은 종류가 있습니다. 
 
-생성자 | 사용법
+생성자 | 의미
 ----|--------
-```__new__(cls, other)``` | 오브젝트의 인스턴스화
+```__new__(cls, other)``` | 객체의 인스턴스화
 ```__init__(self, other)``` |  ```__new__``` 메소드 
 ```__del__(self)``` |  삭제 메소드 
+
+단항 연산자 | 의미
+------------|-------
+```__pos__(self)``` | 어떤 객체를 더함
+```__neg__(self)``` | 어떤 객체를 뺌
+```__abs__(self)``` | 어떤 객체의 절대값을 구함
+```__invert__(self)``` | ~ 연산자를 사용
+```__round__(self, n)``` | ```round``` 함수를 사용
+```__floor__(self)``` | ```math.floor``` 함수를 사용
+```__ceil__(self)``` | ```math.ceil``` 함수를 사용
+```__trunc__(self)``` | ```math.trunc``` 함수를 사용
+
+
+인자 할당 | 의미
+----------|-------
+```__iadd__(self, other)``` | ```a+=b```
+```__isub__(self, other)``` | ```a-=b```
+```__imul__(self, other)``` | ```a*=b```
+```__ifloordiv__(self, other)``` | ```a//=b```
+```__idiv__(self, other)``` | ```a/=b```
+```__itruediv__(self, other)``` | true division
+```__imod__(self, other)``` | ```a%=b```
+```__ipow__(self, other)``` | ```a**=b```
+```__ilshift__(self, other)``` | ```a<<=b```
+```__irshift__(self, other)``` | ```a>>=b```
+```__iand__(self, other)``` | ```a&=b```
+```__ior__(self, other)``` | ```a|=b```
+```__ixor__(self, other)``` | ```a^=b```
+
+
+
+
 
 
 
