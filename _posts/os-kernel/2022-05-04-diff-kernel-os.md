@@ -32,6 +32,7 @@ sidebar:
 커널은 여러분들이 컴퓨터를 켰을때 메모리에 올라가서 컴퓨터를 끌때까지 내려가지 않습니다. 
 커널은 메모리에 항상 머무릅니다. 
 
+<center><img src="/assets/images/os/kernel-vs-os/kernel-os01.png" width="800"></center>
 
 커널은 응용소프트웨어와 하드웨어를 이어주는 브릿지(bridge) 역할을 합니다. 
 
