@@ -15,6 +15,11 @@ sidebar:
 
 # [리눅스] 컴파일러 vs 인터프리터 차이
 
+**참고 링크**
+
+* [bash란? #!/bin/bash의 의미 ](https://losskatsu.github.io/os-kernel/bash/)
+* [bashrc와 bash_profile의 차이](https://losskatsu.github.io/os-kernel/bashrc/)
+* [컴파일러와 인터프리터의 차이](https://losskatsu.github.io/os-kernel/compiler-interpreter/)
 
 ## 1. 컴파일러(compiler)
 
