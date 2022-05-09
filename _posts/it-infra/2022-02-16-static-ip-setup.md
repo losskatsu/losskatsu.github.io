@@ -13,7 +13,10 @@ sidebar:
   nav: sidebar-contents
 ---
 
-# [Infra] 초기 네트워크 설정 - dhcp, 고정 아이피, ssh 설치
+# [Infra] 리눅스 초기 네트워크 설정 - dhcp, 고정 아이피, ssh 설치
+
+본 작업은 우분투를 대상으로 
+초기 설치 이후의 IP 설정에 대한 내용입니다. 
 
 ## 0. ip 확인
 작업을 하기전에 ip 확인부터 합시다.
@@ -198,6 +201,30 @@ sshd: 211.57.136.82
 ```bash
 # systemctl restart sshd
 ```
+
+
+## 5. 아이디, 패스워드를 이용한 원격 접속 허용 
+
+위 설정만하고 돌아간다면 아이디와 비밀번호를 이용한 원격 로그인이 안될수있다. 
+만약 올바르게 아이디와 비밀번호를 입력해서 ssh 접속을 하려고 하는데 
+permioon denied가 뜬다면 다음과 같이 파일을 수정하자.
+
+```bash
+$ sudo vim /etc/ssh/sshd_config
+----파일 내용----
+#PermitRootLogin prohibit-password
+PermitRootLogin yes
+...
+PasswordAuthentication yes
+```
+
+파일을 수정했다면 재시작
+
+```bash
+$ sudo /etc/init.d/ssh restart
+```
+
+그리고 나서 ssh 접속을 해보자! 잘 될 것이다. 
 
 
 ### 부록: ssh 비활성화
