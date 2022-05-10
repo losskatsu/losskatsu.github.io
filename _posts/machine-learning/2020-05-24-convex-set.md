@@ -17,11 +17,14 @@ sidebar:
 
 참고링크
 
-* [내적 ](https://losskatsu.github.io/linear-algebra/innerproduct/)
-* [컨벡스 셋(convex set)](https://losskatsu.github.io/mathematics/convex-set/)
-* [컨벡스 함수(convex function)](https://losskatsu.github.io/mathematics/convex-function/)
-* [라그랑주 듀얼 함수](https://losskatsu.github.io/mathematics/dual-function/)
-* [Karush-Kuhn-Tucker](https://losskatsu.github.io/mathematics/kkt/)
+* [컨벡스 셋(convex set)](https://losskatsu.github.io/machine-learning/convex-set/)
+* [컨벡스 함수(convex function)](https://losskatsu.github.io/machine-learning/convex-function/)
+* [라그랑주 듀얼 함수](https://losskatsu.github.io/machine-learning/dual-function/)
+* [Karush-Kuhn-Tucker](https://losskatsu.github.io/machine-learning/kkt/)
+* [단순 회귀분석](https://losskatsu.github.io/statistics/simple-regression/)
+* [로지스틱 회귀분석](https://losskatsu.github.io/statistics/logistic-regression/)
+* [릿지(ridge), 라쏘(lasso) 회귀분석](https://losskatsu.github.io/machine-learning/l1l2/)
+
 
 
 ## 1. line segment
