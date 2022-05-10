@@ -1,9 +1,9 @@
 ---
 title: "Robust LogitBoost and Adaptive Base Class(ABC) LogitBoost" 
 categories:
-  - paper-translation
+  - machine-learning
 tags:
-  - reinforcement-learning
+  - machine-learning
 use_math: true
 toc: true
 toc_label: "My Table of Contents"
