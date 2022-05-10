@@ -99,7 +99,7 @@ title: "About"
 * **데이터 플랫폼**  
     MySql, Cubrid, ElasticSearch, Apache Nifi, Apache Zeppelin  
 
-* **데브옵스**
+* **데브옵스**   
     Docker, Kubernetes
 
 * **OS**  
