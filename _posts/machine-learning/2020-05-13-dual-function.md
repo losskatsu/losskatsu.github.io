@@ -1,9 +1,9 @@
 ---
 title: "[최적화] 라그랑주 듀얼 함수(Lagrange dual function)의 개념" 
 categories:
-  - mathematics
+  - machine-learning
 tags:
-  - mathematics
+  - machine-learning
 use_math: true
 toc: true
 toc_label: "My Table of Contents"
