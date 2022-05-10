@@ -1,9 +1,9 @@
 ---
 title: "Analysis of Thompson Sampling for the Multi-armed Bandit Problem" 
 categories:
-  - paper-translation
+  - machine-learning
 tags:
-  - reinforcement-learning
+  - machine-learning
 use_math: true
 toc: true
 toc_label: "My Table of Contents"
