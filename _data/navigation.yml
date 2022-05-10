@@ -28,7 +28,7 @@ sidebar:
   nav: sidebar-contents
   
 sidebar-contents:
-  - title: "머신러닝"
+  - title: "인공지능"
     children:
       - title: "머신러닝"
         url: "/categories/#machine-learning"
@@ -48,7 +48,7 @@ sidebar-contents:
         url: "/categories/#it-infra"
       - title: "프로그래밍"
         url: "/categories/#programming"
-     - title: "프론트엔드"
+      - title: "프론트엔드"
         url: "/categories/#frontend"
       - title: "책리뷰"
         url: "/categories/#book-review"
