@@ -1,9 +1,9 @@
 ---
 title: "[최적화]컨벡스 함수(Convex function)의 개념" 
 categories:
-  - mathematics
+  - machine-learning
 tags:
-  - mathematics
+  - machine-learning
 use_math: true
 toc: true
 toc_label: "My Table of Contents"
