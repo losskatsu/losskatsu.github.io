@@ -1,5 +1,5 @@
 ---
-title: "[자바스크립트] map, reduce, filter" 
+title: "[자바스크립트] map, reduce, filter 메소드" 
 categories:
   - frontend
 tags:
@@ -14,7 +14,7 @@ sidebar:
 ---
 
 
-# 자바스크립트 - map, reduce, filter
+# 자바스크립트 - map, reduce, filter 
 
 ## 1. 서론
 
