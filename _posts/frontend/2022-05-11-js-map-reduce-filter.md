@@ -71,6 +71,46 @@ map 메소드의 풀버전을 사용하면 다음과 같습니다.
 Array(5) [ 2, 4, 6, 8, 10 ]
 ```
 
-
+마지막으로 기억해주세요. 
+map의 인풋은 배열이고, 아웃풋도 배열이라는 사실을! 
 
 ## 3. reduce
+
+## 3.1. reduce 간단히 사용하기 
+
+reduce 메소드는 앞서 배운 map과는 달리 
+인풋으로 배열을 받고 아웃풋으로 배열이 아닌 하나의 값을 내놓습니다. 
+reduce는 배열 원소의 덧셈을 할때 많이들 사용하는데
+한번 예를 들어 보겠습니다. 
+
+```javascript
+>> const numbers1 = [1,2,3,4,5];
+>> const sumArray = numbers1.reduce((acc, current)=>{
+      console.log(acc, current, acc+current); 
+      return acc+current;
+      });
+```
+```javascript
+1 2 3
+3 3 6
+6 4 10
+10 5 15
+```
+```javascript
+>> console.log(sumArray)
+15
+```
+
+위 코드를 보면 acc는 accumulator라고 해서 누적된 값을 저장하는 매개변수입니다. 
+결과를보면 첫번째 acc값은 1이 되는데 이는 배열의 첫번째 값에 해당합니다. 
+누적된 것이 없으므로 배열의 첫번쨰 값을 지정하는 것입니다. 
+그리고 current는 현재값을 의미하는데 첫번째 값이 acc값으로 들어갔으므로 
+current값은 첫번째 원소가 아닌 두번쨰 원소부터 차례로 방문합니다. 
+그래서 acc값과 current값을 더한 값이 다시 acc값으로 저장됩니다. 
+
+## 3.2. reduce 초기값 사용하기
+
+앞서 사용한 reduce에서는 acc의 초기값을 따로 설정하지 않았습니다. 
+이번에는 acc의 초기값을 1000으로 설정해 보겠습니다. 
+
+
