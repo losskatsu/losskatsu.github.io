@@ -14,7 +14,7 @@ sidebar:
 ---
 
 
-# 자바스크립트 - map, reduce, filter 
+# 자바스크립트 - map, reduce, filter 메소드  
 
 ## 1. 서론
 
