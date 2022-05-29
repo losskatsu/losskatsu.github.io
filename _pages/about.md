@@ -93,7 +93,7 @@ title: "About"
 * **프로그래밍 언어**  
     Python, Scala, R, Java, Matlab, C/C++, Fortran, SAS, SPSS
 
-* **프레임워크/라이브러리**  
+* **인공지능 라이브러리**  
     numpy, matplotlib, pandas, scikit-learn, keras, Apache Spark, Tensorflow
 
 * **데이터 플랫폼**  
@@ -101,6 +101,12 @@ title: "About"
 
 * **데브옵스**   
     Docker, Kubernetes
+
+* **백엔드**
+    Django, Flask
+    
+* **프론트엔드**
+    React
 
 * **OS**  
     CentOS, ubuntu, Windows
