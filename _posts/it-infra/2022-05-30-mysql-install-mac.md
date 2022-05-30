@@ -22,9 +22,9 @@ sidebar:
 * [파이썬, MySQL 연동](https://losskatsu.github.io/programming/py-db-conn/)
 * [데이터베이스에서 널(null)과 공백의 차이](https://losskatsu.github.io/it-infra/db-null/)
 
-## MySQL 다운로드 받기
+## 1. MySQL 다운로드 받기
 
-터미널을 실행시킥 다으 커맨드르 입력합니다.
+터미널을 실행시킨 다음 커맨드르 입력합니다.
 
 ```bash
 $ brew install mysql
@@ -54,4 +54,37 @@ Or, if you don't want/need a background service you can just run:
 $ mysql -V
 mysql  Ver 8.0.29 for macos12.2 on x86_64 (Homebrew)
 ```
+
+MySQL을 실행해보겠습니다.
+
+```bash
+$ % mysql.server start
+Starting MySQL
+.. SUCCESS!
+```
+
+위 처럼 SUCCESS가 뜨면 잘 실행이 된 것입니다. 
+
+## 2. 설정하기
+
+설치를 마쳤으면 설정을해보겠습니다
+
+```bash
+$ mysql_secure_installation
+
+Securing the MySQL server deployment.
+
+Connecting to MySQL using a blank password.
+
+VALIDATE PASSWORD COMPONENT can be used to test passwords
+and improve security. It checks the strength of password
+and allows the users to set only those passwords which are
+secure enough. Would you like to setup VALIDATE PASSWORD component?
+
+Press y|Y for Yes, any other key for No: N
+```
+
+위 
+## 2. 설정하기ㅊㅓ럼 
+## 2. 설정하기
 
