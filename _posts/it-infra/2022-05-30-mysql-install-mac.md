@@ -243,6 +243,31 @@ Bye
 
 ## 4. MySQL Workbench 설치하기
 
+워크벤치를 사용하면 터미널에서 데이터를 확인하는 것보다 GUI환경에서 편하게 확인할 수 있습니다. 
+
 ### 4.1. 다운로드
 
 [https://dev.mysql.com/downloads/workbench/](https://dev.mysql.com/downloads/workbench/)로 이동해서 다운로드를 합니다.
+
+<center><img src="/assets/images/infra/mysql-mac/mysql_mac01.png" width="800"></center>
+
+위와 같은 화면에서 다운로드를 클릭합니다.
+
+<center><img src="/assets/images/infra/mysql-mac/mysql_mac02.png" width="800"></center>
+
+그러면 가입하겠냐는 창이 나오는데 가장 아래에 no thanks를 클릭해줍니다. 그럼 다운로드가 진행되고 
+다운로드 받은 파일을 실행하면 다음과 같은 워크 벤치가 실행됩니다. 
+
+### 4.2. 워크벤치 실행하기
+
+<center><img src="/assets/images/infra/mysql-mac/mysql_mac03.png" width="800"></center>
+
+실행되면 보이는 localhost를 클릭하면 다음과 같이 비밀 번호를 입력하라는 창이 나옵니다. 
+
+<center><img src="/assets/images/infra/mysql-mac/mysql_mac04.png" width="800"></center>
+
+비밀번호를 입력하면 다음과 같이 데이터를 확인할 수 있는 창이 나옵니다. 
+
+<center><img src="/assets/images/infra/mysql-mac/mysql_mac05.png" width="800"></center>
+
+
