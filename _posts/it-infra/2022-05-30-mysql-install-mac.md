@@ -48,5 +48,10 @@ Or, if you don't want/need a background service you can just run:
   /usr/local/opt/mysql/bin/mysqld_safe --datadir=/usr/local/var/mysql
 ```
 
-설치르 했ㅡ
-  brew services restart mysql며ㅁ
+설치르 했으면 버전을 확인합니다.
+
+```bash
+$ mysql -V
+mysql  Ver 8.0.29 for macos12.2 on x86_64 (Homebrew)
+```
+
