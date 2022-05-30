@@ -146,7 +146,7 @@ made so far will take effect immediately.
 Reload privilege tables now? (Press y|Y for Yes, any other key for No) : y
 ```
 
-마지막 질문까지 답변을 하고 나면 아래와 같은 메시지가 나타납니다.
+설정 내용을 테이블에 적용할 것인지 묻는 마지막 질문에 y라고 답변을 하고 나면 아래와 같은 메시지가 나타납니다.
 
 ```bash
 All done!
@@ -241,3 +241,8 @@ mysql> exit
 Bye
 ```
 
+## 4. MySQL Workbench 설치하기
+
+### 4.1. 다운로드
+
+[https://dev.mysql.com/downloads/workbench/](https://dev.mysql.com/downloads/workbench/)로 이동해서 다운로드를 합니다.
