@@ -44,7 +44,16 @@ $ django-admin startproject dbcontest
 다음과 같이 ```mysqlclient```를 설치해줍니다. 
 
 ```bash
-$ django-admin startproject dbcontest
+$ pip install mysqlclient
+
+Collecting mysqlclient
+  Downloading mysqlclient-2.1.0.tar.gz (87 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.6/87.6 kB 2.7 MB/s eta 0:00:00
+  Preparing metadata (setup.py) ... done
+Using legacy 'setup.py install' for mysqlclient, since package 'wheel' is not installed.
+Installing collected packages: mysqlclient
+  Running setup.py install for mysqlclient ... done
+Successfully installed mysqlclient-2.1.0
 ```
 
 프로젝트르 생성했으면 인텔리제이를 실행하고 다음과 같이 setting.py를 수정해줍니다. 
