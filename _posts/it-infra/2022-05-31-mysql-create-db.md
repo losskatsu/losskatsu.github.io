@@ -19,8 +19,14 @@ sidebar:
 
 * [MySQL 윈도우에 설치하기](https://losskatsu.github.io/it-infra/mysql-install-win/)
 * [MySQL 간단 정리, 우분투, 맥에 설치 하기](https://losskatsu.github.io/it-infra/mysql-index/)
+* [맥 OS에 MySQL 설치](https://losskatsu.github.io/it-infra/mysql-install-mac/)
+
 * [파이썬, MySQL 연동](https://losskatsu.github.io/programming/py-db-conn/)
 * [데이터베이스에서 널(null)과 공백의 차이](https://losskatsu.github.io/it-infra/db-null/)
+
+* [MySQL에 데이터베이스, 테이블 생성하기](https://losskatsu.github.io/it-infra/mysql-create-db/)
+* [장고, MsSQL 연결하기](https://losskatsu.github.io/it-infra/mssql-django-conn/)
+* [장고, MySQL 연결하기](https://losskatsu.github.io/it-infra/mysql-django-conn/)
 
 ## 1. 데이터베이스 생성하기
 
