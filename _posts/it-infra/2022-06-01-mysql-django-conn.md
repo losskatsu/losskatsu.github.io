@@ -34,14 +34,54 @@ sidebar:
 $ django-admin startproject dbcontest
 ```
 
-그리고 다음과 같이 ```mysqlclient```를 설치해줍니다. 
+장고와 mysql 데이터베이스르 연결하려면 ```mysqlclient```이 필요합니다. 
+다음과 같이 ```mysqlclient```를 설치해줍니다. 
 
 ```bash
 $ django-admin startproject dbcontest
 ```
 
+프로젝트르 생성했으면 인텔리제이를 실행하고 다음과 같이 setting.py를 수정해줍니다. 
 
-프로젝트르 생성했으면 인텔리제이를 실행하고 다음과 같
+```python
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'MYTEST',
+        'USER': 'root',
+        'PASSWORD': '1234',
+        'HOST': 'localhost',
+        'PORT': '3306',
+    }
+}
+```
+
+위 코드에서 NAME: MYTEST는 데이터베이스 이름을 의미합니다. 
+MySQL의 기본 포트는 3306입니다. 
+
+그리고나서 연결이 되는지 다음과 같이 장고 서버를 실행해봅니다.
+
+```bash
+$ python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+June 01, 2022 - 04:06:21
+Django version 4.0.2, using settings 'dbcontest.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+```
+
+
+<center><img src="/assets/images/infra/mysql-jango-conn/mysql-django-con03.png" width="800"></center>
+
+위 코드를 실행하면 장고 서버 실행이 제대로 되는 것을 알 수 있습니다. 
+만약 DB연결이 제대로 되지 않으면 ```runserver``` 명령어가 먹히지 않습니다.
+
 
 <center><img src="/assets/images/infra/mysql-jango-conn/mysql-django-con01.png" width="800"></center>
 
