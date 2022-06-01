@@ -77,7 +77,7 @@ Quit the server with CONTROL-C.
 ```
 
 
-<center><img src="/assets/images/infra/mysql-jango-conn/mysql-django-con03.png" width="800"></center>
+<center><img src="/assets/images/infra/mysql-django-conn/mysql-django-con01.png" width="800"></center>
 
 위 코드를 실행하면 장고 서버 실행이 제대로 되는 것을 알 수 있습니다. 
 만약 DB연결이 제대로 되지 않으면 ```runserver``` 명령어가 먹히지 않습니다. 
@@ -117,14 +117,14 @@ Quit the server with CONTROL-C.
 ```
 
 
-<center><img src="/assets/images/infra/mysql-jango-conn/mysql-django-con03.png" width="800"></center>
+<center><img src="/assets/images/infra/mysql-django-conn/mysql-django-con01.png" width="800"></center>
 
 
 장고가 이렇게 실행이 잘되는 것을 볼 수 있는데, 
 MySQL 워크벤치를 실행해 디비가 연결되었는지 확인해보겠습니다. 
 
-<center><img src="/assets/images/infra/mysql-jango-conn/mysql-django-con01.png" width="800"></center>
+<center><img src="/assets/images/infra/mysql-django-conn/mysql-django-con02.png" width="800"></center>
 
 위 스크린샷은 장고와 연결하기 전인 기존 MySQL 입니다. 우클릭을 해서 refresh all을 클릭하면 다음 스크린샷과 같이 장고와 관련된 디비가 추가 됩니다.
 
-<center><img src="/assets/images/infra/mysql-jango-conn/mysql-django-con02.png" width="800"></center>
+<center><img src="/assets/images/infra/mysql-django-conn/mysql-django-con03.png" width="800"></center>
