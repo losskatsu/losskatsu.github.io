@@ -24,9 +24,9 @@ sidebar:
 * [파이썬, MySQL 연동](https://losskatsu.github.io/programming/py-db-conn/)
 * [데이터베이스에서 널(null)과 공백의 차이](https://losskatsu.github.io/it-infra/db-null/)
 
-* [MySQL에 데이터베이스, 테이블 생성하기](https://losskatsu.github.io/it-infra/mysql-create-db/)
-* [장고, MsSQL 연결하기](https://losskatsu.github.io/it-infra/mssql-django-conn/)
-* [장고, MySQL 연결하기](https://losskatsu.github.io/it-infra/mysql-django-conn/)
+* [(1)MySQL에 데이터베이스, 테이블 생성하기](https://losskatsu.github.io/it-infra/mysql-create-db/)
+* [(2)장고, MsSQL 연결하기](https://losskatsu.github.io/it-infra/mssql-django-conn/)
+* [(2)장고, MySQL 연결하기](https://losskatsu.github.io/it-infra/mysql-django-conn/)
 
 ## 1. 장고 프로젝트 생성하기
 
