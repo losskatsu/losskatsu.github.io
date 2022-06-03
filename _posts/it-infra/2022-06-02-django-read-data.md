@@ -259,6 +259,7 @@ def getTestData(request, name):
 path('test01data/<str:name>', views.getTestData, name="test01data"),
 ```
 
+위 코드처럼 ```urls.py```파일에서 꺽쇠를 사용하면 해당 부분으 변수로 받겠다는 의미입니다. 그리고
 ```<str:name>```은 우리가 전달할 ```name```을 의미합니다.
 
 <center><img src="/assets/images/infra/django-read-data/django-read-data08.png" width="800"></center>
