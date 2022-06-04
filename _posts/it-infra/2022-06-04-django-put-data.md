@@ -43,6 +43,7 @@ sidebar:
 
 ## 2. test01/views.py
 
+먼저 test01 앱에 존재하는 ```views.py```파일에 다음 코드를 추가합니다. 
 
 
 ```python
@@ -57,22 +58,35 @@ def putMember(request, pk):
     return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 ```
 
+데이터를 수정할 때는 위 코드와 같이 ```PUT```메소드를 사용합니다. 
+```reqData```는 내가 수정을 원해서 서버에 전달하는 json데이터를 의미하며 
+```data```는 기존에 DB에 존재하는 데이터를 불러온 것을 의미합니다. 
+요청시 ```pk```도 함께 전달하므로 해당 pk에 해당하는 데이터를 불러오는 것입니다. 
+이 때 ```pk```는 데이터베이스 상의 ```id```컬럼이라는 것을 볼 수 있습니다. 
+나머지 부분은 [이전 포스팅에서의 POST 메소드](https://losskatsu.github.io/it-infra/django-post-data/)와 비슷합니다.
 
 <center><img src="/assets/images/infra/django-put-data/django-put-data01.png" width="800"></center>
 
+따라서 전체 코드는 위와 같이 됩니다.
+
 
 ## 3. test01/urls.py
+
+다음으로 test01 앱의 ```urls.py```파일에 다음 코드를 추가합니다.
 
 ```python
 path('putMember/<str:pk>', views.putMember, name="putMember"),
 ```
 
+위 코드를 추가하면 전체 코드는 아래와 같이 됩니다.
 
 <center><img src="/assets/images/infra/django-put-data/django-put-data02.png" width="800"></center>
 
 
 ## 4. 서버 가동
 
+이제 테스트르 위해 서버를 가동해보겠습니다. 
+먼저 migrate를 해줍니다.
 
 ```python
 $ python manage.py makemigrations
@@ -86,6 +100,8 @@ Operations to perform:
 Running migrations:
   No migrations to apply.
 ```
+
+그리고 다음과 같이 장고 서버를 올려줍니다.
 
 ```python
 $ python manage.py runserver     
@@ -104,21 +120,37 @@ Quit the server with CONTROL-C.
 
 ## 5. 데이터 수정해보기
 
+우리는 기존 MySQL에 있는 데이터중 id가 3에 해당하는 hoshiumi 데이터를 수정해보겠습니다. 
+다음 데이터를 보면 이름 첫문자가 소문자인데 이를 대문자로 수정하겠습니다.
+
 <center><img src="/assets/images/infra/django-put-data/django-put-data06.png" width="800"></center>
 
-```http://127.0.0.1:8000/test/putMember/3```
+데이터 수정을 위해 웹 브라우저를 열고 ```http://127.0.0.1:8000/test/putMember/3```에 접속합니다. 
+주소의 마지막 ```3```은 id가 3이라는 것을 의마하며 이는 ```id=3```에 해당하는 데이터를 수정하겠다는 말입니다.
 
 <center><img src="/assets/images/infra/django-put-data/django-put-data03.png" width="800"></center>
 
+접속을 하면 위와 같은 창이 나오는데 수정을 원하는 데이터를 작성해봅시다.
+
 <center><img src="/assets/images/infra/django-put-data/django-put-data04.png" width="800"></center>
+
+수정할 데이터를 위와 같이 json 데이터 형태로 작성하고 ```PUT``` 버튼을 눌러줍니다.
 
 <center><img src="/assets/images/infra/django-put-data/django-put-data05.png" width="800"></center>
 
+요청이 제대로 간 것을 볼 수 있습니다.
+
 ## 6. MySQL에 데이터 수정되었는지 확인 
+
+그렇다면 MySQL 데이터베이스 상에 있는 데이터가 수정되었는지 확인해보겠습니다. 
 
 <center><img src="/assets/images/infra/django-put-data/django-put-data06.png" width="800"></center>
 
+기존에는 위와 같으 데이터가 
+
 <center><img src="/assets/images/infra/django-put-data/django-put-data07.png" width="800"></center>
+
+이렇게 변한 것을 볼 수 있습니다. hoshiumi의 첫문자가 대문자로 바뀌어 Hoshiumi가 된 것을 볼 수 있습니다.
 
 ## 7. 데이터 불러와서 확인
 
