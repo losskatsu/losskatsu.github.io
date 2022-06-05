@@ -41,7 +41,7 @@ sidebar:
 이번 실습에서는 PUT 방식을 이용해 장고에서 MySQL로 기존에 존재하는 데이터를 수정해 해보겠습니다. 
 
 
-## 2. test01/views.py
+## 2. test01/views.py 수정
 
 먼저 test01 앱에 존재하는 ```views.py```파일에 다음 코드를 추가합니다. 
 
