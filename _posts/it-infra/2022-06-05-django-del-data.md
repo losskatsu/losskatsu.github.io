@@ -1,5 +1,5 @@
 ---
-title: "[Django]장고로 MySQL에 데이터 수정(put)하기"
+title: "[Django]장고로 MySQL에 데이터 삭제(delete)하기"
 categories:
   - it-infra
 tags:
@@ -13,7 +13,7 @@ sidebar:
   nav: sidebar-contents
 ---
 
-# 장고로 MySQL에 데이터 수정(put)하기
+# 장고로 MySQL에 데이터 삭제(delete)하기
 
 ### 참고 링크  
 
