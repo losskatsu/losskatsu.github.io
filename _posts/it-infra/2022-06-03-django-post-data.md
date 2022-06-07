@@ -43,7 +43,10 @@ sidebar:
 
 이번 실습에서는 POST 방식을 이용해 장고에서 MySQL로 데이터를 insert 해보겠습니다. 
 
-## 2. test01/view.py 파일 수정
+
+## 2. json 파일 보내서 DB insert 하기
+
+### 2.1. test01/view.py 파일 수정
 
 먼저 test01/view.py를 수정해보겠습니다. 
 
@@ -68,7 +71,7 @@ def postMember(request):
 
 <center><img src="/assets/images/infra/django-post-data/django-post-data01.png" width="800"></center>
 
-## 3. test01/urls.py 파일 수정 
+### 2.3. test01/urls.py 파일 수정 
 
 이번에는 ```test01/urls.py```파일을 수정하겠습니다. 
 
@@ -80,7 +83,7 @@ def postMember(request):
 
 <center><img src="/assets/images/infra/django-post-data/django-post-data02.png" width="800"></center>
 
-## 4. 서버 가동
+### 2.4. 서버 가동
 
 그럼 POST가 잘되는지 테스트하기 위 서버를 올려보겠습니다. 
 먼저 아래 코드처럼 migrate를 해주고...
@@ -113,7 +116,7 @@ Quit the server with CONTROL-C.
 
 ```
 
-## 5. POST 해보기
+### 2-5. POST 해보기
 
 그리고나서 웹 브라우저를 열고 주소창에 ```http://127.0.0.1:8000/test/postMember/```를 입력하면 다음과 같이 
 POST 할수있는 창이 뜹니다. 
@@ -141,6 +144,98 @@ POST 요청이 잘 먹힌 것을 볼 수 있습니다.
 포스트 요청을 하고난 후에는 위와 같이 데이터가 추가된 것을 볼 수 있습니다. 
 
 
+## 3. json 보내서 해당 조건에 맞는 데이터 긁어오기(select)
+
+
+
+### 3.1. 가지고올 데이터베이스 테이블 예제
+
+이번 실습은 json을 전달해서 해당 조건에 맞는 데이터를 긁어오는 실습을 해보겠습니다. 
+참고로 이번 실습에 쓰일 DB는 지금까지 사용한 DB와는 다른 DB입니다. 
+
+<center><img src="/assets/images/infra/django-post-data/django-post-data08.png" width="800"></center>
+
+위와 같은 테이블에서 ```pt_code```와 ```std_dt``` 컬럼명에 맞는 데이터를 긁어와 보겠습니다. 
+
+### 3.2. test01/view.py 파일 수정
+
+POST 형식으로 JSON보내서 데이터 가져오려면 다음과 같이 ```views.py```파일을 작성해야 합니다.
+
+```python
+from rest_framework.response import Response
+from rest_framework.decorators import api_view
+from .models import SaleForecast
+from .serializers import SaleForecastSerializer
+
+@api_view(['POST'])
+def getPredData(request):
+  reqData = request.data
+  ptcode = reqData['pt_code']
+  stddt = reqData['std_dt']
+  datas = SaleForecast.objects.filter(pt_code=ptcode, std_dt=stddt)
+  serializer = SaleForecastSerializer(datas, many=True)
+  return Response(serializer.data)
+```
+
+위 코드를 보면 ```POST```형식으로 요청을 받는 것을 알 수 있고, 
+클라이언트로부터 받은 json 데이터는 request에 해당하는데, 
+```request.data```를 입력하면 json형식으로 정리할 수 있습니다. 
+그리고 request받은 데이터에서 ```pt_code```에 해당하는 값을 ```ptcode```라고 저장하고 
+```std_dt```에 해당하는 값을 ```stddt```라고 저장합니다. 
+그리고 해당 ```ptcode```와 ```stddt```에 맞는 데이터를 가지고 오기 위해 
+```filter``` 메소드를 이용해 가져오고 serialize 시켜줍니다. 
+
+<center><img src="/assets/images/infra/django-post-data/django-post-data09.png" width="800"></center>
+
+
+### 3.3. test01/urls.py 파일 수정
+
+요청을 보내기 위해 적당한 주소를 설정해줍니다. 
+
+```python
+path('pred/', views.getPredData, name="pred"),
+```
+
+
+### 3.4. 서버 가동
+
+```python
+$ python manage.py makemigrations
+
+Migrations for 'test01':
+  test01\migrations\0001_initial.py
+    - Create model SaleForecast
+
+$ python manage.py migrate        
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, sessions, test01
+Running migrations:
+  Applying test01.0001_initial... OK
+```
+
+
+```python
+$ python manage.py runserver
+
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 07, 2022 - 11:22:48
+Django version 4.0.4, using settings 'dbcontest.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+```
+
+### 3.5. POST 형식으로 데이터 가져오기
+
+웹 브라우저를 열고 ```http://127.0.0.1:8000/lipaco/pred/```를 입력하면 다음과 같은 화면이 나타납니다.
+
+<center><img src="/assets/images/infra/django-post-data/django-post-data10.png" width="800"></center>
+
+POST 형식으로 보내기 위해 위와 같이 데이터를 보내면 다음과 같이 요청값을 받을 수 있습니다.
+
+<center><img src="/assets/images/infra/django-post-data/django-post-data11.png" width="800"></center>
 
 
 
