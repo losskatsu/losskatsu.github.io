@@ -102,13 +102,13 @@ title: "About"
 * **데브옵스**   
     Docker, Kubernetes
 
-* **백엔드**
+* **백엔드**   
     Django, Flask
     
-* **프론트엔드**
+* **프론트엔드**   
     React
 
-* **OS**  
+* **OS**   
     CentOS, ubuntu, Windows
 
 ### 특허
