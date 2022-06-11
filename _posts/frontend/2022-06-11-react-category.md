@@ -17,7 +17,9 @@ sidebar:
 # 리액트(react) 카테고리 레이어 헤더 만들기
 
 
-### 참고 링크  
+## 참고 링크  
+
+### DB
 
 * [MySQL 윈도우에 설치하기](https://losskatsu.github.io/it-infra/mysql-install-win/)
 * [MySQL 간단 정리, 우분투, 맥에 설치 하기](https://losskatsu.github.io/it-infra/mysql-index/)
