@@ -48,7 +48,7 @@ sidebar:
 
 이번 실습에서 카테고리 레이어를 만들기 위해 ```styled-components```를 설치해주겠습니다. 
 
-```react
+```bash
 $ cd myapp01
 $ npm add styled-components
 
