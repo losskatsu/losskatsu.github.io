@@ -144,6 +144,8 @@ export default Categories;
 
 코드가 길기 때문에 잘라서 나누어 보겠습니다. 
 
+<center><img src="/assets/images/frontend/react/react-category/react-category01.png" width="800"></center>
+
 ### 2.1. 라이브러리 불러오는 부분
 
 ```react
@@ -280,6 +282,8 @@ export default App;
 ```App.js```파일에서는 앞서 만든 ```Categories.js```파일을 import 해주고 
 ```Categories``` 영역으로 세부 주소에 해당하는 화면을 덮어줍니다. 
 
+<center><img src="/assets/images/frontend/react/react-category/react-category02.png" width="800"></center>
+
 ## 4. 서버 가동
 
 ```
@@ -295,5 +299,11 @@ To create a production build, use npm run build.
 webpack compiled successfully
 ```
 
+<center><img src="/assets/images/frontend/react/react-category/react-category03.png" width="800"></center>
+
 위 화면 처럼 친구찾기 버튼을 누르면 해당 페이지로 이동하는 것을 볼 수 있습니다. 
+
+<center><img src="/assets/images/frontend/react/react-category/react-category04.png" width="800"></center>
+
+
 
