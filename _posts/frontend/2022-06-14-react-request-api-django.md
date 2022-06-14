@@ -92,6 +92,8 @@ Quit the server with CONTROL-C.
 
 ```http://127.0.0.1:8000/test/test01data/Cheolwon```
 
+그러면 다음 화면이 나옵니다. 
+
 <center><img src="/assets/images/frontend/react/react-request-django/react-request-django02.png" width="800"></center>
 
 
@@ -107,7 +109,8 @@ Quit the server with CONTROL-C.
     "created_at": "2022-05-30T20:25:49Z",
     "updated_at": null
 }
-```
+```  
+
 
 ## 3. src/pages/Find.js 파일 수정 
 
