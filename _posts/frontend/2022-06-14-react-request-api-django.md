@@ -98,7 +98,7 @@ Quit the server with CONTROL-C.
 실습을 하는 동안 장고 서버는 내리지 말아주세요. 
 우리가 받아와야 실습을 하는 동안 장고 서버는 내리지 말아주세요. 
 
-```js
+```python
 {
     "id": 1,
     "name": "Cheolwon",
