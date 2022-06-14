@@ -1,5 +1,5 @@
 ---
-title: "[리액트react] async 리액트에서 장고 API 서버에 요청해서 자료 받아오기 " 
+title: "[리액트react] async 리액트에서 장고 API 요청해서 자료 받아오기(GET) " 
 categories:
   - frontend
 tags:
@@ -14,7 +14,7 @@ sidebar:
 ---
 
 
-# 리액트(react) async 장고 API 서버에 요청해서 자료 받아오기
+# 리액트(react) async 장고 API 서버에 요청해서 자료 받아오기(GET)
 
 
 ## 참고 링크  
@@ -41,6 +41,7 @@ sidebar:
 
 * [(2-1)기본 리액트 프로젝트 생성](https://losskatsu.github.io/frontend/react-basic-setup/)
 * [(2-2)리액트 카테고리 레이어 헤더 만들기](https://losskatsu.github.io/frontend/react-category/)
+* [(2-3)장고 API 서버에 요청해서 자료 받아오기(GET)](https://losskatsu.github.io/frontend/react-request-api-django/)
 
 ## 1. 사전 준비 사항
 
@@ -267,5 +268,58 @@ CORS_ALLOW_ALL_ORIGINS = True
 <center><img src="/assets/images/frontend/react/react-request-django/react-request-django08.png" width="800"></center>
 
 
+## 6. 좀 더 예쁘게 가져오기 
+
+이전에는 텍스트 영역에 json 내용을 통째로 넣었는데 이번에는 좀 더 예쁘게 넣어보겠습니다. 
 
 
+```src/pages/Find.js``` 파일을 다음과 같이 수정합니다. 
+
+```react
+import React, {useState} from 'react';
+import axios from 'axios';
+
+const Find = () => {
+  const [data, setData] = useState(null);
+  const onClick = async () => {
+    try{
+      const response = await axios.get(
+        'http://127.0.0.1:8000/test/test01data/Cheolwon',
+      );
+      setData(response.data);
+    } catch (e) {
+      console.log(e)
+    }
+  };
+
+  return(
+    <div>
+      <h1>친구찾기</h1>
+      <p>보고싶은 친구를 찾아보아요</p>
+      <button onClick={onClick}>불러오기</button>
+      {data && <textarea rows={15} value={JSON.stringify(data, null, 2)} readOnly={true}/>}
+      <br /><br /><br />
+
+      <button onClick={onClick}>예쁘게 불러오기</button>
+      <br /><br />
+      {data && <li>{JSON.stringify(data, ['id', 'name', 'email'], 2)}</li>}
+      {data && <li>{JSON.stringify(data, ['id'], 2)}</li>}
+      {data && <li>{JSON.stringify(data, ['name'], 2)}</li>}
+      {data && <li>{JSON.stringify(data, ['email'], 2)}</li>}
+      {data && <li>id: {data.id}</li>}
+      {data && <li>name: {data.name}</li>}
+      {data && <li>email: {data.email}</li>}
+    </div>
+  );
+};
+
+export default Find;
+```
+
+이는 화면으로 보면 다음과 같습니다. 
+
+<center><img src="/assets/images/frontend/react/react-request-django/react-request-django09.png" width="800"></center>
+
+그리고 웹 브라우저에서 '예쁘게 불러오기'를 클릭하면 다음과 같습니다. 
+
+<center><img src="/assets/images/frontend/react/react-request-django/react-request-django10.png" width="800"></center>
