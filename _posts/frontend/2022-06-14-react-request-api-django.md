@@ -84,9 +84,10 @@ Starting development server at http://127.0.0.1:8000/
 Quit the server with CONTROL-C.
 ```
 
-실제 개발 화면은 다음과 같습니다. 
+실제 개발 화면은 다음과 같습니다.   
 
-<center><img src="/assets/images/frontend/react/react-request-django/react-request-django01.png" width="800"></center>
+<center><img src="/assets/images/frontend/react/react-request-django/react-request-django01.png" width="800"></center>  
+
 
 그리고 웹 브라우저를 열고 다음 url로 접근해봅니다. 
 
