@@ -48,6 +48,7 @@ sidebar:
 본 포스팅은 [이전 포스팅](https://losskatsu.github.io/frontend/react-basic-setup/)에서 이어지는 포스팅 입니다.
 
 이번 실습에서 ```axios```를 사용하기 위해 ```axios```를 설치해주겠습니다. 
+```axios```를 활용하면 GET, PUT, POST, DELETE와 같은 API 요청이 가능합니다. 
 
 ```bash
 $ cd myapp01
