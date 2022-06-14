@@ -91,7 +91,7 @@ Quit the server with CONTROL-C.
 
 그리고 웹 브라우저를 열고 다음 url로 접근해봅니다.  
 
-```http://127.0.0.1:8000/test/test01data/Cheolwon```   
+'http://127.0.0.1:8000/test/test01data/Cheolwon' 
 
 
 그러면 다음 화면이 나옵니다.  
