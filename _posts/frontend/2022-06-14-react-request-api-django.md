@@ -261,7 +261,7 @@ CORS_ALLOW_ALL_ORIGINS = True
 
 다시 웹 브라우저에서 다음 리액트 앱에 접근합니다.
 
-```http://localhost:3000/find```
+'http://localhost:3000/find'
 
 그리고 불러오기를 누르면 다음과 같은 화면이 출력됩니다. 
 
