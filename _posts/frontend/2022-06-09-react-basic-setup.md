@@ -17,12 +17,13 @@ sidebar:
 # 리액트(react) 장고(Django)연동을 위한 기본 리액트 프로젝트 생성
 
 
-### 참고 링크  
+## 참고 링크  
+
+### DB
 
 * [MySQL 윈도우에 설치하기](https://losskatsu.github.io/it-infra/mysql-install-win/)
 * [MySQL 간단 정리, 우분투, 맥에 설치 하기](https://losskatsu.github.io/it-infra/mysql-index/)
 * [맥 OS에 MySQL 설치](https://losskatsu.github.io/it-infra/mysql-install-mac/)
-
 * [파이썬, MySQL 연동](https://losskatsu.github.io/programming/py-db-conn/)
 * [데이터베이스에서 널(null)과 공백의 차이](https://losskatsu.github.io/it-infra/db-null/)
 
@@ -39,6 +40,9 @@ sidebar:
 ### 프론트엔드  
 
 * [(2-1)기본 리액트 프로젝트 생성](https://losskatsu.github.io/frontend/react-basic-setup/)
+* [(2-2)리액트 카테고리 레이어 헤더 만들기](https://losskatsu.github.io/frontend/react-category/)
+* [(2-3)장고 API 서버에 요청해서 자료 받아오기(GET)](https://losskatsu.github.io/frontend/react-request-api-django/)
+* [(2-4)장고 API 서버에 요청해서 자료 받아오기(GET)](https://losskatsu.github.io/frontend/react-request-post/)
 
 ## 1. 사전 준비 사항
 
