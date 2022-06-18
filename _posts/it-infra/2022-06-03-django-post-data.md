@@ -1,5 +1,5 @@
 ---
-title: "[Django]장고로 MySQL에 데이터 삽입(insert)하기"
+title: "[Django]장고 POST로 MySQL에 데이터 삽입(insert)하기"
 categories:
   - it-infra
 tags:
@@ -13,7 +13,7 @@ sidebar:
   nav: sidebar-contents
 ---
 
-# 장고로 MySQL에 데이터 삽입(insert)하기
+# 장고 POST로 MySQL에 데이터 삽입(insert)하기
 
 ## 참고 링크  
 
@@ -31,8 +31,8 @@ sidebar:
 * [(1-2)장고, MsSQL 연결하기](https://losskatsu.github.io/it-infra/mssql-django-conn/)
 * [(1-2)장고, MySQL 연결하기](https://losskatsu.github.io/it-infra/mysql-django-conn/)
 * [(1-3)장고 inpectdb로 DB 데이터 model.py로 만들기](https://losskatsu.github.io/it-infra/django-inspectdb/)
-* [(1-4)장고로 MySQL에 있는 데이터 웹상에서 보여주기](https://losskatsu.github.io/it-infra/django-read-data/)
-* [(1-5)장고로 MySQL에 데이터 insert 하기](https://losskatsu.github.io/it-infra/django-post-data/)
+* [(1-4)장고로 MySQL에 있는 데이터 웹상에서 보여주기(SELECT)](https://losskatsu.github.io/it-infra/django-read-data/)
+* [(1-5)장고로 MySQL에 데이터 삽입 하기(POST)](https://losskatsu.github.io/it-infra/django-post-data/)
 * [(1-6)장고로 MySQL에 데이터 수정(put) 하기](https://losskatsu.github.io/it-infra/django-put-data/)
 
 ### 프론트엔드  
@@ -235,7 +235,7 @@ Starting development server at http://127.0.0.1:8000/
 Quit the server with CTRL-BREAK.
 ```
 
-### 3.5. POST 형식으로 데이터 가져오기
+### 3.5. POST 형식으로 데이터 가져오는 예(1)
 
 웹 브라우저를 열고 ```http://127.0.0.1:8000/lipaco/pred/```를 입력하면 다음과 같은 화면이 나타납니다.
 
@@ -247,4 +247,77 @@ POST 형식으로 보내기 위해 위와 같이 데이터를 보내면 다음�
 
 
 
+## 4. POST 형식으로 데이터 가져오기(2)
+
+### 4.1. dbcontest/test01/views.py 파일 수정
+
+다음 코드는 json파일로 name과 email을 보내면 해당 조건에 맞는 자료를 디비 테이블에서 가져오는 코드입니다. 
+
+```python
+@api_view(['POST'])
+def getMembers(request):
+    reqData = request.data
+    name = reqData['name']
+    email = reqData['email']
+    print("name is : ", name)
+    print("email is : ", email)
+    data = Test01.objects.filter(name=name, email=email)
+    serializer = TestDataSerializer(data, many=True)
+    print(serializer.data)
+    return Response(serializer.data)
+```
+
+<center><img src="/assets/images/infra/django-post-data/django-post-data12.png" width="800"></center>
+
+
+### 4.2. dbcontest/test01/urls.py 파일 수정 
+
+그리고 해당 요청을 받기 위한 url을 설정해줍니다. 
+
+```python
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('test01datas/', views.getTestDatas, name="test01datas"),
+    path('test01data/<str:name>', views.getTestData, name="test01data"),
+    path('postMember/', views.postMember, name="postMember"),
+    path('putMember/<str:pk>', views.putMember, name="putMember"),
+    path('delMember/<str:pk>', views.delMember, name="delMember"),
+    path('getMembers/', views.getMembers, name="getMembers"),
+]
+```
+
+<center><img src="/assets/images/infra/django-post-data/django-post-data12.png" width="800"></center>
+
+
+### 4.3. 서버 가동
+
+```python
+$ python manage.py runserver
+
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 18, 2022 - 01:57:54
+Django version 4.0.2, using settings 'dbcontest.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+```
+
+### 4.4. 실제로 요청해보기 
+
+웹 브라우저를 열고 다음 url에 접속합니다. 
+
+'http://127.0.0.1:8000/test/getMembers/'
+
+그리고 다음과 같이 요청을 보내보겠습니다. 
+
+<center><img src="/assets/images/infra/django-post-data/django-post-data13.png" width="800"></center>
+
+
+그리고 POST 버튼을 누르면 다음과 같이 결과를 얻을 수 있습니다. 
+
+<center><img src="/assets/images/infra/django-post-data/django-post-data13.png" width="800"></center>
 
