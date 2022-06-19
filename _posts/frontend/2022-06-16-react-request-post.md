@@ -82,7 +82,7 @@ const categories = [
 ];
 ```
 
-<center><img src="/assets/images/frontend/react/react-request-post/react-request-post03.png" width="800"></center>
+<center><img src="/assets/images/frontend/react/react-request-post/react-request-post04.png" width="800"></center>
 
 ## 2-3. src/App.js 파일 수정
 
@@ -110,7 +110,7 @@ const App = () => {
 export default App;
 ```
 
-<center><img src="/assets/images/frontend/react/react-request-post/react-request-post04.png" width="800"></center>
+<center><img src="/assets/images/frontend/react/react-request-post/react-request-post05.png" width="800"></center>
 
 
 ## 2-4. src/pages/Search.js 파일 
@@ -251,7 +251,7 @@ return(
 위 코드에서 왜 [이전 포스팅](https://losskatsu.github.io/frontend/react-request-api-django/)에서와 같이 ```data.id```가 아니라 
 왜 ```data[0].id```일까요? 그것은 이후 결과를 보면 알 수 있습니다.
 
-<center><img src="/assets/images/frontend/react/react-request-post/react-request-post05.png" width="800"></center>
+<center><img src="/assets/images/frontend/react/react-request-post/react-request-post03.png" width="800"></center>
 
 잠시 미리 결과를 보면 응답값은 JSON이 아니라 배열입니다. 
 이 말은 배열 안에 JSON이 여러개 담겨져 있다는 것이니, 배열의 몇번째 JSON인지 인덱스를 지정해줘야한다는 것입니다. 
@@ -267,7 +267,7 @@ return(
 
 그리고 탐색 테스트를 누르면 다음과 같은 화면을 볼 수 있습니다. 
 
-<center><img src="/assets/images/frontend/react/react-request-post/react-request-post06.png" width="800"></center>
+<center><img src="/assets/images/frontend/react/react-request-post/react-request-post07.png" width="800"></center>
 
 이러면 일단 성공입니다.  
 
