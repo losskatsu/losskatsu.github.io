@@ -56,12 +56,12 @@ sidebar:
 
 ## 2. 미리 작성된 JSON을 POST 형식으로 요청해서 결과 받아와서 보여주기
 
-## 2-1. src/pages/Search.js 파일 생성
+### 2-1. src/pages/Search.js 파일 생성
 
 먼저 ```src/pages/Search.js``` 파일을 생성만 하고 넘어가겠습니다. 
 
 
-## 2-2. src/components/Categories.js 파일 수정
+### 2-2. src/components/Categories.js 파일 수정
 
 먼저 메인 화면에서 '친구 탐색' 이라는 탭을 새로 추가해보겠습니다.
 
@@ -84,7 +84,7 @@ const categories = [
 
 <center><img src="/assets/images/frontend/react/react-request-post/react-request-post04.png" width="800"></center>
 
-## 2-3. src/App.js 파일 수정
+### 2-3. src/App.js 파일 수정
 
 이번에는 App.js에서도 라우팅을 해주겠습니다. 
 
@@ -113,7 +113,7 @@ export default App;
 <center><img src="/assets/images/frontend/react/react-request-post/react-request-post05.png" width="800"></center>
 
 
-## 2-4. src/pages/Search.js 파일 
+### 2-4. src/pages/Search.js 파일 
 
 이번에는 본격적으로 ```src/pages/Search.js``` 파일에 다음과 같이 코드를 작성합니다. 
 
@@ -272,8 +272,74 @@ return(
 이러면 일단 성공입니다.  
 
 
+### 3. input으로 작성한 json데이터 넘겨서 결과 받아오기 
+
+먼저 ```src/components/Createjson.js``` 파일 만들기 
+
+```react
+import React from 'react';
+
+const Createjson = ({pt_code, std_dt, onChange, onCreate}) => {
+
+  return(
+    <form>
+      품번: <input name="pt_code" type="text" placeholder="품번을 입력하세요" value={pt_code} onChange={onChange}></input> <br />
+      기준날짜: <input name="std_dt" type="text" placeholder="날짜를 입력하세요" value={std_dt} onChange={onChange}></input> <br />
+      <button onClick={onCreate}>예측</button>
+    </form>
+  );
+};
+
+export default Createjson;
+```
+
+그리고 ```src/pages/Pred.js``` 작성하기  
+
+```react
+import {useState} from 'react' ;
+import Createjson from '../components/Createjson.js';
 
 
+const Pred = () => {
+  const [inputs, setInputs] = useState({
+    pt_code: '',
+    std_dt: ''
+  });
+
+  const {pt_code, std_dt} = inputs;
+
+  const onChange = e => {
+    const {name, value} = e.target;
+    setInputs({
+      ...inputs,
+      [name]: value
+    });
+  };
+
+  const onCreate = () => {
+    setInputs({
+      pt_code: '',
+      std_dt: ''
+    });
+  };
+
+  return(
+    <div>
+      <p>예측하는 화면입니다.</p>
+      <Createjson
+        pt_code={pt_code}
+        std_dt={std_dt}
+        onChange={onChange}
+        onCreate={onCreate}
+      />
+      {inputs && <li>{inputs.pt_code}</li>}
+      {inputs && <li>{inputs.std_dt}</li>}
+    </div>
+  );
+};
+
+export default Pred;
+```
 
 
 
