@@ -274,72 +274,170 @@ return(
 
 ### 3. input으로 작성한 json데이터 넘겨서 결과 받아오기 
 
-먼저 ```src/components/Createjson.js``` 파일 만들기 
+앞선 실습에서는 json 데이터를 미리 만들어서 장고 API에 POST형식으로 json을 던져서 결과를 받아온 후 
+화면에 뿌려주는 실습을 했습니다. 이번 실습에서는 리액트에서 input에 사용자가 값을 입력하면 해당 입력값으로 
+json을 만들고 장고 API에 POST형식으로 던져서 응답값을 받아와서 화면에 보여주는 실습을 해보겠습니다. 
+
+### 3.1. src/components/Searchinputjson.js 파일 생성
+
+먼저 ```src/components/Searchinputjson.js``` 파일을 생성해보겠습니다. 
+앞선 실습에서는 ```src/pages/Search.js```에서 ```form```태그로 입력값을 생성하는 페이지를 
+다음과 같이 작성했습니다. 
+
+<center><img src="/assets/images/frontend/react/react-request-post/react-request-post08.png" width="800"></center>
+
+그러나 위와 같은 코드는 지저분하므로 해당 코드를 ```src/components/Searchinputjson.js```로 옮겨보겠습니다. 
+다음 코드는 ```src/components/Searchinputjson.js``` 파일 입니다.
 
 ```react
 import React from 'react';
 
-const Createjson = ({pt_code, std_dt, onChange, onCreate}) => {
-
-  return(
-    <form>
-      품번: <input name="pt_code" type="text" placeholder="품번을 입력하세요" value={pt_code} onChange={onChange}></input> <br />
-      기준날짜: <input name="std_dt" type="text" placeholder="날짜를 입력하세요" value={std_dt} onChange={onChange}></input> <br />
-      <button onClick={onCreate}>예측</button>
-    </form>
-  );
-};
-
-export default Createjson;
-```
-
-그리고 ```src/pages/Pred.js``` 작성하기  
-
-```react
-import {useState} from 'react' ;
-import Createjson from '../components/Createjson.js';
-
-
-const Pred = () => {
-  const [inputs, setInputs] = useState({
-    pt_code: '',
-    std_dt: ''
-  });
-
-  const {pt_code, std_dt} = inputs;
-
-  const onChange = e => {
-    const {name, value} = e.target;
-    setInputs({
-      ...inputs,
-      [name]: value
-    });
-  };
-
-  const onCreate = () => {
-    setInputs({
-      pt_code: '',
-      std_dt: ''
-    });
-  };
+const Searchinputjson = ({name, email, onChange, onClick}) => {
 
   return(
     <div>
-      <p>예측하는 화면입니다.</p>
-      <Createjson
-        pt_code={pt_code}
-        std_dt={std_dt}
-        onChange={onChange}
-        onCreate={onCreate}
-      />
-      {inputs && <li>{inputs.pt_code}</li>}
-      {inputs && <li>{inputs.std_dt}</li>}
+      이름 : <input name = "name" type="text" placeholder="이름을 입력하세요" value={name} onChange={onChange} /><br />
+      이메일: <input name = "email" type="text" placeholder="이메일을 입력하세요" value={email} onChange={onChange} /><br />
+      <button type="submit" onClick={onClick}>탐색!</button>
     </div>
   );
 };
 
-export default Pred;
+export default Searchinputjson;
 ```
+
+
+<center><img src="/assets/images/frontend/react/react-request-post/react-request-post09.png" width="800"></center>
+
+
+### 3.2. src/pages/Search.js 파일 수정 
+
+기존의 ```src/pages/Search.js``` 파일은 다음과 같았습니다. 
+
+<center><img src="/assets/images/frontend/react/react-request-post/react-request-post10.png" width="800"></center>
+
+위와 같은 기존 코드를 다음과 같이 고쳐줍니다. 
+
+```react
+import React, {useState} from 'react';
+import axios from 'axios';
+import Searchinputjson from '../components/Searchinputjson.js';
+
+const Search = () => {
+  const [data, setData] = useState({
+    name: '',
+    email: '',
+  });
+
+  const {name, email} = data;
+
+  const onChange = e => {
+    const {name, value} = e.target;
+    setData({
+    ...data,
+    [name]: value
+    });
+  };
+
+  const reqData = JSON.stringify(data);
+
+  const [resData, setResdata] = useState('');
+
+  const url = 'http://127.0.0.1:8000/test/getMembers/' ;
+
+  const onClick = async () => {
+    try{
+      const response = await axios.post(url, reqData,{
+        headers: {
+          // Overwrite Axios's automatically set Content-Type
+          'Content-Type': 'application/json'
+        }
+      });
+      setResdata(response.data);
+    } catch (e) {
+      console.log(e)
+    }
+  };
+
+  return(
+    <div>
+      <h1>친구탐색</h1>
+      <p>보고싶은 친구를 탐색해보아요</p>
+      <Searchinputjson
+        name={name}
+        email={email}
+        onChange={onChange}
+        onClick={onClick}
+      />
+      <br /><br />
+      {data && <li>{data.name}</li>}
+      {data && <li>{data.email}</li>}
+
+      <h2>결과보기</h2>
+      {resData && <li>id: {resData[0].id}</li>}
+      {resData && <li>name: {resData[0].name}</li>}
+      {resData && <li>email: {resData[0].email}</li>}
+
+
+
+      <br /><br /><br />
+      <button type="submit" onClick={onClick}>탐색 테스트</button>
+      {resData && <textarea rows={15} value={JSON.stringify(resData, null, 2)} readOnly={true}/>}
+      {resData && <li>{JSON.stringify(resData, ['id', 'name', 'email'], 2)}</li>}
+      {resData && <li>{JSON.stringify(resData, ['id'], 2)}</li>}
+      {resData && <li>{JSON.stringify(resData, ['name'], 2)}</li>}
+      {resData && <li>{JSON.stringify(resData, ['email'], 2)}</li>}
+      {resData && <li>id: {resData[0].id}</li>}
+      {resData && <li>name: {resData[0].name}</li>}
+      {resData && <li>email: {resData[0].email}</li>}
+
+    </div>
+  );
+};
+
+export default Search;
+```
+
+<center><img src="/assets/images/frontend/react/react-request-post/react-request-post11.png" width="800"></center>
+
+<center><img src="/assets/images/frontend/react/react-request-post/react-request-post12.png" width="800"></center>
+
+<center><img src="/assets/images/frontend/react/react-request-post/react-request-post13.png" width="800"></center>
+
+
+
+### 3.3. 리액트 가동
+
+```react
+$ npm start
+
+You can now view myapp01 in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://172.16.90.27:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+```
+
+
+### 3.4. 테스트
+
+브라우저를 열고 다음 url에 접속합니다. 
+
+'http://localhost:3000/search'
+
+<center><img src="/assets/images/frontend/react/react-request-post/react-request-post14.png" width="800"></center>
+
+그리고 입력란에 다음과 같이 입력합니다. 
+
+<center><img src="/assets/images/frontend/react/react-request-post/react-request-post15.png" width="800"></center>
+
+그리고 탐색 버튼을 누르면 다음과 같이 장고에서 값을 받아오는 것을 알 수 있습니다. 
+
+<center><img src="/assets/images/frontend/react/react-request-post/react-request-post16.png" width="800"></center>
 
 
 
