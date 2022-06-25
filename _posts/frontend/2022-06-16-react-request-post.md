@@ -51,7 +51,7 @@ sidebar:
 지금부터 만들 앱은 파이썬 장고(django)에 연동할 프론트를 리액트로 만드는 실습입니다.
 본 포스팅은 [이전 포스팅](https://losskatsu.github.io/frontend/react-basic-setup/)에서 이어지는 포스팅 입니다.
 
-이번 실습에서느 react에서 입력한 값을 POST 형식으로 장고 API에 요청해 받는 일을 해보겠습니다. 
+이번 실습에서는 react에서 입력한 값을 POST 형식으로 장고 API에 요청해 받는 일을 해보겠습니다. 
 
 
 ## 2. 미리 작성된 JSON을 POST 형식으로 요청해서 결과 받아와서 보여주기
