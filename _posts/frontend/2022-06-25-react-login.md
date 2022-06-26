@@ -56,4 +56,112 @@ sidebar:
 이번 실습에서는 react에서 로그인 화면을 개발해 보겠습니다. 
 
 
+## 2. 로그인 페이지 간단하기 생성하기
 
+### 2.1. src/pages/Login.js 파일 생성
+
+로그인 페이지를 만들기 위해 ```src/pages/Login.js``` 파일을 간단하게 생성해줍니다. 
+
+```react
+const Login = () => {
+  return (
+    <div>
+      <p>로그인 페이지 입니다.</p>
+    </div>
+  );
+};
+
+export default Login;
+```
+
+이는 다음 화면과 같습니다. 
+
+<center><img src="/assets/images/frontend/react/react-login/react-login01.png" width="800"></center>
+
+
+### 2.2. src/App.js 파일 수정 
+
+그리고 App.js 파일에 라우팅을 설정해줍니다. 
+
+```react
+import {Route, Routes} from 'react-router-dom';
+import Home from './pages/Home.js';
+import Find from './pages/Find.js';
+import Search from './pages/Search.js';
+import Login from './pages/Login.js';
+import Categories from './components/Categories.js';
+
+const App = () => {
+  return(
+    <Routes>
+      <Route element={<Categories />}>
+        <Route path="/" element={<Home />} />
+        <Route path="/find" element={<Find />} />
+        <Route path="/search" element={<Search />} />
+        <Route path="/login" element={<Login />} />
+      </Route>
+    </Routes>
+  );
+};
+
+export default App;
+```
+
+전체 화면은 이렇습니다. 
+
+<center><img src="/assets/images/frontend/react/react-login/react-login02.png" width="800"></center>
+
+
+### 2.3. src/components/Categories.js 파일 수정
+
+그리고 이제 화면에서도 보일 수 있게 카테로기 컴포넌트를 수정해줍니다. 
+
+```react
+const categories = [
+  {
+    name: 'home',
+    text: '홈'
+  },
+  {
+    name: 'find',
+    text: '친구찾기'
+  },
+  {
+    name: 'search',
+    text: '친구탐색'
+  },
+  {
+    name: 'login',
+    text: '로그인'
+  }
+];
+```
+
+전체 그림은 다음과 같습니다.
+
+<center><img src="/assets/images/frontend/react/react-login/react-login03.png" width="800"></center>
+
+
+### 2.4. 서버 가동 및 테스트
+
+이제 서버를 가동해서 실제로 화면에 보이고 클릭이 되는지 보겠습니다. 
+
+ ```bash
+ $ npm start
+ 
+ You can now view myapp01 in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://172.16.90.27:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+```
+
+위 코드로 서버를 가동시키고 브라우저를 보면 다음과 같이 잘됩니다. 
+
+<center><img src="/assets/images/frontend/react/react-login/react-login04.png" width="800"></center>
+
+잘 되는 것을 볼 수 있습니다.
