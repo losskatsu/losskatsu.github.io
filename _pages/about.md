@@ -22,6 +22,7 @@ title: "About"
       * [2021 교보문고 올해의 책 IT 전문서 3위](http://www.kyobobook.co.kr/eventRenewal/eventViewByPid.laf?eventId=94493)
 * [알고리즘 구현으로 배우는 선형대수 with 파이썬](http://www.yes24.com/Product/Goods/105772247), 비제이퍼블릭, 2021.12.24  
 * [웹 크롤링 & 데이터 분석 with 파이썬](http://www.yes24.com/Product/Goods/106175772), 인사이트, 2022.01.24  
+      * [2022 출간 IT도서 TOP 100](http://www.kyobobook.co.kr/eventRenewal/eventViewByPid.laf?eventId=96886). 
 
 
 ### 코스 강의
