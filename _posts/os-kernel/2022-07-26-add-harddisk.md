@@ -15,9 +15,15 @@ sidebar:
 
 # 우분투 하드 디스크 추가 마운트 하기
 
-## 1. 물리 서버에 하드디스크가 설치가 되었는지 확인
+## 1. 물리 서버에 하드디스크 직접 설치
 
-물리 서버에 하드디스크가 설치 되었는지 ```sudo fdisk -l``` 명령어로 확인합시다.
+이번 포스팅은 우분투 운영체제에서 물리서버에 추가된 하드디스크를 마운트 하는 실습을 해보겠습니다. 
+이를 위한 전제 조건은 물리 서버에 하드디스크를 설치 했다고 가정하겠습니다. 
+
+## 2. 물리 서버에 하드디스크가 설치가 되었는지 확인
+
+실제로 물리 서버에 하드디스크가 설치 되었는지 확인하기 위해 ```sudo fdisk -l``` 명령어를 입력합니다.
+```fdisk```명령어는 디스크 파티션을 관리 할 때 사용하는 명령어입니다. 
 
 ```bash
 $  sudo fdisk -l
@@ -87,9 +93,9 @@ Sector size (logical/physical): 512 bytes / 4096 bytes
 I/O size (minimum/optimal): 4096 bytes / 4096 bytes
 ```
 
-위와 같은 결과를 보면 뭐가 설치 된게 굉장히 많은 것을 볼 수 있습니다. 
-
-현재 디스크 사용량을 확인하면 다음과 같습니다.
+위와 같은 결과를 보면 설치된 디스크가 굉장히 많은 것을 볼 수 있습니다. 
+위 디스크 중 일부는 실제 사용 중이고 일부는 사용 중이지 않습니다. 
+위 디스크 중 사용 중이 디스크를 사용하기 위해서는 다음과 같이 ```df -h```명령어를 입력하면 됩니다.
 
 ```bash
 $ df -h
@@ -110,21 +116,33 @@ tmpfs                               32G     0   32G   0% /sys/fs/cgroup
 tmpfs                              6.3G     0  6.3G   0% /run/user/1000
 ```
 
-그럼 앞선 결과와 비교하면 제가 추가적으로 설치해야할 것은 다음과 같습니다.
+앞선 ```fdisk``` 결과와 비교하면 sda와 sdb3가 사용중이지 않은 것을 알 수 있습니다.
+따라서 제가 추가적으로 설치해야할 것은 다음과 같습니다.
 
 * /dev/sda
 * /dev/sdb3
 
-설치합시다. sda부터 하죠
+## 3. sda 설치
 
-먼저 마운트할 폴더를 만들어줍니다.
+그럼 지금부터 sda를 설치하겠습니다. 
+먼저 sda를 마운트(mount)할 디렉토리를 만들어줍니다.
+이 때, 마운트(mount)란 저장 장치에 접근할 수 있는 경로를 디렉터리 구조에 연결시키는 작업을 말합니다.
+쉽게 생각하면 윈도우에서 usb 사용하는 것을 생각하면 됩니다. 
+윈도우 운영체제를 쓰면서 usb를 삽입하면 저절로 D드라이브가 생기는 것을 볼 수 있는데, 
+이것이 usb가 마운트 된 것입니다.
 
 ```bash
 $ sudo mkdir /mnt/sda
 ```
 
-그리고 다음과 같이 실행합니다.
+위 코드는 ```/mnt/sda``` 경로에 sda 디스크를 마운트하겠다는 의미입니다. 
 
+우리가 마운트 해야할 sda의 용량은 약 500기가 입니다. 
+참고로 ```fdisk```가 지원하는 용량은 2TB까지 이고 2TB이상은 GPT 파티션을 써야합니다. 
+참고로 fdisk는 MBR(Master Boot Record)이며, parted는 GPT(Guid Partition Table)입니다. 
+GPT는 parted를 이용하면 가능합니다. 
+물론 2TB 미만도 parted로 파티션할 수 있습니다. 
+이번 실습에서는 parted를 사용해서 해보겠습니다.
 
 ```bash
 $ sudo parted /dev/sda
@@ -132,7 +150,6 @@ $ sudo parted /dev/sda
 (parted) mklabel gpt
 Warning: The existing disk label on /dev/sda will be destroyed and all data on this disk will be lost. Do you want to continue?
 Yes/No? y
-(parted) unit TB
 (parted) unit GB
 (parted) mkpart primary 0.00GB 476.96GB
 (parted) print
@@ -149,13 +166,27 @@ Number  Start   End    Size   File system  Name     Flags
 Information: You may need to update /etc/fstab.
 ```
 
-포맷합시다.
+위 코드를 보면 첫줄에서 ```sudo parted /dev/sda```라고 써있는데 이는 ```dev/sda``` 디스크의 파티션을 생성하겠다는 의미입니다. 
+첫줄을 입력하면 (parted) 모드로 진입합니다. 
+그리고 ```mklabel gpt```는 디스크 라벨을 gpt로 설정하겠다는 의미입니다. 
+레벨 타입에는 bsd, gpt, loop, mac, mips, msdos, pc98, sun이 있습니다. 
+그리고 표시 단위를 기가 바이트로 하기 위해 ```unit GB```를 입력합니다. 
+만약 테라 바이트를 단위로 하고 싶다면 ```unit TB```를 입력합니다. 
+그리고 ```mkpart primary 0.00GB 476.96GB``` 명령어로 파티션을 나눕니다. 
+명령어 순서는 ```mkpart 파티션타입 시작 끝```입니다. 
+즉, 파티션 타입이 primary에 해당하며 시작은 0.00GB, 끝은 476.96GB라는 뜻입니다. 
+참고로 파티션 타입에는 primary, logical, extened가 존재합니다. 
+그리고 ```print```로 결과를 확인하고 ```quit```로 나갑니다. 
+그러면 ```/etc/fstab```파일을 업데이트 하라는데 이 파일은 잠시후에 업데이트 하겠습니다. 
+
+## 4. 디스크 포맷
+
+
+그러면 본격적인 마운트 전에 디스크를 포맷해보겠습니다. 
+다음 코드는 ext4 포맷으로 포맷하겠다는 것을 의미합니다.
 
 ```bash
-$ mkfs.ext4 /dev/sda1
-mke2fs 1.45.5 (07-Jan-2020)
-Could not open /dev/sda1: Permission denied
-dlit@ubuntu:/mnt$ sudo mkfs.ext4 /dev/sda1
+$ sudo mkfs.ext4 /dev/sda1
 mke2fs 1.45.5 (07-Jan-2020)
 Discarding device blocks: done
 Creating filesystem with 116445184 4k blocks and 29114368 inodes
@@ -171,9 +202,10 @@ Creating journal (262144 blocks): done
 Writing superblocks and filesystem accounting information: done
 ```
 
+참고로 위 코드에서 mkfs는 Make File System의 약자입니다. 
 
 
-## uuid 확인
+## 5. uuid 확인
 
 포맷하기 전에는 다음처럼 sda1의 UUID가 안보입니다.
 
@@ -209,12 +241,15 @@ $ sudo blkid
 /dev/sdb1: PARTUUID="849e2020-61eb-4399-952e-a46d47ef51ed"
 ```
 
-UUID를 확인했다면 다음과 같이 fstab에 추가해줍니ㅏㄷ.
+UUID를 확인했다면 다음과 같이 fstab에 추가해줍니다.
 
 ```bash
 $ sudo vim /etc/fstab
 
+UUID=2968a0cd-a585-4209-af44-b96c4c50e6a9 /mnt/sda ext4 defaults 0 0
 ```
+
+## 5. 마운트!
 
 드디어 마운트!
 
