@@ -117,6 +117,15 @@ tmpfs                              6.3G     0  6.3G   0% /run/user/1000
 
 설치합시다. sda부터 하죠
 
+먼저 마운트할 폴더를 만들어줍니다.
+
+```bash
+$ sudo mkdir /mnt/sda
+```
+
+그리고 다음과 같이 실행합니다.
+
+
 ```bash
 $ sudo parted /dev/sda
 
@@ -166,6 +175,8 @@ Writing superblocks and filesystem accounting information: done
 
 ## uuid 확인
 
+포맷하기 전에는 다음처럼 sda1의 UUID가 안보입니다.
+
 ```bash
 $ sudo blkid
 /dev/sdb2: UUID="ba60a0a0-43b4-41f9-8387-a065d5e10ee5" TYPE="ext4" PARTUUID="e7a14476-9786-4bc6-b228-75715cc63ce1"
@@ -181,6 +192,54 @@ $ sudo blkid
 /dev/sdb1: PARTUUID="849e2020-61eb-4399-952e-a46d47ef51ed"
 ```
 
+그러나 포맷하면 다음처럼 짜잔하고 나타납니다.
+
 ```bash
-$ sudo mkdir /mnt/sda
+$ sudo blkid
+/dev/sdb2: UUID="ba60a0a0-43b4-41f9-8387-a065d5e10ee5" TYPE="ext4" PARTUUID="e7a14476-9786-4bc6-b228-75715cc63ce1"
+/dev/sdb3: UUID="iB4KjP-hKXU-STam-O7Ar-i1eV-K2Hk-iasW6g" TYPE="LVM2_member" PARTUUID="606a155d-4b5f-4d6c-b340-ca8af40b5a89"
+/dev/mapper/ubuntu--vg-ubuntu--lv: UUID="bf14c884-986e-46fe-8c30-f28e2626329e" TYPE="ext4"
+/dev/loop0: TYPE="squashfs"
+/dev/loop2: TYPE="squashfs"
+/dev/loop3: TYPE="squashfs"
+/dev/loop4: TYPE="squashfs"
+/dev/loop5: TYPE="squashfs"
+/dev/loop6: TYPE="squashfs"
+/dev/sda1: UUID="2968a0cd-a585-4209-af44-b96c4c50e6a9" TYPE="ext4" PARTLABEL="primary" PARTUUID="33a1691f-1775-4cab-a842-71cf413dedb8"
+/dev/sdb1: PARTUUID="849e2020-61eb-4399-952e-a46d47ef51ed"
+```
+
+UUID를 확인했다면 다음과 같이 fstab에 추가해줍니ㅏㄷ.
+
+```bash
+$ sudo vim /etc/fstab
+
+```
+
+드디어 마운트!
+
+```bash
+$ sudo mount -a
+```
+
+끝났습니다. 디스크가 잘 추가 되었는지 확인해봅시다.
+
+```bash
+$ df -h
+Filesystem                         Size  Used Avail Use% Mounted on
+udev                                32G     0   32G   0% /dev
+tmpfs                              6.3G  2.3M  6.3G   1% /run
+/dev/mapper/ubuntu--vg-ubuntu--lv   98G   75G   19G  80% /
+tmpfs                               32G     0   32G   0% /dev/shm
+tmpfs                              5.0M     0  5.0M   0% /run/lock
+tmpfs                               32G     0   32G   0% /sys/fs/cgroup
+/dev/loop0                          47M   47M     0 100% /snap/snapd/16010
+/dev/loop4                          68M   68M     0 100% /snap/lxd/22753
+/dev/loop3                          62M   62M     0 100% /snap/core20/1518
+/dev/loop2                          68M   68M     0 100% /snap/lxd/21835
+/dev/loop5                          47M   47M     0 100% /snap/snapd/16292
+/dev/sdb2                          1.5G  209M  1.2G  16% /boot
+/dev/loop6                          62M   62M     0 100% /snap/core20/1581
+tmpfs                              6.3G     0  6.3G   0% /run/user/1000
+/dev/sda1                          437G   73M  414G   1% /mnt/sda
 ```
