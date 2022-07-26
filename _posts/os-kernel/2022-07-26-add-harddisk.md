@@ -139,3 +139,48 @@ Number  Start   End    Size   File system  Name     Flags
 (parted) quit
 Information: You may need to update /etc/fstab.
 ```
+
+포맷합시다.
+
+```bash
+$ mkfs.ext4 /dev/sda1
+mke2fs 1.45.5 (07-Jan-2020)
+Could not open /dev/sda1: Permission denied
+dlit@ubuntu:/mnt$ sudo mkfs.ext4 /dev/sda1
+mke2fs 1.45.5 (07-Jan-2020)
+Discarding device blocks: done
+Creating filesystem with 116445184 4k blocks and 29114368 inodes
+Filesystem UUID: 2968a0cd-a585-4209-af44-b96c4c50e6a9
+Superblock backups stored on blocks:
+        32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632, 2654208,
+        4096000, 7962624, 11239424, 20480000, 23887872, 71663616, 78675968,
+        102400000
+
+Allocating group tables: done
+Writing inode tables: done
+Creating journal (262144 blocks): done
+Writing superblocks and filesystem accounting information: done
+```
+
+
+
+## uuid 확인
+
+```bash
+$ sudo blkid
+/dev/sdb2: UUID="ba60a0a0-43b4-41f9-8387-a065d5e10ee5" TYPE="ext4" PARTUUID="e7a14476-9786-4bc6-b228-75715cc63ce1"
+/dev/sdb3: UUID="iB4KjP-hKXU-STam-O7Ar-i1eV-K2Hk-iasW6g" TYPE="LVM2_member" PARTUUID="606a155d-4b5f-4d6c-b340-ca8af40b5a89"
+/dev/mapper/ubuntu--vg-ubuntu--lv: UUID="bf14c884-986e-46fe-8c30-f28e2626329e" TYPE="ext4"
+/dev/loop0: TYPE="squashfs"
+/dev/loop2: TYPE="squashfs"
+/dev/loop3: TYPE="squashfs"
+/dev/loop4: TYPE="squashfs"
+/dev/loop5: TYPE="squashfs"
+/dev/loop6: TYPE="squashfs"
+/dev/sda1: PARTLABEL="primary" PARTUUID="33a1691f-1775-4cab-a842-71cf413dedb8"
+/dev/sdb1: PARTUUID="849e2020-61eb-4399-952e-a46d47ef51ed"
+```
+
+```bash
+$ sudo mkdir /mnt/sda
+```
