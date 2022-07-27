@@ -184,6 +184,7 @@ Information: You may need to update /etc/fstab.
 
 그러면 본격적인 마운트 전에 디스크를 포맷해보겠습니다. 
 다음 코드는 ext4 포맷으로 포맷하겠다는 것을 의미합니다.
+이 때, ext4는 extended file system 4를 뜻 합니다. 
 
 ```bash
 $ sudo mkfs.ext4 /dev/sda1
