@@ -28,6 +28,7 @@ title: "About"
 ### 코스 강의
 
 * [파이썬 장고 벡엔드 개발자 부트캠프](https://learningspoons.com/course/detail/django-backend/) - 운영체제&도커, 러닝스푼즈, 2022.08~2022.12
+* [파이썬 장고 벡엔드 개발자 부트캠프](https://learningspoons.com/course/detail/django-backend/) - 웹 애플리케이션, 러닝스푼즈, 2022.08
 * 누구나 선형대수 with 파이썬 3기, 러닝스푼즈, 2022.07 ~ 2022.08  
 * 나노디그리 데이터 애널리스트 취업코스 6기 - 수학&통계, 러닝스푼즈, 2022.06   
 * AI 백그라운드를 채워줄 선형대수 with 파이썬 1기, 러닝스푼즈, 2022.03 ~ 2022.04  
