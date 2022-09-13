@@ -55,5 +55,5 @@ canny edge detector는 다음과 같은 과정을 거칩니다.
 이를 위해 가우시안 필터 커널을 이미지에 두릅니다. 
 커널 크기가 $$(2k+1)\times(2k+1)$$인 가우시안 커널은 다음 식을 이용해 만듭니다. 
 
-$$ H_{ij} = \frac{1}{2\pi \sigma^2} exp(-\frac{1}{2\sigma^2}) $$ 
+$$ H_{ij} = \frac{1}{2\pi \sigma^2} exp(-\frac{(i-(k+1))^2 + (j-(k+1))^2}{2\sigma^2}),  1\leq i,j \leq (2k+1) $$ 
 
