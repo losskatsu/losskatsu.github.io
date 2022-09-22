@@ -50,5 +50,7 @@ sidebar-contents:
         url: "/categories/#programming"
       - title: "프론트엔드"
         url: "/categories/#frontend"
+      - title: "블록체인"
+        url: "/categories/#blockchain"
       - title: "책리뷰"
         url: "/categories/#book-review"
