@@ -126,7 +126,6 @@ psql 커맨드를 입력하면 PostgreSQL이 실행되게 됩니다.
 
 ```bash
 $ sudo -u postgres psql
-could not change directory to "/home/kodkod/work/test": Permission denied
 psql (14.5 (Ubuntu 14.5-0ubuntu0.22.04.1))
 Type "help" for help.
 
@@ -136,6 +135,23 @@ $
 
 위 방법을 사용하면 역슬래시q 이후에 exit를 별도로 입력할 필요가 없어서 편합니다. 
 
+
+### 2.4. 비밀번호 설정하기 
+
+postgres 계정의 비밀번호를 설정하는 방법은 다음과 같습니다. 
+저는 간단하게 1234라고 설정했습니다. 
+
+```bash
+$ sudo -u postgres psql postgres
+[sudo] password for :
+psql (14.5 (Ubuntu 14.5-0ubuntu0.22.04.1))
+Type "help" for help.
+
+postgres=# \password
+Enter new password for user "postgres":
+Enter it again:
+postgres=# \q
+```
 
 ### 2.4. 데이터베이스 확인하기
 
