@@ -1,5 +1,5 @@
 ---
-title: "[PostgreSQL] 윈도우에 PostgreSQL 설치하고 둘러보기"
+title: "[PostgreSQL] 윈도우에 PostgreSQL 설치하기"
 categories:
   - it-infra
 tags:
@@ -13,7 +13,7 @@ sidebar:
   nav: sidebar-contents
 ---
 
-# [PostgreSQL] 윈도우에 PostgreSQL 설치하고 둘러보기
+# [PostgreSQL] 윈도우에 PostgreSQL 설치하기
 
 ## 참고 링크  
 
@@ -120,9 +120,19 @@ next를 눌러줍니다.
 설치가 완료되면 위와 같은 화면이 뜹니다. 
 Finish를 눌러 설치를 마치겠습니다. 
 
+<center><img src="/assets/images/infra/postgresql/psql16.png" width="800"></center>
+
+설치를 마쳤으면 시작을 누르고 sql shell(psql)을 실행하고 위와 같이 셋팅을 해줍니다. 
+기본적으로 아무것도 입력하지 않고 엔터를 누르면 기본값이 설정되며, 마지막으로 비밀번호를 설정해줍니다.
+
 <center><img src="/assets/images/infra/postgresql/psql15.png" width="800"></center>
 
 그후 시작을 누르고 pgadmin4를 실행하면 위와 같이 비밀번호를 설정하라고 뜨는데, 
 자신이 원하는 비밀번호를 입력합니다. 
 저는 또 1234로 설정하겠습니다. 
 
+<center><img src="/assets/images/infra/postgresql/psql17.png" width="800"></center>
+
+그리고나서 위와 같이 데이터베이스를 연결해줍니다. 
+
+<center><img src="/assets/images/infra/postgresql/psql18.png" width="800"></center>
