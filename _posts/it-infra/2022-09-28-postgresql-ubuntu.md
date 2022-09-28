@@ -80,7 +80,7 @@ Sep 28 04:21:48 ip-172-31-40-144 systemd[1]: Finished PostgreSQL RDBMS.
 active 라고 되어 있는거 보니 제대로 작동 되고 있는 것을 알 수 있습니다. 
 
 
-## 2. PostgreSQL 롤(role)과 기초 사용
+## 2. 롤(role) 개념과 PostgreSQL 시작하기
 
 ### 2.1. 롤(role)이란
 
@@ -90,20 +90,43 @@ PostgreSQL에는 인증과 관련해서 "롤(roles)"이라는 개념이 있습�
 일단 PostgreSQL을 설치하면 기본적으로 postgres라는 유저 계정이 생성되게 되는데, 
 이 postgres라는 계정이 디폴트 Postgres role입니다. 
 그렇다면 postgres라는 계정을 이용해 postgreSQL를 사용해 보겠습니다. 
+이는 다음과 같이 두가지 방법이 있습니다.
 
 
-### 2.2. PostgreSQL 사용해보기
+### 2.2. PostgreSQL 시작하기(1)
 
 일단 계정을 postgres로 변경해줍니다.
 
 ```bash
 $ sudo -i -u postgres
+postgres@server$
 ```
 
 위 명령어를 입력하면 postgres 계정으로 변경되며 PostgreSQL을 사용할 수 있습니다. 
 
 ```bash
-$ psql
+postgres@server$ psql
+psql (14.5 (Ubuntu 14.5-0ubuntu0.22.04.1))
+Type "help" for help.
+
+postgres=# \q
+postgres@server$ exit
+$
+```
+
+psql 커맨드를 입력하면 PostgreSQL이 실행되게 됩니다. 
+만약 종료하고 싶다면 위와 같이 역슬래시+q를 입력하면 됩니다.
+그리고 나서 exit를 입력하면 postgre 계정에서 로그아웃하게 됩니다.
+
+### 2.3. PostgreSQL 시작하기(2)
+
+위 방법으로는 유저를 postgres로 변경하고 psql을 실행함으로써 
+총 두 단계의 과정을 거쳤는데, 
+다음 커맨드를 사용하면 더 편하게 PostgreSQL을 사용할 수 있습니다.
+
+```bash
+$ sudo -u postgres psql
+could not change directory to "/home/kodkod/work/test": Permission denied
 psql (14.5 (Ubuntu 14.5-0ubuntu0.22.04.1))
 Type "help" for help.
 
@@ -111,6 +134,71 @@ postgres=# \q
 $
 ```
 
-psql 커맨드를 입력하면 PostgreSQL이 실행되게 됩니다. 
-만약 종료하고 싶다면 위와 같이 역슬래시+q를 입력하면 됩니다.
+위 방법을 사용하면 역슬래시q 이후에 exit를 별도로 입력할 필요가 없어서 편합니다. 
+
+
+### 2.4. 데이터베이스 확인하기
+
+postgres 계정으로 데이터베이스를 확인해보겠습니다. 
+
+```bash
+postgres=# \list
+                              List of databases
+   Name    |  Owner   | Encoding | Collate |  Ctype  |   Access privileges
+-----------+----------+----------+---------+---------+-----------------------
+ postgres  | postgres | UTF8     | C.UTF-8 | C.UTF-8 |
+ template0 | postgres | UTF8     | C.UTF-8 | C.UTF-8 | =c/postgres          +
+           |          |          |         |         | postgres=CTc/postgres
+ template1 | postgres | UTF8     | C.UTF-8 | C.UTF-8 | =c/postgres          +
+           |          |          |         |         | postgres=CTc/postgres
+(3 rows)
+```
+
+위와 같이 역슬래시list를 입력하면 데이터베이스를 확인할 수 있는데, postgres라는 계정명과 동일한 데이터베이스를 확인할 수 있습니다. 
+postgreSQL에서는 롤이 생성되면 롤 이름과 동일한 데이터베이스가 생성되는 것을 알 수 있습니다.
+
+### 2.5. 새로운 롤 생성하기 
+
+새로운 롤을 생성하고 싶다면 postgres계정으로 다음 커맨드를 입력하면 됩니다. 
+
+(방법1)
+```bash
+postgres@server~:$ createuser --interactive
+Enter name of role to add: testuser1
+Shall the new role be a superuser? (y/n) y
+```
+
+(방법2)
+```bash
+$ sudo -u postgres createuser --interactive
+```
+
+위와 같이 롤을 생성한다면 롤이 추가되었는지 확인해보겠습니다. 
+
+```bash
+$ sudo -i -u postgres
+postgres@server~:$ psql
+psql (14.5 (Ubuntu 14.5-0ubuntu0.22.04.1))
+Type "help" for help.
+
+postgres=# \du
+                                   List of roles
+ Role name |                         Attributes                         | Member of
+-----------+------------------------------------------------------------+-----------
+ postgres  | Superuser, Create role, Create DB, Replication, Bypass RLS | {}
+ testuser1 | Superuser, Create role, Create DB                          | {}
+```
+
+## 3. 외부 접근 허용하기 
+
+```bash
+$ sudo systemctl restart postgresql
+```
+
+```bash
+$ netstat -ntlp | grep 5432
+(Not all processes could be identified, non-owned process info
+ will not be shown, you would have to be root to see it all.)
+tcp        0      0 0.0.0.0:5432            0.0.0.0:*               LISTEN 
+```
 
