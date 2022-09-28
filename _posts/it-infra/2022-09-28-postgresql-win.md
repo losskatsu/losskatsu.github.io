@@ -134,5 +134,12 @@ Finish를 눌러 설치를 마치겠습니다.
 <center><img src="/assets/images/infra/postgresql/psql17.png" width="800"></center>
 
 그리고나서 위와 같이 데이터베이스를 연결해줍니다. 
+Name은 자기가 원하는 이름으로 설정해줍니다.
 
 <center><img src="/assets/images/infra/postgresql/psql18.png" width="800"></center>
+
+그리고 나머지 정보들도 입력해줍니다.
+
+<center><img src="/assets/images/infra/postgresql/psql19.png" width="800"></center>
+
+그러면 위와 같이 연결되는 것을 알 수 있습니다. 
