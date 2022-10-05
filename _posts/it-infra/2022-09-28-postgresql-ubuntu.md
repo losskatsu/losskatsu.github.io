@@ -207,14 +207,97 @@ postgres=# \du
 
 ## 3. 외부 접근 허용하기 
 
+`/etc/postgresql/14/main` 경로에 존재하는 pg_hba.conf 파일을 다음과 같이 수정합니다.
+
+```bash
+# Database administrative login by Unix domain socket
+local   all             postgres                                peer
+
+# TYPE  DATABASE        USER            ADDRESS                 METHOD
+
+# "local" is for Unix domain socket connections only
+local   all             all                                     peer
+# IPv4 local connections:
+host    all             all             127.0.0.1/32            scram-sha-256
+host    all             all             0.0.0.0/0               scram-sha-256
+# IPv6 local connections:
+host    all             all             ::1/128                 scram-sha-256
+# Allow replication connections from localhost, by a user with the
+# replication privilege.
+local   replication     all                                     peer
+host    replication     all             127.0.0.1/32            scram-sha-256
+host    replication     all             ::1/128                 scram-sha-256
+```
+
+그리고 다음과 같이 postgresql을 다시 시작합니다.
+
 ```bash
 $ sudo systemctl restart postgresql
 ```
+
+그리고 netstat으로 확인을 해봅니다. 
 
 ```bash
 $ netstat -ntlp | grep 5432
 (Not all processes could be identified, non-owned process info
  will not be shown, you would have to be root to see it all.)
 tcp        0      0 0.0.0.0:5432            0.0.0.0:*               LISTEN 
+```
+
+## 3. 데이터는 어디에 저장될까?
+
+PostgreSQL에서 데이터는 다음 두 경로에 저장됩니다. 
+
+```bash
+/var/lib/postgresql
+/etc/postgresql
+```
+
+그렇다면 위 경로에 어떤 데이터가 존재하는지 알아봅시다. 
+
+먼저 `/var/lib/postgresql` 경로부터 확인해보겠습니다. 
+
+```bash
+server@host:/var/lib/postgresql/14/main# ll
+total 92
+drwx------ 19 postgres postgres 4096 Sep 28 05:56 ./
+drwxr-xr-x  3 postgres postgres 4096 Sep 28 04:21 ../
+-rw-------  1 postgres postgres    3 Sep 28 04:21 PG_VERSION
+drwx------  5 postgres postgres 4096 Sep 28 04:21 base/
+drwx------  2 postgres postgres 4096 Sep 28 05:57 global/
+drwx------  2 postgres postgres 4096 Sep 28 04:21 pg_commit_ts/
+drwx------  2 postgres postgres 4096 Sep 28 04:21 pg_dynshmem/
+drwx------  4 postgres postgres 4096 Sep 28 07:51 pg_logical/
+drwx------  4 postgres postgres 4096 Sep 28 04:21 pg_multixact/
+drwx------  2 postgres postgres 4096 Sep 28 04:21 pg_notify/
+drwx------  2 postgres postgres 4096 Sep 28 04:21 pg_replslot/
+drwx------  2 postgres postgres 4096 Sep 28 04:21 pg_serial/
+drwx------  2 postgres postgres 4096 Sep 28 04:21 pg_snapshots/
+drwx------  2 postgres postgres 4096 Sep 28 05:56 pg_stat/
+drwx------  2 postgres postgres 4096 Sep 28 04:21 pg_stat_tmp/
+drwx------  2 postgres postgres 4096 Sep 28 04:21 pg_subtrans/
+drwx------  2 postgres postgres 4096 Sep 28 04:21 pg_tblspc/
+drwx------  2 postgres postgres 4096 Sep 28 04:21 pg_twophase/
+drwx------  3 postgres postgres 4096 Sep 28 04:21 pg_wal/
+drwx------  2 postgres postgres 4096 Sep 28 04:21 pg_xact/
+-rw-------  1 postgres postgres   88 Sep 28 04:21 postgresql.auto.conf
+-rw-------  1 postgres postgres  130 Sep 28 05:56 postmaster.opts
+-rw-------  1 postgres postgres  107 Sep 28 05:56 postmaster.pid
+```
+
+다음으로는 `/etc/postgresql` 경로를 보겠습니다. 
+
+```bash
+server@host:/etc/postgresql/14/main# ll
+total 68
+drwxr-xr-x 3 postgres postgres  4096 Sep 28 05:54 ./
+drwxr-xr-x 3 postgres postgres  4096 Sep 28 04:21 ../
+drwxr-xr-x 2 postgres postgres  4096 Sep 28 04:21 conf.d/
+-rw-r--r-- 1 postgres postgres   315 Sep 28 04:21 environment
+-rw-r--r-- 1 postgres postgres   143 Sep 28 04:21 pg_ctl.conf
+-rw-r----- 1 postgres postgres  5080 Sep 28 05:54 pg_hba.conf
+-rw-r----- 1 postgres postgres  1636 Sep 28 04:21 pg_ident.conf
+-rw-r--r-- 1 postgres postgres 29029 Sep 28 05:50 postgresql.conf
+-rw-r--r-- 1 postgres postgres   317 Sep 28 04:21 start.conf
 ```
 
