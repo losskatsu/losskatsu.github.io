@@ -27,6 +27,7 @@ title: "About"
 
 ### 코스 강의
 
+* 비즈니스 분석가가 알아야할 통계 & 머신러닝, 러닝스푼즈, 2022.11~12   
 * [파이썬 장고 벡엔드 개발자 부트캠프](https://learningspoons.com/course/detail/django-backend/) - 운영체제&도커, 러닝스푼즈, 2022.10~11   
 * [파이썬 장고 벡엔드 개발자 부트캠프](https://learningspoons.com/course/detail/django-backend/) - 자료구조&알고리즘, 러닝스푼즈, 2022.09   
 * [파이썬 장고 벡엔드 개발자 부트캠프](https://learningspoons.com/course/detail/django-backend/) - 웹 애플리케이션, 러닝스푼즈, 2022.08   
@@ -40,6 +41,7 @@ title: "About"
 
 ### 단기 특강
 
+* 진로 탐색의 날 강연, 한민고등학교, 2022.11.21
 * 빅데이터 전문가 취업 멘토 특강, 경민IT고등학교, 2022.07.04  
 * IT 업계 간단회, 동해시 청년공간 열림, 2022.01.27   
 * 한민고등학교 진로 탐색의 날 강연, 한민고등학교, 2021.11.22  
