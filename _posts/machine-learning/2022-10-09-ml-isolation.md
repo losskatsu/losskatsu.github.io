@@ -18,7 +18,7 @@ sidebar:
 
 **참고 링크**
 
-* [원문]([http://web.archive.org/web/20080812141848/http://local.wasp.uwa.edu.au/~pbourke/geometry/insidepoly/](https://twitter.com/ChristophMolnar/status/1485549716268109824?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1485549716268109824%7Ctwgr%5E1279ea04a0b657111fd496b5b7e623e4b69df9f8%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fblog.naver.com%2FPostView.naver%3FblogId%3DdrrrdarkmoonlogNo%3D222630712390from%3DpostViewredirect%3DLogwidgetTypeCall%3DtruetopReferer%3Dhttps3A2F2Fblog.naver.com2FPostSearchList.naver3FSearchText3Dtwitter26blogId3Ddrrrdarkmoon26x3D026y3D0directAccess%3Dfalse)
+* [원문](https://twitter.com/ChristophMolnar/status/1485549716268109824?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1485549716268109824%7Ctwgr%5E1279ea04a0b657111fd496b5b7e623e4b69df9f8%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fblog.naver.com%2FPostView.naver%3FblogId%3DdrrrdarkmoonlogNo%3D222630712390from%3DpostViewredirect%3DLogwidgetTypeCall%3DtruetopReferer%3Dhttps3A2F2Fblog.naver.com2FPostSearchList.naver3FSearchText3Dtwitter26blogId3Ddrrrdarkmoon26x3D026y3D0directAccess%3Dfalse)
 
 ## 시작하며 
 
