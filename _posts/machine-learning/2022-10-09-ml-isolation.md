@@ -1,5 +1,5 @@
 ---
-title: "[머신러닝] 인공지능, 머신러닝 가 현실과 멀어지고 고립되는 이유" 
+title: "[머신러닝] 인공지능, 머신러닝 연구가 현실과 멀어지고 고립되는 이유" 
 categories:
   - machine-learning
 tags:
