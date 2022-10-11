@@ -100,6 +100,7 @@ social:
 analytics:
   provider               : "google" #"google-gtag" # false (default), "google", "google-universal", "custom"
   google:
+    measurement_id       : G-KM8ZVWX971
     tracking_id          : UA-134598633-1
     anonymize_ip         : false # true, false (default)
 
