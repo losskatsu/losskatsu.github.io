@@ -98,7 +98,7 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google" #"google-gtag" # false (default), "google", "google-universal", "custom"
+  provider               : "google-gtag" #"google-gtag" # false (default), "google", "google-universal", "custom"
   google:
     measurement_id       : G-SYBQZCW1Y3
     tracking_id          : UA-134598633-1
