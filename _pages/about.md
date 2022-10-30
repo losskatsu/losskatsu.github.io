@@ -158,9 +158,11 @@ title: "About"
 
 ### 연구 경력
 * High Dimensional and Higher Order Statistics Research Group  
-    2016.09-2016.12
+    2016.09-2016.12  
 * Geophysical Fluid Dynamics Institute  
-    2016.05-2016.08
+    2016.05-2016.08  
+* 고려대학교 통계학과 송성주 교수님 연구실
+    2012.03~2014.02  
 
 ### 베타 리딩
 
