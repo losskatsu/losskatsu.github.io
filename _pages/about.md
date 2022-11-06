@@ -28,7 +28,7 @@ title: "About"
 
 ### 코스 강의
 
-* 빅데이터 인재 양성 과정, 서초구청, 2022.11  
+* 빅데이터 인재 양성 과정 - 수리통계 & 머신러닝, 서초구청, 2022.11  
 * 비즈니스 분석가가 알아야할 통계 & 머신러닝, 러닝스푼즈, 2022.11~12   
 * [파이썬 장고 벡엔드 개발자 부트캠프](https://learningspoons.com/course/detail/django-backend/) - 운영체제&도커, 러닝스푼즈, 2022.10~11   
 * [파이썬 장고 벡엔드 개발자 부트캠프](https://learningspoons.com/course/detail/django-backend/) - 자료구조&알고리즘, 러닝스푼즈, 2022.09   
