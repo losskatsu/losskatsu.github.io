@@ -29,8 +29,8 @@ title: "About"
 ### 코스 강의
 
 * 머신러닝을 위한 선형대수의 모든 것, 러닝스푼즈, 2023.01 ~ 2023.02  
+* 비즈니스 분석가가 알아야할 통계 & 머신러닝, 러닝스푼즈, 2022.11~12  
 * 빅데이터 인재 양성 과정 - 수리통계 & 머신러닝, 서초구청, 2022.11  
-* 비즈니스 분석가가 알아야할 통계 & 머신러닝, 러닝스푼즈, 2022.11~12   
 * [파이썬 장고 벡엔드 개발자 부트캠프](https://learningspoons.com/course/detail/django-backend/) - 운영체제&도커, 러닝스푼즈, 2022.10~11   
 * [파이썬 장고 벡엔드 개발자 부트캠프](https://learningspoons.com/course/detail/django-backend/) - 자료구조&알고리즘, 러닝스푼즈, 2022.09   
 * [파이썬 장고 벡엔드 개발자 부트캠프](https://learningspoons.com/course/detail/django-backend/) - 웹 애플리케이션, 러닝스푼즈, 2022.08   
