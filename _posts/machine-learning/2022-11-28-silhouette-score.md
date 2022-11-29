@@ -17,7 +17,7 @@ sidebar:
 # 이상치 분석 성능 평가에 사용하는 실루엣 스코어에 대해 알아보자 
 
 
-**참고링크**
+### 참고링크  
 
 **머신러닝**
 * [k-means클러스터링 복습하기](https://losskatsu.github.io/machine-learning/kmeans-clustering/)
