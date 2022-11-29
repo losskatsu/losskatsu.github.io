@@ -117,3 +117,11 @@ $b_i$는 6이라는 것을 알 수 있습니다.
 어떻게 전체 데이터에 대한 실루엣 스코어를 구했는데 위와 같이 하나의 숫자가 출력될까요? 
 그 이유는 ```silhouette_score``` 함수는 모든 데이터에 대한 실루엣 스코어의 평균값을 보여주기 때문입니다.  
 
+
+<br/>
+
+### 머신러닝에 대해 좀 더 자세히 알고 싶다면?
+
+<a href="http://www.yes24.com/Product/Goods/97032765?OzSrank=1"><img src="/assets/images/mybook/book_cover01.JPG" width="100" align="middle"> [선형대수와 통계학으로 배우는 머신러닝 with 파이썬](http://www.yes24.com/Product/Goods/97032765?OzSrank=1)
+
+<br/>
