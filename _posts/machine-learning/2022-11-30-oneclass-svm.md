@@ -68,26 +68,26 @@ SVM의 핵심 개념은 서포트 벡터를 이용해 분류하는 것이었습�
 기본적인 서포트 벡터 머신과 마찬가지로 one class svm 또한 위와 같은 식을 최적화 하는 방식입니다. 
 위 식에서 $\phi (x)$는 새로운 피처 공간에서의 데이터를 의미합니다. 
 
-<center><img src="/assets/images/ml/oneclass-svm/ocsvm02.png" width="800"></center>
+<center><img src="/assets/images/ml/oneclass-svm/ocsvm07.png" width="800"></center>
 
 그리고 라그랑주 프리멀 함수를 구하면 위와 같이 구할 수 있고, 
 각각의 파라미터로 편미분하면 다음과 같은 결과를 구할 수 있습니다. 
 
-<center><img src="/assets/images/ml/oneclass-svm/ocsvm03.png" width="800"></center>
+<center><img src="/assets/images/ml/oneclass-svm/ocsvm08.png" width="800"></center>
 
 
 위에서 구한 최적해를 다음 그림과 같이 원래 라그랑주 프리멀 함수에 넣습니다. 
 
-<center><img src="/assets/images/ml/oneclass-svm/ocsvm04.png" width="800"></center>
+<center><img src="/assets/images/ml/oneclass-svm/ocsvm09.png" width="800"></center>
 
 앞서 구한 최적해 $w$를 라그랑주 프리멀 함수에 넣고 풀면 다음과 같이 라그랑주 듀얼 함수를 구할 수 있습니다. 
 
-<center><img src="/assets/images/ml/oneclass-svm/ocsvm05.png" width="800"></center>
+<center><img src="/assets/images/ml/oneclass-svm/ocsvm10.png" width="800"></center>
 
 위 식에서 마지막 줄이 정리된 라그랑주 듀얼 함수인데, 
 이 식의 코어 함수만 남기면 다음과 같은 식을 최소화하는 것이 목적이라고 할 수 있습니다. 
 
-<center><img src="/assets/images/ml/oneclass-svm/ocsvm06.png" width="800"></center>
+<center><img src="/assets/images/ml/oneclass-svm/ocsvm11.png" width="800"></center>
 
 즉, one class svm의 최종 목적은 위 식을 조건을 만족하는 최적해를 찾는 것입니다. 
 
