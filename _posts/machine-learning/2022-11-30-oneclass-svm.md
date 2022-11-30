@@ -76,12 +76,11 @@ SVM의 핵심 개념은 서포트 벡터를 이용해 분류하는 것이었습�
 <center><img src="/assets/images/ml/oneclass-svm/ocsvm03.png" width="800"></center>
 
 
-위에서 구한 최적해를 다음 그림과 같이 원래 라그랑주 프리멀 함수에 넣으면, 
-아래와 같은 라그랑주 듀얼 함수를 구할 수 있습니다. 
+위에서 구한 최적해를 다음 그림과 같이 원래 라그랑주 프리멀 함수에 넣습니다. 
 
 <center><img src="/assets/images/ml/oneclass-svm/ocsvm04.png" width="800"></center>
 
-앞서 구한 최적해 $w$를 라그랑주 함수에 넣고 풀면 다음과 같이 정리를 할 수 있습니다. 
+앞서 구한 최적해 $w$를 라그랑주 프리멀 함수에 넣고 풀면 다음과 같이 라그랑주 듀얼 함수를 구할 수 있습니다. 
 
 <center><img src="/assets/images/ml/oneclass-svm/ocsvm05.png" width="800"></center>
 
