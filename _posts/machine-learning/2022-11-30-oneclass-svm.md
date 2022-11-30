@@ -46,25 +46,47 @@ sidebar:
 * [실루엣 스코어](https://losskatsu.github.io/machine-learning/silhouette-score)
 
 
-## 1. 서론
+## 1. SVM 복습
+
+우리는 지도학습 알고리즘 중 서포트 벡터 머신(support vector machine, 이하 SVM)이라는 
+알고리즘을 배웠습니다. 서포트 벡터 머신은 지도학습 알고리즘이므로 라벨링이 되어 있는 데이터를 
+대상으로 학습하는 알고리즘 입니다. 
+그리고 [SVM 포스팅](https://losskatsu.github.io/machine-learning/svm/)에서도 알 수 있듯, 
+SVM의 핵심 개념은 서포트 벡터를 이용해 분류하는 것이었습니다. 
+
+## 2. One Class SVM
+
+반면 이번 포스팅에서 알아볼 One Class SVM(one class support vector machine)은 
+비지도학습 알고리즘 중 하나입니다. 즉, one class svm은 서포트 벡터 개념을 이용해 
+라벨링되어 있지 않은 데이터를 클러스터링 하는 방법입니다.  
 
 이번 포스팅에서는 비지도학습에 사용되는 One Class SVM에 대해 알아보겠습니다. 
 
-<center><img src="/assets/images/ml/oneclass-svm/ocsvm01.png" width="800"></center>
+<center><img src="/assets/images/ml/oneclass-svm/ocsvm01.png" width="500"></center>
+
+기본적인 서포트 벡터 머신과 마찬가지로 one class svm 또한 위와 같은 식을 최적화 하는 방식입니다. 
 
 <center><img src="/assets/images/ml/oneclass-svm/ocsvm02.png" width="800"></center>
 
+라그랑주 함수를 구하면 위와 같이 구할 수 있고, 
+각각의 파라미터로 편미분하면 다음과 같은 최적해를 구할 수 있습니다. 
 
 <center><img src="/assets/images/ml/oneclass-svm/ocsvm03.png" width="800"></center>
 
 
+위에서 구한 최적해를 다음 그림과 같이 원래 라그랑주 함수에 넣어보겠습니다.
+
 <center><img src="/assets/images/ml/oneclass-svm/ocsvm04.png" width="800"></center>
 
+앞서 구한 최적해 w를 라그랑주 함수에 넣고 풀면 다음과 같이 정리를 할 수 있습니다. 
 
 <center><img src="/assets/images/ml/oneclass-svm/ocsvm05.png" width="800"></center>
 
+위 식에서 마지막 줄이 정리된 라그랑주 함수인데, 
+이 식의 코어 함수만 남기면 다음과 같은 식을 최소화하는 것이 목적이라고 할 수 있습니다. 
 
 <center><img src="/assets/images/ml/oneclass-svm/ocsvm06.png" width="800"></center>
 
+즉, one class svm의 최종 목적은 위 식을 조건을 만족하는 최적해를 찾는 것입니다. 
 
 
