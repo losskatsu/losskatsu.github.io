@@ -46,4 +46,25 @@ sidebar:
 * [실루엣 스코어](https://losskatsu.github.io/machine-learning/silhouette-score)
 
 
-## 
+## 1. 서론
+
+이번 포스팅에서는 비지도학습에 사용되는 One Class SVM에 대해 알아보겠습니다. 
+
+<center><img src="/assets/images/ml/oneclass-svm/ocsvm01.png" width="800"></center>
+
+<center><img src="/assets/images/ml/oneclass-svm/ocsvm02.png" width="800"></center>
+
+
+<center><img src="/assets/images/ml/oneclass-svm/ocsvm03.png" width="800"></center>
+
+
+<center><img src="/assets/images/ml/oneclass-svm/ocsvm04.png" width="800"></center>
+
+
+<center><img src="/assets/images/ml/oneclass-svm/ocsvm05.png" width="800"></center>
+
+
+<center><img src="/assets/images/ml/oneclass-svm/ocsvm06.png" width="800"></center>
+
+
+
