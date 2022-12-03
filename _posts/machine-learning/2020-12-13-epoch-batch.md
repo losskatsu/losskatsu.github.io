@@ -21,14 +21,14 @@ sidebar:
 |:------:|:------:|:------:|:------:|:------:|
 |[k-means](https://losskatsu.github.io/machine-learning/kmeans-clustering/)|[신경망이란](https://losskatsu.github.io/machine-learning/dl-basic01/)|[고유값,고유벡터](https://losskatsu.github.io/linear-algebra/eigen/)|[ROC 커브](https://losskatsu.github.io/machine-learning/stat-roc-curve/)|[컨벡스 셋](https://losskatsu.github.io/machine-learning/convex-set/)|
 |[k-최근접이웃](https://losskatsu.github.io/machine-learning/knn/)|[성능함수](https://losskatsu.github.io/machine-learning/dl-basic02/)|[행렬식](https://losskatsu.github.io/linear-algebra/determinant/)|[크로스 밸리데이션](https://losskatsu.github.io/machine-learning/cross-validation/)| [컨벡스 함수](https://losskatsu.github.io/machine-learning/convex-function/)|
-|[선형회귀](https://losskatsu.github.io/statistics/simple-regression/)|[신경망 학습](https://losskatsu.github.io/machine-learning/dl-basic03/)|[내적](https://losskatsu.github.io/linear-algebra/innerproduct/)|[실루엣 스코어](https://losskatsu.github.io/machine-learning/silhouette-score)|[라그랑주 듀얼 함수](https://losskatsu.github.io/machine-learning/dual-function/)|
+|[선형회귀](https://losskatsu.github.io/statistics/simple-regression/)|[신경망 학습](https://losskatsu.github.io/machine-learning/dl-basic03/)|[내적](https://losskatsu.github.io/linear-algebra/innerproduct/)|[실루엣 스코어](https://losskatsu.github.io/machine-learning/silhouette-score)|[라그랑주 듀얼](https://losskatsu.github.io/machine-learning/dual-function/)|
 |[로지스틱회귀](https://losskatsu.github.io/statistics/logistic-regression/) |[교차연결](https://losskatsu.github.io/machine-learning/dl-basic04/) |[기저](https://losskatsu.github.io/linear-algebra/basis/)|  | [KKT 조건](https://losskatsu.github.io/machine-learning/kkt/) |
 |[릿지,라쏘회귀](https://losskatsu.github.io/machine-learning/l1l2/) |[합성곱 신경망](https://losskatsu.github.io/machine-learning/dl-basic05/) |[랭크, 차원](https://losskatsu.github.io/linear-algebra/rank-dim/)| | |
 |[의사결정나무](https://losskatsu.github.io/machine-learning/decision-tree/) |[배치, 에포크 차이](https://losskatsu.github.io/machine-learning/epoch-batch/) | [선형변환](https://losskatsu.github.io/linear-algebra/linear-trans/)| | |
 |[서포트벡터머신](https://losskatsu.github.io/machine-learning/svm/) | |[직교행렬](https://losskatsu.github.io/linear-algebra/orthogonal/) | | |
-|[원클래스 SVM](https://losskatsu.github.io/machine-learning/oneclass-svm/)  | | |
-|[LDA ](https://losskatsu.github.io/machine-learning/lda/) | | [고유값분해](https://losskatsu.github.io/linear-algebra/eigen-decomposition/) | | |
-|[GMM](https://losskatsu.github.io/machine-learning/gmm/) | |[특이값 분해](https://losskatsu.github.io/linear-algebra/svd/) | | |
+|[원클래스 SVM](https://losskatsu.github.io/machine-learning/oneclass-svm/)  | | [고유값분해](https://losskatsu.github.io/linear-algebra/eigen-decomposition/)| | |
+|[LDA ](https://losskatsu.github.io/machine-learning/lda/) | | [특이값 분해](https://losskatsu.github.io/linear-algebra/svd/) | | |
+|[GMM](https://losskatsu.github.io/machine-learning/gmm/) | | | | |
 |[부스팅](https://losskatsu.github.io/machine-learning/boosting/) | | | | |
 |[사이킷런 실습](https://losskatsu.github.io/machine-learning/sklearn/) | | | | |
 
