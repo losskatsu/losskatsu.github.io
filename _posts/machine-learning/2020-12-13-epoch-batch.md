@@ -18,10 +18,10 @@ sidebar:
 ### 참고링크  
 
 **머신러닝**
-* [k-means클러스터링 복습하기](https://losskatsu.github.io/machine-learning/kmeans-clustering/)
-* [k-최근접 이웃 알고리즘 복습하기](https://losskatsu.github.io/machine-learning/knn/)
-* [선형회귀분석 복습하기](https://losskatsu.github.io/statistics/simple-regression/)
-* [로지스틱 회귀분석 복습하기](https://losskatsu.github.io/statistics/logistic-regression/)
+* [### k-means클러스터링 복습하기](https://losskatsu.github.io/machine-learning/kmeans-clustering/)
+* [#### k-최근접 이웃 알고리즘 복습하기](https://losskatsu.github.io/machine-learning/knn/)
+* [##### 선형회귀분석 복습하기](https://losskatsu.github.io/statistics/simple-regression/)
+* [###### 로지스틱 회귀분석 복습하기](https://losskatsu.github.io/statistics/logistic-regression/)
 * [릿지, 라쏘 회귀분석 북습하기](https://losskatsu.github.io/machine-learning/l1l2/)
 * [의사결정나무 복습하기](https://losskatsu.github.io/machine-learning/decision-tree/)
 * [서포트벡터머신 복습하기](https://losskatsu.github.io/machine-learning/svm/)
