@@ -27,7 +27,7 @@ sidebar:
 |[의사결정나무](https://losskatsu.github.io/machine-learning/decision-tree/) |[배치, 에포크 차이](https://losskatsu.github.io/machine-learning/epoch-batch/) | [선형변환](https://losskatsu.github.io/linear-algebra/linear-trans/)| | |
 |[서포트벡터머신](https://losskatsu.github.io/machine-learning/svm/) | |[직교행렬](https://losskatsu.github.io/linear-algebra/orthogonal/) | | |
 |[원클래스 SVM](https://losskatsu.github.io/machine-learning/oneclass-svm/)  | | [고유값분해](https://losskatsu.github.io/linear-algebra/eigen-decomposition/)| | |
-|[LDA ](https://losskatsu.github.io/machine-learning/lda/) | | [특이값 분해](https://losskatsu.github.io/linear-algebra/svd/) | | |
+|[LDA ](https://losskatsu.github.io/machine-learning/lda/) | | [특이값분해](https://losskatsu.github.io/linear-algebra/svd/) | | |
 |[GMM](https://losskatsu.github.io/machine-learning/gmm/) | | | | |
 |[부스팅](https://losskatsu.github.io/machine-learning/boosting/) | | | | |
 |[사이킷런 실습](https://losskatsu.github.io/machine-learning/sklearn/) | | | | |
