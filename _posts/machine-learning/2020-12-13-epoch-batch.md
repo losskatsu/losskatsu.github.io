@@ -17,28 +17,20 @@ sidebar:
 
 ### 참고링크  
 
-|머신러닝|딥러닝|
-|------|------|
-|[k-means클러스터링](https://losskatsu.github.io/machine-learning/kmeans-clustering/)|[신경망이란](https://losskatsu.github.io/machine-learning/dl-basic01/)|
-|[k-최근접 이웃 알고리즘](https://losskatsu.github.io/machine-learning/knn/)|[성능함수란](https://losskatsu.github.io/machine-learning/dl-basic02/)|
-|[선형회귀분석](https://losskatsu.github.io/statistics/simple-regression/)|[편미분을 이용한 신경망 학습](https://losskatsu.github.io/machine-learning/dl-basic03/)|
-|[로지스틱 회귀분석](https://losskatsu.github.io/statistics/logistic-regression/) |[교차연결](https://losskatsu.github.io/machine-learning/dl-basic04/) |
+|머신러닝|딥러닝|모형평가|최적화|
+|:------:|:------:|:------:|:------:|
+|[k-means클러스터링](https://losskatsu.github.io/machine-learning/kmeans-clustering/)|[신경망이란](https://losskatsu.github.io/machine-learning/dl-basic01/)|[ROC 커브](https://losskatsu.github.io/machine-learning/stat-roc-curve/)|[컨벡스 셋](https://losskatsu.github.io/machine-learning/convex-set/)|
+|[k-최근접 이웃](https://losskatsu.github.io/machine-learning/knn/)|[성능함수란](https://losskatsu.github.io/machine-learning/dl-basic02/)|[크로스 밸리데이션](https://losskatsu.github.io/machine-learning/cross-validation/)| [컨벡스 함수](https://losskatsu.github.io/machine-learning/convex-function/)|
+|[선형회귀분석](https://losskatsu.github.io/statistics/simple-regression/)|[신경망 학습](https://losskatsu.github.io/machine-learning/dl-basic03/)|[실루엣 스코어](https://losskatsu.github.io/machine-learning/silhouette-score)|[라그랑주 듀얼 함수](https://losskatsu.github.io/machine-learning/dual-function/)|
+|[로지스틱 회귀분석](https://losskatsu.github.io/statistics/logistic-regression/) |[교차연결](https://losskatsu.github.io/machine-learning/dl-basic04/) |  | [KKT 조건](https://losskatsu.github.io/machine-learning/kkt/) |
 |[릿지, 라쏘 회귀분석](https://losskatsu.github.io/machine-learning/l1l2/) |[합성곱 신경망](https://losskatsu.github.io/machine-learning/dl-basic05/) |
 |[의사결정나무](https://losskatsu.github.io/machine-learning/decision-tree/) |[배치, 에포크 차이](https://losskatsu.github.io/machine-learning/epoch-batch/) |
 |[서포트벡터머신](https://losskatsu.github.io/machine-learning/svm/) | |
 |[원클래스 SVM](https://losskatsu.github.io/machine-learning/oneclass-svm/)  | |
 |[LDA ](https://losskatsu.github.io/machine-learning/lda/) | |
-|[가우시안 혼합 모형(GMM)](https://losskatsu.github.io/machine-learning/gmm/) | |
+|[가우시안 혼합 모형](https://losskatsu.github.io/machine-learning/gmm/) | |
 |[부스팅(boosting)](https://losskatsu.github.io/machine-learning/boosting/) | |
 |[사이킷런 실습](https://losskatsu.github.io/machine-learning/sklearn/) | |
-
-
-|모형평가|최적화|
-|------|------|
-|[ROC 커브](https://losskatsu.github.io/machine-learning/stat-roc-curve/)|[컨벡스 셋](https://losskatsu.github.io/machine-learning/convex-set/)|
-|[크로스 밸리데이션](https://losskatsu.github.io/machine-learning/cross-validation/)| [컨벡스 함수](https://losskatsu.github.io/machine-learning/convex-function/)|
-|[실루엣 스코어](https://losskatsu.github.io/machine-learning/silhouette-score)|[라그랑주 듀얼 함수](https://losskatsu.github.io/machine-learning/dual-function/)|
-| | [Karush-Kuhn-Tucker](https://losskatsu.github.io/machine-learning/kkt/) |
 
 
 <br/>
