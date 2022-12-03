@@ -17,39 +17,32 @@ sidebar:
 
 ### 참고링크  
 
-**머신러닝**
-* #### [k-means클러스터링 복습하기](https://losskatsu.github.io/machine-learning/kmeans-clustering/)
-* #### [k-최근접 이웃 알고리즘 복습하기](https://losskatsu.github.io/machine-learning/knn/)
-* #### [선형회귀분석 복습하기](https://losskatsu.github.io/statistics/simple-regression/)
-* #### [로지스틱 회귀분석 복습하기](https://losskatsu.github.io/statistics/logistic-regression/)
-* #### [릿지, 라쏘 회귀분석 북습하기](https://losskatsu.github.io/machine-learning/l1l2/)
-* #### [의사결정나무 복습하기](https://losskatsu.github.io/machine-learning/decision-tree/)
-* #### [서포트벡터머신 복습하기](https://losskatsu.github.io/machine-learning/svm/)
-* #### [원클래스 SVM 복습하기](https://losskatsu.github.io/machine-learning/oneclass-svm/) 
-* #### [LDA 복습하기](https://losskatsu.github.io/machine-learning/lda/)
-* #### [가우시안 혼합 모형(GMM) 복습하기](https://losskatsu.github.io/machine-learning/gmm/)
-* #### [딥러닝 기초 복습하기](https://losskatsu.github.io/machine-learning/dl-basic01/)
-* #### [부스팅(boosting) 복습하기](https://losskatsu.github.io/machine-learning/boosting/)
-* #### [사이킷런 실습하기](https://losskatsu.github.io/machine-learning/sklearn/)
+|머신러닝|딥러닝|
+|------|---|
+|[k-means클러스터링](https://losskatsu.github.io/machine-learning/kmeans-clustering/)|[딥러닝 기초(1) 신경망이란](https://losskatsu.github.io/machine-learning/dl-basic01/)|
+|[k-최근접 이웃 알고리즘](https://losskatsu.github.io/machine-learning/knn/)|[딥러닝 기초(2) 성능함수란](https://losskatsu.github.io/machine-learning/dl-basic02/)|
+|[선형회귀분석](https://losskatsu.github.io/statistics/simple-regression/)|[딥러닝 기초(3) 편미분을 이용한 신경망 학습](https://losskatsu.github.io/machine-learning/dl-basic03/)|
+|[로지스틱 회귀분석](https://losskatsu.github.io/statistics/logistic-regression/) |[딥러닝 기초(4) 교차연결](https://losskatsu.github.io/machine-learning/dl-basic04/) |
+|[릿지, 라쏘 회귀분석](https://losskatsu.github.io/machine-learning/l1l2/) |[딥러닝 기초(5) 합성곱 신경망](https://losskatsu.github.io/machine-learning/dl-basic05/) |
+|[의사결정나무](https://losskatsu.github.io/machine-learning/decision-tree/) |[배치, 에포크 차이](https://losskatsu.github.io/machine-learning/epoch-batch/) |
+|[서포트벡터머신](https://losskatsu.github.io/machine-learning/svm/) | |
+|[원클래스 SVM](https://losskatsu.github.io/machine-learning/oneclass-svm/)  | |
+|[LDA ](https://losskatsu.github.io/machine-learning/lda/) | |
+|[가우시안 혼합 모형(GMM)](https://losskatsu.github.io/machine-learning/gmm/) | |
+|[부스팅(boosting)](https://losskatsu.github.io/machine-learning/boosting/) | |
+|[사이킷런 실습](https://losskatsu.github.io/machine-learning/sklearn/) | |
 
-**딥러닝**
-* #### [딥러닝 기초(1) 신경망이란](https://losskatsu.github.io/machine-learning/dl-basic01/)
-* #### [딥러닝 기초(2) 성능함수란](https://losskatsu.github.io/machine-learning/dl-basic02/)
-* #### [딥러닝 기초(3) 편미분을 이용한 신경망 학습](https://losskatsu.github.io/machine-learning/dl-basic03/)
-* #### [딥러닝 기초(4) 교차연결](https://losskatsu.github.io/machine-learning/dl-basic04/)
-* #### [딥러닝 기초(5) 합성곱 신경망](https://losskatsu.github.io/machine-learning/dl-basic05/)
-* #### [배치, 에포크 ](https://losskatsu.github.io/machine-learning/epoch-batch/)
 
 **모형평가**
-* #### [ROC 커브 복습하기](https://losskatsu.github.io/machine-learning/stat-roc-curve/)
-* #### [교차검증(cross validataion)](https://losskatsu.github.io/machine-learning/cross-validation/)
-* #### [실루엣 스코어](https://losskatsu.github.io/machine-learning/silhouette-score)
+* [ROC 커브 복습하기](https://losskatsu.github.io/machine-learning/stat-roc-curve/)
+* [교차검증(cross validataion)](https://losskatsu.github.io/machine-learning/cross-validation/)
+* [실루엣 스코어](https://losskatsu.github.io/machine-learning/silhouette-score)
 
 **최적화**
-* #### [컨벡스 셋(convex set)](https://losskatsu.github.io/machine-learning/convex-set/)
-* #### [컨벡스 함수(convex function)](https://losskatsu.github.io/machine-learning/convex-function/)
-* #### [라그랑주 듀얼 함수](https://losskatsu.github.io/machine-learning/dual-function/)
-* #### [Karush-Kuhn-Tucker](https://losskatsu.github.io/machine-learning/kkt/)
+* [컨벡스 셋(convex set)](https://losskatsu.github.io/machine-learning/convex-set/)
+* [컨벡스 함수(convex function)](https://losskatsu.github.io/machine-learning/convex-function/)
+* [라그랑주 듀얼 함수](https://losskatsu.github.io/machine-learning/dual-function/)
+* [Karush-Kuhn-Tucker](https://losskatsu.github.io/machine-learning/kkt/)
 
 
 <br/>
