@@ -106,3 +106,8 @@ LSTM기반의 seq2seq 모형을 예측합니다. 우리 모형은 교사 강요�
 (3) 모형이 제대로 작동되는지 확인하기 위해 어떤 문장을 디코딩 해봅니다. 
 즉, encoder_input_data의 샘플이 대응하는 decoder_target_data로 변하는지 확인합니다. 
 
+<br/>
+
+<a href="http://www.yes24.com/Product/Goods/105772247" target="_blank"><img src="/assets/images/advertisement/ad-book/ad00002_la.png" width="800" align="middle">
+
+<br/>
