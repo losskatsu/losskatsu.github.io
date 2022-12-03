@@ -20,6 +20,7 @@ sidebar:
 |머신러닝|딥러닝|모형평가|최적화|
 |:------:|:------:|:------:|:------:|
 |[k-means클러스터링](https://losskatsu.github.io/machine-learning/kmeans-clustering/)|[신경망이란](https://losskatsu.github.io/machine-learning/dl-basic01/)|[ROC 커브](https://losskatsu.github.io/machine-learning/stat-roc-curve/)|[컨벡스 셋](https://losskatsu.github.io/machine-learning/convex-set/)|
+
 |[k-최근접 이웃](https://losskatsu.github.io/machine-learning/knn/)|[성능함수란](https://losskatsu.github.io/machine-learning/dl-basic02/)|[크로스 밸리데이션](https://losskatsu.github.io/machine-learning/cross-validation/)| [컨벡스 함수](https://losskatsu.github.io/machine-learning/convex-function/)|
 |[선형회귀분석](https://losskatsu.github.io/statistics/simple-regression/)|[신경망 학습](https://losskatsu.github.io/machine-learning/dl-basic03/)|[실루엣 스코어](https://losskatsu.github.io/machine-learning/silhouette-score)|[라그랑주 듀얼 함수](https://losskatsu.github.io/machine-learning/dual-function/)|
 |[로지스틱 회귀분석](https://losskatsu.github.io/statistics/logistic-regression/) |[교차연결](https://losskatsu.github.io/machine-learning/dl-basic04/) |  | [KKT 조건](https://losskatsu.github.io/machine-learning/kkt/) |
