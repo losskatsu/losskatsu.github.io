@@ -136,18 +136,19 @@ Precision을 보시면 분모가 TP + FP이므로 Positive 라는 판정을 내�
 이 경우에는 모든 정상인에 대해 올바른 판정이 내려집니다. 
 하지만 병에 걸린 환자 또한 정상인이라고 판정 받으므로 병을 치료할 수 없습니다.
 
-![figure1](/assets/images/roc/roc01.png){: width="500" height="500"}
-
+<center><img src="/assets/images/roc/roc01.JPG" width="600"></center>
+  
+  
 ROC 커브는 이러한 다양한 부분을 한눈에 볼 수 있는 판정법입니다. 
 Figure1에서 보면, 병에 걸린 사람을 양성 판정하고, 정상인을 정상인이라 판정하는 가장 이상적인 판정, 
 즉, TPR = 1 이고, FPR = 0 인 경우가 가장 이상적입니다.(Perfect Classification)
 
-![figure2](/assets/images/roc/roc02.jpg){: width="400" height="400"}
+<center><img src="/assets/images/roc/roc02.JPG" width="600"></center>
 
 ROC 커브에서 모델의 평가가 좋다는 것은 커브의 밑면적 즉 AUC의 넓이가 넓을 수록 그 모델의 성능이 좋다는 것.
 
-![figure3](/assets/images/roc/roc03.png){: width="500" height="500"}
-
+<center><img src="/assets/images/roc/roc03.JPG" width="600"></center>
+  
 
 <br/>
 
