@@ -16,15 +16,35 @@ sidebar:
 
 # 내적(inner product)의 의미
 
-* [고유값, 고유벡터 복습하기](https://losskatsu.github.io/linear-algebra/eigen/)
-* [행렬식 복습하기](https://losskatsu.github.io/linear-algebra/determinant/)
-* [내적 복습하기](https://losskatsu.github.io/linear-algebra/innerproduct/)
-* [기저 복습하기](https://losskatsu.github.io/linear-algebra/basis/)
-* [랭크, 차원 복습하기](https://losskatsu.github.io/linear-algebra/rank-dim/)
-* [선형변환 복습하기](https://losskatsu.github.io/linear-algebra/linear-trans/)
-* [직교행렬 복습하기](https://losskatsu.github.io/linear-algebra/orthogonal/)
-* [대각화, 고유값분해 복습하기](https://losskatsu.github.io/linear-algebra/eigen-decomposition/)
-* [특이값 분해 복습하기](https://losskatsu.github.io/linear-algebra/svd/)
+### 참고링크  
+
+|머신러닝|딥러닝|선형대수|기초통계|최적화|
+|:------:|:------:|:------:|:------:|:------:|
+|[k-means](https://losskatsu.github.io/machine-learning/kmeans-clustering/)|[신경망이란](https://losskatsu.github.io/machine-learning/dl-basic01/)|[고유값,고유벡터](https://losskatsu.github.io/linear-algebra/eigen/)| [확률변수](https://losskatsu.github.io/statistics/random-variable/) |[컨벡스 셋](https://losskatsu.github.io/machine-learning/convex-set/)|
+|[k-최근접이웃](https://losskatsu.github.io/machine-learning/knn/)|[성능함수](https://losskatsu.github.io/machine-learning/dl-basic02/)|[행렬식](https://losskatsu.github.io/linear-algebra/determinant/)| [확률분포](https://losskatsu.github.io/statistics/prob-distribution/) | [컨벡스 함수](https://losskatsu.github.io/machine-learning/convex-function/)|
+|[선형회귀](https://losskatsu.github.io/statistics/simple-regression/)|[신경망 학습](https://losskatsu.github.io/machine-learning/dl-basic03/)|[내적](https://losskatsu.github.io/linear-algebra/innerproduct/)| [모집단과 표본](https://losskatsu.github.io/statistics/population-sample/) |[라그랑주 듀얼](https://losskatsu.github.io/machine-learning/dual-function/)|
+|[로지스틱회귀](https://losskatsu.github.io/statistics/logistic-regression/) |[교차연결](https://losskatsu.github.io/machine-learning/dl-basic04/) |[기저](https://losskatsu.github.io/linear-algebra/basis/)| [평균과 분산](https://losskatsu.github.io/statistics/mean-vairance/)   | [KKT 조건](https://losskatsu.github.io/machine-learning/kkt/) |
+|[릿지,라쏘회귀](https://losskatsu.github.io/machine-learning/l1l2/) |[합성곱 신경망](https://losskatsu.github.io/machine-learning/dl-basic05/) |[랭크, 차원](https://losskatsu.github.io/linear-algebra/rank-dim/)| [공분산, 상관계수](https://losskatsu.github.io/statistics/cov-corr/)  | [ROC 커브](https://losskatsu.github.io/machine-learning/stat-roc-curve/) |
+|[의사결정나무](https://losskatsu.github.io/machine-learning/decision-tree/) |[배치, 에포크 차이](https://losskatsu.github.io/machine-learning/epoch-batch/) | [선형변환](https://losskatsu.github.io/linear-algebra/linear-trans/)| [최대가능도추정](https://losskatsu.github.io/statistics/mle/) | [크로스 밸리데이션](https://losskatsu.github.io/machine-learning/cross-validation/) |
+|[서포트벡터머신](https://losskatsu.github.io/machine-learning/svm/) | [텐서플로기초(1)](https://losskatsu.github.io/machine-learning/tensorflow-basic01/) |[직교행렬](https://losskatsu.github.io/linear-algebra/orthogonal/) | [베르누이,이항분포](https://losskatsu.github.io/statistics/binomial/)  | [실루엣 스코어](https://losskatsu.github.io/machine-learning/silhouette-score) |
+|[원클래스 SVM](https://losskatsu.github.io/machine-learning/oneclass-svm/)  | [텐서플로기초(2)](https://losskatsu.github.io/machine-learning/tensorflow-basic02/)  | [고유값분해](https://losskatsu.github.io/linear-algebra/eigen-decomposition/)| [기하,음이항분포](https://losskatsu.github.io/statistics/geometric-negative/) | |
+|[LDA ](https://losskatsu.github.io/machine-learning/lda/) | [seq2seq](https://losskatsu.github.io/machine-learning/seq2seq-keras/) | [특이값분해](https://losskatsu.github.io/linear-algebra/svd/) | [초기하분포](https://losskatsu.github.io/statistics/hypergeometric/) | |
+|[GMM](https://losskatsu.github.io/machine-learning/gmm/) | [opencv기초](https://losskatsu.github.io/machine-learning/opencv01) | |[포아송분포](https://losskatsu.github.io/statistics/poisson/) | |
+|[부스팅](https://losskatsu.github.io/machine-learning/boosting/) | [resnet](https://losskatsu.github.io/machine-learning/resnet) | | [정규분포](https://losskatsu.github.io/statistics/normaldist/) | |
+|[사이킷런 실습](https://losskatsu.github.io/machine-learning/sklearn/) |[다각형내부판별](https://losskatsu.github.io/machine-learning/py-polygon01) | |[감마분포](https://losskatsu.github.io/statistics/gammadist/) | |
+| | [엣지판별](https://losskatsu.github.io/machine-learning/edge-detect-canny) | | [지수분포](https://losskatsu.github.io/statistics/exponentialdist/) | |
+| | | | [카이제곱분포](https://losskatsu.github.io/statistics/chisquareddist/) | |
+| | | | [베타분포](https://losskatsu.github.io/statistics/betadist/) | |
+| | | | [균일분포](https://losskatsu.github.io/statistics/uniformdist/) | |
+
+
+<br/>
+
+<a href="http://www.yes24.com/Product/Goods/97032765" target="_blank"><img src="/assets/images/advertisement/ad-book/ad00001_ml.png" width="800" align="middle">
+
+<br/>
+
+
 
 
 내적은 여러가지 연산 중 하나 입니다. 
@@ -91,16 +111,15 @@ $ \parallel \mathbf{u} + \mathbf{v} \parallel \leq \parallel \mathbf{u} \paralle
 
 즉 어떤 두 벡터의 합의 길이는 각각의 길이의 합보다 작거나 같다는 뜻이며, 아래와 같이 그림으로 생각하면 좀 더 이해하기 편합니다.
 
-![figure02](/assets/images/innerproduct/innerproduct02.JPG)
+ <center><img src="/assets/images/innerproduct/innerproduct02.JPG" width="800"></center>
 
- 
 
 ## 3.물리학 관점으로 보는 내적
 
 내적은 기하학 관점 뿐 만 아니라, 물리학 관점으로도 볼 수 있습니다. 
 먼저 원점으로부터 시작되는 두 벡터가 존재한다고 하면 두 벡터 사이에는 반드시 각도 $\theta$ 가 존재 할 것입니다. 
 
-![figure01](/assets/images/innerproduct/innerproduct01.JPG)
+ <center><img src="/assets/images/innerproduct/innerproduct01.JPG" width="800"></center>
 
 위 그림에서 좌측과 같이 두 벡터의 사이 각도가 90도보다 작을 수도 있고, 
 우측 처럼 두 벡터가 서로 수직인 경우도 존재합니다. 
@@ -122,7 +141,7 @@ $ \mathbf{u} \cdot \mathbf{v} = \parallel \mathbf{u} \parallel \parallel \mathbf
 만약 두 벡터를 내적했는데 값이 0이라면 두 벡터는 서로 수직임을 의미합니다. 
 따라서 내적은 두 벡터간의 수직 여부를 판단하는데 유용하게 쓰일 수 있습니다. 
 
-![figure03](/assets/images/innerproduct/innerproduct03.JPG)
+ <center><img src="/assets/images/innerproduct/innerproduct03.JPG" width="800"></center>
 
 이를 물리학에서 말하는 일(Work), 힘(Force)의 관점에서 
 어떤 물체를 각도 $\theta$인 상태의 줄을 잡아당긴다고 하면, 
@@ -137,7 +156,7 @@ $ \mathbf{u} \cdot \mathbf{v} = \parallel \mathbf{u} \parallel \parallel \mathbf
 어떤 물건에 힘을 작용했을 때 x1, x2, x3, ...성분별로 힘(w1, w2, w3,...)을 적용시키고(곱하고), 
 성분별 힘 적용후 얼마나 움직였을 때를 모두 더하면 그 물체가 얼마나 움직였는지 알수 있습니다.(내적의 결과) 
 
-<center><img src="/assets/images/innerproduct/innerproduct04.JPG" width="800"></center>
+ <center><img src="/assets/images/innerproduct/innerproduct04.JPG" width="800"></center>
 
 위 그림은 1차원 직선을 고려했을 때 내적의 설명이구요, 
 
@@ -184,13 +203,9 @@ $ \parallel \mathbf{u} \parallel \parallel \mathbf{v} \parallel cos\theta =
 위 식의 의미를 생각해보면 내적은 한 벡터를 다른 벡터에 정사영 시킨 후 각 벡터의 크기(길이)를 곱한다라고 생각할 수 있습니다. 
 
 
-### 잠깐! 선형대수, 머신러닝에 대해 좀 더 자세히 알고 싶다면?
-
-<a href="http://www.yes24.com/Product/Goods/97032765?OzSrank=1"><img src="/assets/images/mybook/book_cover01.JPG" width="100" align="middle"> [선형대수와 통계학으로 배우는 머신러닝 with 파이썬](http://www.yes24.com/Product/Goods/97032765?OzSrank=1)
-
 <br/>
 
-<a href="http://www.yes24.com/Product/Goods/105772247"><img src="/assets/images/mybook/linear_algebra.PNG" width="100" align="middle"> [알고리즘 구현으로 배우는 선형대수 with 파이썬](http://www.yes24.com/Product/Goods/105772247)
-  
+<a href="http://www.yes24.com/Product/Goods/105772247" target="_blank"><img src="/assets/images/advertisement/ad-book/ad00002_la.png" width="800" align="middle">
+
 <br/>
 
