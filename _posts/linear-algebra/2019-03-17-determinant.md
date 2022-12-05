@@ -16,15 +16,35 @@ sidebar:
 
 ## 행렬식(determinant)의 의미
 
-* [고유값, 고유벡터 복습하기](https://losskatsu.github.io/linear-algebra/eigen/)
-* [행렬식 복습하기](https://losskatsu.github.io/linear-algebra/determinant/)
-* [내적 복습하기](https://losskatsu.github.io/linear-algebra/innerproduct/)
-* [기저 복습하기](https://losskatsu.github.io/linear-algebra/basis/)
-* [랭크, 차원 복습하기](https://losskatsu.github.io/linear-algebra/rank-dim/)
-* [선형변환 복습하기](https://losskatsu.github.io/linear-algebra/linear-trans/)
-* [직교행렬 복습하기](https://losskatsu.github.io/linear-algebra/orthogonal/)
-* [대각화, 고유값분해 복습하기](https://losskatsu.github.io/linear-algebra/eigen-decomposition/)
-* [특이값 분해 복습하기](https://losskatsu.github.io/linear-algebra/svd/)
+
+### 참고링크  
+
+|머신러닝|딥러닝|선형대수|기초통계|최적화|
+|:------:|:------:|:------:|:------:|:------:|
+|[k-means](https://losskatsu.github.io/machine-learning/kmeans-clustering/)|[신경망이란](https://losskatsu.github.io/machine-learning/dl-basic01/)|[고유값,고유벡터](https://losskatsu.github.io/linear-algebra/eigen/)| [확률변수](https://losskatsu.github.io/statistics/random-variable/) |[컨벡스 셋](https://losskatsu.github.io/machine-learning/convex-set/)|
+|[k-최근접이웃](https://losskatsu.github.io/machine-learning/knn/)|[성능함수](https://losskatsu.github.io/machine-learning/dl-basic02/)|[행렬식](https://losskatsu.github.io/linear-algebra/determinant/)| [확률분포](https://losskatsu.github.io/statistics/prob-distribution/) | [컨벡스 함수](https://losskatsu.github.io/machine-learning/convex-function/)|
+|[선형회귀](https://losskatsu.github.io/statistics/simple-regression/)|[신경망 학습](https://losskatsu.github.io/machine-learning/dl-basic03/)|[내적](https://losskatsu.github.io/linear-algebra/innerproduct/)| [모집단과 표본](https://losskatsu.github.io/statistics/population-sample/) |[라그랑주 듀얼](https://losskatsu.github.io/machine-learning/dual-function/)|
+|[로지스틱회귀](https://losskatsu.github.io/statistics/logistic-regression/) |[교차연결](https://losskatsu.github.io/machine-learning/dl-basic04/) |[기저](https://losskatsu.github.io/linear-algebra/basis/)| [평균과 분산](https://losskatsu.github.io/statistics/mean-vairance/)   | [KKT 조건](https://losskatsu.github.io/machine-learning/kkt/) |
+|[릿지,라쏘회귀](https://losskatsu.github.io/machine-learning/l1l2/) |[합성곱 신경망](https://losskatsu.github.io/machine-learning/dl-basic05/) |[랭크, 차원](https://losskatsu.github.io/linear-algebra/rank-dim/)| [공분산, 상관계수](https://losskatsu.github.io/statistics/cov-corr/)  | [ROC 커브](https://losskatsu.github.io/machine-learning/stat-roc-curve/) |
+|[의사결정나무](https://losskatsu.github.io/machine-learning/decision-tree/) |[배치, 에포크 차이](https://losskatsu.github.io/machine-learning/epoch-batch/) | [선형변환](https://losskatsu.github.io/linear-algebra/linear-trans/)| [최대가능도추정](https://losskatsu.github.io/statistics/mle/) | [크로스 밸리데이션](https://losskatsu.github.io/machine-learning/cross-validation/) |
+|[서포트벡터머신](https://losskatsu.github.io/machine-learning/svm/) | [텐서플로기초(1)](https://losskatsu.github.io/machine-learning/tensorflow-basic01/) |[직교행렬](https://losskatsu.github.io/linear-algebra/orthogonal/) | [베르누이,이항분포](https://losskatsu.github.io/statistics/binomial/)  | [실루엣 스코어](https://losskatsu.github.io/machine-learning/silhouette-score) |
+|[원클래스 SVM](https://losskatsu.github.io/machine-learning/oneclass-svm/)  | [텐서플로기초(2)](https://losskatsu.github.io/machine-learning/tensorflow-basic02/)  | [고유값분해](https://losskatsu.github.io/linear-algebra/eigen-decomposition/)| [기하,음이항분포](https://losskatsu.github.io/statistics/geometric-negative/) | |
+|[LDA ](https://losskatsu.github.io/machine-learning/lda/) | [seq2seq](https://losskatsu.github.io/machine-learning/seq2seq-keras/) | [특이값분해](https://losskatsu.github.io/linear-algebra/svd/) | [초기하분포](https://losskatsu.github.io/statistics/hypergeometric/) | |
+|[GMM](https://losskatsu.github.io/machine-learning/gmm/) | [opencv기초](https://losskatsu.github.io/machine-learning/opencv01) | |[포아송분포](https://losskatsu.github.io/statistics/poisson/) | |
+|[부스팅](https://losskatsu.github.io/machine-learning/boosting/) | [resnet](https://losskatsu.github.io/machine-learning/resnet) | | [정규분포](https://losskatsu.github.io/statistics/normaldist/) | |
+|[사이킷런 실습](https://losskatsu.github.io/machine-learning/sklearn/) |[다각형내부판별](https://losskatsu.github.io/machine-learning/py-polygon01) | |[감마분포](https://losskatsu.github.io/statistics/gammadist/) | |
+| | [엣지판별](https://losskatsu.github.io/machine-learning/edge-detect-canny) | | [지수분포](https://losskatsu.github.io/statistics/exponentialdist/) | |
+| | | | [카이제곱분포](https://losskatsu.github.io/statistics/chisquareddist/) | |
+| | | | [베타분포](https://losskatsu.github.io/statistics/betadist/) | |
+| | | | [균일분포](https://losskatsu.github.io/statistics/uniformdist/) | |
+
+
+<br/>
+
+<a href="http://www.yes24.com/Product/Goods/97032765" target="_blank"><img src="/assets/images/advertisement/ad-book/ad00001_ml.png" width="800" align="middle">
+
+<br/>
+
 
 
 
@@ -58,7 +78,7 @@ $$
 그리고 두 벡터를 이용해 만들 수 있는 우측 도형의 면적이 해당 행렬의 행렬식의 절대값 입니다. 
 <br />
 
-![Figure1](/assets/images/determinant/determinant01.JPG)
+<center><img src="/assets/images/determinant/determinant01.JPG" width="800"></center>
 <br />
 
 예를 하나만 더 들어볼께요. (2, 1), (1, 2) 두 벡터로 구성된 행렬을 봅시다. 
@@ -74,7 +94,7 @@ $$
 마찬가지로 행렬식의 절대값은 이 도형의 면적을 의미합니다. 
 <br />
 
-![Figure2](/assets/images/determinant/determinant02.JPG)
+<center><img src="/assets/images/determinant/determinant02.JPG" width="800"></center>
 
 ### 3. 3 by 3 행렬
 위 섹션의 개념을 한 차원 확장시키면 바로 $3 \times 3$ 행렬식의 의미를 파악하실 수 있습니다. 
@@ -110,13 +130,9 @@ $$
 > 선형대수학에서, 행렬식(determinant)은 정사각행렬에 수를 대응시키는 함수의 하나이다. 
 대략, 정사각행렬이 나타내는 선형변환이 부피를 확대시키는 정도를 나타낸다. 
 
-### 잠깐! 선형대수, 머신러닝에 대해 좀 더 자세히 알고 싶다면?
-
-<a href="http://www.yes24.com/Product/Goods/97032765?OzSrank=1"><img src="/assets/images/mybook/book_cover01.JPG" width="100" align="middle"> [선형대수와 통계학으로 배우는 머신러닝 with 파이썬](http://www.yes24.com/Product/Goods/97032765?OzSrank=1)
-
 <br/>
 
-<a href="http://www.yes24.com/Product/Goods/105772247"><img src="/assets/images/mybook/linear_algebra.PNG" width="100" align="middle"> [알고리즘 구현으로 배우는 선형대수 with 파이썬](http://www.yes24.com/Product/Goods/105772247)
-  
+<a href="http://www.yes24.com/Product/Goods/105772247" target="_blank"><img src="/assets/images/advertisement/ad-book/ad00002_la.png" width="800" align="middle">
+
 <br/>
 
