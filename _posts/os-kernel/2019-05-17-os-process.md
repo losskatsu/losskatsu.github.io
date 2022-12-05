@@ -18,6 +18,10 @@ sidebar:
 
 **참고링크**
 
+| 운영체제 | 프론트엔드 | 백엔드 | 데이터베이스| 기초통계 |
+|:------:|:------:|:------:|:------:|:------:|
+| | | | | |
+
 * [프로세스란?](https://losskatsu.github.io/os-kernel/os-process/)
 * [리다이렉션, 파이프 개념](https://losskatsu.github.io/os-kernel/linux-redirection/)
 * [네임스페이스 개념](https://losskatsu.github.io/os-kernel/linux-namespace/)
