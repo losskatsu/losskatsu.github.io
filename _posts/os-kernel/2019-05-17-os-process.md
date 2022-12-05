@@ -18,16 +18,36 @@ sidebar:
 
 **참고링크**
 
-| 운영체제 | 프론트엔드 | 백엔드 | 데이터베이스| 기초통계 |
+| 운영체제 | 프론트엔드 | 백엔드 | 데이터베이스| 인프라 |
 |:------:|:------:|:------:|:------:|:------:|
-| | | | | |
-
-* [프로세스란?](https://losskatsu.github.io/os-kernel/os-process/)
-* [리다이렉션, 파이프 개념](https://losskatsu.github.io/os-kernel/linux-redirection/)
-* [네임스페이스 개념](https://losskatsu.github.io/os-kernel/linux-namespace/)
-* [분산시스템 개념(1)](https://losskatsu.github.io/os-kernel/dist-sys-concept01/)
-* [분산시스템 개념(2)](https://losskatsu.github.io/os-kernel/dist-sys-concept02/)
-* [프로그램, 바이너리, 프로세스, 스레드의 개념](https://losskatsu.github.io/os-kernel/process-thread/)
+|[리눅스구조](https://losskatsu.github.io/os-kernel/os-linux-structure) | [js필터](https://losskatsu.github.io/frontend/js-map-reduce-filter/) | [아파치에러로그](https://losskatsu.github.io/it-infra/apache-error-log/) | [행삭제](https://losskatsu.github.io/it-infra/sqldelete/) | [아파치스쿱](https://losskatsu.github.io/it-infra/sqoop/) |
+|[프로세스](https://losskatsu.github.io/os-kernel/os-process/) | [헬로월드](https://losskatsu.github.io/frontend/react-helloworld/) | [웹서버개념](https://losskatsu.github.io/it-infra/webserver/) | [ES기초](https://losskatsu.github.io/it-infra/es-basic/) | [로그분석](https://losskatsu.github.io/it-infra/log-anal/) |
+|[네임스페이스](https://losskatsu.github.io/os-kernel/linux-redirection/) |[프로젝트생성](https://losskatsu.github.io/frontend/react-basic-setup/) | [아파치설치](https://losskatsu.github.io/it-infra/aws-apache/) | [MySQL기초](https://losskatsu.github.io/it-infra/mysql-index/) | [beeline](https://losskatsu.github.io/it-infra/beeline/) |
+|[디렉토리](https://losskatsu.github.io/os-kernel/linux-directory/) |[헤더생성](https://losskatsu.github.io/frontend/react-category/) | [flask연동](https://losskatsu.github.io/it-infra/flask-nginx-uwsgi/) | [큐브리드](https://losskatsu.github.io/it-infra/cubrid-summary/) | [하둡기초](https://losskatsu.github.io/it-infra/hadoop-basic-concept/) |
+|[리다이렉션](https://losskatsu.github.io/os-kernel/linux-redirection/) |[async-get](https://losskatsu.github.io/frontend/react-request-api-django/) | | [null공백](https://losskatsu.github.io/it-infra/db-null/) |  [나이파이](https://losskatsu.github.io/it-infra/nifi/) |
+|[쓰레드](https://losskatsu.github.io/os-kernel/process-thread/) | [async-post](https://losskatsu.github.io/frontend/react-request-post/) | | [MySQL설치](https://losskatsu.github.io/it-infra/mysql-install-win/) | [백본](https://losskatsu.github.io/it-infra/backbone/) |
+|[라즈베리파이설치](https://losskatsu.github.io/os-kernel/raspberry-vminstall/) | [로그인페이지](https://losskatsu.github.io/frontend/react-request-post/) | | | [제플린](https://losskatsu.github.io/it-infra/backbone/) |
+|[OSI7계층소개](https://losskatsu.github.io/os-kernel/network-basic01/) | | | | [SSL인증](https://losskatsu.github.io/it-infra/ssl-auth/)|
+|[OSI1계층](https://losskatsu.github.io/os-kernel/network-basic02/) | | | | [커버로스](https://losskatsu.github.io/it-infra/kerberos/) |
+|[OSI2계층](https://losskatsu.github.io/os-kernel/network-basic03/) | | | | |
+|[OSI3계층](https://losskatsu.github.io/os-kernel/network-basic04/) | | | | |
+|[OSI4계층](https://losskatsu.github.io/os-kernel/network-basic05/) | | | | |
+|[OSI5,6,7계층](https://losskatsu.github.io/os-kernel/network-basic05/) | | | | |
+|[DNS서버](https://losskatsu.github.io/os-kernel/etc-host-dns/) | | | | |
+|[DHCP](https://losskatsu.github.io/os-kernel/dhcp/) | | | | |
+|[bashrc](https://losskatsu.github.io/os-kernel/bashrc/) | | | | |
+|[bash](https://losskatsu.github.io/os-kernel/bash/) | | | | |
+|[ifconfig](https://losskatsu.github.io/os-kernel/ifconfig/) | | | | |
+|[소켓프로그래밍](https://losskatsu.github.io/os-kernel/network-socket/) | | | | |
+|[리눅스유저생성](https://losskatsu.github.io/os-kernel/linux-create-user/) | | | | |
+|[netstat포트열기](https://losskatsu.github.io/os-kernel/port-open/) | | | | |
+|[컴파일러](https://losskatsu.github.io/os-kernel/compiler-interpreter/) | | | | |
+|[운영체제vs커널](https://losskatsu.github.io/os-kernel/diff-kernel-os/) | | | | |
+|[작업스케쥴링](https://losskatsu.github.io/os-kernel/crontab/) | | | | |
+|[디스크추가](https://losskatsu.github.io/os-kernel/add-harddisk/) | | | | |
+|[aws유저추가](https://losskatsu.github.io/os-kernel/aws-add-user/) | | | | |
+|[기초명령어](https://losskatsu.github.io/it-infra/ps-grep-pipe-redirect/) | | | | |
+|[포트번호](https://losskatsu.github.io/it-infra/port/) | | | | |
 
 
 
