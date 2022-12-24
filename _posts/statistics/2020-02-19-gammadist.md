@@ -77,7 +77,7 @@ sidebar:
 
 ## 참고. 확률분포간 관계도
 
-<center><img src="(/assets/images/statistics/dist_rel.jpg" width="500"></center>
+<center><img src="/assets/images/statistics/dist_rel.jpg" width="800"></center>
 
 
 <br/>
