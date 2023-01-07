@@ -100,15 +100,6 @@ title: "About"
 * FDS DW 개발 및 운영
 * 게임 애뮬레이터 매크로 자동 탐지 시스템 개발 및 운영
 
-### 관심 분야
-
-* 강화학습(Reinforcement Learning)
-* 머신러닝(Machine Learning)
-* 마르코프체인 몬테카를로(Markov Chain Monte Carlo Simulation)
-* 확률적 모델링(Probability model)
-* 고차원 통계분석(High Dimensional Statistics)
-* 차원축소(Dimension Reduction)
-* 사물인터넷(Internet of Things(IoT))
 
 ### 스킬
 
