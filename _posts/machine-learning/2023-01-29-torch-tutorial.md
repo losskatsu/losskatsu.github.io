@@ -280,8 +280,80 @@ for t in range(2000):
 print(f'Result: y = {a.item()} + {b.item()} x + {c.item()} x^2 + {d.item()} x^3')
 ```
 
+## 4. iris 데이터 분류 학습하기  
+  
+```python
+import pandas as pd
+from sklearn.model_selection import train_test_split
 
+import torch
+import torch.nn as nn
+import torch.optim as optim
 
+# parameters
+learning_rate = 0.01
+epochs = 1000
+  
+df = pd.read_csv("./iris.csv")
+  
+X = df[["sepal_length","sepal_width","petal_length","petal_width"]].values
+y = df["class"].values
+  
+X = torch.tensor(X, dtype=torch.float32)
+y = torch.tensor(y, dtype=torch.long)
+  
+X_tn, X_te, y_tn, y_te = train_test_split(X, y, random_state=777)
+  
+class IrisNet(nn.Module):
+    def __init__(self):
+        super(IrisNet, self).__init__()
+        self.layer1 = nn.Linear(4, 10)
+        self.layer2 = nn.Linear(10, 3)
+        
+    def forward(self, x):
+        x = torch.relu(self.layer1(x))
+        x = self.layer2(x)
+        return x
+  
+mymodel = IrisNet()
+  
+criterion = nn.CrossEntropyLoss()
+optimizer = optim.SGD(mymodel.parameters(), lr=learning_rate)
+  
+for epoch in range(epochs):
+    optimizer.zero_grad()
+    outputs = mymodel(X_tn)
+    cost = criterion(outputs, y_tn)
+    cost.backward()
+    optimizer.step()
+
+    if (epoch+1) % 100 == 0:
+        print('Epoch [%d/%d], Loss: %.4f' % (epoch+1, epochs, cost.item()))
+```
+  
+```
+Epoch [100/1000], Loss: 0.9430
+Epoch [200/1000], Loss: 0.7136
+Epoch [300/1000], Loss: 0.5374
+Epoch [400/1000], Loss: 0.4417
+Epoch [500/1000], Loss: 0.3793
+Epoch [600/1000], Loss: 0.3315
+Epoch [700/1000], Loss: 0.2925
+Epoch [800/1000], Loss: 0.2606
+Epoch [900/1000], Loss: 0.2345
+Epoch [1000/1000], Loss: 0.2132
+```
+```python
+with torch.no_grad():
+    prediction = mymodel(X_te)
+    correct_prediction = torch.argmax(prediction, 1) == y_te
+    accuracy = correct_prediction.float().mean()
+    print('Accuracy:', accuracy.item())
+```
+```
+1.0
+```  
+  
 <br/>
 
 <a href="http://www.yes24.com/Product/Goods/105772247" target="_blank"><img src="/assets/images/advertisement/ad-book/ad00002_la.png" width="800" align="middle">
