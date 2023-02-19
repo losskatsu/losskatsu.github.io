@@ -34,7 +34,7 @@ title: "Book"
 * [리디북스](https://ridibooks.com/books/3780000139?_s=search&_q=%EC%9E%A5%EC%B2%A0%EC%9B%90&_rdt_sid=search&_rdt_idx=0)
 
 
-<center><img src="/assets/images/book/webcrawling_3d.jpg" width="330"></center>   
+<center><img src="/assets/images/book/webcrawling_3d_bgtr.png" width="330"></center>   
 
 ## 웹 크롤링 & 데이터 분석 with 파이썬
 ### 장철원 지음, 인사이트, 2022.01.24
