@@ -5,7 +5,12 @@ title: "Book"
 
 # 저서    
 
+<center><img src="/assets/images/book/probability3d.png" width="500"></center>   
 
+## 몬테카를로 시뮬레이션으로 배우는 확률통계 with 파이썬
+### 장철원 지음, 비제이퍼블릭, 2023.03.08
+
+이 책은 확률 통계 학습을 위한 기초 수학 개념부터 파이썬을 활용해 실제 배운 내용을 응용할 수 있도록 돕는다. 다양한 확률 분포의 기반이 되는 이론을 소개하고 파이썬 실습을 통해 해당 분포의 성질을 파악한다. 뿐 만 아니라, 확률 과정, 몬테카를로 시뮬레이션 이론을 파악하고 실습을 통해 해당 알고리즘의 작동 방식을 파악할 수 있다.  
 
 
 <center><img src="/assets/images/book/linear_algebra_with_python.png" width="500"></center>   
