@@ -5,7 +5,7 @@ title: "Book"
 
 # 저서    
 
-<center><img src="/assets/images/book/probability3d.png" width="500"></center>   
+<center><img src="/assets/images/book/probability3d.png" width="300"></center>   
 
 ## 몬테카를로 시뮬레이션으로 배우는 확률통계 with 파이썬
 ### 장철원 지음, 비제이퍼블릭, 2023.03.08
