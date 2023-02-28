@@ -18,11 +18,8 @@ title: "About"
 ### 저서 
 
 * [선형대수와 통계학으로 배우는 머신러닝 with 파이썬](http://www.yes24.com/Product/Goods/97032765?OzSrank=1), 비제이퍼블릭, 2021.01.26   
-      * [2021 교보문고 상반기 베스트 셀러 선정](https://www.notion.so/2021-IT-1f79e6783cca4b3aa20a1c53fc0b0368)  
-      * [2021 교보문고 올해의 책 IT 전문서 3위](http://www.kyobobook.co.kr/eventRenewal/eventViewByPid.laf?eventId=94493)
 * [알고리즘 구현으로 배우는 선형대수 with 파이썬](http://www.yes24.com/Product/Goods/105772247), 비제이퍼블릭, 2021.12.24  
 * [웹 크롤링 & 데이터 분석 with 파이썬](http://www.yes24.com/Product/Goods/106175772), 인사이트, 2022.01.24  
-      * [2022 출간 교보문고 IT도서 TOP 100](http://www.kyobobook.co.kr/eventRenewal/eventViewByPid.laf?eventId=96886). 
 * [몬테카를로 시뮬레이션으로 배우는 확률 통계 with 파이썬](http://www.yes24.com/Product/Goods/117709828), 비제이퍼블릭, 2023.03.08     
 
 
@@ -137,8 +134,9 @@ title: "About"
 
 ### 수상
 
-* [2021 교보문고 올해의 책 IT 전문서 3위](http://www.kyobobook.co.kr/eventRenewal/eventViewByPid.laf?eventId=94493), 2021.12.18
-* 2021 교보문고 상반기 베스트 셀러(선형대수와 통계학으로 배우는 머신러닝), 비제이퍼블릭, 2021.01.26 
+* [2022 출간 교보문고 IT도서 TOP 100(크롤링)](http://www.kyobobook.co.kr/eventRenewal/eventViewByPid.laf?eventId=96886). 
+* [2021 교보문고 올해의 책 IT 전문서 3위(머신러닝)](http://www.kyobobook.co.kr/eventRenewal/eventViewByPid.laf?eventId=94493), 2021.12.18
+* [2021 교보문고 상반기 베스트 셀러 선정(머신러닝)](https://www.notion.so/2021-IT-1f79e6783cca4b3aa20a1c53fc0b0368)    
 
 ### 컨퍼런스
 * 머신러닝을 이용한 배틀그라운드 핵 사용 의심 유저 추출, 
