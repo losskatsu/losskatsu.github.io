@@ -23,7 +23,7 @@ title: "About"
 * [알고리즘 구현으로 배우는 선형대수 with 파이썬](http://www.yes24.com/Product/Goods/105772247), 비제이퍼블릭, 2021.12.24  
 * [웹 크롤링 & 데이터 분석 with 파이썬](http://www.yes24.com/Product/Goods/106175772), 인사이트, 2022.01.24  
       * [2022 출간 교보문고 IT도서 TOP 100](http://www.kyobobook.co.kr/eventRenewal/eventViewByPid.laf?eventId=96886). 
-* 몬테카를로 시뮬레이션으로 배우는 확률 통계 with 파이썬, 비제이퍼블릭, 2023.03.06     
+* [몬테카를로 시뮬레이션으로 배우는 확률 통계 with 파이썬](http://www.yes24.com/Product/Goods/117709828), 비제이퍼블릭, 2023.03.08     
 
 
 ### 코스 강의  
