@@ -12,6 +12,9 @@ title: "Book"
 
 이 책은 확률 통계 학습을 위한 기초 수학 개념부터 파이썬을 활용해 실제 배운 내용을 응용할 수 있도록 돕는다. 다양한 확률 분포의 기반이 되는 이론을 소개하고 파이썬 실습을 통해 해당 분포의 성질을 파악한다. 뿐 만 아니라, 확률 과정, 몬테카를로 시뮬레이션 이론을 파악하고 실습을 통해 해당 알고리즘의 작동 방식을 파악할 수 있다.  
 
+* [yes24](http://www.yes24.com/Product/Goods/117709828)
+* [교보문고](https://product.kyobobook.co.kr/detail/S000201139207)
+* [알라딘](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=312162201)
 
 <center><img src="/assets/images/book/linear_algebra_with_python.png" width="500"></center>   
 
