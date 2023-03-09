@@ -15,6 +15,7 @@ title: "Book"
 * [yes24](http://www.yes24.com/Product/Goods/117709828)
 * [교보문고](https://product.kyobobook.co.kr/detail/S000201139207)
 * [알라딘](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=312162201)
+* [리디북스](https://ridibooks.com/books/3780000182?_rdt_sid=category_2220&_rdt_idx=0)
 
 <center><img src="/assets/images/book/linear_algebra_with_python.png" width="500"></center>   
 
