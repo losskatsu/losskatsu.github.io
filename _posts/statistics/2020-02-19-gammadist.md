@@ -68,6 +68,12 @@ sidebar:
 
 <center><img src="/assets/images/statistics/gamma/gamma02.jpg" width="500"></center>
 
+<br/>
+
+<a href="http://www.yes24.com/Product/Goods/117709828" target="_blank"><img src="/assets/images/advertisement/ad-book/ad00004_probability.png" width="800" align="middle">
+
+<br/>
+  
 ## 4. 감마분포 vs 지수분포
 
 감마분포는 [지수분포](https://losskatsu.github.io/statistics/exponentialdist/)와 관련이 있는데요. 
