@@ -57,7 +57,13 @@ sidebar:
 
 <center><img src="/assets/images/statistics/uniform/uniform01.jpg" width="800"></center>
 
+<br/>
 
+<a href="http://www.yes24.com/Product/Goods/117709828" target="_blank"><img src="/assets/images/advertisement/ad-book/ad00004_probability.png" width="800" align="middle">
+
+<br/>
+  
+  
 ## 3. 연속형 균일분포의 확률밀도함수, 평균, 분산
 
 연속형균일분포의 [확률밀도함수](https://losskatsu.github.io/statistics/prob-distribution/#), [평균, 분산](https://losskatsu.github.io/statistics/mean-vairance/#)은 다음과 같습니다.
