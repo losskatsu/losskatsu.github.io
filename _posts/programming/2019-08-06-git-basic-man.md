@@ -198,7 +198,15 @@ $ git remote add origin https://github.com/abc/def.git
 $ git remote -v
 ```
 
-## 참고4. 저장소에 잘못올린 파일을 지우고 싶을때
+리포트토리 remote 이름 변경
+
+```bash
+$ git remote rename origin light
+```
+
+위 코드는 기존 이름 origin을 light로 변경
+
+## 참고5. 저장소에 잘못올린 파일을 지우고 싶을때
 
 a.cpp라는 파일을 지우고 
 
