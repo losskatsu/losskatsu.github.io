@@ -105,6 +105,12 @@ sidebar:
 데이터의 분포가 대칭형태에 가까울수록 평균과 중위수가 비슷해지는 경향이 있습니다. 
 
 
+<br/>
+
+<a href="http://www.yes24.com/Product/Goods/105772247" target="_blank"><img src="/assets/images/advertisement/ad-book/ad00002_la.png" width="800" align="middle">
+
+<br/>  
+  
 ## 2. 분산(variance)와 표준편차(standard deviation)
 
 위에서 살펴보았던 평균이나 중앙값은 데이터의 중심을 표현하는데 사용되는 값이라면, 
@@ -145,10 +151,11 @@ sidebar:
 위 내용을 종합하면 평균, 중앙값, 분산, 표준편차 등을 알면, 
 데이터전체를 확인하지 않더라도 전체 데이터가 어떤 형태를 띄는지 알 수 있습니다. 
 
+<br/>
+
+<a href="http://www.yes24.com/Product/Goods/117709828" target="_blank"><img src="/assets/images/advertisement/ad-book/ad00004_probability.png" width="800" align="middle">
 
 <br/>
 
-<a href="http://www.yes24.com/Product/Goods/105772247" target="_blank"><img src="/assets/images/advertisement/ad-book/ad00002_la.png" width="800" align="middle">
 
-<br/>
 
