@@ -86,6 +86,13 @@ $ f_{X}(1) = P(X = 1) = 1/6 $
 예를 들어, 확률변수 X를 중학교 1학년 학생의 평균 키라고 했을 때, X는 키이므로 실수값을 가지며 이는 '셀 수 없는' 경우에 해당합니다. 
 따라서 이 경우 확률변수 X는 연속확률변수에 해당한다고 할 수 있습니다. 
 
+<br/>
+
+<a href="http://www.yes24.com/Product/Goods/105772247" target="_blank"><img src="/assets/images/advertisement/ad-book/ad00002_la.png" width="800" align="middle">
+
+<br/>
+  
+  
 ## 3-2. 확률밀도함수
 
 > 확률밀도함수(probability density function, pdf)는 연속확률변수가 특정 구간에 포함될 확률을 의미합니다. 
@@ -132,7 +139,7 @@ $ F_{X}(x) = P(X \in (-\infty, x)) $
 
 <br/>
 
-<a href="http://www.yes24.com/Product/Goods/105772247" target="_blank"><img src="/assets/images/advertisement/ad-book/ad00002_la.png" width="800" align="middle">
+<a href="http://www.yes24.com/Product/Goods/117709828" target="_blank"><img src="/assets/images/advertisement/ad-book/ad00004_probability.png" width="800" align="middle">
 
 <br/>
 
