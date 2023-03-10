@@ -68,6 +68,12 @@ sidebar:
 
 정의를 보면 이해하기 다소 어려우실수 있는데요. 우선 [확률분포](https://losskatsu.github.io/statistics/prob-distribution/#)를 가진 [독립확률변수](https://losskatsu.github.io/statistics/random-variable/)라고 했으니 해당 [확률변수](https://losskatsu.github.io/statistics/random-variable/)는 [평균과 분산](https://losskatsu.github.io/statistics/mean-vairance/#)을 가질 수 있겠죠. 이 때, 이 [평균과 분산](https://losskatsu.github.io/statistics/mean-vairance/#)도 [확률분포](https://losskatsu.github.io/statistics/prob-distribution/#)를 가지게 되는데요. 중심극한 정리는 n이 커진다면 그 확률분포가 정규분포에 가까워 진다는 뜻입니다. 
 
+<br/>
+
+<a href="http://www.yes24.com/Product/Goods/117709828" target="_blank"><img src="/assets/images/advertisement/ad-book/ad00004_probability.png" width="800" align="middle">
+
+<br/>  
+  
 ## 4. 표준정규분포
 
 표준정규분포(standard normal distribution)은 정규분포에서 평균이 0, 분산이 1인 경우를 의미합니다. 
