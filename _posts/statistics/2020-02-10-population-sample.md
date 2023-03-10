@@ -80,6 +80,12 @@ sidebar:
 표본통계량은 뽑힌 표본으로부터 대표값을 계산하는 것인데요, 
 위의 예에서 100명의 하루 평균 플레이타임이 65분이라고 하면 표본통계량은 65분입니다.
 
+<br/>
+
+<a href="http://www.yes24.com/Product/Goods/105772247" target="_blank"><img src="/assets/images/advertisement/ad-book/ad00002_la.png" width="800" align="middle">
+
+<br/>  
+  
 ## 3. 모집단과 표본의 관계
 
 ### 3-1. 모수를 구하는게 불가능한 이유 
@@ -117,10 +123,10 @@ IT기술이 발전하기전에는 데이터를 수집하는 것 자체가 어려
 이는 틀린 표현입니다. 위에서 설명드렸듯, 모수는 모집단의 대표값을 의미하는 것이지 샘플 수를 의미하는 것이 아닙니다. 
 또 다른 틀린 표현으로는 "모수가 작다", "모수가 크다" 등이 있습니다. 
 
-<br/>
-
-<a href="http://www.yes24.com/Product/Goods/105772247" target="_blank"><img src="/assets/images/advertisement/ad-book/ad00002_la.png" width="800" align="middle">
 
 <br/>
 
+<a href="http://www.yes24.com/Product/Goods/117709828" target="_blank"><img src="/assets/images/advertisement/ad-book/ad00004_probability.png" width="800" align="middle">
+
+<br/>
 
