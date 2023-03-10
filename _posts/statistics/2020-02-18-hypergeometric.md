@@ -62,6 +62,11 @@ sidebar:
 반면 복원추출을 할 경우 공을 뽑은 후 다시 항아리속에 넣기 때문에 뽑을 수 있는 횟수가 무한대입니다. 
 즉, 뽑을 수 있는 횟수가 무제한이라는 것입니다. 
 
+<br/>
+
+<a href="http://www.yes24.com/Product/Goods/117709828" target="_blank"><img src="/assets/images/advertisement/ad-book/ad00004_probability.png" width="800" align="middle">
+
+<br/>  
 
 ## 3. 이항분포와의 관계 
 
