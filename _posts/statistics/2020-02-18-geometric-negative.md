@@ -60,6 +60,12 @@ sidebar:
 기하분포는 **처음 성공**까지를 보는데요. 그럼 **r번째 성공** 까지 보면 어떻게 될까요? 
 기하분포를 일반화한 버전이 음이항분포 입니다. 
 
+<br/>
+
+<a href="http://www.yes24.com/Product/Goods/117709828" target="_blank"><img src="/assets/images/advertisement/ad-book/ad00004_probability.png" width="800" align="middle">
+
+<br/>  
+  
 ## 2. 음이항분포
 
 음이항분포는 기하분포를 일반화시킨 것이므로, 아래와 같이 정의 할 수 잇습니다. 
