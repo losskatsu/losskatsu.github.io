@@ -59,6 +59,12 @@ sidebar:
 카이제곱분포는 감마분포에서 $\alpha = p/2$, $\beta = 2$인 경우를 나타냅니다. 
 따라서 [감마분포](https://losskatsu.github.io/statistics/gammadist/)를 이해하고 계신다면 카이제곱분포도 쉽게 이해하실수 있습니다. 
 
+<br/>
+
+<a href="http://www.yes24.com/Product/Goods/117709828" target="_blank"><img src="/assets/images/advertisement/ad-book/ad00004_probability.png" width="800" align="middle">
+
+<br/>  
+  
 ## 3. 표준정규분포와의 관계
 
 카이제곱분포의 정의에서 알 수 있듯, 카이제곱분포는 [표준정규확률변수](https://losskatsu.github.io/statistics/normaldist/)를 각각 제곱한 다음 합새서 얻어지는 분포인데요. 
