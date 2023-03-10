@@ -66,6 +66,12 @@ sidebar:
 반면 지수분포는 사건이 일어날때까지의 **대기 시간**을 관측합니다. 
 즉, 지수분포는 **대기시간**, 포아송분포는 **횟수** 입니다. 
 
+<br/>
+
+<a href="http://www.yes24.com/Product/Goods/117709828" target="_blank"><img src="/assets/images/advertisement/ad-book/ad00004_probability.png" width="800" align="middle">
+
+<br/>  
+  
 ## 4. 지수분포 vs 기하분포 
 
 지수분포는 또한 기하분포와도 관련이 있는데요. 지수분포는 사건이 발생할때가지의 **대기시간** 인 반면, 
