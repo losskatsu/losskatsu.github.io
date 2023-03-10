@@ -60,6 +60,12 @@ sidebar:
 예를들어 동전을 던지는 현상에서 우리는 앞이나 뒤가 나올 것이라는 것은 알고 있습니다. 가능한 결과는 앞, 뒤 뿐이죠. 
 하지만 앞, 뒤 중 어떤 결과가 나올지는 모르죠. 이것이 확률현상입니다. 
 
+<br/>
+
+<a href="http://www.yes24.com/Product/Goods/105772247" target="_blank"><img src="/assets/images/advertisement/ad-book/ad00002_la.png" width="800" align="middle">
+
+<br/>  
+  
 ## 확률변수의 개념
 
 확률변수에는 '변수'라는 단어가 들어가네요. 
@@ -102,10 +108,13 @@ $X$는 확률변수이므로 0 또는 1이 될 수 있다는 뜻입니다.
 실제로 복잡한 상황을 다루다보면 변수를 상수처럼 생각하고 계산에만 치중하는 경향이 있는데요, 
 확률변수의 개념을 정확히 이해함으로써 혼동하는 일이 없었으면 좋겠습니다. 
 
+  
 <br/>
 
-<a href="http://www.yes24.com/Product/Goods/105772247" target="_blank"><img src="/assets/images/advertisement/ad-book/ad00002_la.png" width="800" align="middle">
+<a href="http://www.yes24.com/Product/Goods/117709828" target="_blank"><img src="/assets/images/advertisement/ad-book/ad00004_probability.png" width="800" align="middle">
 
-<br/>
+<br/>  
+  
+
 
 
