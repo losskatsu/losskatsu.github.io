@@ -16,7 +16,7 @@ sidebar:
 # 리액트(react) 프로젝트 초기 세팅, 불필요한 코드 지우기
 
 
-## 참고 링크  
+### 참고 링크  
 
 * [nodejs 윈도우에 설치하기](https://losskatsu.github.io/programming/nodejs-install-win/)
 * [vscode 윈도우에 설치하기](https://losskatsu.github.io/programming/vscode-install-win/)
