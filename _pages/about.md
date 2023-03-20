@@ -134,7 +134,8 @@ title: "About"
 
 ### 수상
 
-* 리디북스 IT/컴퓨터 주간 베스트 3위(확률통계)  
+* 리디북스 개발프로그래밍 주간 베스트 1위(확률통계)  
+* 리디북스 IT/컴퓨터 주간 베스트 2위(확률통계)  
 * 리디북스 IT/컴퓨터 주간 베스트 2위(머신러닝, 선형대수)  
 * [2022 출간 교보문고 IT도서 TOP 100(크롤링)](http://www.kyobobook.co.kr/eventRenewal/eventViewByPid.laf?eventId=96886). 
 * [2021 교보문고 올해의 책 IT 전문서 3위(머신러닝)](http://www.kyobobook.co.kr/eventRenewal/eventViewByPid.laf?eventId=94493), 2021.12.18
