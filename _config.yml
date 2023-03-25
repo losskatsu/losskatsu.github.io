@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "장철원(Cheolwon Jang)"
-  avatar           : "/assets/images/profile/my_profile11.jpg"
+  avatar           : "/assets/images/profile/my_profile12.jpg"
   bio              : "<선형대수와 통계학으로 배우는 머신러닝 with 파이썬>, <알고리즘 구현으로 배우는 선형대수 with 파이썬>, <웹 크롤링 & 데이터분석>, <몬테카를로 시뮬레이션으로 배우는 확률통계 with 파이썬> 저자. <br /><br /> 강의/프로젝트 업무 관련 문의는 이메일로 부탁드립니다. <br /><br /> 유튜브: 장철원 머신러닝"       
   location         : "Seoul, South Korea"
   email            : 
