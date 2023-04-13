@@ -11,5 +11,5 @@ title: "Company"
 
 <center><img src="/assets/images/company/company13.png" width="100%"></center>
 
-<center><img src="/assets/images/company/company11.png" width="100%"></center>
+<center><img src="/assets/images/company/company14.png" width="100%"></center>
 
