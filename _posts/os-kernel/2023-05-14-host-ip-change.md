@@ -62,15 +62,36 @@ sidebar:
 
 ## 1. 서론
 
-이번포스팅에서는우분투에서 호스트명과 IP 주소를 변경해보겠습니다.
+이번포스팅에서는우분투에서 호스트 이름과 IP 주소를 변경해보겠습니다.
 
 ## 2. 호스트명 변경
+
+## 2-1. 호스트 이름 확인
+
+```bash
+eevee@myserver01:/$ hostname
+myserver01
+```
+
+## 2-1. 명령어로 변경
 
 ```bash
 eevee@myserver01:/$ sudo hostnamectl set-hostname myserver02
 eevee@myserver01:/$ sudo reboot now
 ```
 위 실습코드는 기존의 호스트명은 myserver01인데, 이를 myserver02로 바꾸는 코드입니다.  
+
+## 2-1. vim 에디터로 변경
+
+```bash
+eevee@myserver01:/$ sudo vim /etc/hostname
+myserver02
+
+eevee@myserver01:/$ sudo reboot now
+```
+
+위 실습코드는 기존의 호스트명은 myserver01인데, 이를 myserver02로 바꾸는 코드입니다.  
+
 
 ## 3. IP 주소 변경
 
