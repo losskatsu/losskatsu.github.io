@@ -12,7 +12,8 @@ title: "About"
 * 유튜브: [장철원 머신러닝](https://www.youtube.com/channel/UCHGdug7d72yrZq1cRORahXA)  
 * 블로그 : [https://losskatsu.github.io](https://losskatsu.github.io)  
 * 깃허브 : [https://github.com/losskatsu](https://github.com/losskatsu)  
-* 네이버 카페: [https://cafe.naver.com/aifromstat](https://cafe.naver.com/aifromstat)  
+* 네이버 카페: [https://cafe.naver.com/aifromstat](https://cafe.naver.com/aifromstat)
+* 커리어리: [https://careerly.co.kr/profiles/625401]  
   
 
 ### 저서 
