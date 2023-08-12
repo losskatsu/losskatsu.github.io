@@ -13,7 +13,10 @@ sidebar:
   nav: sidebar-contents
 ---
 
-# CI/CD, 지속적 통합/지속적 배포 개념
+# CI/CD, 지속적 통합/지속적 배포 개념  
+
+## CI/CD의 개념
+
 CI는 Continuous Integration의 약자이며 지속적 통합을 의미합니다.
 그리고 CD는 Continuous Delivery의 약자이며 지속적 배포를 의미합니다. 
 우리는 현실 세계에서 하나의 프로젝트에 다수의 개발자가 참여하는 것을 알고 있습니다. 
@@ -23,7 +26,8 @@ CI는 Continuous Integration의 약자이며 지속적 통합을 의미합니다
 높은 품질을 보장하며 비용 절감에 도움이 됩니다.
 
 
-## CI(Continuous Integration, 지속적 통합)
+## CI(Continuous Integration, 지속적 통합)  
+
 먼저 CI에 대해서 알아보겠습니다. 
 CI는 Continuous Integration의 약자이며 지속적 통합을 의미합니다. 
 
