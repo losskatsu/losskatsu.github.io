@@ -1,9 +1,9 @@
 ---
-title: "[Infra] mysql 정리 " 
+title: "[database] mysql 정리 " 
 categories:
-  - b
+  - database
 tags:
-  - it-infra
+  - database
 use_math: true
 toc: true
 toc_label: "My Table of Contents"
