@@ -24,9 +24,12 @@ sidebar:
 * [커버로스 인증 개념](https://losskatsu.github.io/it-infra/kerberos/)
 * [아파치, 톰캣, nginx 차이](https://losskatsu.github.io/it-infra/webserver/)
 * [SSL, CRS 인증 관련 정리(대칭키, 공개키, 개인키)](https://losskatsu.github.io/it-infra/ssl-auth/)
-
+* [리버스프록시 개념](https://losskatsu.github.io/it-infra/reverse-proxy/)
 
 ## 1. nginx 설치
+
+이번 포스팅에서는 nginx를 활용한 포트포워딩, [리버스 프록시](https://losskatsu.github.io/it-infra/reverse-proxy/) 관련 내용을 정리해보겠습니다. 
+먼저 nginx를 활용하기 위해 nginx를 설치하겠습니다.  
 
 ```bash
 ubuntu@k8s-master:~$ sudo apt update
