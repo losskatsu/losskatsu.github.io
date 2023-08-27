@@ -1,9 +1,9 @@
 ---
-title: "[Infra] MySQL 맥 OS에 설치하기" 
+title: "[database] MySQL 맥 OS에 설치하기" 
 categories:
-  - it-infra
+  - database
 tags:
-  - it-infra
+  - database
 use_math: true
 toc: true
 toc_label: "My Table of Contents"
