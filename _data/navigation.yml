@@ -32,14 +32,12 @@ sidebar-contents:
     children:
       - title: "머신러닝"
         url: "/categories/#machine-learning"
-  - title: "자연과학"
+  - title: "기초과학"
     children:
       - title: "선형대수"
         url: "/categories/#linear-algebra"
       - title: "통계학"
         url: "/categories/#statistics"
-      - title: "물리학"
-        url: "categories/#physics"
   - title: "IT"
     children:
       - title: "OS 커널"
@@ -48,9 +46,12 @@ sidebar-contents:
         url: "/categories/#it-infra"
       - title: "프로그래밍"
         url: "/categories/#programming"
+      - title: "데이터베이스"
+        url: "categories/#database"
       - title: "프론트엔드"
         url: "/categories/#frontend"
       - title: "블록체인"
         url: "/categories/#blockchain"
       - title: "책리뷰"
         url: "/categories/#book-review"
+
