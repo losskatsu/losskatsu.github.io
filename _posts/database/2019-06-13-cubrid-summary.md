@@ -1,9 +1,9 @@
 ---
-title: "[Infra] 큐브리드(cubrid) 요약 " 
+title: "[database] 큐브리드(cubrid) 요약 " 
 categories:
-  - it-infra
+  - database
 tags:
-  - it-infra
+  - database
 use_math: true
 toc: true
 toc_label: "My Table of Contents"
