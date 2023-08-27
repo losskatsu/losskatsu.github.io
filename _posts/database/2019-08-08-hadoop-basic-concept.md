@@ -1,10 +1,9 @@
 ---
 title: "빅데이터 처리, 분석을 위한 하둡(hadoop) 기본개념" 
 categories:
-  - it-infra
+  - database
 tags:
-  - it-infra
-  - big-data
+  - database
 use_math: true
 toc: true
 toc_label: "My Table of Contents"
