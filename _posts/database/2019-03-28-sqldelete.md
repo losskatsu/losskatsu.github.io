@@ -1,9 +1,9 @@
 ---
-title: "[SQL] DB 테이블의 행 삭제가 안될 때" 
+title: "[데이터베이스] DB 테이블의 행 삭제가 안될 때" 
 categories:
-  - it-infra
+  - database
 tags:
-  - it-infra
+  - database
 use_math: true
 toc: true
 toc_label: "My Table of Contents"
