@@ -1,7 +1,7 @@
 ---
 title: "[Infra] mysql 정리 " 
 categories:
-  - it-infra
+  - b
 tags:
   - it-infra
 use_math: true
