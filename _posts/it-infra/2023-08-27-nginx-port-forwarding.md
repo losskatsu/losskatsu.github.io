@@ -24,7 +24,8 @@ sidebar:
 * [커버로스 인증 개념](https://losskatsu.github.io/it-infra/kerberos/)
 * [아파치, 톰캣, nginx 차이](https://losskatsu.github.io/it-infra/webserver/)
 * [SSL, CRS 인증 관련 정리(대칭키, 공개키, 개인키)](https://losskatsu.github.io/it-infra/ssl-auth/)
-* [리버스프록시 개념](https://losskatsu.github.io/it-infra/reverse-proxy/)
+* [리버스 프록시의 개념](https://losskatsu.github.io/it-infra/reverse-proxy/)
+* [로드 밸런서의 개념](https://losskatsu.github.io/os-kernel/loadbalancer/)
 
 ## 1. nginx 설치
 
