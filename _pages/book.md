@@ -5,6 +5,19 @@ title: "Book"
 
 # 저서    
 
+<center><img src="/assets/images/book/docker_k8s_3d.png" width="500"></center>   
+
+## 한 권으로 배우는 도커 & 쿠버네티스  
+### 장철원 지음, 한빛미디어, 2024.04.29  
+
+이 책은 도커와 쿠버네티스의 기본 개념부터 실무 환경에서의 구축, 관리, 사용 방법까지 단계별로 설명한다. 도커와 쿠버네티스를 익히는 데 반드시 알아야 하는 내용으로 구성했다.  
+
+* [yes24](https://www.yes24.com/Product/Goods/126115324)  
+* [교보문고](https://product.kyobobook.co.kr/detail/S000213057687)  
+* [알라딘](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=338403158)  
+* [리디북스](https://ridibooks.com/books/443001326)  
+
+
 <center><img src="/assets/images/book/probability3d_origin.png" width="500"></center>   
 
 ## 몬테카를로 시뮬레이션으로 배우는 확률통계 with 파이썬
