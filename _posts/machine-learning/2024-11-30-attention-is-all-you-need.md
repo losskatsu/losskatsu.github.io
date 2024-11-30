@@ -33,6 +33,14 @@ sidebar:
 트랜스포머 구조는 대규모 학습 데이터냐 제한된 학습 데이터냐에 상관없이 
 영어 구문 분석에서 성공적으로 적용할 수 있음을 보여주었다. 
 
+<br/>
+
+<a href="http://www.yes24.com/Product/Goods/97032765" target="_blank"><img src="/assets/images/advertisement/ad-book/ad00001_ml.png" width="800" align="middle">
+
+<br/>
+
+
+
 ## 1. Introduction
 
 RNN, LSTM, GRU와 같은 모델들은 언어 모델이나 기계번역과 같은 시퀀스 모델링이나 변환 문제에서 대세로 자리잡았습니다. 
@@ -134,7 +142,7 @@ $LayerNorm(x + sublayer(x))$
 
 이러한 잔차연결을 용이하게 하기 위해서, 
 모델 내부의 임베딩 레이어를 포함한 모든 서브 레이어에 
-아웃풋 차원 $dmodel=512$로 설정한다. 
+아웃풋 차원 $d_{model}=512$로 설정한다. 
 
 #### 디코더 
 
@@ -148,6 +156,14 @@ $LayerNorm(x + sublayer(x))$
 즉, 미래 정보를 참조하지 못하도록 막는다는 뜻이다. 
 이러한 마스킹은 출력 임베딩이 오프셋만큼 이동된다는 사실과 결합되어 
 $i$번째 위치의 예측이 $i$ 이전 위치에서 알려진 아웃풋에만 의존할수있도록 보장한다. 
+
+
+<br/>
+
+<a href="http://www.yes24.com/Product/Goods/106175772" target="_blank"><img src="/assets/images/advertisement/ad-book/ad00003_crawling.png" width="800" align="middle">
+
+<br/>
+
 
 ### 3.2 Attention
 
@@ -176,7 +192,7 @@ $i$번째 위치의 예측이 $i$ 이전 위치에서 알려진 아웃풋에만 
 우리는 이 특정한 어텐션 방식을 "Scaled Dot-Product Attention"이라고 부르겠다. 
 (figure2 참고) 
 인풋 데이터는 $d_k$ 차원의 쿼리와 키(key)와 $d_v$ 차원의 값(value)으로 구성되어 있다. 
-우리는 쿼리와 키 간의 내적을 계산한 뒤, 각 결과를 $\sqrt(d_k)$로 나누고 
+우리는 쿼리와 키 간의 내적을 계산한 뒤, 각 결과를 $\sqrt{d_k}$로 나누고 
 소프트맥스 함수를 적용해 값(value)에 대한 가중치를 얻는다. 
 
 실제로는 동시에 여러 쿼리들에 어텐션 함수를 적용하고, 행렬 Q에 함께 모아서 처리한다. 
@@ -234,5 +250,76 @@ $W_{i}^{V}\in \mathbb{R}^{d_{model} \times d_v}$
 $W_{i}^{O}\in \mathbb{R}^{hd_{v} \times d_{model}}$  
 
 
+<br/>
+
+<a href="http://www.yes24.com/Product/Goods/105772247" target="_blank"><img src="/assets/images/advertisement/ad-book/ad00002_la.png" width="800" align="middle">
+
+<br/>
+
+
+
 #### 3.2.3 Applications of Attention in our Model  
 
+트랜스포머는 다음과 같은 3가지 방법으로 멀티-헤드 어텐션을 사용한다. 
+
+* '인코더-디코더 어텐션' 레이어에서는 쿼리가 이전 디코더 레이어에서 생성되고,
+메모리 키와 값은 인코더 출력에서 가져온다.
+이러한 방법은 디코더의 모든 위치가 입력 시퀀스의 모든 위치에 주목할 수 있도록 한다. 
+이러한 방식은 [38, 2, 9]와 같은 시퀀스-투-시퀀스 모델에서 사용되는
+일반적인 '인코더-디코더 어텐션' 메커니즘을 사용한다.
+즉, 인코더 디코더 어텐션은 디코더가
+입력 전체 시퀀스 정보에 접근할 수 있게 해주는 메커니즘이다. 
+
+* 인코더는 셀프 어텐션(self-attention) 레이어을 포함하고 있다.
+셀프 어텐션 레이어에서는 키, 값, 쿼리 모두 동일한 출처(place)로부터 생성되며,
+여기서는 인코더의 이전 계층 아웃풋에서 나옵니다.
+여기서 동일한 출처라는 말에 대해 알아보자. 
+일반적인 어텐션 메커니즘에서는 쿼리, 키, 값이 서로 다른 데이터 소스에서 올수 있다.
+예를 들어 인코더-디코더 어텐션에서 쿼리는 디코더 아웃풋에서 생성되며
+키와 값은 인코더 아웃풋에서 생성된다.
+반면 셀프 어텐션에서는 쿼리, 키, 값이
+모두 동일한 소스(ex. 이전 레이어 아웃풋, 인풋 데이터)에서 생성된다.
+
+* 유사하게, 디코더의 셀프 어텐션 레이어는 디코더의 각 위치가 해당 위치까지의
+모든 위치에 주목(attend)할 수 있도록 한다.
+auto-regressive 특성을 유지하기 위해 디코더에서
+왼쪽 방향으로 정보가 흐르는 것(leftward information flow)을
+방지해야한다.
+이때, 왼쪽 방향으로 흐르는 것은
+현재 위치 이후의 미래 단어가 과거로 정보를 제공하는 것을 의미한다. 
+이를 구현하기 위해 스케일 조정된 내적 어텐션(scaled dot-product attention)내에서
+소프트맥스 인풋 중 불법적인 연결에 해당하는 모든 값을 마스킹 처리해 $-\infty$로 설정한다.
+Figure2를 참고하자.
+
+### 3.3 Position-wise Feed Forward Networks 
+
+어텐션 서브 레이어 외에도 추가적으로, 인코더와 디코더의 각 레이어는 
+완전 연결(fully connected) 네트워크를 포함하며, 
+이는 각 위치에 개별적이고 동일하게 적용된다. 
+이 네트워크는 두 개의 선형 변환과 그 사이의 ReLU 활성화 함수로 구성된다. 
+
+$FFN(x)=max(0, xW_1 + b_1)W_2 + b_2$
+
+선형 변환(linear transformation)은 다른 위치에도 전반적으로 걸쳐서 동일하지만, 
+레이어마다 서로 다른 파라미터를 사용한다. 
+이를 다르게 표현하면, 커널 크기가 1인 두개의 합성곱(convolution)으로 설명할 수 있다. 
+입력과 출력의 차원은 $d_{model}$, 내부 레이어의 차원은 $d_{ff}=2048$이다. 
+
+<br/>
+
+<a href="http://www.yes24.com/Product/Goods/117709828" target="_blank"><img src="/assets/images/advertisement/ad-book/ad00004_probability.png" width="800" align="middle">
+
+<br/>
+
+### 3.4 Embeddings and Softmax 
+
+
+### 3.5 Positional Encoding 
+
+
+
+<br/>
+
+<a href="http://www.yes24.com/Product/Goods/126115324" target="_blank"><img src="/assets/images/advertisement/ad-book/ad00005_dockernk8s.png" width="800" align="middle">
+
+<br/>
