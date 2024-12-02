@@ -313,9 +313,39 @@ $FFN(x)=max(0, xW_1 + b_1)W_2 + b_2$
 
 ### 3.4 Embeddings and Softmax 
 
+다른 시퀀스 변환 모델과 유사하게, 
+우리는 학습된 임베딩을 사용하여 인풋 토큰과 아웃풋 토큰을 $d_{model}$ 차원의 
+벡터로 변환한다. 
+우리는 또한 디코더의 아웃풋을 다음 토큰의 예측 확률로 변환하기 위해, 
+학습된 선형 변환(linear transformation)과 소프트맥스 함수를 사용한다. 
+여기서 학습된 선형 변환이란 우리가 흔히 알고 있는 $wx + b$를 의미한다. 
+우리 모델에서는, 두개의 임베딩 레이어(인풋, 아웃풋)와 
+소프트맥스 이전 선형 변환 간 동일한 가중치 행렬을 공유한다. 
+이는 (30)에서 사용된 방법과 유사하다. 
+임베딩 레이어에서, 우리는 가중치 행렬에 $\sqrt{d_{model}}$을 곱한다. 
+
+Table 1: 다양한 레이어 유형에 대한 최대 경로 길이(Maximum path length), 
+레이어별 연산 복잡도(Per-layer complexity), 
+최소 순차 연산 수 (Minimum number of sequential operations)
+
+Layer Type | Complexity per Layer | Sequential Operations | Maximum Path Length
+-----------|----------------------|-----------------------|--------------------
+Self-Attention | $O(n^2 \cdot d)$ | $O(1)$ | $O(1)$
+Recurrent | $O(n \cdot d^2)$ | $O(n)$ | $O(n)$ 
+Convolutional | $O(k \cdot n \cdot d^2)$ | $O(1)$ | $O(log_k (n))$
+Self-Attention(restricted) | $O(r \cdot n \cdot d$ | $O(1)$ | $O(n/r)$
+
 
 ### 3.5 Positional Encoding 
 
+우리 모델은 순환(recurrence)이나 합성곱(convolution)을 사용하지 않으므로, 
+시퀀스의 순서 정보를 활용하려면 토큰의 상대적 또는 절대적 위치 정보를 추가해야 한다. 
+이를 위해 포지셔널 인코딩(positional encoding)을 인풋 인베딩에 추가한다. 
+이는 인코더와 디코더 스택의 가장 바닥(bottom)에서 적용된다. 
+포지셔널 인코딩은 임베딩과 동일한 차원($d_{model})$을 가지며, 
+두 값을 합산 할 수 있도록 설계된다. 
+포지셔널 인코딩 방식에는 여러가지 선택지가 있는데, 
+학습 기반 방식과 고정(fixed) 방식이 있다. 
 
 
 <br/>
