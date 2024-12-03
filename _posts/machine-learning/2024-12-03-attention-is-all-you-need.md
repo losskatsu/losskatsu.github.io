@@ -654,9 +654,22 @@ Wall Street Journal(WSJ) 데이터셋을 넣어 학습했으며,
 WSJ 데이터만 사용하는 환경에서는 16,000개의 토큰으로 구성된 어휘를 사용했으며, 
 반지도학습 환경에서는 32,000개의 토큰으로 구성된 어휘를 사용했다. 
 
-(table 4)
-
 Table 4. 영어 구문 분석에 사용된 트랜스포머(WSJ의 섹션 23에 대한 결과)
+
+Parser | Training | WSJ 23 F1
+--------|--------|----------
+Vinyals&Kaiser el al.(2014) | WSJ only, discriminative | 88.3
+Pertrov et al.(2006) | WSJ only, discriminative | 90.4
+Zhu et al.(2013) | WSJ only, discriminative | 90.4
+Dyer et al.(2016) | WSJ only, discriminative | 91.7
+Transformer(4 layers) | WSJ only, discriminative | 91.3
+Zhu et al.(2013) | semi-supervised | 91.3
+Huang&Harper.(2009) | semi-supervised | 91.3
+McClosky et al.(2006) | semi-supervised | 92.1
+Vinyals&Kaiser el al.(2014) | semi-supervised | 92.1
+Transformer(4 layers) | semi-supervised | 92.7
+Luong et al.(2015) | multi-task | 93.0
+Dyer et al.(2016) | generative | 93.3
 
 우리는 드롭아웃, 학습률, 그리고 빔 크기를 section 22 개발 세트에서 선택하기 위해 
 소수의 실험만 수행했으며, 다른 모든 하이퍼파라미터는 영어-독일어 기본 번역 모델에서 
