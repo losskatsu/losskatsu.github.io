@@ -109,7 +109,9 @@ $z$는 ((0.2, 0.3, -0.1),(0.5, -0.4, 0.2),(-0.1, 0.8, 0.3))과 같은 연속형 
 이때 디코더는 자기회귀(auto-regressive) 방식으로 작동하며, 
 이전에 생성된 기호들을 다음 기호를 생성할 때 추가적인 입력으로 사용한다. 
 
-(Figure 1. The Transformer - model architecture)
+<center><img src="/assets/images/ml/attention-is-all-you-need/figure01.png" width="800"></center>
+
+Figure 1. The Transformer - model architecture
 
 트랜스포머는 위 그림과 같은 전체적은 구조를 따른다. 
 이 트랜스포머는 self-attention을 쌓은 형태와 
@@ -185,7 +187,10 @@ $i$번째 위치의 예측이 $i$ 이전 위치에서 알려진 아웃풋에만 
 아웃풋은 쿼리와 키 간의 유사도를 계산해 가장 관련성 높은 값들을 가중합한 값이다. 
 
 
-(figure2)
+<center><img src="/assets/images/ml/attention-is-all-you-need/figure02.png" width="800"></center>
+
+Figure2. 왼쪽) Scaled Dot-Product Attention, 오른쪽) 병렬로 실행되는 레이어로 구성된 멀티 헤드 어텐션 
+
 
 #### 3.2.1 Scaled Dot-Product Attention  
 
@@ -617,7 +622,7 @@ sustained performance는 GPU가 일정 시간 동안 안정적으로 제공할 �
 우리는 이전 섹션에서 설명한 바와 같이 빔 서치(beam search)를 사용했지만, 
 이 과정에서는 체크포인트 평균화는 사용하지 않았다. 그 결과를 table3에서 확인할 수 있다. 
 
-(table3)
+<center><img src="/assets/images/ml/attention-is-all-you-need/table03.png" width="800"></center>
 
 table3. 트랜스포머 아키텍처의 변형. 나열되지 않은 값들은 기본 모델(base model)과 동일하다. 
 모든 평가는 영어-독일어 번역 개발 세트인 newstest2013에서 수행되었다. 
