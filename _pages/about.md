@@ -25,33 +25,6 @@ title: "About"
 * [몬테카를로 시뮬레이션으로 배우는 확률 통계 with 파이썬](http://www.yes24.com/Product/Goods/117709828), 비제이퍼블릭, 2023.03.08     
 
 
-### 회사--
-permalink: /about/
-title: "About"
----
-
-<img src="/assets/images/profile/my_profile02.jpg" width="300">
-
-
-## 장철원(Cheolwon Jang)
-
-* 이메일 : stoicheolwon@gmail.com  
-* 유튜브: [장철원 머신러닝](https://www.youtube.com/channel/UCHGdug7d72yrZq1cRORahXA)  
-* 블로그 : [https://losskatsu.github.io](https://losskatsu.github.io)  
-* 깃허브 : [https://github.com/losskatsu](https://github.com/losskatsu)  
-* 네이버 카페: [https://cafe.naver.com/aifromstat](https://cafe.naver.com/aifromstat)
-* 커리어리: [https://careerly.co.kr/profiles/625401](https://careerly.co.kr/profiles/625401)  
-  
-
-### 저서 
-
-* [한 권으로 배우는 도커 & 쿠버네티스](https://www.yes24.com/Product/Goods/126115324), 한빛미디어, 2024.04.29   
-* [선형대수와 통계학으로 배우는 머신러닝 with 파이썬](http://www.yes24.com/Product/Goods/97032765?OzSrank=1), 비제이퍼블릭, 2021.01.26   
-* [알고리즘 구현으로 배우는 선형대수 with 파이썬](http://www.yes24.com/Product/Goods/105772247), 비제이퍼블릭, 2021.12.24  
-* [웹 크롤링 & 데이터 분석 with 파이썬](http://www.yes24.com/Product/Goods/106175772), 인사이트, 2022.01.24  
-* [몬테카를로 시뮬레이션으로 배우는 확률 통계 with 파이썬](http://www.yes24.com/Product/Goods/117709828), 비제이퍼블릭, 2023.03.08     
-
-
 ### 회사   
 
 * **마도학자 주식회사**, 대표이사, 2025.01.16 ~ 현재
