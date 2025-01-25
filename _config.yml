@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dirt" # "default", "air", "aqua", "contrast", "dark"
 
 # Site Settings
 locale                   : "ko-KR" #"en-US"
-title                    : "로스카츠의 AI 머신러닝"
+title                    : "마도학자 로스카츠의 AI 머신러닝"
 title_separator          : "-"
 name                     : "장철원(Cheolwon Jang)"
 description              : "Machine Learning Engineer"
