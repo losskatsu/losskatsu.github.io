@@ -110,7 +110,7 @@ title: "About"
 
 * **플로리다 주립대학교(Florida State University)**  
         PhD candidate in Statistics, US, FL, 2015.08-2017.01
-* **고려대학교(Korea Universiy)**  
+* **고려대학교(Korea University)**  
         MS in Statistics, KR, Seoul, 2012.03-2014.02
 * **충북대학교(Chungbuk National University)**  
         BS in Statistics, KR, Cheongju, 2005.03-2011.02
