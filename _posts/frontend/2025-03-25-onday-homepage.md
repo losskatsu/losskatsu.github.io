@@ -1,5 +1,5 @@
 ---
-title: "하루만에 홈페이지 만들기 feat astro" 
+title: "하루만에 홈페이지 만들기 with Astro" 
 categories:
   - frontend
 tags:
@@ -13,7 +13,7 @@ sidebar:
   nav: sidebar-contents
 ---
 
-# 하루만에 홈페이지 만들기 feat astro
+# 하루만에 홈페이지 만들기 with Astro
 
 
 법인도 만들었겠다, 드디어 회사 홈페이지를 만들기로 했다. 
@@ -97,6 +97,12 @@ github에 코드를 push 하면 깃헙액션이 알아서 빌드를 해주는데
 고생 안하려고 지킬 템플릿 쓰는건데 깃헙 액션이랑 싸울 생각을 하니... 벌써 지친다. 
 그래서 결론은, 지킬은 이만 보내주기로했다. 잘 가라, 그동안 즐거웠다. 
 그래. 새로운 시작엔 새로운 툴이지. 
+
+<br/>
+
+<a href="http://www.yes24.com/Product/Goods/126115324" target="_blank"><img src="/assets/images/advertisement/ad-book/ad00005_dockernk8s.png" width="800" align="middle">
+
+<br/>
 
 그래 이 참에 휴고를 써보자. 
 휴고는 지킬보다는 손이 더 가긴하지만, 
@@ -195,7 +201,7 @@ SSR(Server-Side Rendering)  방식은 사용자의 요청이 들어올때마다
 <br /> 
 
 그렇게 배포를 하고 나서 주변사람들에게 홍보를 했는데, 
-그제서야 눈에 안보이던 수정사항들이 하나둘 보이기 시작했다.  
+그제서야 눈에 안보이던 수정사항들이 하나둘 보이기 시작했다. 
 결국 배포 하자마자 바로 패치 모드에 돌입했는데, 
 다행히 지인들의 제보가 큰 도움이 되어, 
 실제 사용자 관점에서 필요한 수정 포인트들을 빠르게 반영할 수 있었다. 
