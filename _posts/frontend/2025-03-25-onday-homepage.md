@@ -218,7 +218,7 @@ SSR(Server-Side Rendering)  방식은 사용자의 요청이 들어올때마다
 진짜 완성은 배포 이후에야 시작되니까 말이다. 
 그러헥 피드백을 반영하고, 수정을 거듭하면서 현재의 홈페이지가 완성되었다. 
 
-<center><img src="/assets/images/frontend/onedayhomepage/devflow12.png" width="800"></center>  
+<center><img src="/assets/images/frontend/onedayhomepage/devflow13.png" width="800"></center>  
 <br /> 
 
 그리고나서 검색엔진최적화(SEO, search engine optimization) 설정도 해주고 
