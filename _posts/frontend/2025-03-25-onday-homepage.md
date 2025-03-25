@@ -29,9 +29,9 @@ sidebar:
 [https://www.madohakja.com](https://www.madohakja.com)
 
 이 글은 그 과정의 기록이다. 
-혹시 당신도 나처럼 언젠가 만들겠지...라고 미루고 있다면, 이 글이 그 날이 되길 바라며.
+혹시 당신도 나처럼 언젠가 만들겠지...라고 미루고 있다면, 이 글이 그 날이 되길 바라며.  
 
-<center><img src="/assets/images/frontend/onedayhomepage/devflow01.png" width="800"></center>
+<center><img src="/assets/images/frontend/onedayhomepage/devflow01.png" width="800"></center>  
 
 우선 개발 과정의 전체 큰 흐름은 위 그림과 같다. 시작은 로컬에서 개발을 하고 
 github에 push하면 github과 연동되어 있는 CloudFlare에서 코드 변화를 감지한 후, 
@@ -43,7 +43,7 @@ github에 push하면 github과 연동되어 있는 CloudFlare에서 코드 변�
 각 선택의 배경도 함께 이야기해보려 한다. 
 왜 그렇게 했는지, 무엇이 더 편했는지 같은 이야기들 말이지. 
 
-<center><img src="/assets/images/frontend/onedayhomepage/devflow02.png" width="800"></center>
+<center><img src="/assets/images/frontend/onedayhomepage/devflow02.png" width="800"></center>  
 
 우선 홈페이지에 어떤 내용을 담을지 간단히 화면 기획부터 시작했다. 
 어떤 페이지가 필요할지, 버튼은 어디에 둘지, 아이템은 어떻게 배치할지... 
@@ -70,13 +70,13 @@ github에 push하면 github과 연동되어 있는 CloudFlare에서 코드 변�
 나의 경우에는 기획은 어짜피 구현하면서 바뀌기 마련이라, 
 큰 윤곽만 잡고 시작하는게 훨씬 효율적이라고 생각했다. 
 
-<center><img src="/assets/images/frontend/onedayhomepage/devflow03.png" width="800"></center>
+<center><img src="/assets/images/frontend/onedayhomepage/devflow03.png" width="800"></center>  
 
 화면 기획이 끝났다면, 다음 단계는 어떤 플랫폼으로 개발할지 결정해야한다. 
 내가 고민한 후보는 세 가지. 지킬, 휴고, 아스트로가 그것이다. 
 먼저 언급된 툴일수록 개발이 쉽고 빠르며, 코드없이도 구축 가능하다. 
 반면 뒤로 갈수록 난이도도 높고 개발 시간도 늘어난다. 
-처음에는 지킬을 생각했다. 내 기술 블로그도 지킬로 만들었던 경험이 있었고,  
+처음에는 지킬을 생각했다. 내 기술 블로그도 지킬로 만들었던 경험이 있었고, 
 내가 지금 만들 홈페이지도 정적 페이지 몇개면 충분했기 때문에, 
 지킬을 사용하면 금방되겠거니 했다. 
 게다가 지킬은 github pages와 궁합이 좋아서 코드만 올리면 
@@ -105,7 +105,7 @@ github에 코드를 push 하면 깃헙액션이 알아서 빌드를 해주는데
 홈페이지는 회사의 얼굴이자 첫인상인데 이런 디자인으로는 도저히 만족할 수 없었다. 
 "이건 좀 아닌데..."하는 생각이 계속 들더라. 그래서 휴고도 탈락. 아쉽게도 패스...
 
-<center><img src="/assets/images/frontend/onedayhomepage/devflow04.png" width="800"></center>
+<center><img src="/assets/images/frontend/onedayhomepage/devflow04.png" width="800"></center>  
 
 이제 남은건 아스트로. 
 솔직히 말하면, 코딩은 되도록 피하고 싶었다. 
@@ -116,7 +116,7 @@ github에 코드를 push 하면 깃헙액션이 알아서 빌드를 해주는데
 그래, 이정도는 되야 홈페이지지!라는 생각과 함께 오랜만에 개발 본능이 샘솟았다. 
 마침 내가 원하는 화면구성이 있어서 템플릿을 받고 vscode를 실행하고 드디어 코드를 짜기 시작했다.
 
-<center><img src="/assets/images/frontend/onedayhomepage/devflow05.png" width="800"></center>
+<center><img src="/assets/images/frontend/onedayhomepage/devflow05.png" width="800"></center>  
 
 잠깐, 아스트로가 뭔지 잘 모른다면 이렇게 생각하면 된다. 
 아스트로(Astro) 는 자바스크립트 기반 정적 웹사이트 개발을 위한 프론트엔드 프레임워크이다. 
@@ -127,7 +127,7 @@ github에 코드를 push 하면 깃헙액션이 알아서 빌드를 해주는데
 아스트로 파일 내부에서는 일반적인 HTML과 유사한 구조를 사용해 친숙하게 다가갈 수 있다. 
 게다가 React, Vue, Svelte 등과 같은 다양한 프레임워크와 함께 사용할 수 있다는 장점이 있다.
 
-<center><img src="/assets/images/frontend/onedayhomepage/devflow06.png" width="800"></center>
+<center><img src="/assets/images/frontend/onedayhomepage/devflow06.png" width="800"></center>  
 
 마음에 드는 astro 템플릿을 선택하고 git에서 clone 했다. 
 그 다음부터 본격적인 개발에 돌입했는데, 먼저 홈화면을 만들고, 
@@ -137,7 +137,7 @@ github에 코드를 push 하면 깃헙액션이 알아서 빌드를 해주는데
 프론트엔드의 매력은 바로 이거다. 내가 바꾸면 바로 보인다. 
 백엔드와는 또 다른, 눈으로 보이는 개발의 즐거움인 것이다. 
 
-<center><img src="/assets/images/frontend/onedayhomepage/devflow07.png" width="800"></center>
+<center><img src="/assets/images/frontend/onedayhomepage/devflow07.png" width="800"></center>  
 
 화면 개발이 마무리될 즈음, "이제 어디에 배포하지?"라는 고민이 시작됬다. 
 이 고민과 함께 도메인을 어디서 구매할지도 고민했다. 
@@ -148,7 +148,7 @@ cloudflare와 내 Github 레포지토리를 연동하면 커밋만 하면 cloudf
 이제 배포방식도 정해졌으니 로컬에서 마지막 빌드 테스트까지 마친 후. 
 드디어 github에 최종 push를 했다.
 
-<center><img src="/assets/images/frontend/onedayhomepage/devflow08.png" width="800"></center>
+<center><img src="/assets/images/frontend/onedayhomepage/devflow08.png" width="800"></center>  
 
 그리고나서 cloudflare에 연결 후 빌드가 잘되는지 확인하는데, 
 역시 로컬에서의 빌드와 클라우드에서의 빌드는 달랐다. 
@@ -173,7 +173,7 @@ SSR(Server-Side Rendering)  방식은 사용자의 요청이 들어올때마다
 
 나는 정적 페이지만 있으면 충분하니까 static 방식을 선택했다. 
 
-<center><img src="/assets/images/frontend/onedayhomepage/devflow09.png" width="800"></center>
+<center><img src="/assets/images/frontend/onedayhomepage/devflow09.png" width="800"></center>  
 
 이렇게 배포를 한 홈페이지를 보는데, 드디어 내 집에 처음으로 대문이 생긴 기분이었다. 
 물론 지금까지 내가 소중하게 운영하던 기술블로그도 있지만 홈페이지는 조금 다르게 다가왔다. 
@@ -181,7 +181,7 @@ SSR(Server-Side Rendering)  방식은 사용자의 요청이 들어올때마다
 "이게 나의 공간이다"라고 말해주는 느낌이랄까. 
 이제 막 첫 대문을 연 집에 앞으로 어떤 이야기들을 채워나갈지, 스스로도 꽤 기대된다. 
 
-<center><img src="/assets/images/frontend/onedayhomepage/devflow10.png" width="800"></center>
+<center><img src="/assets/images/frontend/onedayhomepage/devflow10.png" width="800"></center>  
 
 그렇게 배포를 하고 나서 주변사람들에게 홍보를 했는데, 
 그제서야 눈에 안보이던 수정사항들이 하나둘 보이기 시작했다.  
@@ -192,7 +192,7 @@ SSR(Server-Side Rendering)  방식은 사용자의 요청이 들어올때마다
 운영은 혼자하지만, 완성은 함께 만들어가는구나 싶었다. 
 배포는 끝이 아니라 진짜 시작을 의미한다. 
 
-<center><img src="/assets/images/frontend/onedayhomepage/devflow11.png" width="800"></center>
+<center><img src="/assets/images/frontend/onedayhomepage/devflow11.png" width="800"></center>  
 
 참 신기하게도, 
 배포 전에는 멀쩡해 보였던 것들이 막상 세상에 공개하고 나면 아쉬움으로 다가온다. 
@@ -200,7 +200,7 @@ SSR(Server-Side Rendering)  방식은 사용자의 요청이 들어올때마다
 진짜 완성은 배포 이후에야 시작되니까 말이다. 
 그러헥 피드백을 반영하고, 수정을 거듭하면서 현재의 홈페이지가 완성되었다. 
 
-<center><img src="/assets/images/frontend/onedayhomepage/devflow12.png" width="800"></center>
+<center><img src="/assets/images/frontend/onedayhomepage/devflow12.png" width="800"></center>  
 
 그리고나서 검색엔진최적화(SEO, search engine optimization) 설정도 해주고 
 구글 애널리틱스 연결해서 내 홈페이지의 발자취를 느낄 수 있도록 마무리했다. 
@@ -210,4 +210,4 @@ SSR(Server-Side Rendering)  방식은 사용자의 요청이 들어올때마다
 
 ​이렇게 나의 홈페이지 만들기 드디어 완성! 
 
-[https://www.madohakja.com](https://www.madohakja.com)
+[마도학자 주식회사 홈페이지 방문하기](https://www.madohakja.com)
