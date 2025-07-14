@@ -9,7 +9,8 @@ title: "About"
 ## 장철원(Cheolwon Jang)
 
 * 이메일 : stoicheolwon@gmail.com
-* 회사 홈페이지: [https://www.madohakja.com](https://www.madohakja.com)
+* 회사 홈페이지: [https://www.madohakja.com](https://www.madohakja.com)  
+* 마도학자 실험실: [https://www.madohakja-atelier.com/](https://www.madohakja-atelier.com/)   
 * 유튜브: [장철원 머신러닝](https://www.youtube.com/channel/UCHGdug7d72yrZq1cRORahXA)  
 * 블로그 : [https://losskatsu.github.io](https://losskatsu.github.io)  
 * 깃허브 : [https://github.com/losskatsu](https://github.com/losskatsu)  
