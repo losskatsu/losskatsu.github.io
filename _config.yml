@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dirt" # "default", "air", "aqua", "contrast", "dark"
 
 # Site Settings
 locale                   : "ko-KR" #"en-US"
-title                    : "마도학자 로스카츠의 AI 머신러닝"
+title                    : "로스카츠의 AI 머신러닝"
 title_separator          : "-"
 name                     : "장철원(Cheolwon Jang)"
 description              : "Machine Learning Engineer"
@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "장철원(Cheolwon Jang)"
   avatar           : "/assets/images/profile/my_profile15.jpg"
-  bio              : "대표저서 <한 권으로 배우는 도커 & 쿠버네티스>, <선형대수와 통계학으로 배우는 머신러닝 with 파이썬>. <br /><br /> 강의/프로젝트/광고 문의는 이메일로 부탁드립니다. <br /><br /> 유튜브: 장철원 머신러닝"       
+  bio              : "대표저서 <트랜스포머 아키텍처로 배우는 AI 에이전트>, <한 권으로 배우는 도커 & 쿠버네티스>, <선형대수와 통계학으로 배우는 머신러닝 with 파이썬>. <br /><br /> 강의/프로젝트/광고 문의는 이메일로 부탁드립니다. <br /><br /> 유튜브: 장철원 머신러닝"       
   location         : "Seoul, South Korea"
   email            : 
   links:
