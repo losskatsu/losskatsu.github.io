@@ -5,6 +5,16 @@ title: "Book"
 
 # 저서    
 
+<center><img src="/assets/images/book/aiagent3d.png" width="500"></center>   
+
+## 트랜스포머 아키텍처로 배우는 AI 에이전트 with 랭체인&랭그래프      
+### 장철원 지음, 한빛미디어, 2024.05 발매예정  
+
+이 책은 LLM의 근간을 이루는 트랜스포머 내부 구조를 그림을 활용해 자세히 설명한다. 셀프 어텐션, 멀티 헤드 어텐션과 같이 트랜스포머 내부를 구성하는 알고리즘을 포함해 AI 에이전트를 만들기 위해 반드시 알아야 하는 내용으로 구성했다.    
+
+
+
+
 <center><img src="/assets/images/book/docker_k8s_3d.png" width="500"></center>   
 
 ## 한 권으로 배우는 도커 & 쿠버네티스  
