@@ -71,9 +71,9 @@ title: "About"
 * 머신러닝을 위한 선형대수의 모든 것 4기, 러닝스푼즈, 2023.01 ~ 2023.02  
 * 비즈니스 분석가가 알아야할 통계 & 머신러닝 1기, 러닝스푼즈, 2022.11~12  
 * 빅데이터 인재 양성 과정 - 수리통계 & 머신러닝, 서초구청, 2022.11  
-* [파이썬 장고 벡엔드 개발자 부트캠프](https://learningspoons.com/course/detail/django-backend/) - 운영체제&도커, 러닝스푼즈, 2022.10~11   
-* [파이썬 장고 벡엔드 개발자 부트캠프](https://learningspoons.com/course/detail/django-backend/) - 자료구조&알고리즘, 러닝스푼즈, 2022.09   
-* [파이썬 장고 벡엔드 개발자 부트캠프](https://learningspoons.com/course/detail/django-backend/) - 웹 애플리케이션, 러닝스푼즈, 2022.08   
+* 파이썬 장고 벡엔드 개발자 부트캠프 - 운영체제&도커, 러닝스푼즈, 2022.10~11   
+* 파이썬 장고 벡엔드 개발자 부트캠프 - 자료구조&알고리즘, 러닝스푼즈, 2022.09   
+* 파이썬 장고 벡엔드 개발자 부트캠프 - 웹 애플리케이션, 러닝스푼즈, 2022.08   
 * 누구나 선형대수 with 파이썬 3기, 러닝스푼즈, 2022.07 ~ 2022.08   
 * 나노디그리 데이터 애널리스트 취업코스 6기 - 수학&통계, 러닝스푼즈, 2022.06   
 * AI 백그라운드를 채워줄 선형대수 with 파이썬 1기, 러닝스푼즈, 2022.03~2022.04  
@@ -111,6 +111,7 @@ title: "About"
 
 ### 자문, 멘토  
 
+* 이너서클 4기 총괄 멘토, 패스트캠퍼스, 2025.09~2026.01     
 * 이너서클 3기 총괄 멘토, 패스트캠퍼스, 2025.05~2025.08   
 * 이너서클 2기 자연어처리/추천시스템 멘토, 패스트캠퍼스, 2024.12~2025.01   
 * 이어드림스쿨 3기 데이터 엔지니어링 커리어 멘토, 패스트캠퍼스, 2023.07~2023.12  
@@ -151,7 +152,7 @@ title: "About"
     Python, Scala, R, Java, Matlab, C/C++, Fortran, SAS, SPSS
 
 * **인공지능 라이브러리**  
-    numpy, matplotlib, pandas, scikit-learn, keras, Apache Spark, Tensorflow
+    langchain, langgraph, pytorch, numpy, matplotlib, pandas, scikit-learn, Apache Spark, Tensorflow
 
 * **데이터 플랫폼**  
     MySql, Cubrid, ElasticSearch, Apache Nifi, Apache Zeppelin  
