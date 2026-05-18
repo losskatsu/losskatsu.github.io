@@ -20,7 +20,7 @@ title: "About"
 
 ### 저서 
 
-* [트랜스포머 아키텍처로 배우는 AI에이전트 with 랭체인&랭그래프](https://www.yes24.com), 한빛미디어, 2026.05 발매예정         
+* [트랜스포머 아키텍처로 배우는 AI에이전트 with 랭체인&랭그래프](https://www.yes24.com), 한빛미디어, 2026.05         
 * [한 권으로 배우는 도커 & 쿠버네티스](https://www.yes24.com/Product/Goods/126115324), 한빛미디어, 2024.04.29   
 * [선형대수와 통계학으로 배우는 머신러닝 with 파이썬](http://www.yes24.com/Product/Goods/97032765?OzSrank=1), 비제이퍼블릭, 2021.01.26   
 * [알고리즘 구현으로 배우는 선형대수 with 파이썬](http://www.yes24.com/Product/Goods/105772247), 비제이퍼블릭, 2021.12.24  
