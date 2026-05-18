@@ -3,7 +3,7 @@ permalink: /about/
 title: "About"
 ---
 
-<img src="/assets/images/profile/my_profile02.jpg" width="300">
+<img src="/assets/images/profile/my_profile16.jpg" width="300">
 
 
 ## 장철원(Cheolwon Jang)
