@@ -12,7 +12,10 @@ title: "Book"
 
 이 책은 LLM의 근간을 이루는 트랜스포머 내부 구조를 그림을 활용해 자세히 설명한다. 셀프 어텐션, 멀티 헤드 어텐션과 같이 트랜스포머 내부를 구성하는 알고리즘을 포함해 AI 에이전트를 만들기 위해 반드시 알아야 하는 내용으로 구성했다.    
 
-
+* [yes24](https://www.yes24.com/product/goods/189759363)  
+* [교보문고](https://product.kyobobook.co.kr/detail/S000220041612)  
+* [알라딘](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=393705027)  
+* [리디북스](https://ridibooks.com/books/6071001341?_rdt_sid=category_bestsellers&_rdt_idx=30&_rdt_arg=2220)  
 
 
 <center><img src="/assets/images/book/docker_k8s_3d.png" width="500"></center>   
