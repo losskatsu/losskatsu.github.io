@@ -28,6 +28,10 @@ title: "About"
 * [몬테카를로 시뮬레이션으로 배우는 확률 통계 with 파이썬](http://www.yes24.com/Product/Goods/117709828), 비제이퍼블릭, 2023.03.08     
 
 
+### 온라인 강의
+
+* [AI 개발을 위한 선형대수 with 파이썬](https://inf.run/6Dn6J), 인프런  
+
 ### 회사   
 
 * [**마도학자 주식회사**](https://www.madohakja.com), 대표이사, 2025.01.16 ~ 현재
